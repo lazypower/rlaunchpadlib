@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/mozilla
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 17 May 2014 08:56:46 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '1804'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept,Accept-Encoding
+      Etag:
+      - '"d60bd4390496959ef2e44aecafee914d95089071-68ebba343c498f75113fa5f6ffed67c433b9b5e2"'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Lazr-Notifications:
+      - "[]"
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from banana.canonical.com
+      X-Cache-Lookup:
+      - MISS from banana.canonical.com:3128
+      Via:
+      - 1.0 banana.canonical.com:3128 (squid/2.7.STABLE7)
+    body:
+      encoding: UTF-8
+      string: '{"web_link": "https://launchpad.net/mozilla", "official_bug_tags":
+        [], "active_milestones_collection_link": "https://api.launchpad.net/1.0/mozilla/active_milestones",
+        "all_milestones_collection_link": "https://api.launchpad.net/1.0/mozilla/all_milestones",
+        "bug_reported_acknowledgement": null, "display_name": "Mozilla", "wiki_url":
+        null, "title": "Mozilla", "homepage_url": "http://www.mozilla.org/", "http_etag":
+        "\"d60bd4390496959ef2e44aecafee914d95089071-68ebba343c498f75113fa5f6ffed67c433b9b5e2\"",
+        "self_link": "https://api.launchpad.net/1.0/mozilla", "resource_type_link":
+        "https://api.launchpad.net/1.0/#project_group", "description": "Mozilla was
+        born as the codename for Netscape Navigator, which helped ignite the open
+        source revolution when its code was released in 1998. Today Mozilla is a community
+        of software developers producing the popular Firefox Web browser, Thunderbird
+        e-mail program, Sunbird calendar, and other desktop software. The Mozilla
+        project also maintains the Web-based software development tools Bugzilla,
+        Tinderbox, and Bonsai.", "projects_collection_link": "https://api.launchpad.net/1.0/mozilla/projects",
+        "sourceforge_project": null, "bug_reporting_guidelines": null, "active": true,
+        "reviewed": false, "bug_tracker_link": null, "name": "mozilla", "freshmeat_project":
+        null, "driver_link": null, "registrant_link": "https://api.launchpad.net/1.0/~mpt",
+        "summary": "Developers of Firefox, Thunderbird, Sunbird, and other Internet-related
+        software.", "mugshot_link": "https://api.launchpad.net/1.0/mozilla/mugshot",
+        "logo_link": "https://api.launchpad.net/1.0/mozilla/logo", "owner_link": "https://api.launchpad.net/1.0/~registry",
+        "date_created": "2006-04-01T06:14:28.279449+00:00", "homepage_content": null,
+        "icon_link": "https://api.launchpad.net/1.0/mozilla/icon"}'
+    http_version: 
+  recorded_at: Sat, 17 May 2014 08:56:46 GMT
+recorded_with: VCR 2.9.0
