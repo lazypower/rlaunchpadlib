@@ -1,0 +1,119 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/bzr
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 17 May 2014 08:46:52 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '5687'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept,Accept-Encoding
+      Etag:
+      - '"26a16d95d271fd1832acbc44dff8b78cf1f34ba8-bb93d70bd2ef5de0a0b8ca536dd377cce492ea1d"'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Lazr-Notifications:
+      - "[]"
+      Content-Type:
+      - application/json
+      Age:
+      - '1'
+      X-Cache:
+      - HIT from banana.canonical.com
+      X-Cache-Lookup:
+      - HIT from banana.canonical.com:3128
+      Via:
+      - 1.0 banana.canonical.com:3128 (squid/2.7.STABLE7)
+    body:
+      encoding: UTF-8
+      string: '{"project_group_link": "https://api.launchpad.net/1.0/bazaar", "license_info":
+        null, "remote_product": null, "recipes_collection_link": "https://api.launchpad.net/1.0/bzr/recipes",
+        "development_focus_link": "https://api.launchpad.net/1.0/bzr/trunk", "bug_supervisor_link":
+        "https://api.launchpad.net/1.0/~bzr-qa", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~bzr", "official_bug_tags": ["2a", "affects-canonical",
+        "affects-emacs", "affects-linaro", "affects-montyprogram", "affects-savannah",
+        "annotate", "api", "api-versioning", "apport", "apport-bug", "apport-crash",
+        "authentication", "autopack", "babune", "baz-import", "binary", "bind", "bound-branch",
+        "branch", "break-lock", "brisbane-core", "bundle", "case-sensitivity", "check",
+        "checkout", "clean-tree", "cleanup", "commit", "config", "conflicts", "confusing-ui",
+        "content-filtering", "cygwin", "debug", "diff", "dirstate", "dirstate2", "doc",
+        "easy", "editor", "encoding", "eol", "error-reporting", "export", "filesystem",
+        "foreign", "format-infrastructure", "formats", "formatui", "ftp", "ghost",
+        "glossary", "graph", "help", "hooks", "hpss", "hpssvfs", "http", "https",
+        "ignore", "info", "init", "init-repo", "installer", "inventory", "join", "knits",
+        "launchpad", "locale", "location-alias", "lock", "lockdir", "locking", "log",
+        "logging", "lp-code", "lp-login", "lp-open", "lp-propose", "lpurl", "mac",
+        "mail", "manpage", "memory", "merge", "missing-inventory", "missing-text",
+        "mv", "mysql", "nested-trees", "nfs", "nfs4", "osutils", "packaging", "packs",
+        "paramiko", "patch", "patch-needswork", "performance", "plugin", "progress",
+        "proxy", "push", "pycurl", "pypy", "reconfigure", "regression", "resolve",
+        "revert", "rich-root", "rm", "selftest", "sftp", "shelf", "signatures", "smtp",
+        "solaris", "sru", "ssh", "stacking", "status", "subtrees", "subunit", "switch",
+        "symlink", "tags", "tech-debt", "test", "test-coverage", "test-failure", "trace",
+        "traceback", "transport", "treetransform", "trivial", "udd", "ui", "ui3",
+        "uifactory", "unbind", "uncommit", "unicode", "update", "upgrade", "url",
+        "view", "win32", "workingtree"], "active_milestones_collection_link": "https://api.launchpad.net/1.0/bzr/active_milestones",
+        "commercial_subscription_is_due": false, "translation_focus_link": "https://api.launchpad.net/1.0/bzr/trunk",
+        "licenses": ["GNU GPL v2", "GNU GPL v3"], "all_milestones_collection_link":
+        "https://api.launchpad.net/1.0/bzr/all_milestones", "bug_reported_acknowledgement":
+        "Thanks for submitting this bug report.  We should be in touch soon.  If you
+        want to talk to somebody now, try #bzr on the freenode irc network.", "display_name":
+        "Bazaar", "wiki_url": "http://bazaar-vcs.org/", "title": "Bazaar Version Control
+        System", "homepage_url": "http://bazaar.canonical.com/", "download_url": "http://wiki.bazaar.canonical.com/Download",
+        "name": "bzr", "is_permitted": "tag:launchpad.net:2008:redacted", "reviewer_whiteboard":
+        "tag:launchpad.net:2008:redacted", "self_link": "https://api.launchpad.net/1.0/bzr",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#project",
+        "programming_language": "Python", "description": "Bazaar helps people collaborate
+        on software development, by recording the history of the project, providing
+        an easy means to copy the history around, and making it easy to merge changes
+        between projects.\n\nBazaar is the main version control system used by Launchpad,
+        a project of Canonical, and part of the GNU System.\n\nTo find out more about
+        Bazaar, join us in #bzr on irc.freenode.net, write to us at \u003cemail address
+        hidden\u003e, or see the web page below.\n\nBazaar offers Ubuntu users three
+        PPAs:\n  * Official releases are available from https://launchpad.net/~bzr/+archive/ppa\n  *
+        Beta releases are available from https://launchpad.net/~bzr/+archive/beta\n  *
+        Daily builds are available from https://launchpad.net/~bzr/+archive/daily\n\nMailing
+        list subscription:\n  * https://lists.ubuntu.com/mailman/listinfo/bazaar-announce\n  *
+        https://lists.ubuntu.com/mailman/listinfo/bazaar\n\nBug handling guidelines:\n
+        * http://doc.bazaar.canonical.com/developers/bug-handling.html", "project_reviewed":
+        "tag:launchpad.net:2008:redacted", "brand_link": "https://api.launchpad.net/1.0/bzr/brand",
+        "sourceforge_project": null, "http_etag": "\"26a16d95d271fd1832acbc44dff8b78cf1f34ba8-bb93d70bd2ef5de0a0b8ca536dd377cce492ea1d\"",
+        "date_next_suggest_packaging": null, "bug_reporting_guidelines": "If you''re
+        reporting a bug to do with a crash, please put the Python exception into the
+        bug title.\n\nPlease include the Bazaar traceback, which is shown when an
+        unexpected error occurs, and also available from ~/.bzr.log.  The location
+        of that file is shown by \"bzr --version\".  \n\nFor more information about
+        filing and triaging bugs, see http://doc.bazaar.canonical.com/developers/bug-handling.html\n\n",
+        "active": true, "private_bugs": false, "bug_tracker_link": null, "security_contact":
+        null, "license_approved": "tag:launchpad.net:2008:redacted", "driver_link":
+        "https://api.launchpad.net/1.0/~bzr-core", "freshmeat_project": "bzr", "screenshots_url":
+        null, "web_link": "https://launchpad.net/bzr", "summary": "Bazaar is a friendly
+        powerful distributed version control system. ", "logo_link": "https://api.launchpad.net/1.0/bzr/logo",
+        "owner_link": "https://api.launchpad.net/1.0/~bzr-core", "qualifies_for_free_hosting":
+        true, "releases_collection_link": "https://api.launchpad.net/1.0/bzr/releases",
+        "date_created": "2005-09-16T11:06:51.842908+00:00", "series_collection_link":
+        "https://api.launchpad.net/1.0/bzr/series", "commercial_subscription_link":
+        null, "icon_link": "https://api.launchpad.net/1.0/bzr/icon"}'
+    http_version: 
+  recorded_at: Sat, 17 May 2014 08:46:53 GMT
+recorded_with: VCR 2.9.0
