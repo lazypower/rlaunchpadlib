@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/chuckbutler/rlaunchpadlib.svg?branch=master)](https://travis-ci.org/chuckbutler/rlaunchpadlib)
 [![Code Climate](https://codeclimate.com/github/chuckbutler/rlaunchpadlib.png)](https://codeclimate.com/github/chuckbutler/rlaunchpadlib)
+[![Coverage Status](https://coveralls.io/repos/chuckbutler/rlaunchpadlib/badge.png)](https://coveralls.io/r/chuckbutler/rlaunchpadlib)
 
 Launchpad.net API wrapper for ruby.
 
