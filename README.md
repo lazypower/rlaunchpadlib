@@ -1,5 +1,7 @@
 # Rlaunchpadlib
 
+![https://travis-ci.org/chuckbutler/rlaunchpadlib.svg?branch=master]()
+
 Launchpad.net API wrapper for ruby.
 
 ## Installation
