@@ -20,6 +20,21 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+## Caveats
+
+The Gem will initially be Read-only access to your launchpad data. 
+
+## Roadmap
+
+(x's mean feature is complete, leading to milestone)
+
+V 0.1.0 
+ - X Users
+ - Projects
+ - Project Groups
+ - Bugs
+ - Milestones
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/rlaunchpadlib/fork )
