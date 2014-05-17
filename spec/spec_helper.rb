@@ -2,7 +2,8 @@
 require 'rlaunchpadlib'
 require 'webmock/rspec'
 require 'vcr'
-
+require 'coveralls'
+Coveralls.wear!
 
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/cassettes'
