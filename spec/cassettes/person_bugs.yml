@@ -1,0 +1,1088 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/~lazypower/?ws.op=searchTasks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 18 May 2014 23:08:56 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '98374'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept,Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Lazr-Notifications:
+      - "[]"
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from nutmeg.canonical.com
+      X-Cache-Lookup:
+      - MISS from nutmeg.canonical.com:3128
+      Via:
+      - 1.0 nutmeg.canonical.com:3128 (squid/2.7.STABLE7)
+    body:
+      encoding: UTF-8
+      string: '{"total_size": 104, "start": 0, "next_collection_link": "https://api.launchpad.net/1.0/%7Elazypower?ws.op=searchTasks\u0026ws.size=75\u0026memo=75\u0026ws.start=75",
+        "entries": [{"date_closed": null, "date_assigned": "2011-07-12T08:42:38.176116+00:00",
+        "title": "Bug #809186 in Juju Charms Collection: \"Charm needed: BigBlueButton\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/809186", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"a9eb3bb5e08b6551f09332cb14d4551e5b9133b8-776aeab8e6bb22ef0272f029e6d7647567d720ba\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charms", "importance": "Wishlist", "assignee_link":
+        "https://api.launchpad.net/1.0/~christophe.sauthier", "date_triaged": null,
+        "self_link": "https://api.launchpad.net/1.0/charms/+bug/809186", "target_link":
+        "https://api.launchpad.net/1.0/charms", "bug_target_display_name": "Juju Charms
+        Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/809186/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+bug/809186",
+        "owner_link": "https://api.launchpad.net/1.0/~kim0", "date_created": "2011-07-12T08:42:13.075171+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2012-06-18T09:33:37.104193+00:00", "title": "Bug #822979 in Juju Charms Collection:
+        \"Charm needed: Elastic Search\"", "bug_link": "https://api.launchpad.net/1.0/bugs/822979",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"2e7b36ceb5394c30ae099839f66dc115919da1b7-33f6cb4f34fe9b3d2c28af9dcc52fbf473e2f53b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charms", "importance": "Wishlist", "assignee_link":
+        "https://api.launchpad.net/1.0/~kaaloo", "date_triaged": null, "self_link":
+        "https://api.launchpad.net/1.0/charms/+bug/822979", "target_link": "https://api.launchpad.net/1.0/charms",
+        "bug_target_display_name": "Juju Charms Collection", "related_tasks_collection_link":
+        "https://api.launchpad.net/1.0/charms/+bug/822979/related_tasks", "date_confirmed":
+        null, "date_left_new": "2012-06-18T10:05:18.298122+00:00", "web_link": "https://bugs.launchpad.net/charms/+bug/822979",
+        "owner_link": "https://api.launchpad.net/1.0/~jorge", "date_created": "2011-08-08T22:16:01.195300+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2011-11-02T21:29:44.083260+00:00", "title": "Bug #885444 in Juju Charms Collection:
+        \"Charm Needed: Steam\"", "bug_link": "https://api.launchpad.net/1.0/bugs/885444",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"c7b36b37f80b4ef8e8052ef280af80a5e3f8179b-fd33ccbbaec7bfdac4b2a40bf1f543e0ead307b5\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "In Progress", "bug_target_name": "charms", "importance": "Medium",
+        "assignee_link": "https://api.launchpad.net/1.0/~marcoceppi", "date_triaged":
+        null, "self_link": "https://api.launchpad.net/1.0/charms/+bug/885444", "target_link":
+        "https://api.launchpad.net/1.0/charms", "bug_target_display_name": "Juju Charms
+        Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/885444/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+bug/885444",
+        "owner_link": "https://api.launchpad.net/1.0/~clint-fewbar", "date_created":
+        "2011-11-02T21:29:43.721274+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": "2014-03-17T21:09:18.847674+00:00",
+        "title": "Bug #1032293 in jenkins (Juju Charms Collection): \"Code to get
+        plugins doesn''t work because URL changed\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1032293",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"4cfbdd90abb02cbf87e56f947a810967bcc9bdeb-f2900c5df0ff793d33adacd49945d8ddc5d899b2\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "jenkins (Juju Charms Collection)", "importance":
+        "Medium", "assignee_link": "https://api.launchpad.net/1.0/~lazypower", "date_triaged":
+        null, "self_link": "https://api.launchpad.net/1.0/charms/+source/jenkins/+bug/1032293",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/jenkins", "bug_target_display_name":
+        "jenkins (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/jenkins/+bug/1032293/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/jenkins/+bug/1032293",
+        "owner_link": "https://api.launchpad.net/1.0/~correajl", "date_created": "2012-08-02T16:53:03.320816+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2014-05-09T19:10:25.033304+00:00", "title": "Bug #1123170 in rails (Juju
+        Charms Collection): \"write charm tests for rails\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1123170",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"ef745e7df110993ac28515d793088c0913677484-99c9c0f0299b78cd71327b522c6888de1058bf98\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "rails (Juju Charms Collection)", "importance":
+        "High", "assignee_link": "https://api.launchpad.net/1.0/~lazypower", "date_triaged":
+        null, "self_link": "https://api.launchpad.net/1.0/charms/+source/rails/+bug/1123170",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/rails", "bug_target_display_name":
+        "rails (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/rails/+bug/1123170/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/rails/+bug/1123170",
+        "owner_link": "https://api.launchpad.net/1.0/~mark-mims", "date_created":
+        "2013-02-12T15:37:44.580581+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": "2014-05-09T19:20:14.338039+00:00",
+        "title": "Bug #1123177 in rails (Juju Charms Collection): \"enable the user
+        to swap out apache passenger\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1123177",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"3979567a3849d0039dcb215fa7dce03009825a50-d1c0307321dca2d3efd26cd6a9c5b49d2d9e6b03\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "rails (Juju Charms Collection)", "importance":
+        "Low", "assignee_link": "https://api.launchpad.net/1.0/~lazypower", "date_triaged":
+        null, "self_link": "https://api.launchpad.net/1.0/charms/+source/rails/+bug/1123177",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/rails", "bug_target_display_name":
+        "rails (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/rails/+bug/1123177/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/rails/+bug/1123177",
+        "owner_link": "https://api.launchpad.net/1.0/~mark-mims", "date_created":
+        "2013-02-12T15:43:27.258125+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": "2014-05-09T19:09:05.361167+00:00",
+        "title": "Bug #1123181 in rails (Juju Charms Collection): \"move more logic
+        from install to config-changed hook\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1123181",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"596920c717f36355054f9ba4b0d2848191ecd5dc-99c9c0f0299b78cd71327b522c6888de1058bf98\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "rails (Juju Charms Collection)", "importance":
+        "High", "assignee_link": "https://api.launchpad.net/1.0/~lazypower", "date_triaged":
+        null, "self_link": "https://api.launchpad.net/1.0/charms/+source/rails/+bug/1123181",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/rails", "bug_target_display_name":
+        "rails (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/rails/+bug/1123181/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/rails/+bug/1123181",
+        "owner_link": "https://api.launchpad.net/1.0/~mark-mims", "date_created":
+        "2013-02-12T15:46:59.077902+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1172765
+        in juju-gui: \"The GUI breaks at really small screen sizes\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/1172765", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"40fa54fc3d3667238f4cd5141cfaa32fc4abace6-59670d937b2a52dd7991845d349ffb7bbf549387\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Triaged", "bug_target_name": "juju-gui", "importance": "Wishlist",
+        "assignee_link": null, "date_triaged": "2013-04-25T16:21:35.942424+00:00",
+        "self_link": "https://api.launchpad.net/1.0/juju-gui/+bug/1172765", "target_link":
+        "https://api.launchpad.net/1.0/juju-gui", "bug_target_display_name": "juju-gui",
+        "related_tasks_collection_link": "https://api.launchpad.net/1.0/juju-gui/+bug/1172765/related_tasks",
+        "date_confirmed": "2013-04-25T16:21:35.942424+00:00", "date_left_new": "2013-04-25T16:21:35.942424+00:00",
+        "web_link": "https://bugs.launchpad.net/juju-gui/+bug/1172765", "owner_link":
+        "https://api.launchpad.net/1.0/~lucapaulina", "date_created": "2013-04-25T15:43:38.608633+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1190274 in Charm Helpers: \"Add ability to set packages
+        to hold status\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1190274",
+        "bug_watch_link": null, "milestone_link": "https://api.launchpad.net/1.0/charm-helpers/+milestone/1.0",
+        "http_etag": "\"2328c346f43fd764d039bd40f72836efbbb3cf82-4266707ae5e650e79a542e12b33672f358d2dd14\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "charm-helpers", "importance": "Wishlist",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1190274",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1190274/related_tasks",
+        "date_confirmed": "2013-08-22T16:02:25.252701+00:00", "date_left_new": "2013-08-22T16:02:25.252701+00:00",
+        "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1190274", "owner_link":
+        "https://api.launchpad.net/1.0/~thedac", "date_created": "2013-06-12T15:37:07.618347+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1203241 in Charm Helpers: \"relation_get() on a non-set
+        relation setting does not return None\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1203241",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"b645883252592e7254638ee332300bec844f8f59-59c8a0d30111c7d0f41c6cd8e4cefea88f52231e\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charm-helpers", "importance": "Undecided",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1203241",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1203241/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1203241",
+        "owner_link": "https://api.launchpad.net/1.0/~gandelman-a", "date_created":
+        "2013-07-20T04:45:05.619235+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1209026
+        in Juju Charms Collection: \"Charm needed: MapR hadoop distribution\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/1209026", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"84c36d2eceb09a365f492a4afb840fa19e188c77-563fbacecea1fe7f751edc02332307dbdfe8a4b9\"",
+        "date_left_closed": "2014-02-11T22:43:42.549025+00:00", "date_fix_committed":
+        "2014-03-05T05:39:40.251094+00:00", "date_fix_released": "2014-03-10T19:24:47.013691+00:00",
+        "date_in_progress": "2014-02-11T22:38:14.751685+00:00", "resource_type_link":
+        "https://api.launchpad.net/1.0/#bug_task", "status": "Incomplete", "bug_target_name":
+        "charms", "importance": "Undecided", "assignee_link": null, "date_triaged":
+        "2014-02-11T22:38:14.751685+00:00", "self_link": "https://api.launchpad.net/1.0/charms/+bug/1209026",
+        "target_link": "https://api.launchpad.net/1.0/charms", "bug_target_display_name":
+        "Juju Charms Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1209026/related_tasks",
+        "date_confirmed": "2014-02-11T22:38:14.751685+00:00", "date_left_new": "2013-09-13T15:38:15.139965+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+bug/1209026", "owner_link":
+        "https://api.launchpad.net/1.0/~dbtucker", "date_created": "2013-08-06T23:29:26.541587+00:00",
+        "date_incomplete": "2014-03-10T19:24:47.013691+00:00", "is_complete": false},
+        {"date_closed": null, "date_assigned": "2013-08-09T12:36:23.898527+00:00",
+        "title": "Bug #1210504 in Charm Helpers: \"Race condition: rbd device not
+        yet available when mkfs is called\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1210504",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"34627b72323ff5619e7f18d9fe35e30ddeead95f-cf6386d401ee899906b118233b84418869d8a89f\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": "2013-08-09T12:36:27.013841+00:00", "resource_type_link":
+        "https://api.launchpad.net/1.0/#bug_task", "status": "In Progress", "bug_target_name":
+        "charm-helpers", "importance": "Undecided", "assignee_link": "https://api.launchpad.net/1.0/~ahasenack",
+        "date_triaged": "2013-08-09T12:36:27.013841+00:00", "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1210504",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1210504/related_tasks",
+        "date_confirmed": "2013-08-09T12:36:27.013841+00:00", "date_left_new": "2013-08-09T12:36:27.013841+00:00",
+        "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1210504", "owner_link":
+        "https://api.launchpad.net/1.0/~ahasenack", "date_created": "2013-08-09T12:36:16.661357+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1213175 in Charm Helpers: \"Add option to extract file
+        to specified directory\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1213175",
+        "bug_watch_link": null, "milestone_link": "https://api.launchpad.net/1.0/charm-helpers/+milestone/1.0",
+        "http_etag": "\"3b6ad150b03f167de1cea4f261f89ec57ced401f-ddaae9a58115681f2b1b3de061f9008eb58e54e0\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "charm-helpers", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1213175",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1213175/related_tasks",
+        "date_confirmed": "2013-08-22T16:03:46.383762+00:00", "date_left_new": "2013-08-22T16:03:46.383762+00:00",
+        "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1213175", "owner_link":
+        "https://api.launchpad.net/1.0/~jacekn", "date_created": "2013-08-16T16:42:36.105762+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1215514 in Charm Helpers: \"lint errors in r72\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/1215514", "bug_watch_link": null, "milestone_link":
+        "https://api.launchpad.net/1.0/charm-helpers/+milestone/1.0", "http_etag":
+        "\"c5156970496793ed5c7036b3d93e8601f1c3604f-ea82a012844d2e36a964b7501366c862117a6a93\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "charm-helpers", "importance": "Low",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1215514",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1215514/related_tasks",
+        "date_confirmed": "2013-08-22T16:01:57.635212+00:00", "date_left_new": "2013-08-22T16:01:57.635212+00:00",
+        "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1215514", "owner_link":
+        "https://api.launchpad.net/1.0/~mew", "date_created": "2013-08-22T16:01:50.341252+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2013-08-27T19:31:41.688000+00:00", "title": "Bug #1217540 in Amulet: \"Every
+        interface defined by a charm should be documented with examples\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/1217540", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"418812242d5a61554d57ffc3a98acaff191917d4-14644c09be5f66393f00a1aad54288c988db30a6\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "amulet", "importance": "Undecided",
+        "assignee_link": "https://api.launchpad.net/1.0/~marcoceppi", "date_triaged":
+        null, "self_link": "https://api.launchpad.net/1.0/amulet/+bug/1217540", "target_link":
+        "https://api.launchpad.net/1.0/amulet", "bug_target_display_name": "Amulet",
+        "related_tasks_collection_link": "https://api.launchpad.net/1.0/amulet/+bug/1217540/related_tasks",
+        "date_confirmed": "2013-08-27T19:31:42.622509+00:00", "date_left_new": "2013-08-27T19:31:42.622509+00:00",
+        "web_link": "https://bugs.launchpad.net/amulet/+bug/1217540", "owner_link":
+        "https://api.launchpad.net/1.0/~kirkland", "date_created": "2013-08-27T19:30:30.522964+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1218413 in Charm Helpers: \"Make in-line docs suitable
+        for comprehensive pydoc output\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1218413",
+        "bug_watch_link": null, "milestone_link": "https://api.launchpad.net/1.0/charm-helpers/+milestone/1.0",
+        "http_etag": "\"4c126b7204919194e84aa9107b452b8cee39cc9c-8bd56375e4741b71c3335dd99a30dc8b8487f676\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charm-helpers", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1218413",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1218413/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1218413",
+        "owner_link": "https://api.launchpad.net/1.0/~mew", "date_created": "2013-08-29T14:29:26.623495+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1218421 in Charm Helpers: \"Charmhelpers contributor
+        guidelines\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1218421", "bug_watch_link":
+        null, "milestone_link": "https://api.launchpad.net/1.0/charm-helpers/+milestone/1.0",
+        "http_etag": "\"f472dddaf49ca5d609c1e67e333c4c3c1edbd755-6bdf09406263f37ffc4465996180fb21727b0e06\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charm-helpers", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1218421",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1218421/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1218421",
+        "owner_link": "https://api.launchpad.net/1.0/~mew", "date_created": "2013-08-29T14:45:04.704450+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1218427 in Charm Helpers: \"python-charmhelpers and charmhelpers
+        packages\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1218427", "bug_watch_link":
+        null, "milestone_link": "https://api.launchpad.net/1.0/charm-helpers/+milestone/1.0",
+        "http_etag": "\"a7b0d2d28e4e6b024b70cb7072a2a34bac686037-6bdf09406263f37ffc4465996180fb21727b0e06\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charm-helpers", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1218427",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1218427/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1218427",
+        "owner_link": "https://api.launchpad.net/1.0/~mew", "date_created": "2013-08-29T14:49:13.540923+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1218438 in Charm Helpers: \"Cryptographic verification
+        for charmhelpers.fetch\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1218438",
+        "bug_watch_link": null, "milestone_link": "https://api.launchpad.net/1.0/charm-helpers/+milestone/1.0",
+        "http_etag": "\"e0ba2a230d840569dda7db9dcb75290e948723a8-edcb596a36a6fea35fd01f9bfd660135b0022055\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charm-helpers", "importance": "Low",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1218438",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1218438/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1218438",
+        "owner_link": "https://api.launchpad.net/1.0/~mew", "date_created": "2013-08-29T14:57:11.038087+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #933642 in Charm Helpers: \"charm-helper should have a
+        single unifying command for using it in a declarative way\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/933642", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"b12700a68223009de2ff7fd45d3c01236d8b8e56-59c8a0d30111c7d0f41c6cd8e4cefea88f52231e\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charm-helpers", "importance": "Undecided",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/933642",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/933642/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/933642",
+        "owner_link": "https://api.launchpad.net/1.0/~marcoceppi", "date_created":
+        "2013-09-25T14:01:23.059984+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1232886
+        in jenkins-slave (Juju Charms Collection): \"Missing release configuration
+        option on jenkins-slave charm\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1232886",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"034bfce80e3e6c3930aac70598cc2fc2ee042e1b-24d8bfac8db681e7464f2b840459eaa7414b4025\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "jenkins-slave (Juju Charms Collection)",
+        "importance": "Undecided", "assignee_link": null, "date_triaged": null, "self_link":
+        "https://api.launchpad.net/1.0/charms/+source/jenkins-slave/+bug/1232886",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/jenkins-slave",
+        "bug_target_display_name": "jenkins-slave (Juju Charms Collection)", "related_tasks_collection_link":
+        "https://api.launchpad.net/1.0/charms/+source/jenkins-slave/+bug/1232886/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/jenkins-slave/+bug/1232886",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2013-09-29T20:09:21.813079+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1232922
+        in newrelic-php (Juju Charms Collection): \"Newrelic-PHP charm fails after
+        start hook\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1232922", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"07d0525afcccfe40af945c32ed5d92b8c34892a1-c43976c7408d785a8e7133084835d18753a02ebc\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "newrelic-php (Juju Charms Collection)",
+        "importance": "Undecided", "assignee_link": null, "date_triaged": null, "self_link":
+        "https://api.launchpad.net/1.0/charms/+source/newrelic-php/+bug/1232922",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/newrelic-php",
+        "bug_target_display_name": "newrelic-php (Juju Charms Collection)", "related_tasks_collection_link":
+        "https://api.launchpad.net/1.0/charms/+source/newrelic-php/+bug/1232922/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/newrelic-php/+bug/1232922",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2013-09-29T21:59:44.141683+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1232927
+        in memcached (Juju Charms Collection): \"Memcached install hook does not add
+        php5 memcached extension\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1232927",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"3fe699d369c6d391af4da17f6a8ed26f925e05e9-7930db61ca38abe672f5ef1656948745daae4378\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "memcached (Juju Charms Collection)",
+        "importance": "Undecided", "assignee_link": null, "date_triaged": null, "self_link":
+        "https://api.launchpad.net/1.0/charms/+source/memcached/+bug/1232927", "target_link":
+        "https://api.launchpad.net/1.0/charms/+source/memcached", "bug_target_display_name":
+        "memcached (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/memcached/+bug/1232927/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/memcached/+bug/1232927",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2013-09-29T22:19:51.203779+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1235754
+        in indicator-application (Ubuntu): \"quassel-* entry missing from indicator
+        plugin (envelope), and tray icon doesn''t work.\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1235754",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"d00bcdc7104def7aee1ac08c3b680c1d370aed1f-305f41af91ef89d73cca9cf776291144893c2dbf\"",
+        "date_left_closed": "2013-10-05T23:23:41.152574+00:00", "date_fix_committed":
+        null, "date_fix_released": null, "date_in_progress": null, "resource_type_link":
+        "https://api.launchpad.net/1.0/#bug_task", "status": "Confirmed", "bug_target_name":
+        "indicator-application (Ubuntu)", "importance": "Undecided", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/ubuntu/+source/indicator-application/+bug/1235754",
+        "target_link": "https://api.launchpad.net/1.0/ubuntu/+source/indicator-application",
+        "bug_target_display_name": "indicator-application (Ubuntu)", "related_tasks_collection_link":
+        "https://api.launchpad.net/1.0/ubuntu/+source/indicator-application/+bug/1235754/related_tasks",
+        "date_confirmed": "2014-01-31T15:30:53.498530+00:00", "date_left_new": "2013-10-05T23:12:00.661581+00:00",
+        "web_link": "https://bugs.launchpad.net/ubuntu/+source/indicator-application/+bug/1235754",
+        "owner_link": "https://api.launchpad.net/1.0/~robtongue", "date_created":
+        "2013-10-05T19:33:34.590935+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": "2013-10-07T01:07:03.429699+00:00",
+        "title": "Bug #1236112 in Juju Charms Collection: \"new charm: sensu-server\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/1236112", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"f145c106813efe11a1887600d3d32316321541c0-a5cc2332724389b3e977e8fe9f047475273dbe22\"",
+        "date_left_closed": null, "date_fix_committed": "2013-11-01T21:46:32.507598+00:00",
+        "date_fix_released": "2013-11-01T21:46:32.507598+00:00", "date_in_progress":
+        "2013-11-01T21:46:32.507598+00:00", "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Incomplete", "bug_target_name": "charms", "importance": "Low",
+        "assignee_link": "https://api.launchpad.net/1.0/~lazypower", "date_triaged":
+        "2013-11-01T21:46:32.507598+00:00", "self_link": "https://api.launchpad.net/1.0/charms/+bug/1236112",
+        "target_link": "https://api.launchpad.net/1.0/charms", "bug_target_display_name":
+        "Juju Charms Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1236112/related_tasks",
+        "date_confirmed": "2013-11-01T21:46:32.507598+00:00", "date_left_new": "2013-11-01T21:46:32.507598+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+bug/1236112", "owner_link":
+        "https://api.launchpad.net/1.0/~paulcz", "date_created": "2013-10-07T01:07:02.854384+00:00",
+        "date_incomplete": "2013-11-01T21:46:32.507598+00:00", "is_complete": false},
+        {"date_closed": null, "date_assigned": "2014-05-09T19:11:42.098731+00:00",
+        "title": "Bug #1242669 in rails (Juju Charms Collection): \"README instructions
+        for running rake tasks lead to error\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1242669",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"0cbd6540ceaaf474e635d67ab1f2f6df1db305a8-ba9cdeadccfb1bd0bc1e3ec97d79cd702da0e1ac\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "rails (Juju Charms Collection)", "importance":
+        "Medium", "assignee_link": "https://api.launchpad.net/1.0/~lazypower", "date_triaged":
+        null, "self_link": "https://api.launchpad.net/1.0/charms/+source/rails/+bug/1242669",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/rails", "bug_target_display_name":
+        "rails (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/rails/+bug/1242669/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/rails/+bug/1242669",
+        "owner_link": "https://api.launchpad.net/1.0/~taytay", "date_created": "2013-10-21T12:29:44.077164+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2014-05-09T19:56:36.543602+00:00", "title": "Bug #1242670 in rails (Juju
+        Charms Collection): \"README specifies the wrong application name\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/1242670", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"803fce0284131bfce376b026f68d4a9d555ec148-ba9cdeadccfb1bd0bc1e3ec97d79cd702da0e1ac\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "rails (Juju Charms Collection)", "importance":
+        "Medium", "assignee_link": "https://api.launchpad.net/1.0/~lazypower", "date_triaged":
+        null, "self_link": "https://api.launchpad.net/1.0/charms/+source/rails/+bug/1242670",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/rails", "bug_target_display_name":
+        "rails (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/rails/+bug/1242670/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/rails/+bug/1242670",
+        "owner_link": "https://api.launchpad.net/1.0/~taytay", "date_created": "2013-10-21T12:33:41.082125+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1243467 in Charm Helpers: \"helpers is not compatible
+        with python 3\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1243467",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"64e39ce2ae991ab52ba0d2f5375677137cdf5ed2-dd4cbbecf42a0aaea0cfdaaa854fac79cf170333\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Triaged", "bug_target_name": "charm-helpers", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1243467",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1243467/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1243467",
+        "owner_link": "https://api.launchpad.net/1.0/~sinzui", "date_created": "2013-10-23T00:12:04.497543+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2014-01-23T19:27:09.165788+00:00", "title": "Bug #1243964 in Amulet: \"Disable
+        sentry per relation/add\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1243964",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"ce9773dd0d39aa037c983c937dd62849b3919f04-ee2751f0b4f2a755a788bd0eaf4b7e17235c2a17\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Triaged", "bug_target_name": "amulet", "importance": "Wishlist",
+        "assignee_link": "https://api.launchpad.net/1.0/~marcoceppi", "date_triaged":
+        null, "self_link": "https://api.launchpad.net/1.0/amulet/+bug/1243964", "target_link":
+        "https://api.launchpad.net/1.0/amulet", "bug_target_display_name": "Amulet",
+        "related_tasks_collection_link": "https://api.launchpad.net/1.0/amulet/+bug/1243964/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/amulet/+bug/1243964",
+        "owner_link": "https://api.launchpad.net/1.0/~marcoceppi", "date_created":
+        "2013-10-23T22:34:12.293252+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": "2013-10-25T21:54:11.653885+00:00",
+        "title": "Bug #1244809 in Charm Helpers: \"Light weight key value store\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/1244809", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"100cf3a059ae3b993ecf6d26e2a9063ff792ae91-dd62ae5780d15cca7d9af684d6b0c03bbfaf981c\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "charm-helpers", "importance": "Medium",
+        "assignee_link": "https://api.launchpad.net/1.0/~marcoceppi", "date_triaged":
+        null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1244809",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1244809/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1244809",
+        "owner_link": "https://api.launchpad.net/1.0/~marcoceppi", "date_created":
+        "2013-10-25T21:54:11.231636+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1253865
+        in Charm Helpers: \"import error in the ansible plugin\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1253865",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"ca738406204c046e8b8a62af209235ea9e194b98-9a85ff24e8756716760906d78a5a8bb3860e3c81\"",
+        "date_left_closed": null, "date_fix_committed": "2013-11-26T20:17:06.753479+00:00",
+        "date_fix_released": null, "date_in_progress": "2013-11-26T20:17:06.753479+00:00",
+        "resource_type_link": "https://api.launchpad.net/1.0/#bug_task", "status":
+        "Fix Committed", "bug_target_name": "charm-helpers", "importance": "Undecided",
+        "assignee_link": null, "date_triaged": "2013-11-26T20:17:06.753479+00:00",
+        "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1253865", "target_link":
+        "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1253865/related_tasks",
+        "date_confirmed": "2013-11-26T20:17:06.753479+00:00", "date_left_new": "2013-11-26T20:17:06.753479+00:00",
+        "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1253865", "owner_link":
+        "https://api.launchpad.net/1.0/~patrick-hetu", "date_created": "2013-11-22T02:29:14.753763+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1255933 in Charm Helpers: \"log crashes when passed non-string\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/1255933", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"f032d9d9fef163b44765ed8ace4b32e9bc23ebca-95b015f1a771f94f10f4856e50be9a99708aae3b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charm-helpers", "importance": "Wishlist",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1255933",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1255933/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1255933",
+        "owner_link": "https://api.launchpad.net/1.0/~stub", "date_created": "2013-11-28T11:30:43.901868+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1260088 in mongodb (Juju Charms Collection): \"Stale
+        config flags on MongoDB Charm for MMS Monitoring\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1260088",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"90450eda87099b4fed222afb8c6102cab4d5eab3-9b4055671ef6fe7cb79fdfaf5eee58957eb28a26\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "mongodb (Juju Charms Collection)", "importance":
+        "Undecided", "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charms/+source/mongodb/+bug/1260088",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/mongodb", "bug_target_display_name":
+        "mongodb (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/mongodb/+bug/1260088/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/mongodb/+bug/1260088",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2013-12-11T22:06:07.608451+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": "2013-12-18T15:24:32.850490+00:00",
+        "title": "Bug #1260100 in Juju Charms Collection: \"Create a simple subordinate
+        swap charm\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1260100", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"915b2cf4489919b7da82c61313e49fbbc5d22831-b6e555e223af1c4a848e900eb39bea6b8a31ddbf\"",
+        "date_left_closed": null, "date_fix_committed": "2014-01-16T13:08:13.971962+00:00",
+        "date_fix_released": "2014-01-16T13:08:13.971962+00:00", "date_in_progress":
+        "2014-01-16T13:08:13.971962+00:00", "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Incomplete", "bug_target_name": "charms", "importance": "Undecided",
+        "assignee_link": "https://api.launchpad.net/1.0/~davidpbritton", "date_triaged":
+        "2014-01-16T13:08:13.971962+00:00", "self_link": "https://api.launchpad.net/1.0/charms/+bug/1260100",
+        "target_link": "https://api.launchpad.net/1.0/charms", "bug_target_display_name":
+        "Juju Charms Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1260100/related_tasks",
+        "date_confirmed": "2014-01-16T13:08:13.971962+00:00", "date_left_new": "2014-01-14T02:22:22.202291+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+bug/1260100", "owner_link":
+        "https://api.launchpad.net/1.0/~davidpbritton", "date_created": "2013-12-11T22:22:13.987168+00:00",
+        "date_incomplete": "2014-01-16T13:08:13.971962+00:00", "is_complete": false},
+        {"date_closed": null, "date_assigned": "2014-01-16T14:26:57.842712+00:00",
+        "title": "Bug #1264200 in Juju Charms Collection: \"New Charm: (Errbit)\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/1264200", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"d68177a10373bbe4592a9b6070fc581641b0a4dc-4b24778a674b881b48b98edc1b014e2cb6f3c462\"",
+        "date_left_closed": null, "date_fix_committed": "2014-01-16T14:49:03.966717+00:00",
+        "date_fix_released": "2014-01-16T14:49:03.966717+00:00", "date_in_progress":
+        "2014-01-16T14:49:03.966717+00:00", "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Incomplete", "bug_target_name": "charms", "importance": "Undecided",
+        "assignee_link": "https://api.launchpad.net/1.0/~lazypower", "date_triaged":
+        "2014-01-16T14:49:03.966717+00:00", "self_link": "https://api.launchpad.net/1.0/charms/+bug/1264200",
+        "target_link": "https://api.launchpad.net/1.0/charms", "bug_target_display_name":
+        "Juju Charms Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1264200/related_tasks",
+        "date_confirmed": "2014-01-16T14:49:03.966717+00:00", "date_left_new": "2014-01-16T14:49:03.966717+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+bug/1264200", "owner_link":
+        "https://api.launchpad.net/1.0/~lazypower", "date_created": "2013-12-26T02:31:55.993233+00:00",
+        "date_incomplete": "2014-01-16T14:49:03.966717+00:00", "is_complete": false},
+        {"date_closed": null, "date_assigned": null, "title": "Bug #1266145 in Juju
+        Charms Collection: \"Charm Needed: PredictionIO\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1266145",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"99f7dd0b3abe764a04d6597bf2ed54a3ddc66b5d-6305e0f20acd08d68a1b70f2f52e460384200fd5\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charms", "importance": "Undecided", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charms/+bug/1266145",
+        "target_link": "https://api.launchpad.net/1.0/charms", "bug_target_display_name":
+        "Juju Charms Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1266145/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+bug/1266145",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2014-01-05T02:38:11.347807+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1269718
+        in Charm Helpers: \"fetch.add_source silently ignores unknown source\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/1269718", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"841f64408a891bd2d3f7003e877508991205930b-59c8a0d30111c7d0f41c6cd8e4cefea88f52231e\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charm-helpers", "importance": "Undecided",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1269718",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1269718/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1269718",
+        "owner_link": "https://api.launchpad.net/1.0/~stub", "date_created": "2014-01-16T09:05:21.918690+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1269780 in Charm Helpers: \"fetch.configure_sources()
+        breaks with 0 extra sources\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1269780",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"cdc6679752a595cc076ce9c8e4dfddf13575b78c-59c8a0d30111c7d0f41c6cd8e4cefea88f52231e\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charm-helpers", "importance": "Undecided",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1269780",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1269780/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1269780",
+        "owner_link": "https://api.launchpad.net/1.0/~stub", "date_created": "2014-01-16T12:11:45.400804+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1269784 in Charm Helpers: \"fetch.configure_sources()
+        does not remove old sources\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1269784",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"d9d4a887ced06b526b87ad662c7d84b0d747ac4f-59c8a0d30111c7d0f41c6cd8e4cefea88f52231e\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charm-helpers", "importance": "Undecided",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1269784",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1269784/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1269784",
+        "owner_link": "https://api.launchpad.net/1.0/~stub", "date_created": "2014-01-16T12:20:05.918539+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1269914 in Amulet: \"Upgrade Charm on juju-deployer run\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/1269914", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"cc8922c98eab6f5000f11a71282368d5f9a4837a-7223209d2a01f5635c2a3e2cbe531607c2188669\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "amulet", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/amulet/+bug/1269914",
+        "target_link": "https://api.launchpad.net/1.0/amulet", "bug_target_display_name":
+        "Amulet", "related_tasks_collection_link": "https://api.launchpad.net/1.0/amulet/+bug/1269914/related_tasks",
+        "date_confirmed": "2014-01-16T19:37:20.549530+00:00", "date_left_new": "2014-01-16T19:37:20.549530+00:00",
+        "web_link": "https://bugs.launchpad.net/amulet/+bug/1269914", "owner_link":
+        "https://api.launchpad.net/1.0/~lazypower", "date_created": "2014-01-16T19:35:24.236154+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2014-01-17T15:25:16.843979+00:00", "title": "Bug #1270186 in Juju Charm Tools:
+        \"proof fails if there''s not type key in config.yaml\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1270186",
+        "bug_watch_link": null, "milestone_link": "https://api.launchpad.net/1.0/charm-tools/+milestone/1.2.11",
+        "http_etag": "\"aea41c5c8e437232c65230edb02f26b74e234375-3182dc17b3e6dff4b238da7f541be6261590330f\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Triaged", "bug_target_name": "charm-tools", "importance": "High",
+        "assignee_link": "https://api.launchpad.net/1.0/~marcoceppi", "date_triaged":
+        "2014-01-17T15:25:11.014877+00:00", "self_link": "https://api.launchpad.net/1.0/charm-tools/+bug/1270186",
+        "target_link": "https://api.launchpad.net/1.0/charm-tools", "bug_target_display_name":
+        "Juju Charm Tools", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-tools/+bug/1270186/related_tasks",
+        "date_confirmed": "2014-01-17T15:25:11.014877+00:00", "date_left_new": "2014-01-17T15:25:11.014877+00:00",
+        "web_link": "https://bugs.launchpad.net/charm-tools/+bug/1270186", "owner_link":
+        "https://api.launchpad.net/1.0/~lazypower", "date_created": "2014-01-17T15:24:51.444865+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1270968 in mediawiki (Juju Charms Collection): \"Race
+        condition in config-changed hook\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1270968",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"c8e449ec0b031e97b8e8a5b2810ec1ad30070098-86b909e2eef92816557e991603c040f0cd8c8dc1\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "mediawiki (Juju Charms Collection)",
+        "importance": "Undecided", "assignee_link": null, "date_triaged": null, "self_link":
+        "https://api.launchpad.net/1.0/charms/+source/mediawiki/+bug/1270968", "target_link":
+        "https://api.launchpad.net/1.0/charms/+source/mediawiki", "bug_target_display_name":
+        "mediawiki (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/mediawiki/+bug/1270968/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/mediawiki/+bug/1270968",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2014-01-20T22:24:01.320105+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1271148
+        in Charm Helpers: \"add-source invokes non-existant command to add a key,
+        fails\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1271148", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"8ecf02d4786c9e9e6f4b940a51ceb58922a66d24-59c8a0d30111c7d0f41c6cd8e4cefea88f52231e\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charm-helpers", "importance": "Undecided",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1271148",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1271148/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1271148",
+        "owner_link": "https://api.launchpad.net/1.0/~stub", "date_created": "2014-01-21T12:10:17.212262+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2014-01-27T09:26:20.926174+00:00", "title": "Bug #1272083 in Juju Charms
+        Collection: \"HPCC Charm initial check-in for review\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1272083",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"2eefe26fbfb2c016736775e5138a7b394723e711-91f821fd58ae2e5f0cc71b425cbc1b171158a5de\"",
+        "date_left_closed": null, "date_fix_committed": "2014-03-25T10:56:22.643365+00:00",
+        "date_fix_released": "2014-03-25T10:56:22.643365+00:00", "date_in_progress":
+        "2014-03-25T10:56:22.643365+00:00", "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Incomplete", "bug_target_name": "charms", "importance": "Undecided",
+        "assignee_link": "https://api.launchpad.net/1.0/~xwang2713", "date_triaged":
+        "2014-03-25T10:56:22.643365+00:00", "self_link": "https://api.launchpad.net/1.0/charms/+bug/1272083",
+        "target_link": "https://api.launchpad.net/1.0/charms", "bug_target_display_name":
+        "Juju Charms Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1272083/related_tasks",
+        "date_confirmed": "2014-03-25T10:56:22.643365+00:00", "date_left_new": "2014-01-28T19:35:55.009601+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+bug/1272083", "owner_link":
+        "https://api.launchpad.net/1.0/~xwang2713", "date_created": "2014-01-23T21:36:30.286122+00:00",
+        "date_incomplete": "2014-03-25T10:56:22.643365+00:00", "is_complete": false},
+        {"date_closed": null, "date_assigned": null, "title": "Bug #1272161 in hadoop
+        (Juju Charms Collection): \"install hook fails on LXC containers without FQDN\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/1272161", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"ff2e84c2601805cdddfafea7f3614007c1e48aa8-12a35b9e584a7a1f0d03fee0932ee093f356b011\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "hadoop (Juju Charms Collection)", "importance":
+        "Undecided", "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charms/+source/hadoop/+bug/1272161",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/hadoop", "bug_target_display_name":
+        "hadoop (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/hadoop/+bug/1272161/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/hadoop/+bug/1272161",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2014-01-24T04:08:34.596339+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": "2014-03-17T21:09:45.886173+00:00",
+        "title": "Bug #1272520 in jenkins (Juju Charms Collection): \"Unable to relate
+        to jenkins-slave: hook failed: \"master-relation-changed\"\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/1272520", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"b13a515cfb145d2f00f6e19b665544fb6101c283-f6d0fb3c8b5addf46aadfc3e91b74a2cce411146\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "jenkins (Juju Charms Collection)",
+        "importance": "High", "assignee_link": "https://api.launchpad.net/1.0/~lazypower",
+        "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charms/+source/jenkins/+bug/1272520",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/jenkins", "bug_target_display_name":
+        "jenkins (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/jenkins/+bug/1272520/related_tasks",
+        "date_confirmed": "2014-04-09T15:52:00.290280+00:00", "date_left_new": "2014-04-09T15:52:00.290280+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+source/jenkins/+bug/1272520",
+        "owner_link": "https://api.launchpad.net/1.0/~a.rosales", "date_created":
+        "2014-01-24T21:01:34.212067+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1272521
+        in charmworldlib: \"Need better error handling when providing an invalid charm
+        name\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1272521", "bug_watch_link":
+        null, "milestone_link": "https://api.launchpad.net/1.0/charmworldlib/+milestone/0.4.1",
+        "http_etag": "\"f94405fd9ea33ac45b53506d08ba4e245002ae71-e84ef83d6f1e5b8a0c3d9466150143d456a15608\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "charmworldlib", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charmworldlib/+bug/1272521",
+        "target_link": "https://api.launchpad.net/1.0/charmworldlib", "bug_target_display_name":
+        "charmworldlib", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charmworldlib/+bug/1272521/related_tasks",
+        "date_confirmed": "2014-05-16T11:40:01.783976+00:00", "date_left_new": "2014-05-16T11:40:01.783976+00:00",
+        "web_link": "https://bugs.launchpad.net/charmworldlib/+bug/1272521", "owner_link":
+        "https://api.launchpad.net/1.0/~lazypower", "date_created": "2014-01-24T21:02:13.854499+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2014-05-15T18:54:13.308313+00:00", "title": "Bug #1274966 in Juju Charm Tools:
+        \"test runner broken when test_config.yaml present\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1274966",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"120029d2b4c1fbf054df28740949562880cd9d11-a30e26491cc1bfa5f69c8a32e1b6f87f46bfdde8\"",
+        "date_left_closed": null, "date_fix_committed": "2014-05-15T22:02:25.289726+00:00",
+        "date_fix_released": null, "date_in_progress": "2014-05-15T18:54:21.484226+00:00",
+        "resource_type_link": "https://api.launchpad.net/1.0/#bug_task", "status":
+        "Fix Committed", "bug_target_name": "charm-tools", "importance": "Critical",
+        "assignee_link": "https://api.launchpad.net/1.0/~tvansteenburgh", "date_triaged":
+        "2014-05-15T18:54:21.484226+00:00", "self_link": "https://api.launchpad.net/1.0/charm-tools/+bug/1274966",
+        "target_link": "https://api.launchpad.net/1.0/charm-tools", "bug_target_display_name":
+        "Juju Charm Tools", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-tools/+bug/1274966/related_tasks",
+        "date_confirmed": "2014-05-15T18:54:21.484226+00:00", "date_left_new": "2014-01-31T15:26:19.723315+00:00",
+        "web_link": "https://bugs.launchpad.net/charm-tools/+bug/1274966", "owner_link":
+        "https://api.launchpad.net/1.0/~lazypower", "date_created": "2014-01-31T15:02:29.592556+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1276588 in Charm Helpers: \"charmhelpers.contrib.network.ip
+        installs system packages when loaded\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1276588",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"a281bbd3594c498bbc9cfb46690a39c8c9fdd92c-59c8a0d30111c7d0f41c6cd8e4cefea88f52231e\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charm-helpers", "importance": "Undecided",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1276588",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1276588/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1276588",
+        "owner_link": "https://api.launchpad.net/1.0/~michael.nelson", "date_created":
+        "2014-02-05T13:44:41.549136+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": "2014-02-10T12:43:35.901988+00:00",
+        "title": "Bug #1278369 in Juju Charms Collection: \"Charm Needed: metis\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/1278369", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"6f1e47204cc9661a3f611ad39edc53ea71684626-9b8f94ea5726d113131f4103b01100fc090e4e90\"",
+        "date_left_closed": null, "date_fix_committed": "2014-03-14T19:06:10.658380+00:00",
+        "date_fix_released": "2014-03-14T19:57:13.302417+00:00", "date_in_progress":
+        "2014-03-14T19:06:10.658380+00:00", "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Incomplete", "bug_target_name": "charms", "importance": "Undecided",
+        "assignee_link": "https://api.launchpad.net/1.0/~truthfromlies", "date_triaged":
+        "2014-03-14T19:06:10.658380+00:00", "self_link": "https://api.launchpad.net/1.0/charms/+bug/1278369",
+        "target_link": "https://api.launchpad.net/1.0/charms", "bug_target_display_name":
+        "Juju Charms Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1278369/related_tasks",
+        "date_confirmed": "2014-03-14T19:06:10.658380+00:00", "date_left_new": "2014-02-18T13:33:40.709265+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+bug/1278369", "owner_link":
+        "https://api.launchpad.net/1.0/~truthfromlies", "date_created": "2014-02-10T09:49:16.599648+00:00",
+        "date_incomplete": "2014-03-14T19:57:13.302417+00:00", "is_complete": false},
+        {"date_closed": null, "date_assigned": "2014-02-12T17:54:18.471177+00:00",
+        "title": "Bug #1279447 in Juju Charms Collection: \"Charm Needed: DataStax
+        Opscenter\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1279447", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"445719231ae4cfb21fa6e35beed7fc80b426a157-a5cc2332724389b3e977e8fe9f047475273dbe22\"",
+        "date_left_closed": null, "date_fix_committed": "2014-02-27T16:20:20.466879+00:00",
+        "date_fix_released": "2014-02-27T16:20:20.466879+00:00", "date_in_progress":
+        "2014-02-27T16:20:11.699574+00:00", "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Incomplete", "bug_target_name": "charms", "importance": "Low",
+        "assignee_link": "https://api.launchpad.net/1.0/~lazypower", "date_triaged":
+        "2014-02-27T16:20:11.699574+00:00", "self_link": "https://api.launchpad.net/1.0/charms/+bug/1279447",
+        "target_link": "https://api.launchpad.net/1.0/charms", "bug_target_display_name":
+        "Juju Charms Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1279447/related_tasks",
+        "date_confirmed": "2014-02-27T16:20:11.699574+00:00", "date_left_new": "2014-02-12T17:54:33.121074+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+bug/1279447", "owner_link":
+        "https://api.launchpad.net/1.0/~lazypower", "date_created": "2014-02-12T17:53:37.826647+00:00",
+        "date_incomplete": "2014-02-27T16:20:20.466879+00:00", "is_complete": false},
+        {"date_closed": null, "date_assigned": null, "title": "Bug #1279924 in cassandra
+        (Juju Charms Collection): \"Needs Maintainer\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1279924",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"00c906df95c1d2993a19a36ec0602b4d0c7eff69-242a307560665d4431401e2130f191f879f5d190\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "cassandra (Juju Charms Collection)",
+        "importance": "Undecided", "assignee_link": null, "date_triaged": null, "self_link":
+        "https://api.launchpad.net/1.0/charms/+source/cassandra/+bug/1279924", "target_link":
+        "https://api.launchpad.net/1.0/charms/+source/cassandra", "bug_target_display_name":
+        "cassandra (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/cassandra/+bug/1279924/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/cassandra/+bug/1279924",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2014-02-13T18:47:12.625868+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1279930
+        in cassandra (Juju Charms Collection): \"Cluster relationship fails with no
+        relation id specified\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1279930",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"5650c7035ed0a6af731f6c9c123b2ba963653ee9-242a307560665d4431401e2130f191f879f5d190\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "cassandra (Juju Charms Collection)",
+        "importance": "Undecided", "assignee_link": null, "date_triaged": null, "self_link":
+        "https://api.launchpad.net/1.0/charms/+source/cassandra/+bug/1279930", "target_link":
+        "https://api.launchpad.net/1.0/charms/+source/cassandra", "bug_target_display_name":
+        "cassandra (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/cassandra/+bug/1279930/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/cassandra/+bug/1279930",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2014-02-13T19:05:34.890915+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1284309
+        in Juju Charm Tools: \"The rsync fails in error when the -o option is used\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/1284309", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"ec622e99e3c3b3c6fc647a8a75b3bc8f44a06c2b-a0041e14ab9d068e074243182a521cb5eb9940af\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charm-tools", "importance": "Undecided",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-tools/+bug/1284309",
+        "target_link": "https://api.launchpad.net/1.0/charm-tools", "bug_target_display_name":
+        "Juju Charm Tools", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-tools/+bug/1284309/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-tools/+bug/1284309",
+        "owner_link": "https://api.launchpad.net/1.0/~mbruzek", "date_created": "2014-02-24T20:45:52.522899+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2014-02-25T09:46:18.018315+00:00", "title": "Bug #1284552 in Charm Helpers:
+        \"ceph context config race condition\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1284552",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"e8f1daffc192c0095e130e01c90444a960352aff-bb1b12d1114388c21cd5d8cb65d5bc1badfaa5dc\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": "2014-02-25T09:46:15.910829+00:00", "resource_type_link":
+        "https://api.launchpad.net/1.0/#bug_task", "status": "In Progress", "bug_target_name":
+        "charm-helpers", "importance": "Undecided", "assignee_link": "https://api.launchpad.net/1.0/~hopem",
+        "date_triaged": "2014-02-25T09:46:15.910829+00:00", "self_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1284552",
+        "target_link": "https://api.launchpad.net/1.0/charm-helpers", "bug_target_display_name":
+        "Charm Helpers", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-helpers/+bug/1284552/related_tasks",
+        "date_confirmed": "2014-02-25T09:46:15.910829+00:00", "date_left_new": "2014-02-25T09:46:15.910829+00:00",
+        "web_link": "https://bugs.launchpad.net/charm-helpers/+bug/1284552", "owner_link":
+        "https://api.launchpad.net/1.0/~hopem", "date_created": "2014-02-25T09:46:05.339259+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1287871 in Juju Charms Collection: \"Bundle submission:
+        Hadoop\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1287871", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"c22e724f8d9c1cc0f7f16b8797f0e190541ac080-6305e0f20acd08d68a1b70f2f52e460384200fd5\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charms", "importance": "Undecided", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charms/+bug/1287871",
+        "target_link": "https://api.launchpad.net/1.0/charms", "bug_target_display_name":
+        "Juju Charms Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1287871/related_tasks",
+        "date_confirmed": null, "date_left_new": "2014-03-04T19:48:50.375810+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+bug/1287871", "owner_link":
+        "https://api.launchpad.net/1.0/~jorge", "date_created": "2014-03-04T19:45:23.041079+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1289291 in Juju Charms Collection: \"New Charm proposal:
+        GNU Cobol sample\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1289291",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"d04e687cc378c878910505a6b83c3803f62d2d27-563fbacecea1fe7f751edc02332307dbdfe8a4b9\"",
+        "date_left_closed": null, "date_fix_committed": "2014-03-24T20:09:04.938679+00:00",
+        "date_fix_released": "2014-03-24T20:09:04.938679+00:00", "date_in_progress":
+        "2014-03-24T20:09:04.938679+00:00", "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Incomplete", "bug_target_name": "charms", "importance": "Undecided",
+        "assignee_link": null, "date_triaged": "2014-03-24T20:09:04.938679+00:00",
+        "self_link": "https://api.launchpad.net/1.0/charms/+bug/1289291", "target_link":
+        "https://api.launchpad.net/1.0/charms", "bug_target_display_name": "Juju Charms
+        Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1289291/related_tasks",
+        "date_confirmed": "2014-03-24T20:09:04.938679+00:00", "date_left_new": "2014-03-24T20:09:04.938679+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+bug/1289291", "owner_link":
+        "https://api.launchpad.net/1.0/~bwtiffin", "date_created": "2014-03-07T11:36:42.872999+00:00",
+        "date_incomplete": "2014-03-24T20:09:04.938679+00:00", "is_complete": false},
+        {"date_closed": null, "date_assigned": "2014-03-15T04:54:35.014519+00:00",
+        "title": "Bug #1290608 in nagios (Juju Charms Collection): \"Charm deploys
+        old copy of Nagios\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1290608",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"51b7b1106301c2a6dbb91e272287434c4fbeb28f-2f50bd2be44a3e573445e678bbfcf6f9e609df82\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "nagios (Juju Charms Collection)", "importance":
+        "Medium", "assignee_link": "https://api.launchpad.net/1.0/~lazypower", "date_triaged":
+        null, "self_link": "https://api.launchpad.net/1.0/charms/+source/nagios/+bug/1290608",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/nagios", "bug_target_display_name":
+        "nagios (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/nagios/+bug/1290608/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/nagios/+bug/1290608",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2014-03-10T23:48:11.939382+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": "2014-04-24T23:13:45.481552+00:00",
+        "title": "Bug #1290636 in Juju Charms Collection: \"New drupal charm submission.\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/1290636", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"734c9306941a3ddafb0c564bb5cc61d4062707e2-449f058d3890f1ecd7ccbd7eccabd0a6f6085a46\"",
+        "date_left_closed": null, "date_fix_committed": "2014-03-27T01:55:13.554374+00:00",
+        "date_fix_released": "2014-04-24T23:43:08.638050+00:00", "date_in_progress":
+        "2014-03-27T01:55:13.554374+00:00", "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Incomplete", "bug_target_name": "charms", "importance": "Undecided",
+        "assignee_link": "https://api.launchpad.net/1.0/~dweaver", "date_triaged":
+        "2014-03-27T01:55:13.554374+00:00", "self_link": "https://api.launchpad.net/1.0/charms/+bug/1290636",
+        "target_link": "https://api.launchpad.net/1.0/charms", "bug_target_display_name":
+        "Juju Charms Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1290636/related_tasks",
+        "date_confirmed": "2014-03-27T01:55:13.554374+00:00", "date_left_new": "2014-03-24T20:38:38.236220+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+bug/1290636", "owner_link":
+        "https://api.launchpad.net/1.0/~dweaver", "date_created": "2014-03-11T01:51:07.627907+00:00",
+        "date_incomplete": "2014-04-24T23:43:08.638050+00:00", "is_complete": false},
+        {"date_closed": null, "date_assigned": null, "title": "Bug #1292597 in Juju
+        Charms Collection: \"Bundle submission: Wildfly \"", "bug_link": "https://api.launchpad.net/1.0/bugs/1292597",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"126cb9db63aa2932de594ba386966e7971aaa66e-6305e0f20acd08d68a1b70f2f52e460384200fd5\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charms", "importance": "Undecided", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charms/+bug/1292597",
+        "target_link": "https://api.launchpad.net/1.0/charms", "bug_target_display_name":
+        "Juju Charms Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1292597/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+bug/1292597",
+        "owner_link": "https://api.launchpad.net/1.0/~jorge", "date_created": "2014-03-14T16:23:44.160149+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2014-03-14T18:04:47.049880+00:00", "title": "Bug #1292651 in mediawiki (Juju
+        Charms Collection): \"Charm test fails consistently\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1292651",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"fbc629b8c050ab5ef3525e5564b29aa15a70905b-7dae2b8e5cf51329baf01f38fe211edcd19643b9\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": "2014-03-19T21:29:12.705786+00:00", "resource_type_link":
+        "https://api.launchpad.net/1.0/#bug_task", "status": "In Progress", "bug_target_name":
+        "mediawiki (Juju Charms Collection)", "importance": "High", "assignee_link":
+        "https://api.launchpad.net/1.0/~lazypower", "date_triaged": "2014-03-14T18:04:46.392769+00:00",
+        "self_link": "https://api.launchpad.net/1.0/charms/+source/mediawiki/+bug/1292651",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/mediawiki", "bug_target_display_name":
+        "mediawiki (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/mediawiki/+bug/1292651/related_tasks",
+        "date_confirmed": "2014-03-14T18:04:46.392769+00:00", "date_left_new": "2014-03-14T18:04:46.392769+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+source/mediawiki/+bug/1292651",
+        "owner_link": "https://api.launchpad.net/1.0/~marcoceppi", "date_created":
+        "2014-03-14T18:04:46.392769+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1292658
+        in Juju Charms Collection: \"OpenERP bundle\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1292658",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"ce81f4d59d4f0455e8eac67046c90bc658115529-563fbacecea1fe7f751edc02332307dbdfe8a4b9\"",
+        "date_left_closed": null, "date_fix_committed": "2014-03-28T15:08:29.005660+00:00",
+        "date_fix_released": "2014-03-28T15:08:29.005660+00:00", "date_in_progress":
+        "2014-03-28T15:08:29.005660+00:00", "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Incomplete", "bug_target_name": "charms", "importance": "Undecided",
+        "assignee_link": null, "date_triaged": "2014-03-28T15:08:29.005660+00:00",
+        "self_link": "https://api.launchpad.net/1.0/charms/+bug/1292658", "target_link":
+        "https://api.launchpad.net/1.0/charms", "bug_target_display_name": "Juju Charms
+        Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1292658/related_tasks",
+        "date_confirmed": "2014-03-28T15:08:29.005660+00:00", "date_left_new": "2014-03-28T15:08:29.005660+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+bug/1292658", "owner_link":
+        "https://api.launchpad.net/1.0/~mistotebe", "date_created": "2014-03-14T18:18:09.446816+00:00",
+        "date_incomplete": "2014-03-28T15:08:29.005660+00:00", "is_complete": false},
+        {"date_closed": null, "date_assigned": null, "title": "Bug #1293635 in Juju
+        Charms Collection: \"please review and publish the importio charm\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/1293635", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"a9fc6fa8f7edc779e02d2526f2afde7989e6527d-563fbacecea1fe7f751edc02332307dbdfe8a4b9\"",
+        "date_left_closed": null, "date_fix_committed": "2014-03-25T14:59:10.920201+00:00",
+        "date_fix_released": "2014-03-25T14:59:10.920201+00:00", "date_in_progress":
+        "2014-03-25T14:59:10.920201+00:00", "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Incomplete", "bug_target_name": "charms", "importance": "Undecided",
+        "assignee_link": null, "date_triaged": "2014-03-25T14:59:10.920201+00:00",
+        "self_link": "https://api.launchpad.net/1.0/charms/+bug/1293635", "target_link":
+        "https://api.launchpad.net/1.0/charms", "bug_target_display_name": "Juju Charms
+        Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1293635/related_tasks",
+        "date_confirmed": "2014-03-25T14:59:10.920201+00:00", "date_left_new": "2014-03-25T14:59:10.920201+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+bug/1293635", "owner_link":
+        "https://api.launchpad.net/1.0/~ian-clark", "date_created": "2014-03-17T15:38:35.746724+00:00",
+        "date_incomplete": "2014-03-25T14:59:10.920201+00:00", "is_complete": false},
+        {"date_closed": null, "date_assigned": null, "title": "Bug #1293786 in Amulet:
+        \"Support a write_file() method in Amulet\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1293786",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"c909b503d02bfccd0f1a93896c5da86a2fc1938e-aed5420565f42b57b4dd62fac640a51c882a9a3c\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "amulet", "importance": "Undecided", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/amulet/+bug/1293786",
+        "target_link": "https://api.launchpad.net/1.0/amulet", "bug_target_display_name":
+        "Amulet", "related_tasks_collection_link": "https://api.launchpad.net/1.0/amulet/+bug/1293786/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/amulet/+bug/1293786",
+        "owner_link": "https://api.launchpad.net/1.0/~mbruzek", "date_created": "2014-03-17T20:34:20.401762+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1293831 in Amulet: \"Missing private address property
+        from unit.info\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1293831",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"894d08f203e46ee4e6a8d44fa734c2e152542426-57ad4841d0b29c8a28c4bee61d0050852d01c1ad\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "amulet", "importance": "Wishlist", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/amulet/+bug/1293831",
+        "target_link": "https://api.launchpad.net/1.0/amulet", "bug_target_display_name":
+        "Amulet", "related_tasks_collection_link": "https://api.launchpad.net/1.0/amulet/+bug/1293831/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/amulet/+bug/1293831",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2014-03-17T22:51:41.804221+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1294334
+        in mysql (Juju Charms Collection): \"mysql charm blows up on out of memory
+        error\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1294334", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"171622b2fb166f562cc801cb8087cc636c4b3658-ce73ab60daf78cd4c4438168c9748ed95b1a37c2\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "mysql (Juju Charms Collection)",
+        "importance": "Undecided", "assignee_link": null, "date_triaged": null, "self_link":
+        "https://api.launchpad.net/1.0/charms/+source/mysql/+bug/1294334", "target_link":
+        "https://api.launchpad.net/1.0/charms/+source/mysql", "bug_target_display_name":
+        "mysql (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/mysql/+bug/1294334/related_tasks",
+        "date_confirmed": "2014-03-18T20:15:54.337236+00:00", "date_left_new": "2014-03-18T20:15:54.337236+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+source/mysql/+bug/1294334",
+        "owner_link": "https://api.launchpad.net/1.0/~bwawok", "date_created": "2014-03-18T20:11:47.949860+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1294690 in Amulet: \"Amulet should provide a way to detect
+        the Juju environment.\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1294690",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"2b8027b93f433bd512d1b93147204630b888bd17-64df6d9783dee3e07b5290eb95cf8b312ab61312\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "amulet", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/amulet/+bug/1294690",
+        "target_link": "https://api.launchpad.net/1.0/amulet", "bug_target_display_name":
+        "Amulet", "related_tasks_collection_link": "https://api.launchpad.net/1.0/amulet/+bug/1294690/related_tasks",
+        "date_confirmed": "2014-03-19T19:26:29.504141+00:00", "date_left_new": "2014-03-19T19:26:29.504141+00:00",
+        "web_link": "https://bugs.launchpad.net/amulet/+bug/1294690", "owner_link":
+        "https://api.launchpad.net/1.0/~mbruzek", "date_created": "2014-03-19T14:46:44.086927+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1294977 in Juju Charms Collection: \"Progress on Cisco
+        N1KV vxlan-gateway charm first submission (cwchang)\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1294977",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"798acfd88eee8afe657bf46d4c17cd764c7588eb-663a78ae583142580ea2c36fecfe827338176367\"",
+        "date_left_closed": null, "date_fix_committed": "2014-05-12T16:20:42.659323+00:00",
+        "date_fix_released": null, "date_in_progress": "2014-05-12T16:20:42.659323+00:00",
+        "resource_type_link": "https://api.launchpad.net/1.0/#bug_task", "status":
+        "Fix Committed", "bug_target_name": "charms", "importance": "Undecided", "assignee_link":
+        null, "date_triaged": "2014-05-12T16:20:42.659323+00:00", "self_link": "https://api.launchpad.net/1.0/charms/+bug/1294977",
+        "target_link": "https://api.launchpad.net/1.0/charms", "bug_target_display_name":
+        "Juju Charms Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1294977/related_tasks",
+        "date_confirmed": "2014-05-12T16:20:42.659323+00:00", "date_left_new": "2014-04-08T00:30:21.062175+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+bug/1294977", "owner_link":
+        "https://api.launchpad.net/1.0/~cwchang", "date_created": "2014-03-20T06:34:29.564906+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1295476 in Amulet: \"Sentry port should be configurable\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/1295476", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"f62039030cc496c24e9aa5f7ef7c93ecc6913fc3-64df6d9783dee3e07b5290eb95cf8b312ab61312\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "amulet", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/amulet/+bug/1295476",
+        "target_link": "https://api.launchpad.net/1.0/amulet", "bug_target_display_name":
+        "Amulet", "related_tasks_collection_link": "https://api.launchpad.net/1.0/amulet/+bug/1295476/related_tasks",
+        "date_confirmed": "2014-03-21T02:52:32.019906+00:00", "date_left_new": "2014-03-21T02:52:32.019906+00:00",
+        "web_link": "https://bugs.launchpad.net/amulet/+bug/1295476", "owner_link":
+        "https://api.launchpad.net/1.0/~marcoceppi", "date_created": "2014-03-21T02:52:32.019906+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2014-03-23T23:25:49.200622+00:00", "title": "Bug #1296455 in Juju Charms
+        Collection: \"Charm Needed: Gitlab-CI\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1296455",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"9d30a8c0d443414e795cc48c07a7efa7e3a3d823-ee25b999d754af934c13750fb016edd46d982ee3\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": "2014-03-23T23:29:19.382324+00:00", "resource_type_link":
+        "https://api.launchpad.net/1.0/#bug_task", "status": "In Progress", "bug_target_name":
+        "charms", "importance": "Wishlist", "assignee_link": "https://api.launchpad.net/1.0/~lazypower",
+        "date_triaged": "2014-03-23T23:29:19.382324+00:00", "self_link": "https://api.launchpad.net/1.0/charms/+bug/1296455",
+        "target_link": "https://api.launchpad.net/1.0/charms", "bug_target_display_name":
+        "Juju Charms Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1296455/related_tasks",
+        "date_confirmed": "2014-03-23T23:29:19.382324+00:00", "date_left_new": "2014-03-23T23:29:19.382324+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+bug/1296455", "owner_link":
+        "https://api.launchpad.net/1.0/~lazypower", "date_created": "2014-03-23T23:25:48.419429+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1296892 in Juju Charm Tools: \"Template Generator creates
+        Readme.ex instead of Readme.md\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1296892",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"1558c6473da88c55e820322ab2c7c31d978a19cf-a0041e14ab9d068e074243182a521cb5eb9940af\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charm-tools", "importance": "Undecided",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charm-tools/+bug/1296892",
+        "target_link": "https://api.launchpad.net/1.0/charm-tools", "bug_target_display_name":
+        "Juju Charm Tools", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charm-tools/+bug/1296892/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charm-tools/+bug/1296892",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2014-03-24T18:48:34.236266+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1298674
+        in mediawiki (Juju Charms Collection): \"Mediawiki defaults to PPA  use\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/1298674", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"e3c2b3dffe23554c5a01b49d8b69ff70c21fa7ad-fea0ce1f9807ff5e01e371dac8c7812c58e25b02\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Triaged", "bug_target_name": "mediawiki (Juju Charms Collection)",
+        "importance": "Medium", "assignee_link": null, "date_triaged": "2014-03-28T00:54:08.540794+00:00",
+        "self_link": "https://api.launchpad.net/1.0/charms/+source/mediawiki/+bug/1298674",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/mediawiki", "bug_target_display_name":
+        "mediawiki (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/mediawiki/+bug/1298674/related_tasks",
+        "date_confirmed": "2014-03-28T00:54:08.540794+00:00", "date_left_new": "2014-03-28T00:54:08.540794+00:00",
+        "web_link": "https://bugs.launchpad.net/charms/+source/mediawiki/+bug/1298674",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2014-03-27T22:55:03.006504+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1299112
+        in Juju Charms Collection: \"Ceph fails to generate monitor keyring with havana
+        source\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1299112", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"4dd5bdd9da4d68cc224c626f904563bcea88de04-6305e0f20acd08d68a1b70f2f52e460384200fd5\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "charms", "importance": "Undecided", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charms/+bug/1299112",
+        "target_link": "https://api.launchpad.net/1.0/charms", "bug_target_display_name":
+        "Juju Charms Collection", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+bug/1299112/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+bug/1299112",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2014-03-28T17:05:24.604699+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1299152
+        in kusabax (Juju Charms Collection): \"Deploys with default password populated\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/1299152", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"27b5d229ef6e0d2354788858d55dd4745f771112-f63fe288d6cd9f2ff804ac6a4d9266e55d5f63b9\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "kusabax (Juju Charms Collection)", "importance":
+        "Undecided", "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charms/+source/kusabax/+bug/1299152",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/kusabax", "bug_target_display_name":
+        "kusabax (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/kusabax/+bug/1299152/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/kusabax/+bug/1299152",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2014-03-28T18:25:44.406021+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1299154
+        in kusabax (Juju Charms Collection): \"Does not provide a proper Default Document
+        directive to Apache\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1299154",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"51f199dcec55ffa6d3493450e61ea5c5f33c678a-f63fe288d6cd9f2ff804ac6a4d9266e55d5f63b9\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "kusabax (Juju Charms Collection)", "importance":
+        "Undecided", "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/charms/+source/kusabax/+bug/1299154",
+        "target_link": "https://api.launchpad.net/1.0/charms/+source/kusabax", "bug_target_display_name":
+        "kusabax (Juju Charms Collection)", "related_tasks_collection_link": "https://api.launchpad.net/1.0/charms/+source/kusabax/+bug/1299154/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/charms/+source/kusabax/+bug/1299154",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "date_created":
+        "2014-03-28T18:26:52.767685+00:00", "date_incomplete": null, "is_complete":
+        false}]}'
+    http_version: 
+  recorded_at: Sun, 18 May 2014 23:09:06 GMT
+recorded_with: VCR 2.9.0
