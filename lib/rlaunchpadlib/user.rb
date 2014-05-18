@@ -3,23 +3,24 @@ require 'httparty'
 module Rlaunchpadlib
     class User
 
-        include HTTParty
-
-        attr_accessor :base_uri 
-        attr_accessor :api_version
         attr_accessor :username
+        attr_accessor :profile_data
 
         def initialize(username)
-            @base_uri = "https://api.launchpad.net"
-            @api_version = "1.0"
-            @username = username
+            @client = Rlaunchpadlib::Client.new
+            @username = "~#{username}"
         end
 
         def profile
-            self.class.get "#{@base_uri}/#{@api_version}/~#{@username}"
+            if @profile_data.nil?
+                @profile_data = @client.get(@username)
+            else
+                @profile_data
+            end
         end
 
-        # I'm nuts so lets patch method missing.
+        # I'm nuts so lets patch method missing for easy acces to 
+        # profile data.
         def method_missing(name, *args, &block)
           profile.has_key?(name.to_s) ? profile[name.to_s] : super
         end

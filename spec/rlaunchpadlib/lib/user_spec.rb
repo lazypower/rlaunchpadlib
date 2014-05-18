@@ -6,19 +6,6 @@ describe 'Rlaunchpadlib::User' do
         @user = Rlaunchpadlib::User.new('lazypower')
     end
 
-
-     describe "default attributes" do
-
-        it 'Must include the base Launchpad API endpoint' do
-            expect(@user.base_uri).to eq('https://api.launchpad.net')
-        end
-
-        it 'Must include the base Launchpad API endpoint' do
-            expect(@user.api_version).to eq('1.0')
-        end
-
-     end
-
     describe "GET profile" do
 
         before do
