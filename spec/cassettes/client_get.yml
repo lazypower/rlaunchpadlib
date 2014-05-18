@@ -1,0 +1,376 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/~~lazypower/?ws.op=getTasks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Sun, 18 May 2014 18:32:59 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '88'
+      Content-Type:
+      - text/plain
+      X-Cache:
+      - MISS from nutmeg.canonical.com
+      X-Cache-Lookup:
+      - MISS from nutmeg.canonical.com:3128
+      Via:
+      - 1.0 nutmeg.canonical.com:3128 (squid/2.7.STABLE7)
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: 'Object: <lp.systemhomes.WebServiceApplication object at 0x8eb3990>,
+        name: u''~~lazypower'''
+    http_version: 
+  recorded_at: Sun, 18 May 2014 18:33:02 GMT
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/~charms/?ws.op=getTasks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Sun, 18 May 2014 18:33:50 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '27'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept,Accept-Encoding
+      X-Content-Type-Warning:
+      - guessed from content
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Lazr-Notifications:
+      - "[]"
+      Content-Type:
+      - text/plain;charset=utf-8
+      X-Cache:
+      - MISS from nutmeg.canonical.com
+      X-Cache-Lookup:
+      - MISS from nutmeg.canonical.com:3128
+      Via:
+      - 1.0 nutmeg.canonical.com:3128 (squid/2.7.STABLE7)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: 'No such operation: getTasks'
+    http_version: 
+  recorded_at: Sun, 18 May 2014 18:33:53 GMT
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/~~lazypower/?ws.op=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Sun, 18 May 2014 18:36:29 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '88'
+      Content-Type:
+      - text/plain
+      X-Cache:
+      - MISS from nutmeg.canonical.com
+      X-Cache-Lookup:
+      - MISS from nutmeg.canonical.com:3128
+      Via:
+      - 1.0 nutmeg.canonical.com:3128 (squid/2.7.STABLE7)
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: 'Object: <lp.systemhomes.WebServiceApplication object at 0x8699550>,
+        name: u''~~lazypower'''
+    http_version: 
+  recorded_at: Sun, 18 May 2014 18:36:32 GMT
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/~lazypower/?ws.op=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Sun, 18 May 2014 18:36:48 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '19'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept,Accept-Encoding
+      X-Content-Type-Warning:
+      - guessed from content
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Lazr-Notifications:
+      - "[]"
+      Content-Type:
+      - text/plain;charset=utf-8
+      X-Cache:
+      - MISS from banana.canonical.com
+      X-Cache-Lookup:
+      - MISS from banana.canonical.com:3128
+      Via:
+      - 1.0 banana.canonical.com:3128 (squid/2.7.STABLE7)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: 'No such operation: '
+    http_version: 
+  recorded_at: Sun, 18 May 2014 18:36:51 GMT
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/charms/?ws.op=getTasks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Sun, 18 May 2014 18:38:40 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '27'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept,Accept-Encoding
+      X-Content-Type-Warning:
+      - guessed from content
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Lazr-Notifications:
+      - "[]"
+      Content-Type:
+      - text/plain;charset=utf-8
+      X-Cache:
+      - MISS from nutmeg.canonical.com
+      X-Cache-Lookup:
+      - MISS from nutmeg.canonical.com:3128
+      Via:
+      - 1.0 nutmeg.canonical.com:3128 (squid/2.7.STABLE7)
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: 'No such operation: getTasks'
+    http_version: 
+  recorded_at: Sun, 18 May 2014 18:38:43 GMT
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/~lazypower
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 18 May 2014 18:39:03 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '2967'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept,Accept-Encoding
+      Etag:
+      - '"3f72e908a081233e9ed809f22c860d31bd2f271e-12ab4981c04718d975c823468e3eb895c38938c5"'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Lazr-Notifications:
+      - "[]"
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from banana.canonical.com
+      X-Cache-Lookup:
+      - HIT from banana.canonical.com:3128
+      Via:
+      - 1.0 banana.canonical.com:3128 (squid/2.7.STABLE7)
+    body:
+      encoding: UTF-8
+      string: '{"languages_collection_link": "https://api.launchpad.net/1.0/~lazypower/languages",
+        "members_collection_link": "https://api.launchpad.net/1.0/~lazypower/members",
+        "sub_teams_collection_link": "https://api.launchpad.net/1.0/~lazypower/sub_teams",
+        "open_membership_invitations_collection_link": "https://api.launchpad.net/1.0/~lazypower/open_membership_invitations",
+        "ppas_collection_link": "https://api.launchpad.net/1.0/~lazypower/ppas", "private":
+        false, "time_zone": null, "proposed_members_collection_link": "https://api.launchpad.net/1.0/~lazypower/proposed_members",
+        "memberships_details_collection_link": "https://api.launchpad.net/1.0/~lazypower/memberships_details",
+        "is_probationary": false, "description": "", "mugshot_link": "https://api.launchpad.net/1.0/~lazypower/mugshot",
+        "invited_members_collection_link": "https://api.launchpad.net/1.0/~lazypower/invited_members",
+        "gpg_keys_collection_link": "https://api.launchpad.net/1.0/~lazypower/gpg_keys",
+        "archive_link": null, "deactivated_members_collection_link": "https://api.launchpad.net/1.0/~lazypower/deactivated_members",
+        "irc_nicknames_collection_link": "https://api.launchpad.net/1.0/~lazypower/irc_nicknames",
+        "http_etag": "\"3f72e908a081233e9ed809f22c860d31bd2f271e-12ab4981c04718d975c823468e3eb895c38938c5\"",
+        "is_valid": true, "self_link": "https://api.launchpad.net/1.0/~lazypower",
+        "confirmed_email_addresses_collection_link": "https://api.launchpad.net/1.0/~lazypower/confirmed_email_addresses",
+        "mailing_list_auto_subscribe_policy": "Ask me when I join a team", "team_owner_link":
+        null, "members_details_collection_link": "https://api.launchpad.net/1.0/~lazypower/members_details",
+        "hide_email_addresses": false, "admins_collection_link": "https://api.launchpad.net/1.0/~lazypower/admins",
+        "visibility": "Public", "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/recipes",
+        "latitude": null, "date_created": "2012-04-10T01:17:40.224793+00:00", "preferred_email_address_link":
+        "tag:launchpad.net:2008:redacted", "is_ubuntu_coc_signer": true, "display_name":
+        "Charles Butler", "expired_members_collection_link": "https://api.launchpad.net/1.0/~lazypower/expired_members",
+        "sshkeys_collection_link": "https://api.launchpad.net/1.0/~lazypower/sshkeys",
+        "name": "lazypower", "resource_type_link": "https://api.launchpad.net/1.0/#person",
+        "super_teams_collection_link": "https://api.launchpad.net/1.0/~lazypower/super_teams",
+        "participants_collection_link": "https://api.launchpad.net/1.0/~lazypower/participants",
+        "web_link": "https://launchpad.net/~lazypower", "longitude": null, "hardware_submissions_collection_link":
+        "https://api.launchpad.net/1.0/~lazypower/hardware_submissions", "logo_link":
+        "https://api.launchpad.net/1.0/~lazypower/logo", "is_team": false, "karma":
+        1888, "wiki_names_collection_link": "https://api.launchpad.net/1.0/~lazypower/wiki_names",
+        "homepage_content": null, "jabber_ids_collection_link": "https://api.launchpad.net/1.0/~lazypower/jabber_ids"}'
+    http_version: 
+  recorded_at: Sun, 18 May 2014 18:39:06 GMT
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/~lazypower/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 18 May 2014 18:40:07 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '2967'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept,Accept-Encoding
+      Etag:
+      - '"3f72e908a081233e9ed809f22c860d31bd2f271e-12ab4981c04718d975c823468e3eb895c38938c5"'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Lazr-Notifications:
+      - "[]"
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from banana.canonical.com
+      X-Cache-Lookup:
+      - MISS from banana.canonical.com:3128
+      Via:
+      - 1.0 banana.canonical.com:3128 (squid/2.7.STABLE7)
+    body:
+      encoding: UTF-8
+      string: '{"languages_collection_link": "https://api.launchpad.net/1.0/~lazypower/languages",
+        "members_collection_link": "https://api.launchpad.net/1.0/~lazypower/members",
+        "sub_teams_collection_link": "https://api.launchpad.net/1.0/~lazypower/sub_teams",
+        "open_membership_invitations_collection_link": "https://api.launchpad.net/1.0/~lazypower/open_membership_invitations",
+        "ppas_collection_link": "https://api.launchpad.net/1.0/~lazypower/ppas", "private":
+        false, "time_zone": null, "proposed_members_collection_link": "https://api.launchpad.net/1.0/~lazypower/proposed_members",
+        "memberships_details_collection_link": "https://api.launchpad.net/1.0/~lazypower/memberships_details",
+        "is_probationary": false, "description": "", "mugshot_link": "https://api.launchpad.net/1.0/~lazypower/mugshot",
+        "invited_members_collection_link": "https://api.launchpad.net/1.0/~lazypower/invited_members",
+        "gpg_keys_collection_link": "https://api.launchpad.net/1.0/~lazypower/gpg_keys",
+        "archive_link": null, "deactivated_members_collection_link": "https://api.launchpad.net/1.0/~lazypower/deactivated_members",
+        "irc_nicknames_collection_link": "https://api.launchpad.net/1.0/~lazypower/irc_nicknames",
+        "http_etag": "\"3f72e908a081233e9ed809f22c860d31bd2f271e-12ab4981c04718d975c823468e3eb895c38938c5\"",
+        "is_valid": true, "self_link": "https://api.launchpad.net/1.0/~lazypower",
+        "confirmed_email_addresses_collection_link": "https://api.launchpad.net/1.0/~lazypower/confirmed_email_addresses",
+        "mailing_list_auto_subscribe_policy": "Ask me when I join a team", "team_owner_link":
+        null, "members_details_collection_link": "https://api.launchpad.net/1.0/~lazypower/members_details",
+        "hide_email_addresses": false, "admins_collection_link": "https://api.launchpad.net/1.0/~lazypower/admins",
+        "visibility": "Public", "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/recipes",
+        "latitude": null, "date_created": "2012-04-10T01:17:40.224793+00:00", "preferred_email_address_link":
+        "tag:launchpad.net:2008:redacted", "is_ubuntu_coc_signer": true, "display_name":
+        "Charles Butler", "expired_members_collection_link": "https://api.launchpad.net/1.0/~lazypower/expired_members",
+        "sshkeys_collection_link": "https://api.launchpad.net/1.0/~lazypower/sshkeys",
+        "name": "lazypower", "resource_type_link": "https://api.launchpad.net/1.0/#person",
+        "super_teams_collection_link": "https://api.launchpad.net/1.0/~lazypower/super_teams",
+        "participants_collection_link": "https://api.launchpad.net/1.0/~lazypower/participants",
+        "web_link": "https://launchpad.net/~lazypower", "longitude": null, "hardware_submissions_collection_link":
+        "https://api.launchpad.net/1.0/~lazypower/hardware_submissions", "logo_link":
+        "https://api.launchpad.net/1.0/~lazypower/logo", "is_team": false, "karma":
+        1888, "wiki_names_collection_link": "https://api.launchpad.net/1.0/~lazypower/wiki_names",
+        "homepage_content": null, "jabber_ids_collection_link": "https://api.launchpad.net/1.0/~lazypower/jabber_ids"}'
+    http_version: 
+  recorded_at: Sun, 18 May 2014 18:40:10 GMT
+recorded_with: VCR 2.9.0
