@@ -1,0 +1,180 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/~lazypower/?ws.op=getRequestedReviews
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 18 May 2014 20:44:51 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '12871'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept,Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Lazr-Notifications:
+      - "[]"
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from banana.canonical.com
+      X-Cache-Lookup:
+      - MISS from banana.canonical.com:3128
+      Via:
+      - 1.0 banana.canonical.com:3128 (squid/2.7.STABLE7)
+    body:
+      encoding: UTF-8
+      string: '{"total_size": 5, "start": 0, "entries": [{"queuer_link": null, "queue_status":
+        "Needs review", "private": false, "registrant_link": "https://api.launchpad.net/1.0/~jose",
+        "date_reviewed": null, "target_branch_link": "https://api.launchpad.net/1.0/~charmers/charms/precise/buildbot-slave/trunk",
+        "http_etag": "\"335c6c92c0b07f028dd681ddf41ed8cc9bcd79d8-496895ec4065a00096b88374cf0fd866544a497f\"",
+        "date_review_requested": "2014-03-26T01:05:12.263200+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~jose/charms/precise/buildbot-slave/1297562-fix/+merge/212752/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~jose/charms/precise/buildbot-slave/1297562-fix/+merge/212752",
+        "commit_message": "Added categories, icon and blank defaults where missing,
+        reformatted README file to Markdown", "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~jose/charms/precise/buildbot-slave/1297562-fix",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~jose/charms/precise/buildbot-slave/1297562-fix/+merge/212752/all_comments",
+        "date_merged": null, "description": "Charmworld reports the following errors:\n\n    err:
+        Charms need a maintainer (See RFC2822) - Name \u003cemail\u003e\n    warn:
+        Metadata is missing categories.\n    warn: No icon.svg file.\n    warn: config.yaml:
+        option script-args does not have the keys: default\n    warn: config.yaml:
+        option extra-packages does not have the keys: default\n    warn: config.yaml:
+        option script-path does not have the keys: default\n    warn: config.yaml:
+        option builders does not have the keys: default\n    warn: config.yaml: option
+        extra-repository does not have the keys: default\n    warn: config.yaml: option
+        script-url does not have the keys: default\n\nFixed all of them except ''needs
+        maintainer'' (see bug #1028192), and reformatted README to Markdown.", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~jose/charms/precise/buildbot-slave/1297562-fix/+merge/212752/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~jose/charms/precise/buildbot-slave/1297562-fix/+merge/212752/+preview-diff/496509",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~jose/charms/precise/buildbot-slave/1297562-fix/+merge/212752",
+        "date_created": "2014-03-26T01:05:12.263200+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~jose", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~charmers/charms/precise/buildbot-master/trunk",
+        "http_etag": "\"cdc62318d6c42de5b3fd84b4a8e3964574d25a54-e3a26140993066c580e2e1f8259dfb0215eebb92\"",
+        "date_review_requested": "2014-03-26T00:46:41.162063+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~jose/charms/precise/buildbot-master/1297558-fix/+merge/212751/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~jose/charms/precise/buildbot-master/1297558-fix/+merge/212751",
+        "commit_message": "Added categories to metadata.yaml, created icon, added
+        blank defaults to config.yaml and reformatted README to Markdown.", "resource_type_link":
+        "https://api.launchpad.net/1.0/#branch_merge_proposal", "source_branch_link":
+        "https://api.launchpad.net/1.0/~jose/charms/precise/buildbot-master/1297558-fix",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~jose/charms/precise/buildbot-master/1297558-fix/+merge/212751/all_comments",
+        "date_merged": null, "description": "Charmworld reports the following errors:\n\n    err:
+        Charms need a maintainer (See RFC2822) - Name \u003cemail\u003e\n    warn:
+        Metadata is missing categories.\n    warn: No icon.svg file.\n    warn: config.yaml:
+        option extra-packages does not have the keys: default\n    warn: config.yaml:
+        option config-user does not have the keys: default\n    warn: config.yaml:
+        option extra-repository does not have the keys: default\n    warn: config.yaml:
+        option config-file does not have the keys: default\n    warn: config.yaml:
+        option save-history-now does not have the keys: default\n    warn: config.yaml:
+        option config-url does not have the keys: default\n    warn: config.yaml:
+        option access-key does not have the keys: default\n    warn: config.yaml:
+        option config-private-key does not have the keys: default\n    warn: config.yaml:
+        option secret-key does not have the keys: default\n    warn: config.yaml:
+        option config-transport does not have the keys: default\n\nFixed everyting
+        except ''needs maintainer (see bug #1028191), and reformatted README to Markdown.",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~jose/charms/precise/buildbot-master/1297558-fix/+merge/212751/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~jose/charms/precise/buildbot-master/1297558-fix/+merge/212751/+preview-diff/496506",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~jose/charms/precise/buildbot-master/1297558-fix/+merge/212751",
+        "date_created": "2014-03-26T00:46:41.162063+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~xander-h", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~charmers/charms/precise/owncloud/trunk", "http_etag":
+        "\"774fb8f74df3fc89013d16a1afe6a76b97973ed7-5920db7bda7ca83e79548095a6212f991dcf2a42\"",
+        "date_review_requested": "2014-03-25T11:50:12.134630+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~xander-h/charms/precise/owncloud/ceph-support/+merge/212588/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~xander-h/charms/precise/owncloud/ceph-support/+merge/212588",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~xander-h/charms/precise/owncloud/ceph-support",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~xander-h/charms/precise/owncloud/ceph-support/+merge/212588/all_comments",
+        "date_merged": null, "description": "- Renamed ceph-relations to ceph-relations.py
+        (mainly for syntax coloring in vi)\n  - Made some nicer comments/log files\n  -
+        Added charmhelpers (needed, forgot them)\n  - Made sure the \u003cowncloud_root\u003e/data
+        folder is created when ownCloud is deployed\n  -- This needed in case we make
+        the relation with Ceph *before* the site has been opened\n     before\n  -
+        Bumped revision, might not be needed (??)\n  - Disabled the automatic opening
+        of the Apache port(s) when deploying the charm\n  \n  TO DO:\n  - Write some
+        additional tests in regard to Ceph\n  \n  SUGGESTION/NOT YET IMPLEMENTED:\n  -
+        Remove Ceph pool for ownCloud when the ownCloud/Ceph is removed", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~xander-h/charms/precise/owncloud/ceph-support/+merge/212588/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~xander-h/charms/precise/owncloud/ceph-support/+merge/212588/+preview-diff/496064",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~xander-h/charms/precise/owncloud/ceph-support/+merge/212588",
+        "date_created": "2014-03-25T11:50:12.134630+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~james-sapara", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~charmers/charms/precise/redis-master/trunk",
+        "http_etag": "\"649515542b536d2db954389d0ce2a63d45a3b500-ca31d818576ff8717659bbf6165f30253319e76f\"",
+        "date_review_requested": "2014-01-07T20:11:15.067213+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~james-sapara/charms/precise/redis-master/config-options/+merge/200732/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~james-sapara/charms/precise/redis-master/config-options/+merge/200732",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~james-sapara/charms/precise/redis-master/config-options",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~james-sapara/charms/precise/redis-master/config-options/+merge/200732/all_comments",
+        "date_merged": null, "description": "Ability to configure some options in
+        redis which are important for more persistant/reliable data setups.\n- port
+        is not configurable, some security/firewall setups work better with control
+        over the port.\n- requirepass can be set, enabling a small layer of security.
+        hardly perfect, but better than nothing.\n- appendonly can be set to yes or
+        no, to control how redis writes out its logs for replay.\n- appendfsync can
+        be set to eversec, no, always to control when it flushes writes\n\nBasically,
+        the default can result in minutes of lost data, which is not a big deal in
+        a cache or LRU setting. Some use cases require a bit more reliability and
+        persistence (token buckets, aggregate metrics, etc). These settings allow
+        you to configure redis to more frequently fsync data, and recover from loss
+        of power/segfault/etc.\n\nIf accepted, I can update redis-slave to match functionality.",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~james-sapara/charms/precise/redis-master/config-options/+merge/200732/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~james-sapara/charms/precise/redis-master/config-options/+merge/200732/+preview-diff/464903",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~james-sapara/charms/precise/redis-master/config-options/+merge/200732",
+        "date_created": "2014-01-07T20:11:15.067213+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~patrick-hetu", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~charmers/charms/precise/python-django/trunk",
+        "http_etag": "\"d51005a6bc801b464aa2588250bed7aaa49b6c6d-aea56c8d744ac5baa316497f7e97c9056dc9674d\"",
+        "date_review_requested": "2014-04-17T15:57:11.331263+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~patrick-hetu/charms/precise/python-django/charmhelpers/+merge/216351/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~patrick-hetu/charms/precise/python-django/charmhelpers/+merge/216351",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~patrick-hetu/charms/precise/python-django/charmhelpers",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~patrick-hetu/charms/precise/python-django/charmhelpers/+merge/216351/all_comments",
+        "date_merged": null, "description": "- The charm now use charm-helpers for
+        hooks\n- The chams now use ansible for installation\n- Mysql and Redis support
+        was added\n- The charm can install South and do migrations (code from Ubuntu''s
+        ci-services)\n- The charm include a Fabric and Ansible scripts to interact
+        with Juju", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~patrick-hetu/charms/precise/python-django/charmhelpers/+merge/216351/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~patrick-hetu/charms/precise/python-django/charmhelpers/+merge/216351/+preview-diff/512167",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~patrick-hetu/charms/precise/python-django/charmhelpers/+merge/216351",
+        "date_created": "2014-04-17T15:57:11.331263+00:00", "queue_position": null}]}'
+    http_version: 
+  recorded_at: Sun, 18 May 2014 20:44:55 GMT
+recorded_with: VCR 2.9.0

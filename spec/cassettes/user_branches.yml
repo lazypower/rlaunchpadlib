@@ -1,0 +1,822 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/~lazypower/?ws.op=getBranches
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 18 May 2014 20:44:42 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '80962'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept,Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Lazr-Notifications:
+      - "[]"
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from nutmeg.canonical.com
+      X-Cache-Lookup:
+      - MISS from nutmeg.canonical.com:3128
+      Via:
+      - 1.0 nutmeg.canonical.com:3128 (squid/2.7.STABLE7)
+    body:
+      encoding: UTF-8
+      string: '{"total_size": 31, "start": 0, "entries": [{"control_format": "Bazaar-NG
+        meta directory, format 1\n", "unique_name": "~lazypower/+junk/vagrant-ci-tester",
+        "date_last_modified": "2014-05-14T13:13:44.206679+00:00", "display_name":
+        "lp:~lazypower/+junk/vagrant-ci-tester", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~lazypower/+junk/vagrant-ci-tester/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-05-14T13:13:46.126939+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/+junk/vagrant-ci-tester/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/+junk/vagrant-ci-tester/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"ce4bc79d8be5be3f11c52f5498a2ccae02990b44-aeefa4f02fff8d99024ec28959ee8dc24fcb052e\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/+junk/vagrant-ci-tester/spec_links",
+        "name": "vagrant-ci-tester", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/+junk/vagrant-ci-tester",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/+junk/vagrant-ci-tester/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/+junk/vagrant-ci-tester/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/+junk/vagrant-ci-tester/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/+junk/vagrant-ci-tester/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/+junk/vagrant-ci-tester", "merge_queue_config":
+        null, "last_scanned": "2014-05-14T13:13:46.824693+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/+junk/vagrant-ci-tester",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-05-14T13:13:44.206679+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charm-helpers/foobar",
+        "date_last_modified": "2014-05-13T19:36:28.779288+00:00", "display_name":
+        "lp:~lazypower/charm-helpers/foobar", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~lazypower/charm-helpers/foobar/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-05-13T19:36:29.691016+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charm-helpers/foobar/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charm-helpers/foobar/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"1e6c7bc795a1015910fd0fa87fae5656dde3f3e9-1239de06de77728fe1cd5c5e1ea5ffbdfa48ecbd\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charm-helpers/foobar/spec_links",
+        "name": "foobar", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charm-helpers/foobar",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 148, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charm-helpers/foobar/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charm-helpers/foobar/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charm-helpers/foobar/recipes",
+        "project_link": "https://api.launchpad.net/1.0/charm-helpers", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~lazypower/charm-helpers/foobar/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charm-helpers/foobar", "merge_queue_config":
+        null, "last_scanned": "2014-05-13T19:36:38.477600+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charm-helpers/foobar",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-05-13T19:36:24.427204+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/owncloud/refactor_amulet_tests",
+        "date_last_modified": "2014-05-12T19:09:39.384000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/owncloud/refactor_amulet_tests", "merge_queue_link":
+        null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/refactor_amulet_tests/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-05-12T19:09:43.422080+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/refactor_amulet_tests/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/refactor_amulet_tests/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/owncloud",
+        "http_etag": "\"f64f4a43e3dbbbe774b7ef30fe561755e23a17b5-384c655f31fbf014cc063b005a2078ec841f930e\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/refactor_amulet_tests/spec_links",
+        "name": "refactor_amulet_tests", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/refactor_amulet_tests",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 32, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/refactor_amulet_tests/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/refactor_amulet_tests/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/refactor_amulet_tests/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/refactor_amulet_tests/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/owncloud/refactor_amulet_tests",
+        "merge_queue_config": null, "last_scanned": "2014-05-12T19:13:02.111703+00:00",
+        "url": null, "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/owncloud/refactor_amulet_tests",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-05-12T13:21:16.915832+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/presto/upstart_mod",
+        "date_last_modified": "2014-04-28T23:33:08.484182+00:00", "display_name":
+        "lp:~lazypower/charms/precise/presto/upstart_mod", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/presto/upstart_mod/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-04-28T23:33:09.002708+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/presto/upstart_mod/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/presto/upstart_mod/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/presto",
+        "http_etag": "\"4eb4e40a3d2f38d48d664d68c07583b472da0584-acaca10c5f44d28da500fb84b438746015a743b3\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/presto/upstart_mod/spec_links",
+        "name": "upstart_mod", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/presto/upstart_mod",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 6, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/presto/upstart_mod/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/presto/upstart_mod/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/presto/upstart_mod/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/presto/upstart_mod/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/presto/upstart_mod", "merge_queue_config":
+        null, "last_scanned": "2014-04-28T23:33:09.721301+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/presto/upstart_mod",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-04-28T23:33:05.884860+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/nagios/ssl-everywhere",
+        "date_last_modified": "2014-04-11T14:53:22.855450+00:00", "display_name":
+        "lp:~lazypower/charms/precise/nagios/ssl-everywhere", "merge_queue_link":
+        null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/ssl-everywhere/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-03-20T13:59:11.333810+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/ssl-everywhere/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/ssl-everywhere/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/nagios",
+        "http_etag": "\"b9a7fd7ae98881f547b81ac561065e9be19ed5c4-6ed2e3d33dc91af9f927197371bd7b14286a38df\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/ssl-everywhere/spec_links",
+        "name": "ssl-everywhere", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/ssl-everywhere",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 24, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/ssl-everywhere/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/ssl-everywhere/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/ssl-everywhere/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/ssl-everywhere/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/nagios/ssl-everywhere", "merge_queue_config":
+        null, "last_scanned": "2014-03-20T13:59:22.635635+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/nagios/ssl-everywhere",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-03-03T12:04:30.856468+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/bundles/ubuntu/bundle",
+        "date_last_modified": "2014-04-10T17:36:19.603555+00:00", "display_name":
+        "lp:~lazypower/charms/bundles/ubuntu/bundle", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~lazypower/charms/bundles/ubuntu/bundle/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-04-10T17:36:27.843961+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/bundles/ubuntu/bundle/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/bundles/ubuntu/bundle/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/bundles/+source/ubuntu",
+        "http_etag": "\"a4c2789113b06c942bd83434c17b706383213fe2-ca9a45a01494a0c79bc36cf22794db116e732aa8\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/bundles/ubuntu/bundle/spec_links",
+        "name": "bundle", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/bundles/ubuntu/bundle",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/bundles/ubuntu/bundle/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/bundles/ubuntu/bundle/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/bundles/ubuntu/bundle/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/bundles/ubuntu/bundle/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/bundles/ubuntu/bundle", "merge_queue_config":
+        null, "last_scanned": "2014-04-10T17:36:28.601851+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/bundles/ubuntu/bundle",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-04-10T17:36:12.915010+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/gitlab-ci/trunk",
+        "date_last_modified": "2014-03-23T23:26:08.783124+00:00", "display_name":
+        "lp:~lazypower/charms/precise/gitlab-ci/trunk", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/gitlab-ci/trunk/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-03-23T23:21:24.596369+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/gitlab-ci/trunk/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/gitlab-ci/trunk/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/gitlab-ci",
+        "http_etag": "\"bd3f7231e341b2f7d8af99d864f502ad6292267f-e6e58983198cabc1a891babd666643b96930e801\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/gitlab-ci/trunk/spec_links",
+        "name": "trunk", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/gitlab-ci/trunk",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/gitlab-ci/trunk/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/gitlab-ci/trunk/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/gitlab-ci/trunk/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/gitlab-ci/trunk/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/gitlab-ci/trunk", "merge_queue_config":
+        null, "last_scanned": "2014-03-23T23:21:25.718504+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/gitlab-ci/trunk",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-03-23T23:20:51.590112+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/nagios/amulet-tests",
+        "date_last_modified": "2014-03-19T22:03:03.806000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/nagios/amulet-tests", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/amulet-tests/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-03-20T13:52:34.683172+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/amulet-tests/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/amulet-tests/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/nagios",
+        "http_etag": "\"a10a45497e957b1de8c16756fa9ace38fcde5f70-fea101f78efc0b02d1fff3368b5f530571252636\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/amulet-tests/spec_links",
+        "name": "amulet-tests", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/amulet-tests",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 12, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/amulet-tests/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/amulet-tests/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/amulet-tests/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nagios/amulet-tests/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/nagios/amulet-tests", "merge_queue_config":
+        null, "last_scanned": "2014-03-19T22:03:24.448101+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/nagios/amulet-tests",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-03-19T21:16:51.967873+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/nrpe/fix-lp-1287393",
+        "date_last_modified": "2014-03-19T12:23:23.010000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/nrpe/fix-lp-1287393", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nrpe/fix-lp-1287393/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-03-19T13:03:26.053858+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nrpe/fix-lp-1287393/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nrpe/fix-lp-1287393/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/nrpe",
+        "http_etag": "\"207ba9ebb4a77d6e7ba46227b84af788cdb72413-e3ab43e4c460039a4e49d3afad74662c9c42dee7\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nrpe/fix-lp-1287393/spec_links",
+        "name": "fix-lp-1287393", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nrpe/fix-lp-1287393",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 30, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nrpe/fix-lp-1287393/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nrpe/fix-lp-1287393/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nrpe/fix-lp-1287393/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nrpe/fix-lp-1287393/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/nrpe/fix-lp-1287393", "merge_queue_config":
+        null, "last_scanned": "2014-03-19T12:23:24.304533+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/nrpe/fix-lp-1287393",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-03-03T22:04:17.713725+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/jenkins/amulet-tests",
+        "date_last_modified": "2014-03-05T21:18:34.983000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/jenkins/amulet-tests", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/amulet-tests/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-03-05T21:23:41.554486+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/amulet-tests/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/amulet-tests/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/jenkins",
+        "http_etag": "\"b86f1727cc26b72d43db7caff6f7a531e1a01278-e4380796fe5ba62afc933e8ad4fa49a1b3f77f23\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/amulet-tests/spec_links",
+        "name": "amulet-tests", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/amulet-tests",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 31, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/amulet-tests/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/amulet-tests/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/amulet-tests/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/amulet-tests/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/jenkins/amulet-tests", "merge_queue_config":
+        null, "last_scanned": "2014-03-05T21:23:42.584012+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/jenkins/amulet-tests",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-03-05T19:18:21.474637+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/mongodb/ci-fix",
+        "date_last_modified": "2014-02-25T21:37:07.309000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/mongodb/ci-fix", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/ci-fix/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-02-25T21:51:07.937123+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/ci-fix/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/ci-fix/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/mongodb",
+        "http_etag": "\"433c5286b04ff2f9633382ae7cb3c67d3d230d07-dbf8d8635f603e8f6735a03561e0b5bc91ef720b\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/ci-fix/spec_links",
+        "name": "ci-fix", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/ci-fix",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 45, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/ci-fix/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/ci-fix/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/ci-fix/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/ci-fix/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/mongodb/ci-fix", "merge_queue_config":
+        null, "last_scanned": "2014-02-25T21:37:22.931246+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/mongodb/ci-fix",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-02-19T20:54:58.831112+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/phpmyadmin/audit-fixes",
+        "date_last_modified": "2014-02-25T15:13:50.983000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/phpmyadmin/audit-fixes", "merge_queue_link":
+        null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/phpmyadmin/audit-fixes/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-02-25T15:14:00.505916+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/phpmyadmin/audit-fixes/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/phpmyadmin/audit-fixes/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/phpmyadmin",
+        "http_etag": "\"257982007f4a452253264c39386b64178aa2be7c-33ce46a25945dcfb426b0293c401e432e6b30b61\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/phpmyadmin/audit-fixes/spec_links",
+        "name": "audit-fixes", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/phpmyadmin/audit-fixes",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 46, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/phpmyadmin/audit-fixes/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/phpmyadmin/audit-fixes/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/phpmyadmin/audit-fixes/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/phpmyadmin/audit-fixes/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/phpmyadmin/audit-fixes", "merge_queue_config":
+        null, "last_scanned": "2014-02-25T15:14:01.521486+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/phpmyadmin/audit-fixes",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-02-24T13:16:17.382417+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/mediawiki/ci-fix",
+        "date_last_modified": "2014-02-22T00:42:44.652000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/mediawiki/ci-fix", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/ci-fix/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-02-22T00:42:51.834318+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/ci-fix/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/ci-fix/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/mediawiki",
+        "http_etag": "\"02a817525dfb96c558c1d3d7519405bbcaed60fb-813fbf0e296e3e5f83074924fa14a5ce87e9c504\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/ci-fix/spec_links",
+        "name": "ci-fix", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/ci-fix",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 78, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/ci-fix/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/ci-fix/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/ci-fix/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/ci-fix/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/mediawiki/ci-fix", "merge_queue_config":
+        null, "last_scanned": "2014-02-22T00:42:52.825900+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/mediawiki/ci-fix",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-02-21T23:30:39.040700+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/mediawiki/tests",
+        "date_last_modified": "2014-02-14T21:21:50.031000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/mediawiki/tests", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/tests/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-02-14T21:21:54.957920+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/tests/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/tests/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/mediawiki",
+        "http_etag": "\"6d44dc6e656a6efac7d881b46e10334fac68b7c7-62c952402b43ff26c560d24e984a8197f56a80d1\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/tests/spec_links",
+        "name": "tests", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/tests",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 81, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/tests/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/tests/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/tests/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mediawiki/tests/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/mediawiki/tests", "merge_queue_config":
+        null, "last_scanned": "2014-02-14T21:21:55.970890+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/mediawiki/tests",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-01-17T14:54:42.581565+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/opscenter/trunk",
+        "date_last_modified": "2014-02-14T15:51:37.574000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/opscenter/trunk", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/opscenter/trunk/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-02-14T15:52:58.716663+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/opscenter/trunk/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/opscenter/trunk/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/opscenter",
+        "http_etag": "\"9f985d58ee68e31bb7b938ee98e4d1a2c580771f-3e26c0bd26331a461c92edf7d2d9ff0da5b371ae\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/opscenter/trunk/spec_links",
+        "name": "trunk", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/opscenter/trunk",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/opscenter/trunk/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/opscenter/trunk/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/opscenter/trunk/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/opscenter/trunk/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/opscenter/trunk", "merge_queue_config":
+        null, "last_scanned": "2014-02-14T15:51:44.923309+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/opscenter/trunk",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-02-12T17:49:06.738239+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/owncloud/tests",
+        "date_last_modified": "2014-02-10T22:35:36.249000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/owncloud/tests", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/tests/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-02-10T22:35:44.587113+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/tests/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/tests/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/owncloud",
+        "http_etag": "\"6465c4efe84e5853beec6c8de713d5affcc040a9-88d1cea91b404fb7cc03c82cd4b2e7afd8723810\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/tests/spec_links",
+        "name": "tests", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/tests",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 32, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/tests/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/tests/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/tests/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/tests/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/owncloud/tests", "merge_queue_config":
+        null, "last_scanned": "2014-02-10T22:35:45.958718+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/owncloud/tests",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-01-28T15:31:23.590329+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/owncloud/lp1277577",
+        "date_last_modified": "2014-02-10T18:53:26.161142+00:00", "display_name":
+        "lp:~lazypower/charms/precise/owncloud/lp1277577", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1277577/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-02-07T18:30:59.106328+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1277577/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1277577/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/owncloud",
+        "http_etag": "\"a39d36b9e6dbb03a7c19c85a88a608358cb6cfe1-734bb96f656e42aabc37ea10e54e05291e6606fb\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1277577/spec_links",
+        "name": "lp1277577", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1277577",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 22, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1277577/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1277577/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1277577/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1277577/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/owncloud/lp1277577", "merge_queue_config":
+        null, "last_scanned": "2014-02-07T18:31:01.696931+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/owncloud/lp1277577",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-02-07T18:30:53.497565+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/jenkins/trunk",
+        "date_last_modified": "2014-02-07T14:29:53.833000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/jenkins/trunk", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/trunk/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-02-07T16:03:50.234816+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/trunk/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/trunk/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/jenkins",
+        "http_etag": "\"2e7c4f266d934f6b5a6fc37087e2a9d7837b3317-c30804705848ec65661325642773b9d0b9bdd83c\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/trunk/spec_links",
+        "name": "trunk", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/trunk",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 29, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/trunk/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/trunk/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/trunk/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/jenkins/trunk/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/jenkins/trunk", "merge_queue_config":
+        null, "last_scanned": "2014-02-07T15:10:03.605538+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/jenkins/trunk",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-01-23T20:53:22.102289+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/nfs/amulet_tests",
+        "date_last_modified": "2014-02-06T22:09:13.828000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/nfs/amulet_tests", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nfs/amulet_tests/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-02-06T22:11:12.079775+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nfs/amulet_tests/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nfs/amulet_tests/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/nfs",
+        "http_etag": "\"dc43a15a12e18f0198ab2cf2d8cc084dc5ffa815-a9c6c119f2388388f606f534cd6a69dddbc85ff5\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nfs/amulet_tests/spec_links",
+        "name": "amulet_tests", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nfs/amulet_tests",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 18, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nfs/amulet_tests/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nfs/amulet_tests/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nfs/amulet_tests/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/nfs/amulet_tests/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/nfs/amulet_tests", "merge_queue_config":
+        null, "last_scanned": "2014-02-06T22:09:24.662030+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/nfs/amulet_tests",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-02-05T19:24:21.261412+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/owncloud/lp1276315",
+        "date_last_modified": "2014-02-04T20:32:12.279644+00:00", "display_name":
+        "lp:~lazypower/charms/precise/owncloud/lp1276315", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1276315/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-02-04T20:31:36.246622+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1276315/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1276315/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/owncloud",
+        "http_etag": "\"ec69111b1a6d1428fc9a6efc6ce9a369a41cc4c3-4660ac12da4b0cbd308726a9a2a7b86ab32b0789\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1276315/spec_links",
+        "name": "lp1276315", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1276315",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 20, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1276315/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1276315/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1276315/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/lp1276315/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/owncloud/lp1276315", "merge_queue_config":
+        null, "last_scanned": "2014-02-04T20:31:37.480393+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/owncloud/lp1276315",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-02-04T20:31:29.908065+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/ganglia/tests",
+        "date_last_modified": "2014-02-04T19:10:21.267508+00:00", "display_name":
+        "lp:~lazypower/charms/precise/ganglia/tests", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~lazypower/charms/precise/ganglia/tests/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-02-04T19:10:22.476795+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/ganglia/tests/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/ganglia/tests/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/ganglia",
+        "http_etag": "\"de45ff72cf820c280cc288ddbec23102b444b4b6-ada45fccec8287919cb4ea729bfc44cd5c4b6f52\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/ganglia/tests/spec_links",
+        "name": "tests", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/ganglia/tests",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 30, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/ganglia/tests/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/ganglia/tests/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/ganglia/tests/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/ganglia/tests/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/ganglia/tests", "merge_queue_config":
+        null, "last_scanned": "2014-02-04T19:10:24.801865+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/ganglia/tests",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-02-04T19:10:16.810310+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/mongodb/tests",
+        "date_last_modified": "2014-02-03T22:18:52.342000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/mongodb/tests", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/tests/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-02-03T22:19:02.438922+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/tests/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/tests/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/mongodb",
+        "http_etag": "\"b9ca1d702bf0a3374925f41a1ebc795072dd2953-2d1417ea50d827aaae15fe492c048b9b143cef60\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/tests/spec_links",
+        "name": "tests", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/tests",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 44, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/tests/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/tests/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/tests/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/tests/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/mongodb/tests", "merge_queue_config":
+        null, "last_scanned": "2014-02-03T22:19:03.301352+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/mongodb/tests",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-01-28T14:35:49.247291+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/elasticsearch/fix_ports",
+        "date_last_modified": "2014-01-31T16:39:26.967000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/elasticsearch/fix_ports", "merge_queue_link":
+        null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/fix_ports/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-01-31T16:39:37.857345+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/fix_ports/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/fix_ports/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/elasticsearch",
+        "http_etag": "\"f04fd71852fc365e843fd0bad0b45443f051c8fe-aad108e97a0439532a5db5a5a46aa8f6ad2ac508\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/fix_ports/spec_links",
+        "name": "fix_ports", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/fix_ports",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 31, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/fix_ports/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/fix_ports/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/fix_ports/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/fix_ports/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/elasticsearch/fix_ports", "merge_queue_config":
+        null, "last_scanned": "2014-01-31T16:39:38.770042+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/elasticsearch/fix_ports",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-01-23T21:13:19.118496+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/owncloud/icon",
+        "date_last_modified": "2014-01-28T15:41:38.984000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/owncloud/icon", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/icon/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-01-28T15:41:56.350844+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/icon/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/icon/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/owncloud",
+        "http_etag": "\"f2224eb5f201a402810a9d392a90eb813313a749-4380ea323aa5569d59edc85f3dba4f364d943df6\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/icon/spec_links",
+        "name": "icon", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/icon",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 24, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/icon/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/icon/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/icon/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/owncloud/icon/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/owncloud/icon", "merge_queue_config":
+        null, "last_scanned": "2014-01-28T15:41:57.328579+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/owncloud/icon",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-01-28T15:31:55.790771+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/elasticsearch/tests",
+        "date_last_modified": "2014-01-23T21:15:32.328157+00:00", "display_name":
+        "lp:~lazypower/charms/precise/elasticsearch/tests", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/tests/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-01-23T21:15:38.835382+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/tests/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/tests/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/elasticsearch",
+        "http_etag": "\"4576bba74610c79cdfd0d12549ddd2eeaf4f6ab0-d261c20c0951349a5ee661bfba20c91648901846\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/tests/spec_links",
+        "name": "tests", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/tests",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 30, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/tests/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/tests/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/tests/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/elasticsearch/tests/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/elasticsearch/tests", "merge_queue_config":
+        null, "last_scanned": "2014-01-23T21:15:39.467392+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/elasticsearch/tests",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-01-23T21:15:32.328157+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/postfix/fix_config_yaml",
+        "date_last_modified": "2014-01-20T06:47:30.172415+00:00", "display_name":
+        "lp:~lazypower/charms/precise/postfix/fix_config_yaml", "merge_queue_link":
+        null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/postfix/fix_config_yaml/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-01-20T06:47:30.572271+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/postfix/fix_config_yaml/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/postfix/fix_config_yaml/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/postfix",
+        "http_etag": "\"cae57c78849cf85c6ef362d99db2c277f21e8301-3a55a68ea2b4438a23b6253db728b34ab9c8f24a\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/postfix/fix_config_yaml/spec_links",
+        "name": "fix_config_yaml", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/postfix/fix_config_yaml",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 13, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/postfix/fix_config_yaml/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/postfix/fix_config_yaml/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/postfix/fix_config_yaml/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/postfix/fix_config_yaml/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/postfix/fix_config_yaml", "merge_queue_config":
+        null, "last_scanned": "2014-01-20T06:47:31.742208+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/postfix/fix_config_yaml",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2014-01-20T06:47:26.242740+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/papertrail/trunk",
+        "date_last_modified": "2014-01-12T13:49:39.868000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/papertrail/trunk", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/papertrail/trunk/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-01-12T13:50:36.428245+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/papertrail/trunk/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/papertrail/trunk/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/papertrail",
+        "http_etag": "\"581f83c25bc36b955150d4eec3b0778694f13b67-7e5911d05df67991510e2ccfd5713148b035f34a\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/papertrail/trunk/spec_links",
+        "name": "trunk", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/papertrail/trunk",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 7, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/papertrail/trunk/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/papertrail/trunk/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/papertrail/trunk/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/papertrail/trunk/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/papertrail/trunk", "merge_queue_config":
+        null, "last_scanned": "2014-01-12T13:50:37.434818+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/papertrail/trunk",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2013-12-02T00:43:51.209078+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/errbit/trunk",
+        "date_last_modified": "2014-01-12T10:57:11.941000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/errbit/trunk", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~lazypower/charms/precise/errbit/trunk/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2014-01-12T10:59:10.152678+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/errbit/trunk/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/errbit/trunk/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/errbit",
+        "http_etag": "\"8f4ac6342f4361e79447ddaf6dd3328f40c2b37c-19d56fcb465757bd84684b67653b0656b1c20db9\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/errbit/trunk/spec_links",
+        "name": "trunk", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/errbit/trunk",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/errbit/trunk/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/errbit/trunk/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/errbit/trunk/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/errbit/trunk/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/errbit/trunk", "merge_queue_config":
+        null, "last_scanned": "2014-01-12T10:59:11.060785+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/errbit/trunk",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2013-12-26T02:18:56.527791+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/genghisapp/trunk",
+        "date_last_modified": "2013-12-02T08:54:31.350000+00:00", "display_name":
+        "lp:~lazypower/charms/precise/genghisapp/trunk", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/genghisapp/trunk/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2013-12-02T08:55:30.715502+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/genghisapp/trunk/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/genghisapp/trunk/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/genghisapp",
+        "http_etag": "\"ee6aa71f82c208a4c95787a97b07ef6af6779ef4-e7beb67d194d47bccae4e56966539b83fea5cd11\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/genghisapp/trunk/spec_links",
+        "name": "trunk", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/genghisapp/trunk",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 10, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/genghisapp/trunk/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/genghisapp/trunk/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/genghisapp/trunk/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/genghisapp/trunk/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/genghisapp/trunk", "merge_queue_config":
+        null, "last_scanned": "2013-12-02T08:55:31.377038+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/genghisapp/trunk",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2013-09-29T00:46:10.308775+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/mongodb/trunk",
+        "date_last_modified": "2013-12-02T05:42:02.981317+00:00", "display_name":
+        "lp:~lazypower/charms/precise/mongodb/trunk", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/trunk/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2013-12-02T05:42:03.861372+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/trunk/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/trunk/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/mongodb",
+        "http_etag": "\"aaae9d04b34ac8339c9b59b069fe64ee9e4f6a77-6de94659efb56e9caa3dadf2d02f96d6c59c7d94\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/trunk/spec_links",
+        "name": "trunk", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/trunk",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 36, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/trunk/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/trunk/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/trunk/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/mongodb/trunk/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/mongodb/trunk", "merge_queue_config":
+        null, "last_scanned": "2013-12-02T05:42:05.947465+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/mongodb/trunk",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2013-12-02T05:41:59.021479+00:00"}, {"control_format":
+        "Bazaar-NG meta directory, format 1\n", "unique_name": "~lazypower/charms/precise/minecraft/trunk",
+        "date_last_modified": "2013-12-02T01:31:42.773490+00:00", "display_name":
+        "lp:~lazypower/charms/precise/minecraft/trunk", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lazypower",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/minecraft/trunk/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2013-12-02T01:31:43.883809+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/minecraft/trunk/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/minecraft/trunk/dependent_branches",
+        "sourcepackage_link": "https://api.launchpad.net/1.0/charms/precise/+source/minecraft",
+        "http_etag": "\"30cb25bbb9974ea3d4f075c13b9c922ad50b0d89-29bd74ecac3807838027f4708b8f41b7787bd3d2\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/minecraft/trunk/spec_links",
+        "name": "trunk", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/minecraft/trunk",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 28, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/minecraft/trunk/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/minecraft/trunk/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/minecraft/trunk/recipes",
+        "project_link": null, "landing_candidates_collection_link": "https://api.launchpad.net/1.0/~lazypower/charms/precise/minecraft/trunk/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lazypower/charms/precise/minecraft/trunk", "merge_queue_config":
+        null, "last_scanned": "2013-12-02T01:31:45.409037+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lazypower/charms/precise/minecraft/trunk",
+        "owner_link": "https://api.launchpad.net/1.0/~lazypower", "last_mirror_attempt":
+        null, "date_created": "2013-12-02T01:31:39.721037+00:00"}]}'
+    http_version: 
+  recorded_at: Sun, 18 May 2014 20:44:47 GMT
+recorded_with: VCR 2.9.0
