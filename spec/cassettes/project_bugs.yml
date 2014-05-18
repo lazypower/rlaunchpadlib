@@ -1,0 +1,1027 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/bzr/?ws.op=searchTasks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 18 May 2014 18:14:22 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '91034'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept,Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Lazr-Notifications:
+      - "[]"
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from nutmeg.canonical.com
+      X-Cache-Lookup:
+      - MISS from nutmeg.canonical.com:3128
+      Via:
+      - 1.0 nutmeg.canonical.com:3128 (squid/2.7.STABLE7)
+    body:
+      encoding: UTF-8
+      string: '{"total_size": 2099, "start": 0, "next_collection_link": "https://api.launchpad.net/1.0/bzr?ws.op=searchTasks\u0026ws.size=75\u0026memo=75\u0026ws.start=75",
+        "entries": [{"date_closed": null, "date_assigned": null, "title": "Bug #77744
+        in Bazaar: \"win32 bzr is confused by filename case changes\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/77744", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"0ca0f526f16d270ef24a810d5c492f5f2c49e0c8-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/77744",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/77744/related_tasks",
+        "date_confirmed": "2007-01-02T23:48:24.438728+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/77744", "owner_link": "https://api.launchpad.net/1.0/~pelzlpj",
+        "date_created": "2007-01-02T23:00:55.379586+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": "2012-02-20T12:07:01.963110+00:00",
+        "title": "Bug #81689 in Bazaar: \"Branches with symlinks can''t be checked
+        out on Windows\"", "bug_link": "https://api.launchpad.net/1.0/bugs/81689",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"aec38487df516e7216a7c89e3a08fa2a3f493a9e-9ce01e7f16bc8603eb8d24940ce66557e4030f71\"",
+        "date_left_closed": "2009-05-12T15:07:05.860322+00:00", "date_fix_committed":
+        null, "date_fix_released": null, "date_in_progress": "2012-02-25T13:50:06.293632+00:00",
+        "resource_type_link": "https://api.launchpad.net/1.0/#bug_task", "status":
+        "In Progress", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        "https://api.launchpad.net/1.0/~parthm", "date_triaged": "2012-02-25T13:50:06.293632+00:00",
+        "self_link": "https://api.launchpad.net/1.0/bzr/+bug/81689", "target_link":
+        "https://api.launchpad.net/1.0/bzr", "bug_target_display_name": "Bazaar",
+        "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/81689/related_tasks",
+        "date_confirmed": "2009-05-28T21:37:02.720675+00:00", "date_left_new": "2009-05-28T21:37:02.720675+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/81689", "owner_link": "https://api.launchpad.net/1.0/~nick-allen",
+        "date_created": "2007-01-26T15:49:29.051171+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #82555 in Bazaar: \"Merging to an empty branch doesn''t work\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/82555", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"d40fbbb32ad901b5d0f311ae1eeb324842fa9fdd-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/82555",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/82555/related_tasks",
+        "date_confirmed": "2008-03-09T01:16:53.210864+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/82555", "owner_link": "https://api.launchpad.net/1.0/~misc-hl",
+        "date_created": "2007-01-31T22:16:22.826591+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #98836 in Bazaar: \"[MASTER] \"OS locks must die\" - dirstate file write
+        locks exclude readers and limit portability\"", "bug_link": "https://api.launchpad.net/1.0/bugs/98836",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"ada7bbe74b35645146bb2949aed3cbc1b3f99f33-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/98836",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/98836/related_tasks",
+        "date_confirmed": "2007-03-30T02:36:00.683327+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/98836", "owner_link": "https://api.launchpad.net/1.0/~mbp",
+        "date_created": "2007-03-30T02:11:09.804081+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #109114 in Bazaar: \"[master] bzr holds whole files in memory; raises
+        MemoryError on large files\"", "bug_link": "https://api.launchpad.net/1.0/bugs/109114",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"1ce7af035e745146762f27f54a7aef609b538659-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/109114",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/109114/related_tasks",
+        "date_confirmed": "2007-04-23T01:35:32.077879+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/109114", "owner_link": "https://api.launchpad.net/1.0/~mbp",
+        "date_created": "2007-04-23T01:35:21.310608+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #120542 in Bazaar: \"bzr add allows versioning of same files twice due
+        to case-insensitive HFS+ filesystem on mac\"", "bug_link": "https://api.launchpad.net/1.0/bugs/120542",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"7c04774fae47fd8580dd683b5a7ecbc772883da1-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/120542",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/120542/related_tasks",
+        "date_confirmed": "2008-09-04T22:45:01.902554+00:00", "date_left_new": "2008-09-04T22:45:01.902554+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/120542", "owner_link": "https://api.launchpad.net/1.0/~muffinresearch",
+        "date_created": "2007-06-15T09:35:57.763688+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #144300 in Bazaar: \"bzr log -r branch|ancestor attempt to fetch data
+        in a read only transaction\"", "bug_link": "https://api.launchpad.net/1.0/bugs/144300",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"7e4376b27b80a1283a47700c906da904f27e79c4-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/144300",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/144300/related_tasks",
+        "date_confirmed": "2007-09-23T21:15:12.589692+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/144300", "owner_link": "https://api.launchpad.net/1.0/~mathrick",
+        "date_created": "2007-09-23T20:53:29.605981+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #145813 in Bazaar: \"upgrade permits unusable options and then errors\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/145813", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"394ea4588a5a24da5cacfba1554465d9092b4db6-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/145813",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/145813/related_tasks",
+        "date_confirmed": "2008-11-26T06:45:43.814493+00:00", "date_left_new": "2008-11-26T06:45:43.814493+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/145813", "owner_link": "https://api.launchpad.net/1.0/~james-w",
+        "date_created": "2007-09-27T21:09:05.686946+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": "2011-02-21T04:21:09.022816+00:00",
+        "title": "Bug #153787 in Bazaar: \"annotation is slow in 2a and pack repositories\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/153787", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"033ddf99c333e1f0b2f6f406a37c91dffd866220-23f32239af3ee80c47d35dad89cd9efbc8233610\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        "https://api.launchpad.net/1.0/~canonical-bazaar", "date_triaged": null, "self_link":
+        "https://api.launchpad.net/1.0/bzr/+bug/153787", "target_link": "https://api.launchpad.net/1.0/bzr",
+        "bug_target_display_name": "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/153787/related_tasks",
+        "date_confirmed": "2007-10-29T22:55:02.875004+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/153787", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2007-10-18T02:27:07.842448+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #156091 in Bazaar: \"create_pack_from_packs should check that knit compression
+        parents are present\"", "bug_link": "https://api.launchpad.net/1.0/bugs/156091",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"7f5aa4bd387c9e00f39a2cb7310bc6e68f8b7286-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/156091",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/156091/related_tasks",
+        "date_confirmed": "2007-10-23T05:39:50.320402+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/156091", "owner_link": "https://api.launchpad.net/1.0/~mbp",
+        "date_created": "2007-10-23T05:09:07.100076+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #159103 in Bazaar: \"push from lightweight checkout to location with
+        bzrdir creates BranchReference\"", "bug_link": "https://api.launchpad.net/1.0/bugs/159103",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"3c7e4c2b4e89eeda1fc98390d6170f9e0aaa7f77-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/159103",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/159103/related_tasks",
+        "date_confirmed": "2011-01-15T18:59:58.669409+00:00", "date_left_new": "2008-11-26T07:13:01.826400+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/159103", "owner_link": "https://api.launchpad.net/1.0/~jamesh",
+        "date_created": "2007-10-31T19:33:36.267091+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #164423 in Bazaar: \"test_fetch should be per-inter-repo\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/164423", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"8c0e002db096f7c7de876d9ddc37f443e5ad50cf-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/164423",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/164423/related_tasks",
+        "date_confirmed": "2007-11-21T22:30:15.679385+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/164423", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2007-11-21T22:30:14.481342+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #165293 in Bazaar: \"collisions through uploading same-named .pack files
+        not handled correctly\"", "bug_link": "https://api.launchpad.net/1.0/bugs/165293",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"17754d855937216a1e0cc71a753442dcc601a127-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/165293",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/165293/related_tasks",
+        "date_confirmed": "2007-11-26T23:33:09.262938+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/165293", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2007-11-26T23:33:08.780402+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #173002 in Bazaar: \"Branching from hpss doesn''t preserve non-repository
+        formats\"", "bug_link": "https://api.launchpad.net/1.0/bugs/173002", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"4d20ae79d36a402964ed0d5b2842084cc218730c-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/173002",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/173002/related_tasks",
+        "date_confirmed": "2008-03-07T18:29:14.161419+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/173002", "owner_link": "https://api.launchpad.net/1.0/~spiv",
+        "date_created": "2007-11-30T08:22:40.026330+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #183156 in Bazaar: \"bzr branch uses too much RAM when not using a shared
+        repository\"", "bug_link": "https://api.launchpad.net/1.0/bugs/183156", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"5539d63eccba787d42af066aeae3e7fd561d5d99-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/183156",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/183156/related_tasks",
+        "date_confirmed": "2008-01-15T22:34:14.068729+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/183156", "owner_link": "https://api.launchpad.net/1.0/~danilo",
+        "date_created": "2008-01-15T12:18:32.620729+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #189390 in Bazaar: \"Warn users when doing checkouts with read-only transports\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/189390", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"d1de277d407aab1fcd541fa76c3b1f99395a1d89-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/189390",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/189390/related_tasks",
+        "date_confirmed": "2008-03-06T12:07:46.633001+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/189390", "owner_link": "https://api.launchpad.net/1.0/~beuno",
+        "date_created": "2008-02-05T21:23:47.630212+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #195970 in Bazaar: \"bzr upgrade --rich-root-pack fails badly when upgrading
+        subtree\trepositories\"", "bug_link": "https://api.launchpad.net/1.0/bugs/195970",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"b4e2c4790ce883335feeb3efeb3c3f387f848e72-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/195970",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/195970/related_tasks",
+        "date_confirmed": "2008-07-29T11:14:38.340541+00:00", "date_left_new": "2008-07-29T11:14:38.340541+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/195970", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2008-02-27T00:54:08.417854+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #217134 in Bazaar: \"Break-lock: Bzr doesn''t accept my keystrokes to
+        allow it to continue\"", "bug_link": "https://api.launchpad.net/1.0/bugs/217134",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"5ef6cdc1d5b03a8334dded178f3db576f2fe58ec-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": "2011-03-19T12:37:47.704668+00:00", "date_fix_committed":
+        null, "date_fix_released": null, "date_in_progress": null, "resource_type_link":
+        "https://api.launchpad.net/1.0/#bug_task", "status": "Confirmed", "bug_target_name":
+        "bzr", "importance": "High", "assignee_link": null, "date_triaged": null,
+        "self_link": "https://api.launchpad.net/1.0/bzr/+bug/217134", "target_link":
+        "https://api.launchpad.net/1.0/bzr", "bug_target_display_name": "Bazaar",
+        "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/217134/related_tasks",
+        "date_confirmed": "2011-03-19T12:37:47.704668+00:00", "date_left_new": "2008-09-05T10:17:26.778286+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/217134", "owner_link": "https://api.launchpad.net/1.0/~craighewetson",
+        "date_created": "2008-04-14T07:19:16.070463+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #232113 in Bazaar: \"strange failure with LCA merge\"", "bug_link": "https://api.launchpad.net/1.0/bugs/232113",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"c7b44d3587937541394f30b337c32255bf856123-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/232113",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/232113/related_tasks",
+        "date_confirmed": "2009-01-27T17:24:12.250485+00:00", "date_left_new": "2008-09-04T18:24:34.267511+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/232113", "owner_link": "https://api.launchpad.net/1.0/~statik",
+        "date_created": "2008-05-20T03:25:47.373407+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #238776 in Bazaar: \"Confusing error message if ssh login fails while
+        using lp url\"", "bug_link": "https://api.launchpad.net/1.0/bugs/238776",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"244a81c383843505c459c71f23dfd4d5e745fdb7-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/238776",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/238776/related_tasks",
+        "date_confirmed": "2008-06-16T11:51:30.150833+00:00", "date_left_new": "2008-06-16T11:51:30.150833+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/238776", "owner_link": "https://api.launchpad.net/1.0/~rweir",
+        "date_created": "2008-06-10T06:32:34.244044+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #253745 in Bazaar: \"Fail to parse boundary if multiple Content-Type
+        headers are given\"", "bug_link": "https://api.launchpad.net/1.0/bugs/253745",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"01b8571b05a1de17ac30a37b7048f5d3f249655b-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/253745",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/253745/related_tasks",
+        "date_confirmed": "2008-07-31T18:57:25.341964+00:00", "date_left_new": "2008-07-31T18:57:25.341964+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/253745", "owner_link": "https://api.launchpad.net/1.0/~jameinel",
+        "date_created": "2008-07-31T18:55:25.673118+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #268989 in Bazaar: \"diff output misleading when a file is deleted and
+        becomes the target of a rename\"", "bug_link": "https://api.launchpad.net/1.0/bugs/268989",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"4b5b908f4734e1e211352e0131aa84c3910d1702-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/268989",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/268989/related_tasks",
+        "date_confirmed": "2008-09-11T13:24:08.685036+00:00", "date_left_new": "2008-09-11T13:24:08.685036+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/268989", "owner_link": "https://api.launchpad.net/1.0/~vila",
+        "date_created": "2008-09-11T13:23:51.324825+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #270267 in Bazaar: \"hooks fired by smart server can''t easily obtain
+        absolute path to branch on the server.\"", "bug_link": "https://api.launchpad.net/1.0/bugs/270267",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"4cb29a14e6cc8263f3f1a450dacfee8d541d18bd-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/270267",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/270267/related_tasks",
+        "date_confirmed": "2008-09-29T08:17:18.749934+00:00", "date_left_new": "2008-09-29T08:17:18.749934+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/270267", "owner_link": "https://api.launchpad.net/1.0/~amanica",
+        "date_created": "2008-09-14T21:34:03.328979+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #276140 in Bazaar: \"bzr cat should look up file_id from the working
+        tree\"", "bug_link": "https://api.launchpad.net/1.0/bugs/276140", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"3accf415c8f09c4ac6eafc51aff1f9e0b07a9df8-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/276140",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/276140/related_tasks",
+        "date_confirmed": "2008-09-29T23:46:51.651357+00:00", "date_left_new": "2008-09-29T23:46:51.651357+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/276140", "owner_link": "https://api.launchpad.net/1.0/~mbp",
+        "date_created": "2008-09-29T23:45:51.181755+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #282941 in Bazaar: \"pull uses set_parent_trees\"", "bug_link": "https://api.launchpad.net/1.0/bugs/282941",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"f7e16e8b5ec9d3326ba3c254efc2d7e503cb9b9b-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/282941",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/282941/related_tasks",
+        "date_confirmed": "2008-10-13T23:21:17.975804+00:00", "date_left_new": "2008-10-13T23:21:17.975804+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/282941", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2008-10-13T23:21:16.147492+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #302698 in Bazaar: \"\"BzrCheckError: Internal check failed: Newly created
+        pack file \u003cbzrlib.repofmt.pack_repo.NewPack object at 0x2e23f90\u003e
+        has delta references to items not in its repository:\" on pushing a stacked
+        branch\"", "bug_link": "https://api.launchpad.net/1.0/bugs/302698", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"91d75cc5355af1d86fd7448678b9a59bc3810a02-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/302698",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/302698/related_tasks",
+        "date_confirmed": "2008-11-27T06:06:20.401161+00:00", "date_left_new": "2008-11-27T06:06:20.401161+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/302698", "owner_link": "https://api.launchpad.net/1.0/~mwhudson",
+        "date_created": "2008-11-27T04:52:21.746055+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #309309 in Bazaar: \"selftest can''t be run in a bound branch\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/309309", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"947e1498caa096298257a534f6cfdc109705223f-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/309309",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/309309/related_tasks",
+        "date_confirmed": "2009-09-17T20:01:46.243975+00:00", "date_left_new": "2009-09-17T20:01:46.243975+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/309309", "owner_link": "https://api.launchpad.net/1.0/~vila",
+        "date_created": "2008-12-18T11:33:10.503829+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #317731 in Bazaar: \"ugly error message when dirstate lock is already
+        active\"", "bug_link": "https://api.launchpad.net/1.0/bugs/317731", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"a5f5bce0d994fbadc048feb542263862a43fac1b-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/317731",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/317731/related_tasks",
+        "date_confirmed": "2009-03-03T04:26:49.791724+00:00", "date_left_new": "2009-03-03T04:26:49.791724+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/317731", "owner_link": "https://api.launchpad.net/1.0/~bryce",
+        "date_created": "2009-01-16T02:13:37.518368+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #317732 in Bazaar: \"hard to do anything with backup.bzr on a remote
+        filesystem after upgrade\"", "bug_link": "https://api.launchpad.net/1.0/bugs/317732",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"274b77fc905d34c959855687871241c9db94f36f-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/317732",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/317732/related_tasks",
+        "date_confirmed": "2009-01-16T02:31:31.380367+00:00", "date_left_new": "2009-01-16T02:31:31.380367+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/317732", "owner_link": "https://api.launchpad.net/1.0/~mbp",
+        "date_created": "2009-01-16T02:31:17.046840+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #318991 in Bazaar: \"BzrCheckError: Internal check failed: record_stream
+        refers to compression parents not in KnitVersionedFiles\"", "bug_link": "https://api.launchpad.net/1.0/bugs/318991",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"cc9256df097d581ebea3234228607d35a5872463-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/318991",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/318991/related_tasks",
+        "date_confirmed": "2009-01-26T01:09:12.122052+00:00", "date_left_new": "2009-01-26T01:09:12.122052+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/318991", "owner_link": "https://api.launchpad.net/1.0/~bjg-gnu",
+        "date_created": "2009-01-19T22:24:41.491215+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #328146 in Bazaar: \"Pushing a branch to a launchpad project when it
+        can''t stack fails\"", "bug_link": "https://api.launchpad.net/1.0/bugs/328146",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"00761c42017b6c11d29cf9c2d159f7916705ee77-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/328146",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/328146/related_tasks",
+        "date_confirmed": "2009-04-21T13:21:00.080299+00:00", "date_left_new": "2009-04-21T13:21:00.080299+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/328146", "owner_link": "https://api.launchpad.net/1.0/~spiv",
+        "date_created": "2009-02-11T22:53:27.948068+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #336618 in Bazaar: \"dirstate error (Unknown kind ''absent'') on merge/uncommit/merge
+        sequence\"", "bug_link": "https://api.launchpad.net/1.0/bugs/336618", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"0b2783e989c331b92743799475de3f3c0dbedaf8-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/336618",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/336618/related_tasks",
+        "date_confirmed": "2009-06-22T09:37:44.320806+00:00", "date_left_new": "2009-06-22T09:37:44.320806+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/336618", "owner_link": "https://api.launchpad.net/1.0/~skyr",
+        "date_created": "2009-03-02T10:40:40.760554+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": "2011-04-01T07:41:28.529850+00:00",
+        "title": "Bug #344013 in Bazaar: \"bzr resolve should automatically resolve
+        conflicted directory deletion\"", "bug_link": "https://api.launchpad.net/1.0/bugs/344013",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"65a9c08ac93606e8acf7a2c42083f9b78130892d-62bbbaf0c9efcc3d5622104e54d91afe3d541e0e\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": "2012-07-27T17:20:59.327960+00:00", "resource_type_link":
+        "https://api.launchpad.net/1.0/#bug_task", "status": "In Progress", "bug_target_name":
+        "bzr", "importance": "High", "assignee_link": "https://api.launchpad.net/1.0/~gz",
+        "date_triaged": "2012-07-27T17:20:59.327960+00:00", "self_link": "https://api.launchpad.net/1.0/bzr/+bug/344013",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/344013/related_tasks",
+        "date_confirmed": "2009-03-17T01:07:08.754330+00:00", "date_left_new": "2009-03-17T01:07:08.754330+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/344013", "owner_link": "https://api.launchpad.net/1.0/~mbp",
+        "date_created": "2009-03-17T01:03:34.673710+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #346895 in Bazaar: \"missing inventory - ERROR: bzrlib.errors.NoSuchRevision:
+        KnitPackRepository\"", "bug_link": "https://api.launchpad.net/1.0/bugs/346895",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"ae7fcb0af85aabbbd36221ade2bfd78f1331a10a-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/346895",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/346895/related_tasks",
+        "date_confirmed": "2009-06-16T04:49:54.736627+00:00", "date_left_new": "2009-06-16T04:49:54.736627+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/346895", "owner_link": "https://api.launchpad.net/1.0/~theemstra",
+        "date_created": "2009-03-22T18:52:01.968470+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #356699 in Bazaar: \"not stacking when source branch doesn''t support
+        stacking, even though it states it will do\"", "bug_link": "https://api.launchpad.net/1.0/bugs/356699",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"30ec207ab4014fefaac49e73996e1a76bb6f5687-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/356699",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/356699/related_tasks",
+        "date_confirmed": "2009-05-07T23:06:51.296299+00:00", "date_left_new": "2009-05-07T23:06:51.296299+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/356699", "owner_link": "https://api.launchpad.net/1.0/~james-w",
+        "date_created": "2009-04-06T23:45:57.951004+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #357818 in Bazaar: \"Commit by delta is broken with trees updated by
+        join\"", "bug_link": "https://api.launchpad.net/1.0/bugs/357818", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"4cdce94b447eb3eb5be9925e342fb324462f7bbb-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/357818",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/357818/related_tasks",
+        "date_confirmed": "2009-04-08T16:29:40.500536+00:00", "date_left_new": "2009-04-08T16:29:40.500536+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/357818", "owner_link": "https://api.launchpad.net/1.0/~abentley",
+        "date_created": "2009-04-08T16:29:12.754437+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #359020 in Bazaar: \"`bzr status subdir` does not show conflicts for
+        files in subdir\"", "bug_link": "https://api.launchpad.net/1.0/bugs/359020",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"c87ca6e3be8a97acfe314d3bdd93908330cf9ae4-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/359020",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/359020/related_tasks",
+        "date_confirmed": "2009-06-19T01:47:39.998058+00:00", "date_left_new": "2009-06-19T01:47:39.998058+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/359020", "owner_link": "https://api.launchpad.net/1.0/~bialix",
+        "date_created": "2009-04-10T11:14:30.740010+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #364908 in Bazaar: \"server side ''progress'' / output\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/364908", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"634d41c72c5488b2e8151661a4058aa09fc2de0b-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/364908",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/364908/related_tasks",
+        "date_confirmed": "2009-06-16T06:53:10.821204+00:00", "date_left_new": "2009-06-16T06:53:10.821204+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/364908", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2009-04-21T23:33:10.124751+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #367545 in Bazaar: \"Huge memory usage for bzr branch/checkout\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/367545", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"e12cf3def3e24413f647882790309fd4e9631736-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/367545",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/367545/related_tasks",
+        "date_confirmed": "2011-11-16T04:15:32.992054+00:00", "date_left_new": "2009-08-28T02:44:49.271092+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/367545", "owner_link": "https://api.launchpad.net/1.0/~knielsen",
+        "date_created": "2009-04-26T20:04:49.400765+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #368913 in Bazaar: \"bzr tries to stack on a new branch with stacking
+        policy pointing at .\"", "bug_link": "https://api.launchpad.net/1.0/bugs/368913",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"0a22905713966d024da0e1f915c5194486c1856c-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/368913",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/368913/related_tasks",
+        "date_confirmed": "2009-06-16T05:49:46.367584+00:00", "date_left_new": "2009-06-16T05:49:46.367584+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/368913", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2009-04-28T22:46:59.204437+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #370334 in Bazaar: \"Reverting a file conflicted from a pull loses changes\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/370334", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"f5e28e28006b580a0155e2bad596d62dbc962b7f-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/370334",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/370334/related_tasks",
+        "date_confirmed": "2009-05-01T13:25:33.052365+00:00", "date_left_new": "2009-05-01T13:25:33.052365+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/370334", "owner_link": "https://api.launchpad.net/1.0/~wgrant",
+        "date_created": "2009-05-01T12:56:48.987144+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": "2012-07-29T22:53:04.365747+00:00",
+        "title": "Bug #373319 in Bazaar: \"mv --auto does not handle directory adds
+        mixed with the contents of a directory splitting in two: InconsistentDelta
+        error\"", "bug_link": "https://api.launchpad.net/1.0/bugs/373319", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"79eb6cdf8fcb1a3334359a1833fc9d9c2b3647e4-8c1f8550fa82fd0d60cb35571a07328936a73d32\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        "https://api.launchpad.net/1.0/~mnn282", "date_triaged": null, "self_link":
+        "https://api.launchpad.net/1.0/bzr/+bug/373319", "target_link": "https://api.launchpad.net/1.0/bzr",
+        "bug_target_display_name": "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/373319/related_tasks",
+        "date_confirmed": "2009-09-28T08:36:54.486751+00:00", "date_left_new": "2009-06-22T03:48:10.885832+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/373319", "owner_link": "https://api.launchpad.net/1.0/~fjalvingh",
+        "date_created": "2009-05-07T15:31:09.192607+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #374605 in Bazaar: \"way for plugins to present non InternalError from
+        hpss\"", "bug_link": "https://api.launchpad.net/1.0/bugs/374605", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"ac55b92700c6217975f72b767d47e3ae9af58bb2-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/374605",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/374605/related_tasks",
+        "date_confirmed": "2009-05-10T20:51:23.791539+00:00", "date_left_new": "2009-05-10T20:51:23.791539+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/374605", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2009-05-10T20:50:52.617544+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #376274 in Bazaar: \"push  creating wrong format\"", "bug_link": "https://api.launchpad.net/1.0/bugs/376274",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"885da1f08da92a2e12f488c4e17003818bbc4ac5-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/376274",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/376274/related_tasks",
+        "date_confirmed": "2009-05-14T00:21:11.241298+00:00", "date_left_new": "2009-05-14T00:21:11.241298+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/376274", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2009-05-14T00:21:10.439090+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #376895 in Bazaar: \"HPSS cannot rename-over packs on win32\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/376895", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"4956a4fc50306a448bd866ff1e00559f7548699b-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/376895",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/376895/related_tasks",
+        "date_confirmed": "2009-06-16T06:36:43.601380+00:00", "date_left_new": "2009-06-16T06:36:43.601380+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/376895", "owner_link": "https://api.launchpad.net/1.0/~adrian-wilkins",
+        "date_created": "2009-05-15T11:26:36.749241+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #377261 in Bazaar: \"\"AssertionError: name u''COMPILING'' already in
+        parent\" in _generate_inventory when running \"bzr update\"\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/377261", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"e54195925513416d47fc7f5f9dda82ac8648309f-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/377261",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/377261/related_tasks",
+        "date_confirmed": "2009-06-27T01:35:00.865885+00:00", "date_left_new": "2009-06-16T06:47:10.069724+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/377261", "owner_link": "https://api.launchpad.net/1.0/~pknight-dev",
+        "date_created": "2009-05-16T13:33:58.791881+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #385054 in Bazaar: \"check: Missing key in get_sha1s\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/385054", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"8293c3ecdb18f96b643b17b40e0e30d432ada936-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/385054",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/385054/related_tasks",
+        "date_confirmed": "2009-06-16T04:43:23.507137+00:00", "date_left_new": "2009-06-16T04:43:23.507137+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/385054", "owner_link": "https://api.launchpad.net/1.0/~mnordhoff",
+        "date_created": "2009-06-09T04:40:07.367836+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #386227 in Bazaar: \"chk_bytes not self describing\"", "bug_link": "https://api.launchpad.net/1.0/bugs/386227",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"b1878dcc7c60010e8e3db067448a72cb9714bb57-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/386227",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/386227/related_tasks",
+        "date_confirmed": "2009-06-12T06:45:07.005536+00:00", "date_left_new": "2009-06-12T06:45:07.005536+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/386227", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2009-06-12T06:45:06.845681+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #389396 in Bazaar: \"bzr resolved does not resolve shape conflicts\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/389396", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"2198ebe03bfa144334cb0c326a5305381e9fd447-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/389396",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/389396/related_tasks",
+        "date_confirmed": "2009-06-19T09:33:47.258363+00:00", "date_left_new": "2009-06-19T09:33:47.258363+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/389396", "owner_link": "https://api.launchpad.net/1.0/~ernst-blaauw",
+        "date_created": "2009-06-19T09:03:54.876245+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #390431 in Bazaar: \"Default stacking fails when branch being pushed
+        is format 6\"", "bug_link": "https://api.launchpad.net/1.0/bugs/390431", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"08f5514fd8b7a3a9956ab9352b55f0e415b597e0-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/390431",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/390431/related_tasks",
+        "date_confirmed": "2009-06-22T01:39:43.876351+00:00", "date_left_new": "2009-06-22T01:39:43.876351+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/390431", "owner_link": "https://api.launchpad.net/1.0/~jml",
+        "date_created": "2009-06-22T01:39:43.475234+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #390445 in Bazaar: \"test isolation error in remote tests\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/390445", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"765e95266deb3f78054e70f09cd8e97836ac76da-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/390445",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/390445/related_tasks",
+        "date_confirmed": "2009-06-22T02:15:11.605051+00:00", "date_left_new": "2009-06-22T02:15:11.605051+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/390445", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2009-06-22T02:15:10.645509+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #390951 in Bazaar: \"Revision not present errors due to push creating
+        stacked 2a repositories  with format 6 (unstacked) branches\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/390951", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"2b7ebcfe3e0df1ad57b95b9fa910bf95c1c251a5-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/390951",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/390951/related_tasks",
+        "date_confirmed": "2009-06-24T00:01:12.966339+00:00", "date_left_new": "2009-06-24T00:01:12.966339+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/390951", "owner_link": "https://api.launchpad.net/1.0/~thumper",
+        "date_created": "2009-06-23T04:01:34.153937+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #391405 in Bazaar: \"want an option to force stacking or not when creating
+        a branch\"", "bug_link": "https://api.launchpad.net/1.0/bugs/391405", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"d0dd7b714d28d6485c137e27902c46641d6c6138-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/391405",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/391405/related_tasks",
+        "date_confirmed": "2009-06-24T00:04:06.603112+00:00", "date_left_new": "2009-06-24T00:04:06.603112+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/391405", "owner_link": "https://api.launchpad.net/1.0/~mbp",
+        "date_created": "2009-06-24T00:04:05.685298+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #395731 in Bazaar: \"Need a way to set content-filtering rules across
+        the project\"", "bug_link": "https://api.launchpad.net/1.0/bugs/395731", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"ae17203096b5c6b08f4037d0f463db8cf9174c36-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/395731",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/395731/related_tasks",
+        "date_confirmed": "2009-08-25T06:50:04.497215+00:00", "date_left_new": "2009-08-25T06:50:04.497215+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/395731", "owner_link": "https://api.launchpad.net/1.0/~fjalvingh",
+        "date_created": "2009-07-05T12:04:17.273170+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #397183 in Bazaar: \"bzr branch fetches way too much data with stacked
+        branches\"", "bug_link": "https://api.launchpad.net/1.0/bugs/397183", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"c54ef853aca12f1056b4992981d9e6a9295b2452-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/397183",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/397183/related_tasks",
+        "date_confirmed": "2009-07-08T21:20:47.396305+00:00", "date_left_new": "2009-07-08T21:20:47.396305+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/397183", "owner_link": "https://api.launchpad.net/1.0/~abentley",
+        "date_created": "2009-07-08T21:20:26.202956+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #397286 in Bazaar: \"fetch(find_ghosts=True) may not find all CHKMap
+        pages\"", "bug_link": "https://api.launchpad.net/1.0/bugs/397286", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"dbb36af3ab7ab06f677d1daf8a834a9842d7be5b-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/397286",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/397286/related_tasks",
+        "date_confirmed": "2009-07-09T05:45:05.444384+00:00", "date_left_new": "2009-07-09T05:45:05.444384+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/397286", "owner_link": "https://api.launchpad.net/1.0/~mbp",
+        "date_created": "2009-07-09T05:45:04.578521+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #398199 in Bazaar: \"Error: Length of base must be equal or exceed the
+        platform minimum url length\"", "bug_link": "https://api.launchpad.net/1.0/bugs/398199",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"f81a85115311faf84406e681496712312c3cb71c-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/398199",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/398199/related_tasks",
+        "date_confirmed": "2009-07-16T09:20:01.766356+00:00", "date_left_new": "2009-07-16T09:20:01.766356+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/398199", "owner_link": "https://api.launchpad.net/1.0/~luciusf",
+        "date_created": "2009-07-11T16:00:52.614462+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #402656 in Bazaar: \"revision texts do not seem to be properly combined
+        into groups\"", "bug_link": "https://api.launchpad.net/1.0/bugs/402656", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"3cabf3f19f09cab7ed9f6ddf7b817a3c1b66dccb-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/402656",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/402656/related_tasks",
+        "date_confirmed": "2009-07-21T18:15:40.089324+00:00", "date_left_new": "2009-07-21T18:15:40.089324+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/402656", "owner_link": "https://api.launchpad.net/1.0/~jameinel",
+        "date_created": "2009-07-21T18:15:39.593314+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #402662 in Bazaar: \"chk groups possibly need more clustering\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/402662", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"424e39e829f1748c3913101e9de9ba256ed89ac7-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/402662",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/402662/related_tasks",
+        "date_confirmed": "2009-07-21T18:32:50.949024+00:00", "date_left_new": "2009-07-21T18:32:50.949024+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/402662", "owner_link": "https://api.launchpad.net/1.0/~jameinel",
+        "date_created": "2009-07-21T18:32:50.073649+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #402814 in Bazaar: \"Importing revisions with submodules is not supported\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/402814", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"e14e576c11b462711e975f0de344246e2dd12b5a-cafa6df64c895b824b84dff2a0e1ada3947d432a\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Triaged", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": "2012-01-24T15:35:29.829709+00:00", "self_link": "https://api.launchpad.net/1.0/bzr/+bug/402814",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/402814/related_tasks",
+        "date_confirmed": "2009-09-11T16:45:46.015740+00:00", "date_left_new": "2009-09-11T16:45:46.015740+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/402814", "owner_link": "https://api.launchpad.net/1.0/~jelmer",
+        "date_created": "2009-09-11T16:45:02.312860+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #406100 in Bazaar: \"shelve appears to ignore mode changes\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/406100", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"cffeca2d4f2711678648c62c6a23afa0de43281d-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/406100",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/406100/related_tasks",
+        "date_confirmed": "2009-07-29T01:45:16.038338+00:00", "date_left_new": "2009-07-29T01:45:16.038338+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/406100", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2009-07-29T01:45:15.298144+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #407550 in Bazaar: \"get_file_with_stat performs read() when filters
+        in use\"", "bug_link": "https://api.launchpad.net/1.0/bugs/407550", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"c1338d70aee78b4ab2757c9e076e2bd0254b7b8e-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/407550",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/407550/related_tasks",
+        "date_confirmed": "2009-08-01T00:12:08.515692+00:00", "date_left_new": "2009-08-01T00:12:08.515692+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/407550", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2009-08-01T00:12:07.789809+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #412021 in Bazaar: \"Unable to rename a file with ''mv'' if a file exists
+        with the same spelling, but different capitalisation\"", "bug_link": "https://api.launchpad.net/1.0/bugs/412021",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"993f918a5fcd81335463d717ac3deb4307cd7f0b-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/412021",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/412021/related_tasks",
+        "date_confirmed": "2009-09-15T07:55:50.250124+00:00", "date_left_new": "2009-09-15T07:55:50.250124+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/412021", "owner_link": "https://api.launchpad.net/1.0/~cmsj",
+        "date_created": "2009-08-11T15:52:59.159543+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #413430 in Bazaar: \"ShortReadvError on index file\"", "bug_link": "https://api.launchpad.net/1.0/bugs/413430",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"6c2b3b4c90ccd380fe9ef727c3eaa315d55f7ad1-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/413430",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/413430/related_tasks",
+        "date_confirmed": "2011-01-27T02:04:17.024639+00:00", "date_left_new": "2009-08-14T07:28:04.807192+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/413430", "owner_link": "https://api.launchpad.net/1.0/~dbm-refined-audiometrics",
+        "date_created": "2009-08-14T06:45:06.474871+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #415212 in Bazaar: \"no test for CHKRepository concurrent packs\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/415212", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"f52610da184b4d3df80baf6d2bda6d9da32c7b24-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/415212",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/415212/related_tasks",
+        "date_confirmed": "2009-08-18T07:00:24.217380+00:00", "date_left_new": "2009-08-18T07:00:24.217380+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/415212", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2009-08-18T07:00:23.443461+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #416990 in Bazaar: \"Memory usage of codehosting processes is excessive\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/416990", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"168e02c00acbccd20c85690e52721f591d393a21-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/416990",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/416990/related_tasks",
+        "date_confirmed": "2009-08-26T04:51:08.854262+00:00", "date_left_new": "2009-08-26T04:51:08.854262+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/416990", "owner_link": "https://api.launchpad.net/1.0/~mthaddon",
+        "date_created": "2009-08-21T19:21:44.582778+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #418458 in Bazaar: \"content filtering needs integration tests\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/418458", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"9b36334bfef480c31b0d192c35edec023a32a1d5-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/418458",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/418458/related_tasks",
+        "date_confirmed": "2009-08-25T06:48:31.941848+00:00", "date_left_new": "2009-08-25T06:48:31.941848+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/418458", "owner_link": "https://api.launchpad.net/1.0/~mbp",
+        "date_created": "2009-08-25T06:48:31.200803+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #418929 in Bazaar: \"merge_inner bug causes wrong merges\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/418929", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"636ed85e1e138712089c2af9ab44cab0c91f34aa-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/418929",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/418929/related_tasks",
+        "date_confirmed": "2009-08-25T23:24:09.497421+00:00", "date_left_new": "2009-08-25T23:24:09.497421+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/418929", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2009-08-25T23:24:08.721877+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #419066 in Bazaar: \"Infinite loop: downgrade of working tree format
+        never finishes\"", "bug_link": "https://api.launchpad.net/1.0/bugs/419066",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"8835bec031ff901294569846fdc1d04c53b8848d-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/419066",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/419066/related_tasks",
+        "date_confirmed": "2009-08-26T07:05:28.393351+00:00", "date_left_new": "2009-08-26T07:05:28.393351+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/419066", "owner_link": "https://api.launchpad.net/1.0/~spiv",
+        "date_created": "2009-08-26T07:05:27.635927+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #419782 in Bazaar: \"''bzr merge foo'' does not honour ''bzr switch''
+        lookup heuristic\"", "bug_link": "https://api.launchpad.net/1.0/bugs/419782",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"0ab193468c7fa334062683c67b0c34728c7ceffe-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/419782",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/419782/related_tasks",
+        "date_confirmed": "2009-08-27T08:57:11.013749+00:00", "date_left_new": "2009-08-27T08:57:11.013749+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/419782", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2009-08-27T08:57:10.271435+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #420218 in Bazaar: \"status, commit, merge, pull, push should give context
+        in checkouts\"", "bug_link": "https://api.launchpad.net/1.0/bugs/420218",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"4d05caf8537ae84edc29ee6a91fc30d213ebbf04-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/420218",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/420218/related_tasks",
+        "date_confirmed": "2009-08-27T23:15:19.363998+00:00", "date_left_new": "2009-08-27T23:15:19.363998+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/420218", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2009-08-27T23:15:18.252422+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #420808 in Bazaar: \"automated coverage report\"", "bug_link": "https://api.launchpad.net/1.0/bugs/420808",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"f2b9f78c71c90d13fc7a6a477fbea21659c06074-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/420808",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/420808/related_tasks",
+        "date_confirmed": "2009-08-28T22:42:08.378097+00:00", "date_left_new": "2009-08-28T22:42:08.378097+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/420808", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2009-08-28T22:42:07.810466+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #421053 in Bazaar: \"use of atexit is fragile - breaks under trial\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/421053", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"03cf76bda49bff7883736aef18847fd822350692-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/421053",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/421053/related_tasks",
+        "date_confirmed": "2009-08-29T12:15:18.231749+00:00", "date_left_new": "2009-08-29T12:15:18.231749+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/421053", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2009-08-29T12:15:17.479289+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #421360 in Bazaar: \"switch won''t let me switch with a pending merge\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/421360", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"717eab3daeb776b5d998a3b7d8b193167966a07a-eb5952a73864cc0507ff1304cc56260a4a34ac2b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/bzr/+bug/421360",
+        "target_link": "https://api.launchpad.net/1.0/bzr", "bug_target_display_name":
+        "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/421360/related_tasks",
+        "date_confirmed": "2009-08-30T07:39:08.998932+00:00", "date_left_new": "2009-08-30T07:39:08.998932+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/421360", "owner_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_created": "2009-08-30T07:39:08.414292+00:00", "date_incomplete": null,
+        "is_complete": false}, {"date_closed": null, "date_assigned": "2009-09-03T16:12:24.382775+00:00",
+        "title": "Bug #423804 in Bazaar: \"Failure to saturate bandwidth downloading
+        lp:bzr\"", "bug_link": "https://api.launchpad.net/1.0/bugs/423804", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"ef6b02a4c9869c1552545ef0d59a4dfdec784a9e-e9ca368f80293a56661638ab8ae88a7b89231b03\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "bzr", "importance": "High", "assignee_link":
+        "https://api.launchpad.net/1.0/~jameinel", "date_triaged": null, "self_link":
+        "https://api.launchpad.net/1.0/bzr/+bug/423804", "target_link": "https://api.launchpad.net/1.0/bzr",
+        "bug_target_display_name": "Bazaar", "related_tasks_collection_link": "https://api.launchpad.net/1.0/bzr/+bug/423804/related_tasks",
+        "date_confirmed": "2009-09-03T16:12:24.449279+00:00", "date_left_new": "2009-09-03T16:12:24.449279+00:00",
+        "web_link": "https://bugs.launchpad.net/bzr/+bug/423804", "owner_link": "https://api.launchpad.net/1.0/~jameinel",
+        "date_created": "2009-09-03T16:12:23.613892+00:00", "date_incomplete": null,
+        "is_complete": false}]}'
+    http_version: 
+  recorded_at: Sun, 18 May 2014 18:14:26 GMT
+recorded_with: VCR 2.9.0
