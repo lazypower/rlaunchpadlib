@@ -6,19 +6,6 @@ describe 'Rlaunchpadlib::Project' do
         @project = Rlaunchpadlib::Project.new('bzr')
     end
 
-
-     describe "default attributes" do
-
-        it 'Must include the base Launchpad API endpoint' do
-            expect(@project.base_uri).to eq('https://api.launchpad.net')
-        end
-
-        it 'Must include the base Launchpad API endpoint' do
-            expect(@project.api_version).to eq('1.0')
-        end
-
-     end
-
     describe "GET overview" do
 
         before do
@@ -37,9 +24,26 @@ describe 'Rlaunchpadlib::Project' do
             expect(@project.overview).to be_a(Hash)
         end
 
-        
+    end
+
+
+    describe "GET Subresource of Project Bugs" do
+
+        before do
+            VCR.insert_cassette 'project_bugs', :record => :new_episodes
+        end
+
+        after do
+            VCR.eject_cassette
+        end
+
+        it "Returns a Hash of all bugs" do
+            expect(@project.bugs).to be_a(Hash)
+        end
 
     end
+
+
 
     describe "Dynamic Method Attributes" do
 
