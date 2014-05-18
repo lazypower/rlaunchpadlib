@@ -6,19 +6,6 @@ describe 'Rlaunchpadlib::ProjectGroup' do
         @projectgroup = Rlaunchpadlib::ProjectGroup.new('mozilla')
     end
 
-
-     describe "default attributes" do
-
-        it 'Must include the base Launchpad API endpoint' do
-            expect(@projectgroup.base_uri).to eq('https://api.launchpad.net')
-        end
-
-        it 'Must include the base Launchpad API endpoint' do
-            expect(@projectgroup.api_version).to eq('1.0')
-        end
-
-     end
-
     describe "GET overview" do
 
         before do
@@ -52,5 +39,55 @@ describe 'Rlaunchpadlib::ProjectGroup' do
         end
 
     end
+
+    describe "Subresource of ProjectGroup Bugs" do
+
+        before do
+            VCR.insert_cassette 'project_group_bugs', :record => :new_episodes
+        end
+
+        after do
+            VCR.eject_cassette
+        end
+
+        it "Returns a Hash of all bugs" do
+            expect(@projectgroup.bugs).to be_a(Hash)
+        end
+
+    end
+
+    describe "Subresource of ProjectGroup MPs" do
+
+        before do
+            VCR.insert_cassette 'project_group_merges', :record => :new_episodes
+        end
+
+        after do
+            VCR.eject_cassette
+        end
+
+        it "Returns a Hash of all MPs" do
+            expect(@projectgroup.merge_proposals).to be_a(Hash)
+        end
+
+    end
+
+
+    describe "Subresource of ProjectGroup Branches" do
+
+        before do
+            VCR.insert_cassette 'project_group_branches', :record => :new_episodes
+        end
+
+        after do
+            VCR.eject_cassette
+        end
+
+        it "Returns a Hash of all Branches" do
+            expect(@projectgroup.branches).to be_a(Hash)
+        end
+
+    end
+
 
 end

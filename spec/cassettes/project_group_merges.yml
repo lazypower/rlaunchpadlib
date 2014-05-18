@@ -1,0 +1,317 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/mozilla/?ws.op=getMergeProposals
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 18 May 2014 19:40:25 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '26723'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept,Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Lazr-Notifications:
+      - "[]"
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from nutmeg.canonical.com
+      X-Cache-Lookup:
+      - MISS from nutmeg.canonical.com:3128
+      Via:
+      - 1.0 nutmeg.canonical.com:3128 (squid/2.7.STABLE7)
+    body:
+      encoding: UTF-8
+      string: '{"total_size": 15, "start": 0, "entries": [{"queuer_link": null, "queue_status":
+        "Needs review", "private": false, "registrant_link": "https://api.launchpad.net/1.0/~laney",
+        "date_reviewed": null, "target_branch_link": "https://api.launchpad.net/1.0/~mozillateam/firefox/firefox-trunk.head",
+        "http_etag": "\"ed5e49daadf4b0c6d457b66e6437a8a95b176052-300c25c6c50c1e9e8e630c07a22c5c748ad0c3a5\"",
+        "date_review_requested": "2013-11-26T17:12:00.956698+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~laney/firefox/fonts-no-transitional/+merge/196756/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~laney/firefox/fonts-no-transitional/+merge/196756",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~laney/firefox/fonts-no-transitional",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~laney/firefox/fonts-no-transitional/+merge/196756/all_comments",
+        "date_merged": null, "description": "  * debian/control{,.in}: Update ttf-wqy-zenhei
+        and ttf-arphic-ukai\n    dependencies from firefox-testsuite to fonts-*. The
+        former are either\n    transitional packages or have been removed.\n\nPlease
+        cherry-pick this into the trusty branch too.", "merge_reporter_link": null,
+        "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~laney/firefox/fonts-no-transitional/+merge/196756/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~laney/firefox/fonts-no-transitional/+merge/196756/+preview-diff/453714",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~laney/firefox/fonts-no-transitional/+merge/196756",
+        "date_created": "2013-11-26T17:12:00.956698+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~bkerensa", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~mozillateam/seamonkey/seamonkey.head", "http_etag":
+        "\"15172022f95afde9fb847841c8fc9b65b130218e-d9248da15f04040649a77e63a338818887921994\"",
+        "date_review_requested": "2012-06-26T02:30:45.139031+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~bkerensa/seamonkey/seamonkey-dev/+merge/111992/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bkerensa/seamonkey/seamonkey-dev/+merge/111992",
+        "commit_message": "Brought debian/vendor.js up to date", "resource_type_link":
+        "https://api.launchpad.net/1.0/#branch_merge_proposal", "source_branch_link":
+        "https://api.launchpad.net/1.0/~bkerensa/seamonkey/seamonkey-dev", "all_comments_collection_link":
+        "https://api.launchpad.net/1.0/~bkerensa/seamonkey/seamonkey-dev/+merge/111992/all_comments",
+        "date_merged": null, "description": "", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~bkerensa/seamonkey/seamonkey-dev/+merge/111992/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~bkerensa/seamonkey/seamonkey-dev/+merge/111992/+preview-diff/257694",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~bkerensa/seamonkey/seamonkey-dev/+merge/111992",
+        "date_created": "2012-06-26T02:30:45.139031+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~debfx", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~mozillateam/firefox/firefox-trunk.head", "http_etag":
+        "\"2ad8c639d2b30a78588861023d223917bde45493-4f3095f9bf490a1a4f9ad0a09458a60ae7800d79\"",
+        "date_review_requested": "2011-11-30T11:22:56.522511+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~debfx/firefox/firefox-trunk.head.kde/+merge/83920/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~debfx/firefox/firefox-trunk.head.kde/+merge/83920",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~debfx/firefox/firefox-trunk.head.kde",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~debfx/firefox/firefox-trunk.head.kde/+merge/83920/all_comments",
+        "date_merged": "2011-11-30T11:22:34.116192+00:00", "description": "Fix LP:
+        #885836 - can''t save files in KDE\n\nI know that the patch is disabled in
+        the trunk branch but I want to make sure that the bugfix doesn''t regress
+        again.", "merge_reporter_link": "https://api.launchpad.net/1.0/~debfx", "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~debfx/firefox/firefox-trunk.head.kde/+merge/83920/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~debfx/firefox/firefox-trunk.head.kde/+merge/83920/+preview-diff/189597",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~debfx/firefox/firefox-trunk.head.kde/+merge/83920",
+        "date_created": "2011-11-30T11:20:00.191662+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~wgrant", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~mozillateam/ubufox/trunk", "http_etag": "\"7cbfdf6d6d3ca27699edb9fe3134859daaff282b-53ef3fa5d6f42182ba4a19f4c4782d9c704fe66b\"",
+        "date_review_requested": "2011-11-28T05:19:11.528933+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~wgrant/ubufox/bug-897067/+merge/83549/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~wgrant/ubufox/bug-897067/+merge/83549",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~wgrant/ubufox/bug-897067",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~wgrant/ubufox/bug-897067/+merge/83549/all_comments",
+        "date_merged": null, "description": "ubufox''s content/overlay.js uses URLs
+        like https://launchpad.net/distros/ubuntu/oneiric/+sources/firefox/+gethelp
+        and https://launchpad.net/distros/ubuntu/oneiric/+source/firefox/+translations.
+        /distros has been obsolete since 2006, and +sources was never really meant
+        to exist in the first place.\n\nThis branch adjusts it to use non-deprecated
+        URLs: https://launchpad.net/ubuntu/oneiric/+source/firefox/+gethelp and \u003chttps://launchpad.net/ubuntu/oneiric/+source/firefox/+translations.\n\nIt''s
+        pretty important that this change be in Precise, given its hilariously long
+        desktop support period. It would also be handy if this could be SRUed into
+        older series when a new Firefox hits them, but that''s far less important.",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~wgrant/ubufox/bug-897067/+merge/83549/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~wgrant/ubufox/bug-897067/+merge/83549/+preview-diff/188666",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~wgrant/ubufox/bug-897067/+merge/83549",
+        "date_created": "2011-11-28T05:19:11.528933+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~mconley", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~extension-hackers/messagingmenu-extension/trunk",
+        "http_etag": "\"3f29c476bedcd7a895fa9aa52fedaca88cef5d6f-79787556105f3d73193fb4a645d23d932a48231f\"",
+        "date_review_requested": "2011-09-20T15:29:01.908233+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~mconley/messagingmenu-extension/init_tests/+merge/76243/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mconley/messagingmenu-extension/init_tests/+merge/76243",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~mconley/messagingmenu-extension/init_tests",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~mconley/messagingmenu-extension/init_tests/+merge/76243/all_comments",
+        "date_merged": null, "description": "Just a simple set of tests to get the
+        ball rolling here.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~mconley/messagingmenu-extension/init_tests/+merge/76243/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~mconley/messagingmenu-extension/init_tests/+merge/76243/+preview-diff/170941",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~mconley/messagingmenu-extension/init_tests/+merge/76243",
+        "date_created": "2011-09-20T15:29:01.908233+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~rsalveti", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~mozillateam/firefox/firefox-trunk.head", "http_etag":
+        "\"a7d3b5a5f1b13db911e1432b898511802afd771c-e16a391eab7d684b871fe603852d61b1400716db\"",
+        "date_review_requested": "2011-06-24T02:22:09.914668+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~rsalveti/firefox/disable-thumb2/+merge/65758/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~rsalveti/firefox/disable-thumb2/+merge/65758",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~rsalveti/firefox/disable-thumb2",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~rsalveti/firefox/disable-thumb2/+merge/65758/all_comments",
+        "date_merged": null, "description": "As described by bug 789198, THUMB2 breaks
+        WebM functionality on ARM, and as side effect people can''t use youtube even
+        with html5 support.\n\nThis patch changes it in a way to make it easier to
+        build with thumb2 again, so people can easily try the thumb2 enabled build
+        to debug the issue.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~rsalveti/firefox/disable-thumb2/+merge/65758/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~rsalveti/firefox/disable-thumb2/+merge/65758/+preview-diff/125606",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~rsalveti/firefox/disable-thumb2/+merge/65758",
+        "date_created": "2011-06-24T02:22:09.914668+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~chrisccoulson", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~asac/ubufox/main", "http_etag": "\"b2d2242ea71f15d724573dd9628eaa3188ff06d9-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": "2010-11-08T19:59:48.308602+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~chrisccoulson/ubufox/ff-4.0/+merge/40373/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~chrisccoulson/ubufox/ff-4.0/+merge/40373",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~chrisccoulson/ubufox/ff-4.0",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~chrisccoulson/ubufox/ff-4.0/+merge/40373/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~chrisccoulson/ubufox/ff-4.0/+merge/40373/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~chrisccoulson/ubufox/ff-4.0/+merge/40373/+preview-diff/69172",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~chrisccoulson/ubufox/ff-4.0/+merge/40373",
+        "date_created": "2010-11-08T19:59:48.308602+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~csaba-kertesz", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~asac/ubufox/main", "http_etag": "\"aa8e8bf1fc9dfc301009c809530a420aec36efa6-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": "2010-03-23T13:20:11.475033+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~csaba-kertesz/ubufox/lp542046/+merge/21929/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~csaba-kertesz/ubufox/lp542046/+merge/21929",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~csaba-kertesz/ubufox/lp542046",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~csaba-kertesz/ubufox/lp542046/+merge/21929/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~csaba-kertesz/ubufox/lp542046/+merge/21929/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~csaba-kertesz/ubufox/lp542046/+merge/21929/+preview-diff/25080",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~csaba-kertesz/ubufox/lp542046/+merge/21929",
+        "date_created": "2010-03-23T13:20:11.475033+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~sevoir", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~ubuntu-dev/firefox-extensions/ubuntu-hu-menu.ubuntu",
+        "http_etag": "\"86b18de8a86d4c19bf9eab7cb303f702e9add347-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": "2009-10-02T13:37:10.011680+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~sevoir/firefox-extensions/ubuntu-hu-toolbar.ubuntu/+merge/12783/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~sevoir/firefox-extensions/ubuntu-hu-toolbar.ubuntu/+merge/12783",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~sevoir/firefox-extensions/ubuntu-hu-toolbar.ubuntu",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~sevoir/firefox-extensions/ubuntu-hu-toolbar.ubuntu/+merge/12783/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~sevoir/firefox-extensions/ubuntu-hu-toolbar.ubuntu/+merge/12783/preview_diffs",
+        "preview_diff_link": null, "supersedes_link": null, "address": "\u003cemail
+        address hidden\u003e", "superseded_by_link": null, "date_queued": null, "prerequisite_branch_link":
+        null, "queued_revid": null, "merged_revno": null, "reviewed_revid": null,
+        "web_link": "https://code.launchpad.net/~sevoir/firefox-extensions/ubuntu-hu-toolbar.ubuntu/+merge/12783",
+        "date_created": "2009-10-02T13:37:10.011680+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~asac", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~ubuntu-dev/firefox-extensions/ubuntu-hu-menu.ubuntu",
+        "http_etag": "\"d0c78387458e879ad660f462f8ab3dc36cc9009d-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": "2009-10-01T13:46:33.190672+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~sevoir/firefox-extensions/ubuntu-hu-menu.ubuntu/+merge/12718/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~sevoir/firefox-extensions/ubuntu-hu-menu.ubuntu/+merge/12718",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~sevoir/firefox-extensions/ubuntu-hu-menu.ubuntu",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~sevoir/firefox-extensions/ubuntu-hu-menu.ubuntu/+merge/12718/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~sevoir/firefox-extensions/ubuntu-hu-menu.ubuntu/+merge/12718/preview_diffs",
+        "preview_diff_link": null, "supersedes_link": null, "address": "\u003cemail
+        address hidden\u003e", "superseded_by_link": null, "date_queued": null, "prerequisite_branch_link":
+        null, "queued_revid": null, "merged_revno": null, "reviewed_revid": null,
+        "web_link": "https://code.launchpad.net/~sevoir/firefox-extensions/ubuntu-hu-menu.ubuntu/+merge/12718",
+        "date_created": "2009-10-01T13:46:33.190672+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~gnomefreak", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~mozillateam/thunderbird/thunderbird-trunk.head",
+        "http_etag": "\"7da9dce0d0b55d8d4b03948287aadf757de3a838-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": "2009-07-22T11:45:45.221841+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~gnomefreak/thunderbird/thunderbird.lp401165/+merge/9138/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~gnomefreak/thunderbird/thunderbird.lp401165/+merge/9138",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~gnomefreak/thunderbird/thunderbird.lp401165",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~gnomefreak/thunderbird/thunderbird.lp401165/+merge/9138/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~gnomefreak/thunderbird/thunderbird.lp401165/+merge/9138/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~gnomefreak/thunderbird/thunderbird.lp401165/+merge/9138/+preview-diff/162359",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~gnomefreak/thunderbird/thunderbird.lp401165/+merge/9138",
+        "date_created": "2009-07-22T11:45:45.221841+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~mcasadevall", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~mozillateam/thunderbird/icedove-2.0.0.x",
+        "http_etag": "\"c81d8c50d7ecbe75b42825218fe91c3f96af1d4f-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": "2009-07-07T19:22:04.138532+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~mcasadevall/thunderbird/icedove-2.0.0.22-2/+merge/8334/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mcasadevall/thunderbird/icedove-2.0.0.22-2/+merge/8334",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~mcasadevall/thunderbird/icedove-2.0.0.22-2",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~mcasadevall/thunderbird/icedove-2.0.0.22-2/+merge/8334/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~mcasadevall/thunderbird/icedove-2.0.0.22-2/+merge/8334/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~mcasadevall/thunderbird/icedove-2.0.0.22-2/+merge/8334/+preview-diff/164603",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~mcasadevall/thunderbird/icedove-2.0.0.22-2/+merge/8334",
+        "date_created": "2009-07-07T19:22:04.138532+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~andrew-bugs-launchpad-net", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~asac/ubufox/main",
+        "http_etag": "\"00739eb7d2325e8ee8d921d598b8a5fa16461ce8-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": "2009-05-25T02:58:21.535785+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~andrew-bugs-launchpad-net/ubufox/flashsaver/+merge/6768/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~andrew-bugs-launchpad-net/ubufox/flashsaver/+merge/6768",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~andrew-bugs-launchpad-net/ubufox/flashsaver",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~andrew-bugs-launchpad-net/ubufox/flashsaver/+merge/6768/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~andrew-bugs-launchpad-net/ubufox/flashsaver/+merge/6768/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~andrew-bugs-launchpad-net/ubufox/flashsaver/+merge/6768/+preview-diff/162034",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~andrew-bugs-launchpad-net/ubufox/flashsaver/+merge/6768",
+        "date_created": "2009-05-25T02:58:21.535785+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~asac", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~sebner/firefox-extensions/all-in-one-sidebar.ubuntu",
+        "http_etag": "\"d7feaf1aa9a2bab032b4a64e34f08d1013ccd944-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": null, "votes_collection_link": "https://api.launchpad.net/1.0/~asac/firefox-extensions/all-in-one-sidebar.ubuntu/+merge/194/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~asac/firefox-extensions/all-in-one-sidebar.ubuntu/+merge/194",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~asac/firefox-extensions/all-in-one-sidebar.ubuntu",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~asac/firefox-extensions/all-in-one-sidebar.ubuntu/+merge/194/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~asac/firefox-extensions/all-in-one-sidebar.ubuntu/+merge/194/preview_diffs",
+        "preview_diff_link": null, "supersedes_link": null, "address": "\u003cemail
+        address hidden\u003e", "superseded_by_link": null, "date_queued": null, "prerequisite_branch_link":
+        null, "queued_revid": null, "merged_revno": null, "reviewed_revid": null,
+        "web_link": "https://code.launchpad.net/~asac/firefox-extensions/all-in-one-sidebar.ubuntu/+merge/194",
+        "date_created": "2008-04-03T19:29:13.975538+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~asac", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~asac/firefox-extensions/speeddial.ubuntu",
+        "http_etag": "\"98019543cf66b6e066be11bd01387f5ec0561814-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": null, "votes_collection_link": "https://api.launchpad.net/1.0/~csharma/firefox-extensions/speeddial.ubuntu/+merge/180/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~csharma/firefox-extensions/speeddial.ubuntu/+merge/180",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~csharma/firefox-extensions/speeddial.ubuntu",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~csharma/firefox-extensions/speeddial.ubuntu/+merge/180/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~csharma/firefox-extensions/speeddial.ubuntu/+merge/180/preview_diffs",
+        "preview_diff_link": null, "supersedes_link": null, "address": "\u003cemail
+        address hidden\u003e", "superseded_by_link": null, "date_queued": null, "prerequisite_branch_link":
+        null, "queued_revid": null, "merged_revno": null, "reviewed_revid": null,
+        "web_link": "https://code.launchpad.net/~csharma/firefox-extensions/speeddial.ubuntu/+merge/180",
+        "date_created": "2008-03-26T15:02:50.452790+00:00", "queue_position": null}]}'
+    http_version: 
+  recorded_at: Sun, 18 May 2014 19:40:29 GMT
+recorded_with: VCR 2.9.0

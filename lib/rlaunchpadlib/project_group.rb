@@ -5,18 +5,32 @@ module Rlaunchpadlib
 
         include HTTParty
 
-        attr_accessor :base_uri 
-        attr_accessor :api_version
         attr_accessor :group
+        attr_accessor :overview_data
 
         def initialize(group)
-            @base_uri = "https://api.launchpad.net"
-            @api_version = "1.0"
             @group = group
+            @client = Rlaunchpadlib::Client.new
         end
 
         def overview
-            self.class.get "#{@base_uri}/#{@api_version}/#{@group}"
+             if @overview_data.nil?
+                @client.get(@group)
+            else
+                @overview_data
+            end
+        end
+
+        def bugs
+            @client.get(@group, 'searchTasks')
+        end
+
+        def merge_proposals
+            @client.get(@group, 'getMergeProposals')
+        end
+
+        def branches
+            @client.get(@group, 'getBranches')
         end
 
         # I'm nuts so lets patch method missing.

@@ -1,0 +1,1068 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/mozilla/?ws.op=searchTasks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 18 May 2014 18:12:08 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '94927'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept,Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Lazr-Notifications:
+      - "[]"
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from nutmeg.canonical.com
+      X-Cache-Lookup:
+      - MISS from nutmeg.canonical.com:3128
+      Via:
+      - 1.0 nutmeg.canonical.com:3128 (squid/2.7.STABLE7)
+    body:
+      encoding: UTF-8
+      string: '{"total_size": 474, "start": 0, "next_collection_link": "https://api.launchpad.net/1.0/mozilla?ws.op=searchTasks\u0026ws.size=75\u0026memo=75\u0026ws.start=75",
+        "entries": [{"date_closed": null, "date_assigned": null, "title": "Bug #230087
+        in Mozilla Firefox: \"firefox3 crashes when viewing big PNG files\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/230087", "bug_watch_link": "https://api.launchpad.net/1.0/bugs/230087/+watch/42777",
+        "milestone_link": null, "http_etag": "\"549db6d6fe7d13b1781c141b25960e86507d3c32-f9fc8119ee757025913c5f03f18e5b13ea4a1ad1\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "In Progress", "bug_target_name": "firefox", "importance": "Unknown",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/230087",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/230087/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/230087",
+        "owner_link": "https://api.launchpad.net/1.0/~mnemo", "date_created": "2008-05-13T20:32:27.903568+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2006-04-21T17:50:41.977555+00:00", "title": "Bug #40610 in Mozilla Firefox:
+        \"History wiped out if disk full when firefox exits\"", "bug_link": "https://api.launchpad.net/1.0/bugs/40610",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/40610/+watch/30296",
+        "milestone_link": null, "http_etag": "\"0b3ebb01783a84d7cfe9040bd5d47d0ee95b8f5f-e47f491b63cdc6d82b2d01a34d03d87ec8ebdb61\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Critical",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/40610",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/40610/related_tasks",
+        "date_confirmed": "2007-03-25T06:48:04.423995+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/firefox/+bug/40610", "owner_link":
+        "https://api.launchpad.net/1.0/~rlrevell", "date_created": "2006-04-21T17:50:41.977555+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #47751 in Mozilla Firefox: \"Dos problem with marquee
+        tag\"", "bug_link": "https://api.launchpad.net/1.0/bugs/47751", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/47751/+watch/30359", "milestone_link":
+        null, "http_etag": "\"579d5e72a52f43b98fec07926de3fa6de33f6b9b-dac902659b66922748f711f9c43062667da0c513\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Critical",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/47751",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/47751/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/47751",
+        "owner_link": "https://api.launchpad.net/1.0/~dfarning", "date_created": "2006-12-13T16:07:39.505849+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #204550 in Mozilla Thunderbird: \"When moving an e-mail
+        inside thunderbird to a folder, assigned tags are removed\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/204550", "bug_watch_link": "https://api.launchpad.net/1.0/bugs/204550/+watch/40909",
+        "milestone_link": null, "http_etag": "\"6eb87236fdd478077d7d02dbdd618b145907b934-a6264091f1dfb2a3486e18c0fd5563aadf0ad470\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "Critical",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/204550",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/204550/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/204550",
+        "owner_link": "https://api.launchpad.net/1.0/~txwikinger", "date_created":
+        "2008-03-21T09:35:39.542062+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #234661
+        in Mozilla Firefox: \"firefox crashed, when downloading an file on full hd
+        \"", "bug_link": "https://api.launchpad.net/1.0/bugs/234661", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/234661/+watch/49334", "milestone_link":
+        null, "http_etag": "\"67fa84c93a44255eed3427ef0518bcb7c2f37285-afc89650d9e58a5399f8816e93237a93aa627180\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Critical",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/234661",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/234661/related_tasks",
+        "date_confirmed": null, "date_left_new": "2008-06-02T17:09:14.408364+00:00",
+        "web_link": "https://bugs.launchpad.net/firefox/+bug/234661", "owner_link":
+        "https://api.launchpad.net/1.0/~asac", "date_created": "2008-06-02T17:09:12.356743+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #279750 in Mozilla Thunderbird: \"thunderbird-bin crashed
+        with SIGSEGV @morkWriter::PutRowDict\"", "bug_link": "https://api.launchpad.net/1.0/bugs/279750",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/279750/+watch/49418",
+        "milestone_link": null, "http_etag": "\"df2309412a9323eeb727f95d7f5b6c3b65e72de2-5d61a0dfc39a9d0e9a9c8117a45db204378320f8\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "Critical",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/279750",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/279750/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/279750",
+        "owner_link": "https://api.launchpad.net/1.0/~asac", "date_created": "2008-11-26T12:14:10.765917+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2008-12-16T02:01:32.254716+00:00", "title": "Bug #308397 in Ubufox Extension:
+        \"localizable general.useragent.locale pref shipped by ubufox breaks mozilla
+        OS usage stats (ubuntu not counted)\"", "bug_link": "https://api.launchpad.net/1.0/bugs/308397",
+        "bug_watch_link": null, "milestone_link": null, "http_etag": "\"644a7b4db937fc444f5f02a9e42b133f795c8734-02de57e23556b3cb49dfc3489b309b2661ec5230\"",
+        "date_left_closed": null, "date_fix_committed": "2008-12-16T02:04:57.207925+00:00",
+        "date_fix_released": null, "date_in_progress": "2008-12-16T02:04:57.207925+00:00",
+        "resource_type_link": "https://api.launchpad.net/1.0/#bug_task", "status":
+        "Fix Committed", "bug_target_name": "ubufox", "importance": "Critical", "assignee_link":
+        "https://api.launchpad.net/1.0/~chrisccoulson", "date_triaged": "2008-12-16T02:03:12.580185+00:00",
+        "self_link": "https://api.launchpad.net/1.0/ubufox/+bug/308397", "target_link":
+        "https://api.launchpad.net/1.0/ubufox", "bug_target_display_name": "Ubufox
+        Extension", "related_tasks_collection_link": "https://api.launchpad.net/1.0/ubufox/+bug/308397/related_tasks",
+        "date_confirmed": "2008-12-16T02:01:32.124310+00:00", "date_left_new": "2008-12-16T02:01:32.124310+00:00",
+        "web_link": "https://bugs.launchpad.net/ubufox/+bug/308397", "owner_link":
+        "https://api.launchpad.net/1.0/~asac", "date_created": "2008-12-16T02:01:17.900694+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #323912 in Mozilla Firefox: \"Enabled Adblock Plus causes
+        a crash of Firefox on some page\"", "bug_link": "https://api.launchpad.net/1.0/bugs/323912",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/323912/+watch/51559",
+        "milestone_link": null, "http_etag": "\"5843b5660cca2930a449af14a6d3ada3b6df1477-47d30bb5c780a3194e11e0fbca5c7b3510ea8113\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "firefox", "importance": "Critical", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/323912",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/323912/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/323912",
+        "owner_link": "https://api.launchpad.net/1.0/~jorge", "date_created": "2009-02-05T12:09:30.730943+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #358333 in Mozilla Firefox: \"system freeze on facebook
+        surfing\"", "bug_link": "https://api.launchpad.net/1.0/bugs/358333", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/358333/+watch/54822", "milestone_link":
+        null, "http_etag": "\"c133983304903a1fef63e5e48b2fb53fda30f59d-1ac5e6290e6616bed32e85981f885d4b4ed0215c\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Critical",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/358333",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/358333/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/358333",
+        "owner_link": "https://api.launchpad.net/1.0/~asac", "date_created": "2009-04-21T23:41:45.007323+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #366103 in Mozilla Firefox: \"Double-clicking Firefox
+        launcher produces \"Firefox is already running\" error\"", "bug_link": "https://api.launchpad.net/1.0/bugs/366103",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/366103/+watch/96461",
+        "milestone_link": null, "http_etag": "\"0d7b7a50327afb4fa9fa8b186a2c7d72306bcc4c-83951751cee5705fb65a4bc8bd3009268a7f43e6\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Critical",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/366103",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/366103/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/366103",
+        "owner_link": "https://api.launchpad.net/1.0/~mpt", "date_created": "2009-04-24T14:09:49.448973+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #400088 in Mozilla Firefox: \"Firefox not able to terminate
+        correctly (FUTEX_WAIT_PRIVATE)\"", "bug_link": "https://api.launchpad.net/1.0/bugs/400088",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/400088/+watch/57971",
+        "milestone_link": null, "http_etag": "\"66d21cbfeb847274c9c213f435a274e9f5d60a44-04aa0bb619eba27bc0fa60e05a52ec7144037bc2\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Critical",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/400088",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/400088/related_tasks",
+        "date_confirmed": "2011-01-10T06:46:40.520499+00:00", "date_left_new": "2011-01-10T06:46:40.520499+00:00",
+        "web_link": "https://bugs.launchpad.net/firefox/+bug/400088", "owner_link":
+        "https://api.launchpad.net/1.0/~micahg", "date_created": "2009-07-20T07:45:49.952106+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #410025 in Mozilla Firefox: \"Firefox crashed with SIGSEGV
+        in CNSAdapter_NSPR::JDFileDesc_To_FD()\"", "bug_link": "https://api.launchpad.net/1.0/bugs/410025",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/410025/+watch/58910",
+        "milestone_link": null, "http_etag": "\"65b16e0c4475df0ff1b070868b5f7da41de8ebec-44ddf6ead1132442d75481cfa96e45f104da38d8\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Critical",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/410025",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/410025/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/410025",
+        "owner_link": "https://api.launchpad.net/1.0/~micahg", "date_created": "2009-08-13T07:34:30.235050+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #507089 in Mozilla Thunderbird: \"thunderbird shredder
+        always segfaults on startup with LDAP auth in nsswitch\"", "bug_link": "https://api.launchpad.net/1.0/bugs/507089",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/507089/+watch/76519",
+        "milestone_link": null, "http_etag": "\"94d1e1e3a337083ca2733928657dcb07cb5ba8a0-03edb72c1b6669f8f13d13da4db49af6a0829296\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "Critical",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/507089",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/507089/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/507089",
+        "owner_link": "https://api.launchpad.net/1.0/~gnomefreak", "date_created":
+        "2010-03-18T00:34:06.677886+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1000885
+        in Mozilla Firefox: \"ff crashes on xslt transformation when using oracle
+        java plugin\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1000885",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/1000885/+watch/98628",
+        "milestone_link": null, "http_etag": "\"a514d3731f6e6d113adb5a277e58401c2834e42f-215d2a94754ccf8acbe0c238a02747758a5fc83a\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "firefox", "importance": "Critical", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/1000885",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/1000885/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/1000885",
+        "owner_link": "https://api.launchpad.net/1.0/~khadgaray", "date_created":
+        "2012-05-17T17:37:57.343174+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1068495
+        in Mozilla Firefox: \"Firefox 16.0.1 Crash Report [@ unity_webapps_available_application_get_application_domain
+        ]\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1068495", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/1068495/+watch/101759", "milestone_link":
+        null, "http_etag": "\"795c5a47f1fb287e7ef3c6ab4f00de1a080f0b73-38398c9d30a4c2c61f0c40936897310dcbfba820\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Critical",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/1068495",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/1068495/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/1068495",
+        "owner_link": "https://api.launchpad.net/1.0/~chrisccoulson", "date_created":
+        "2012-10-22T08:24:39.657598+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1134409
+        in Mozilla Firefox: \"Various imagelib related crashes\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1134409",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/1134409/+watch/104071",
+        "milestone_link": null, "http_etag": "\"1d66f54f169763c86bb71e8dd81975db03e3ad74-428ff04a02b79811c5b02a04510d2815db4f6701\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Critical",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/1134409",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/1134409/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/1134409",
+        "owner_link": "https://api.launchpad.net/1.0/~logan", "date_created": "2013-02-27T15:53:13.004586+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1160569 in Mozilla Firefox: \"[regression] GLib-CRITICAL
+        **: g_slice_set_config: assertion `sys_page_size == 0'' failed\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/1160569", "bug_watch_link": "https://api.launchpad.net/1.0/bugs/1160569/+watch/104814",
+        "milestone_link": null, "http_etag": "\"6b1f745ff58c4ca22faa9999b2825925dc5a6c3d-eddd1b671034c7a122c54ac1872e1b21dada1892\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Critical",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/1160569",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/1160569/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/1160569",
+        "owner_link": "https://api.launchpad.net/1.0/~thad-fisch", "date_created":
+        "2013-04-14T02:22:05.647441+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1165252
+        in Mozilla Firefox: \"Firefox becomes unresponsive when savings images\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/1165252", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/1165252/+watch/105305", "milestone_link":
+        null, "http_etag": "\"c0fb1a6b51fe7250ae66cdc21253066432747c93-10fd13023572779caa2fba7906d822d8433d42d3\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Critical",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/1165252",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/1165252/related_tasks",
+        "date_confirmed": "2013-07-30T11:16:46.371923+00:00", "date_left_new": "2013-07-30T11:16:46.371923+00:00",
+        "web_link": "https://bugs.launchpad.net/firefox/+bug/1165252", "owner_link":
+        "https://api.launchpad.net/1.0/~bkerensa", "date_created": "2013-05-19T19:57:32.713892+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2006-01-13T14:14:34.130355+00:00", "title": "Bug #21753 in Mozilla Firefox:
+        \"Epiphany ''Move tab to window'' option doesn''t work in breezy\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/21753", "bug_watch_link": "https://api.launchpad.net/1.0/bugs/21753/+watch/18426",
+        "milestone_link": null, "http_etag": "\"dc7b2912459e0b67e957ff132fc7f2aef274c3e2-63b1852bc1873452fa8f00a9f37a2e6168cd4891\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/21753",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/21753/related_tasks",
+        "date_confirmed": "2006-06-15T06:54:16.270250+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/firefox/+bug/21753", "owner_link":
+        "https://api.launchpad.net/1.0/~cwiiis", "date_created": "2005-09-15T21:01:14+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #16465 in Mozilla Firefox: \"Firefox eats way too many
+        CPU cycles with certain pages\"", "bug_link": "https://api.launchpad.net/1.0/bugs/16465",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/16465/+watch/26469",
+        "milestone_link": null, "http_etag": "\"55c24a5d6bc277b9084fc757eb18096e76157211-c8396a5de47de52285bf3213dcfcf54b2f5228a8\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/16465",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/16465/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/16465",
+        "owner_link": "https://api.launchpad.net/1.0/~pirast", "date_created": "2006-12-06T19:55:22.780786+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #54285 in Mozilla Firefox: \"Title tooltips appear when
+        browser window not in focus\"", "bug_link": "https://api.launchpad.net/1.0/bugs/54285",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/54285/+watch/31240",
+        "milestone_link": null, "http_etag": "\"38ae5882c9f6d178a4958043da5643dc2b12ed6d-95b46b843cc10f5796fec2a1406b9056acb619a8\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/54285",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/54285/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/54285",
+        "owner_link": "https://api.launchpad.net/1.0/~jhnjwng", "date_created": "2007-02-17T03:42:04.952132+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #78538 in Mozilla Firefox: \"Feature Request:  Allow Firefox
+        to work on multiple X11 screens\"", "bug_link": "https://api.launchpad.net/1.0/bugs/78538",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/78538/+watch/31864",
+        "milestone_link": null, "http_etag": "\"4df772a142686b30d474a6a8f7ae2179b73c365d-2b78c58c721f1cd5c9a3ff9f0bf83934869776ec\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/78538",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/78538/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/78538",
+        "owner_link": "https://api.launchpad.net/1.0/~gnomefreak", "date_created":
+        "2007-02-18T02:04:25.416873+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #119899
+        in Mozilla Thunderbird: \"After-the-fact Filters on custom header won''t match
+        for IMAP messages\"", "bug_link": "https://api.launchpad.net/1.0/bugs/119899",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/119899/+watch/33201",
+        "milestone_link": null, "http_etag": "\"e6d77f54dabb5ca2615ec719bd84def036498c7b-b564bfbf4b2dc607f2d312ca2f5cecdbcf6d63ac\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/119899",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/119899/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/119899",
+        "owner_link": "https://api.launchpad.net/1.0/~ccheney", "date_created": "2007-06-13T17:18:52.924510+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #140525 in Midbrowser : \"midbrowser hildonization tracker
+        bug\"", "bug_link": "https://api.launchpad.net/1.0/bugs/140525", "bug_watch_link":
+        null, "milestone_link": null, "http_etag": "\"c118fdbca0ed6be6d2ea1969b95df6f963af6de8-fbf50e4b1801c09672368ee787a690206d2d2039\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Incomplete", "bug_target_name": "midbrowser", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/midbrowser/+bug/140525",
+        "target_link": "https://api.launchpad.net/1.0/midbrowser", "bug_target_display_name":
+        "Midbrowser ", "related_tasks_collection_link": "https://api.launchpad.net/1.0/midbrowser/+bug/140525/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/midbrowser/+bug/140525",
+        "owner_link": "https://api.launchpad.net/1.0/~carl-wong", "date_created":
+        "2007-09-17T20:59:42.270127+00:00", "date_incomplete": "2007-09-20T16:26:43.487826+00:00",
+        "is_complete": false}, {"date_closed": null, "date_assigned": null, "title":
+        "Bug #154145 in Mozilla Thunderbird: \"Folder content disappeared in mozilla-thunderbird
+        after upgrading from 1.5 to 2.0\"", "bug_link": "https://api.launchpad.net/1.0/bugs/154145",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/154145/+watch/39700",
+        "milestone_link": null, "http_etag": "\"14e400ceca11d23f8a42cb25a28edb0fa3f49f49-dd095625746d5943a547b00cf1a0ca1645b9586c\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/154145",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/154145/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/154145",
+        "owner_link": "https://api.launchpad.net/1.0/~oxmosys", "date_created": "2008-02-16T18:59:00.155470+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #176902 in Mozilla Firefox: \"kpdf locks sound output\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/176902", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/176902/+watch/39887", "milestone_link":
+        null, "http_etag": "\"6372c6fff86cc9d6172f10109477f18ecd6cc615-4f9755a4a2ed410aebeed1362f352a3098c1984e\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/176902",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/176902/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/176902",
+        "owner_link": "https://api.launchpad.net/1.0/~rec53", "date_created": "2008-02-22T23:37:47.068159+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #159258 in Mozilla Firefox: \"Helper applications launched
+        by Firefox inherit ALL file descriptors\"", "bug_link": "https://api.launchpad.net/1.0/bugs/159258",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/159258/+watch/40212",
+        "milestone_link": null, "http_etag": "\"7d0efbada97e41a663068f9d6c9dcb6700f68343-83809253db64283882b20cdf8b2a8a6de70b17f6\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/159258",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/159258/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/159258",
+        "owner_link": "https://api.launchpad.net/1.0/~kees", "date_created": "2008-03-03T21:52:23.144300+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #264299 in Mozilla Thunderbird: \"ldap account login having
+        to be repeated\"", "bug_link": "https://api.launchpad.net/1.0/bugs/264299",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/264299/+watch/46005",
+        "milestone_link": null, "http_etag": "\"8323986baa1258c2576482d02870e7bddb24351d-135b723d33bca148ce8027f3b13fbead240f4683\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/264299",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/264299/related_tasks",
+        "date_confirmed": "2008-12-23T00:32:27.394839+00:00", "date_left_new": "2008-12-23T00:32:27.394839+00:00",
+        "web_link": "https://bugs.launchpad.net/thunderbird/+bug/264299", "owner_link":
+        "https://api.launchpad.net/1.0/~jorge", "date_created": "2008-09-08T17:18:52.042764+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #102408 in Mozilla Firefox: \"Helper apps inherit open
+        file descriptors\"", "bug_link": "https://api.launchpad.net/1.0/bugs/102408",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/102408/+watch/36678",
+        "milestone_link": null, "http_etag": "\"a6a87dfa4fbba97cd808a24934233266c3b429d3-fe1c7eb19289f900555e9050a7ca35a04f5edfeb\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/102408",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/102408/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/102408",
+        "owner_link": "https://api.launchpad.net/1.0/~gnomefreak", "date_created":
+        "2008-10-23T13:15:07.834340+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #308397
+        in Mozilla Firefox: \"localizable general.useragent.locale pref shipped by
+        ubufox breaks mozilla OS usage stats (ubuntu not counted)\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/308397", "bug_watch_link": "https://api.launchpad.net/1.0/bugs/308397/+watch/50046",
+        "milestone_link": null, "http_etag": "\"1df6833efd607dfe7b38af7b1e933a7f9ae9c0c8-e247a6fee57b3ef056b98c72bf1f70d01c9e0aee\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "In Progress", "bug_target_name": "firefox", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/308397",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/308397/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/308397",
+        "owner_link": "https://api.launchpad.net/1.0/~asac", "date_created": "2008-12-16T02:17:08.638399+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #263435 in Mozilla Firefox: \"Cannot use firefox keyboard
+        shortcuts when flash object is selected\"", "bug_link": "https://api.launchpad.net/1.0/bugs/263435",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/263435/+watch/52852",
+        "milestone_link": null, "http_etag": "\"d44116da1cd47354357e2a7b97009e9ec6d99219-c1905f71afc98b9f93b36177ac2f3b49c3a3ad2e\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/263435",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/263435/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/263435",
+        "owner_link": "https://api.launchpad.net/1.0/~mikelward", "date_created":
+        "2009-03-05T04:20:26.212168+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #320057
+        in Mozilla Thunderbird: \"Thunderbird hangs for 10secs when auto-completing
+        address\"", "bug_link": "https://api.launchpad.net/1.0/bugs/320057", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/320057/+watch/88288", "milestone_link":
+        null, "http_etag": "\"9aa027e5d887af6da3ee3968d9986f60f3e36fe2-714ad05fb7786bd8e68724d364d78ddac25174c3\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/320057",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/320057/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/320057",
+        "owner_link": "https://api.launchpad.net/1.0/~micahg", "date_created": "2009-05-24T06:21:49.546556+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2009-08-10T01:47:23.209788+00:00", "title": "Bug #403581 in Ubufox Extension:
+        \"restart required notification and button not shown in ffox 3.5\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/403581", "bug_watch_link": null, "milestone_link":
+        null, "http_etag": "\"bcacdfab76498ae9c2eae3dab850aab6782b6691-c3ec06f9134c37854e2fced9af14e7326d70c1cf\"",
+        "date_left_closed": null, "date_fix_committed": "2009-08-10T01:47:23.078348+00:00",
+        "date_fix_released": null, "date_in_progress": "2009-08-10T01:47:23.078348+00:00",
+        "resource_type_link": "https://api.launchpad.net/1.0/#bug_task", "status":
+        "Fix Committed", "bug_target_name": "ubufox", "importance": "High", "assignee_link":
+        "https://api.launchpad.net/1.0/~chrisccoulson", "date_triaged": "2009-08-10T01:47:23.078348+00:00",
+        "self_link": "https://api.launchpad.net/1.0/ubufox/+bug/403581", "target_link":
+        "https://api.launchpad.net/1.0/ubufox", "bug_target_display_name": "Ubufox
+        Extension", "related_tasks_collection_link": "https://api.launchpad.net/1.0/ubufox/+bug/403581/related_tasks",
+        "date_confirmed": "2009-08-10T01:47:23.078348+00:00", "date_left_new": "2009-08-10T01:47:23.078348+00:00",
+        "web_link": "https://bugs.launchpad.net/ubufox/+bug/403581", "owner_link":
+        "https://api.launchpad.net/1.0/~asac", "date_created": "2009-08-10T01:47:04.789593+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #483929 in Mozilla Firefox: \"Restore Session doesn''t
+        follow Fitts Law\"", "bug_link": "https://api.launchpad.net/1.0/bugs/483929",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/483929/+watch/62775",
+        "milestone_link": null, "http_etag": "\"74dd4fe630bcc8627e07866077212801f87b0d2a-aa0198a5dceb1a07679d55decaeae428811e92ed\"",
+        "date_left_closed": "2010-08-25T00:34:42.465569+00:00", "date_fix_committed":
+        null, "date_fix_released": null, "date_in_progress": null, "resource_type_link":
+        "https://api.launchpad.net/1.0/#bug_task", "status": "Confirmed", "bug_target_name":
+        "firefox", "importance": "High", "assignee_link": null, "date_triaged": null,
+        "self_link": "https://api.launchpad.net/1.0/firefox/+bug/483929", "target_link":
+        "https://api.launchpad.net/1.0/firefox", "bug_target_display_name": "Mozilla
+        Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/483929/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/483929",
+        "owner_link": "https://api.launchpad.net/1.0/~micahg", "date_created": "2009-11-20T08:25:17.973997+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #381017 in Mozilla Thunderbird: \"Cannot drag attachment
+        from mail attachment pane to desktop\"", "bug_link": "https://api.launchpad.net/1.0/bugs/381017",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/381017/+watch/100630",
+        "milestone_link": null, "http_etag": "\"7336470f25d304fe54a7b6333a7d76ff4fe1e190-38eb9da38af9c63ac361b8fc5d6e5cf51be9c676\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/381017",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/381017/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/381017",
+        "owner_link": "https://api.launchpad.net/1.0/~micahg", "date_created": "2010-02-12T05:14:16.902232+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #526482 in Mozilla Firefox: \"Firefox don''t save print
+        settings\"", "bug_link": "https://api.launchpad.net/1.0/bugs/526482", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/526482/+watch/78175", "milestone_link":
+        null, "http_etag": "\"939421af4b98e76fc0753611f1c1e1f2d3cc9ac8-e4103685618e3d4071beb159905ef4fdf353ac6c\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "firefox", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/526482",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/526482/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/526482",
+        "owner_link": "https://api.launchpad.net/1.0/~thaugseth", "date_created":
+        "2010-06-19T16:26:58.721040+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #223238
+        in Mozilla Firefox: \"Extremely slow Ajax/Javascript/CSS performance in Firefox
+        3 using non-free nvidia-glx-new\"", "bug_link": "https://api.launchpad.net/1.0/bugs/223238",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/223238/+watch/84365",
+        "milestone_link": null, "http_etag": "\"721d8c1267cb1cee5d11d05b8e946f643ea20cd0-b1eb69998168a20a36153516f0b206e46b482c87\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/223238",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/223238/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/223238",
+        "owner_link": "https://api.launchpad.net/1.0/~a-j-buxton", "date_created":
+        "2010-12-30T15:36:26.034691+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #711305
+        in Mozilla Thunderbird: \"Thunderbird is already running, but is not responding.
+        To open a new window, you must first close the existing Thunderbird process,
+        or restart your system. Error received when clicking a mailto link in firefox.\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/711305", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/711305/+watch/85235", "milestone_link":
+        null, "http_etag": "\"865250061310ba9f54f1b0e60b10aa1b7159e3c8-912e51f97a282414559f4fcb33222b43c0de1661\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/711305",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/711305/related_tasks",
+        "date_confirmed": "2011-09-22T15:32:59.799528+00:00", "date_left_new": "2011-09-22T15:32:59.799528+00:00",
+        "web_link": "https://bugs.launchpad.net/thunderbird/+bug/711305", "owner_link":
+        "https://api.launchpad.net/1.0/~komputes", "date_created": "2011-02-01T16:53:25.037869+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #731865 in Mozilla Firefox: \"Adobe Reader plugin cannot
+        be disabled\"", "bug_link": "https://api.launchpad.net/1.0/bugs/731865", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/731865/+watch/86097", "milestone_link":
+        null, "http_etag": "\"d277200bdb9cf0032fa3b5ed89d6cf43973d4199-6c901066c730d18068cb5fc29fc8c15553d7ad51\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "firefox", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/731865",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/731865/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/731865",
+        "owner_link": "https://api.launchpad.net/1.0/~kiki", "date_created": "2011-03-09T10:32:43.235661+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #381017 in SeaMonkey: \"Cannot drag attachment from mail
+        attachment pane to desktop\"", "bug_link": "https://api.launchpad.net/1.0/bugs/381017",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/381017/+watch/100630",
+        "milestone_link": null, "http_etag": "\"c1500c4f3152d6ce0adc5f1f0b660040e91b0370-0822c050d0e52a0350fa4048f48287f53cd71f0a\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "seamonkey", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/seamonkey/+bug/381017",
+        "target_link": "https://api.launchpad.net/1.0/seamonkey", "bug_target_display_name":
+        "SeaMonkey", "related_tasks_collection_link": "https://api.launchpad.net/1.0/seamonkey/+bug/381017/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/seamonkey/+bug/381017",
+        "owner_link": "https://api.launchpad.net/1.0/~jan-ubuntu-h-i-s", "date_created":
+        "2011-03-26T06:23:32.471282+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #744808
+        in Mozilla Firefox: \"image sprite is packed very asymmetrically - triggers
+        poor rendering performance in firefox3 and missing icons in firefox4 and konquerer\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/744808", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/744808/+watch/87432", "milestone_link":
+        null, "http_etag": "\"65fc6481a17e93e25b01c42c783790f5f63b68e0-61160dc8eab6a8bf7e015ffd1f4299f767088e2e\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/744808",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/744808/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/744808",
+        "owner_link": "https://api.launchpad.net/1.0/~timothy-m", "date_created":
+        "2011-08-02T06:37:29.031979+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #830173
+        in Mozilla Firefox: \"Shockwave Flash outdated version. Can''t update it.\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/830173", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/830173/+watch/90068", "milestone_link":
+        null, "http_etag": "\"a45b4410e3f0c0c3dcd13835643f658536d59b5a-0d9aebf99a41381086261d317261735642aa6880\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/830173",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/830173/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/830173",
+        "owner_link": "https://api.launchpad.net/1.0/~micahg", "date_created": "2011-08-26T21:03:02.646152+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #956618 in Mozilla Thunderbird: \"Nickname not over-riding
+        names in email address\"", "bug_link": "https://api.launchpad.net/1.0/bugs/956618",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/956618/+watch/98799",
+        "milestone_link": null, "http_etag": "\"ae6d2da31f63aba2a0fd2ba18458eb02bd24c8b0-8557a125e477a741df23f01ce277a6583198ef39\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/956618",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/956618/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/956618",
+        "owner_link": "https://api.launchpad.net/1.0/~logan", "date_created": "2012-05-24T23:23:24.816649+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #1027364 in Mozilla Thunderbird: \"Counter for new messages
+        in thunderbird don''t counts correctly\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1027364",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/1027364/+watch/99939",
+        "milestone_link": null, "http_etag": "\"a5f2685caaa3d02a8d7401aa7893c4ddf2c9a775-47e1e27c6f7a81c26967b2b468084b87b39ced3e\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "thunderbird", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/1027364",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/1027364/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/1027364",
+        "owner_link": "https://api.launchpad.net/1.0/~r-ehl", "date_created": "2012-07-21T08:15:59.070294+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #411358 in Mozilla Thunderbird: \"Thunderbird2 gconf gmt
+        problem ''Bad key or directory name'' because of plus symbol (+)\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/411358", "bug_watch_link": "https://api.launchpad.net/1.0/bugs/411358/+watch/100094",
+        "milestone_link": null, "http_etag": "\"91864ab14d3c2f21b7c8efdf026cb7733ca1b46f-eb2a8affbfabea9e174d4da3abcdff5a02170d20\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/411358",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/411358/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/411358",
+        "owner_link": "https://api.launchpad.net/1.0/~kenno-xs4all", "date_created":
+        "2012-07-27T22:07:18.743916+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #633352
+        in Mozilla Thunderbird: \"Cannot dismiss reminders for recurring events\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/633352", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/633352/+watch/105355", "milestone_link":
+        null, "http_etag": "\"46642c5b19e85005206fac105b96d49832f39b8f-b83c93fd8c795416acc081f1d02f46994368fe8c\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/633352",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/633352/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/633352",
+        "owner_link": "https://api.launchpad.net/1.0/~internationils", "date_created":
+        "2013-05-22T11:37:42.210731+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #927515
+        in Mozilla Thunderbird: \"Thunderbird stuck at 100% CPU\"", "bug_link": "https://api.launchpad.net/1.0/bugs/927515",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/927515/+watch/105635",
+        "milestone_link": null, "http_etag": "\"c8944e34d20bfc34168a4bc00877216603f0955d-79401946f15d16933fa05230b8bdb4ef242d2623\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "thunderbird", "importance": "High", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/927515",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/927515/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/927515",
+        "owner_link": "https://api.launchpad.net/1.0/~es20490446e", "date_created":
+        "2013-06-07T15:43:42.541982+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1229172
+        in Mozilla Thunderbird: \"Thunderbird \"Spell check as you type\" stopped
+        working after update to 1:24.0+build1-0ubuntu0.12.04.1 (precise-updates)\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/1229172", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/1229172/+watch/107386", "milestone_link":
+        null, "http_etag": "\"b40d67e1efcaaf84dd9b702f3da3a55eb503230e-f53ac7d6cf77f555d33c54a2f1f7d6c181e23db9\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/1229172",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/1229172/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/1229172",
+        "owner_link": "https://api.launchpad.net/1.0/~sparhawkthesecond", "date_created":
+        "2013-10-05T04:39:58.411909+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #1251182
+        in Mozilla Thunderbird: \"Thunderbird: Deleted emails get lost instead of
+        going to the Trash folder\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1251182",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/1251182/+watch/108057",
+        "milestone_link": null, "http_etag": "\"0d2539a1f2f9a2452dcee3e7e9178b6f67ffecb0-0d3b6bd80511628c1e884e0c0d6522104317f4f6\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "High",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/1251182",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/1251182/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/1251182",
+        "owner_link": "https://api.launchpad.net/1.0/~krychek", "date_created": "2013-11-14T10:39:28.629016+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2006-01-13T15:19:39.760641+00:00", "title": "Bug #27867 in Mozilla Firefox:
+        \"Background color is always white, top banner is never displayed in Firefox\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/27867", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/27867/+watch/29392", "milestone_link":
+        null, "http_etag": "\"2196074bc9426c1e0098734dc5912bc3d4a64098-fe63702f937e12de82fd859d8ce83d27bcd9138e\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/27867",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/27867/related_tasks",
+        "date_confirmed": null, "date_left_new": "2008-05-14T05:40:38.821990+00:00",
+        "web_link": "https://bugs.launchpad.net/firefox/+bug/27867", "owner_link":
+        "https://api.launchpad.net/1.0/~vincent-trouilliez-modulonet", "date_created":
+        "2006-01-02T14:58:49+00:00", "date_incomplete": null, "is_complete": false},
+        {"date_closed": null, "date_assigned": "2006-02-23T15:33:05.201113+00:00",
+        "title": "Bug #32625 in Mozilla Thunderbird: \"Thunderbird offline extension
+        should use spam message download to\n get messages\"", "bug_link": "https://api.launchpad.net/1.0/bugs/32625",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/32625/+watch/26743",
+        "milestone_link": null, "http_etag": "\"d7cdb1a6039c0248873ff3e6c9860fdd0262b551-ed5f384a6eadb64cc3b1c6fa47a49d0a433bb9a2\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "thunderbird", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/32625",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/32625/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/32625",
+        "owner_link": "https://api.launchpad.net/1.0/~sabdfl", "date_created": "2006-02-23T15:33:05.201113+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2006-03-29T19:58:00.766870+00:00", "title": "Bug #18305 in Mozilla Firefox:
+        \"domain mismatch dialog not HIG-compliant\"", "bug_link": "https://api.launchpad.net/1.0/bugs/18305",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/18305/+watch/27266",
+        "milestone_link": null, "http_etag": "\"dd6a361b44713a4baab53bd31a2e368684988214-19ec637353ca8be12be6aa9df06a9c7416c68691\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/18305",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/18305/related_tasks",
+        "date_confirmed": "2006-06-15T06:54:15.605737+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/firefox/+bug/18305", "owner_link":
+        "https://api.launchpad.net/1.0/~surak", "date_created": "2006-03-29T19:58:00.766870+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2006-03-29T20:52:46.936557+00:00", "title": "Bug #18995 in Mozilla Firefox:
+        \"[MASTER] \"Open With\" dialog not user-friendly\"", "bug_link": "https://api.launchpad.net/1.0/bugs/18995",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/18995/+watch/54236",
+        "milestone_link": null, "http_etag": "\"db7abac001b0326eafa60ec47f4b9f6bb3c3bcc6-34765478bb0e476d1cf330527aa7720e4409bfc5\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/18995",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/18995/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/18995",
+        "owner_link": "https://api.launchpad.net/1.0/~surak", "date_created": "2006-03-29T20:52:46.936557+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2006-03-29T21:31:38.747539+00:00", "title": "Bug #10910 in Mozilla Firefox:
+        \"Default page size for printing is letter\"", "bug_link": "https://api.launchpad.net/1.0/bugs/10910",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/10910/+watch/29660",
+        "milestone_link": null, "http_etag": "\"94db76416fd6a4d4f18e3b364ecc44bba3649d77-6c429319d84addbc856ae13fc7b75d32e3e90263\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": "2009-02-19T20:27:50.116718+00:00", "resource_type_link":
+        "https://api.launchpad.net/1.0/#bug_task", "status": "In Progress", "bug_target_name":
+        "firefox", "importance": "Medium", "assignee_link": null, "date_triaged":
+        "2009-02-19T20:27:50.116718+00:00", "self_link": "https://api.launchpad.net/1.0/firefox/+bug/10910",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/10910/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/10910",
+        "owner_link": "https://api.launchpad.net/1.0/~surak", "date_created": "2006-03-29T21:31:38.747539+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2006-03-29T21:55:46.141834+00:00", "title": "Bug #18150 in Mozilla Firefox:
+        \"Firefox shows Certificate Confirmation Dialog on wrong workspace\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/18150", "bug_watch_link": "https://api.launchpad.net/1.0/bugs/18150/+watch/27278",
+        "milestone_link": null, "http_etag": "\"7e6f5d13147f01a024b17662843cc945726ba1f3-3707ae9c14acc385fdf350e5b25286b16fe731be\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/18150",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/18150/related_tasks",
+        "date_confirmed": "2006-06-15T06:54:15.978240+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/firefox/+bug/18150", "owner_link":
+        "https://api.launchpad.net/1.0/~surak", "date_created": "2006-03-29T21:55:46.141834+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2006-04-02T15:30:18.867419+00:00", "title": "Bug #37507 in Mozilla Firefox:
+        \"tip goes out of the screen\"", "bug_link": "https://api.launchpad.net/1.0/bugs/37507",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/37507/+watch/27380",
+        "milestone_link": null, "http_etag": "\"2f1bf5c423555ce8f420ccb17d39fccda6f74e27-add2f6bc08d6120574f4dfc5fddf33f3491d9207\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/37507",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/37507/related_tasks",
+        "date_confirmed": "2006-06-15T06:54:18.599713+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/firefox/+bug/37507", "owner_link":
+        "https://api.launchpad.net/1.0/~seb128", "date_created": "2006-04-02T15:30:18.867419+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2006-04-12T14:48:39.189377+00:00", "title": "Bug #39136 in Mozilla Firefox:
+        \"firefox should render unrecognized text/* as text/plain\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/39136", "bug_watch_link": "https://api.launchpad.net/1.0/bugs/39136/+watch/27578",
+        "milestone_link": null, "http_etag": "\"4d5f9dd517b5006c2e0492f0167d6c54031caecb-6bc93d8afc9f6755bee9513a763ea5c7a4e68c0c\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/39136",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/39136/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/39136",
+        "owner_link": "https://api.launchpad.net/1.0/~ijackson", "date_created": "2006-04-12T14:48:39.189377+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2006-04-22T13:38:24.105856+00:00", "title": "Bug #34229 in Mozilla Firefox:
+        \"Creating readable pdf\"", "bug_link": "https://api.launchpad.net/1.0/bugs/34229",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/34229/+watch/27692",
+        "milestone_link": null, "http_etag": "\"07f491bdf9c1e129503c77756f5dc46453e86296-b4fcf3098f072a6b60cab88e6a9d67f5e0b79e4a\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/34229",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/34229/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/34229",
+        "owner_link": "https://api.launchpad.net/1.0/~simosx", "date_created": "2006-04-22T13:38:24.105856+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        "2006-04-26T18:09:20.201193+00:00", "title": "Bug #1085 in Mozilla Thunderbird:
+        \"selecting text in full header mode fails\"", "bug_link": "https://api.launchpad.net/1.0/bugs/1085",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/1085/+watch/56552",
+        "milestone_link": null, "http_etag": "\"18ca0bff81b816a935058300fe80accb230c7cf0-2adf36b27d87e76b06773796fd8ba836f566227e\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/1085",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/1085/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/1085",
+        "owner_link": "https://api.launchpad.net/1.0/~garycoady", "date_created":
+        "2006-04-26T18:09:20.201193+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #44951
+        in Mozilla Thunderbird: \"Alternative email does not appear in a drop-down\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/44951", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/44951/+watch/28077", "milestone_link":
+        null, "http_etag": "\"5bb0cb1862ff8bd7513affa3615314e5bf1224d2-60a536ccc0f1ba0a3656ab35bea2fbdbd98eb2a9\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/44951",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/44951/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/44951",
+        "owner_link": "https://api.launchpad.net/1.0/~dsas", "date_created": "2006-05-16T05:23:46.866264+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #38131 in Mozilla Firefox: \"Firefox causes massive Xorg
+        CPU usage\"", "bug_link": "https://api.launchpad.net/1.0/bugs/38131", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/38131/+watch/28527", "milestone_link":
+        null, "http_etag": "\"4b3dbb2f5276f13f6888ed7b1c4c43ef7a673eb4-b5a08ec31d0967234828ae0ede6512edb3629b5e\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "firefox", "importance": "Medium", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/38131",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/38131/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/38131",
+        "owner_link": "https://api.launchpad.net/1.0/~darkmagez", "date_created":
+        "2006-07-08T08:20:02.942368+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #63814
+        in Mozilla Firefox: \"please include patch for a highly visible crash in epiphany\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/63814", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/63814/+watch/29475", "milestone_link":
+        null, "http_etag": "\"60e37847aac25a615d23f0715a1ff12dfcea87e0-af958a1ec12173ff80eabfd07be9f6655c72e934\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/63814",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/63814/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/63814",
+        "owner_link": "https://api.launchpad.net/1.0/~towsonu2003", "date_created":
+        "2006-10-04T08:29:56.502709+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #78435
+        in Mozilla Thunderbird: \"temporary filenames should handle multiple extensions
+        (.tar.gz)\"", "bug_link": "https://api.launchpad.net/1.0/bugs/78435", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/78435/+watch/30646", "milestone_link":
+        null, "http_etag": "\"c04c4185b1f4915e531d2196882ef07b92e7f06e-26f1b89caeed5e6621583b1c00d651a848a65b23\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/78435",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/78435/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/78435",
+        "owner_link": "https://api.launchpad.net/1.0/~alex.latchford", "date_created":
+        "2007-01-08T17:46:24.401682+00:00", "date_incomplete": null, "is_complete":
+        false}, {"date_closed": null, "date_assigned": null, "title": "Bug #70872
+        in Mozilla Firefox: \"MASTER Firefox makes X run out windows\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/70872", "bug_watch_link": "https://api.launchpad.net/1.0/bugs/70872/+watch/31073",
+        "milestone_link": null, "http_etag": "\"b13031a82d3258ff3f6393096c819ce772cce3ef-a8700df01aca61408df44392bb27af57c036ac95\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/70872",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/70872/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/70872",
+        "owner_link": "https://api.launchpad.net/1.0/~asac", "date_created": "2007-02-03T15:28:59.655812+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #62802 in Mozilla Firefox: \"[-dev] include static libraries:
+        libxpcomglue.a, libxpcomglue_s.a\"", "bug_link": "https://api.launchpad.net/1.0/bugs/62802",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/62802/+watch/31330",
+        "milestone_link": null, "http_etag": "\"5c241bf16b438c9ce0425b0f6e046cc607db389f-858e3f29e1610172a89b26f0573f9ac64a513a3b\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/62802",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/62802/related_tasks",
+        "date_confirmed": "2007-05-21T07:09:48.009080+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/firefox/+bug/62802", "owner_link":
+        "https://api.launchpad.net/1.0/~asac", "date_created": "2007-02-22T13:05:54.809022+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #90652 in Mozilla Thunderbird: \"MASTER mozilla-thunderbird
+        crashed [@NS_InitXPCOM3_P] [@nsVoidArray] [@??]\"", "bug_link": "https://api.launchpad.net/1.0/bugs/90652",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/90652/+watch/31530",
+        "milestone_link": null, "http_etag": "\"38771f3bb3577b2a278aebcc6c5adc873fa1d47a-6f9d92cb29b9e413d9128bdabb7da0fecad6cc9a\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "thunderbird", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/thunderbird/+bug/90652",
+        "target_link": "https://api.launchpad.net/1.0/thunderbird", "bug_target_display_name":
+        "Mozilla Thunderbird", "related_tasks_collection_link": "https://api.launchpad.net/1.0/thunderbird/+bug/90652/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/thunderbird/+bug/90652",
+        "owner_link": "https://api.launchpad.net/1.0/~nnkx00", "date_created": "2007-03-08T18:42:34.304247+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #50839 in Mozilla Firefox: \"If the mouse is hold on a
+        flash animation keyboard and mouse scrolling stop to work\"", "bug_link":
+        "https://api.launchpad.net/1.0/bugs/50839", "bug_watch_link": "https://api.launchpad.net/1.0/bugs/50839/+watch/40726",
+        "milestone_link": null, "http_etag": "\"e62b2c03210e3cd1e39d01c84508615619788f63-ac476df864ec8a46edc8bdaaf35a72cbff0829ae\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/50839",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/50839/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/50839",
+        "owner_link": "https://api.launchpad.net/1.0/~cimmo", "date_created": "2007-03-18T18:52:29.087594+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #73536 in Mozilla Firefox: \"MASTER Firefox crashes on
+        instant X server shutdown\"", "bug_link": "https://api.launchpad.net/1.0/bugs/73536",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/73536/+watch/32067",
+        "milestone_link": null, "http_etag": "\"1b2f361cde8b1652c9d170a83901ba42871014b3-83b4ec31c47e789eaf188c6c0e6e3629800f8d83\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/73536",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/73536/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/73536",
+        "owner_link": "https://api.launchpad.net/1.0/~dries", "date_created": "2007-04-03T21:41:12.841353+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #114441 in Mozilla Firefox: \"Gecko Engine does not support
+        the XHTML 1.1 ruby tag\"", "bug_link": "https://api.launchpad.net/1.0/bugs/114441",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/114441/+watch/33029",
+        "milestone_link": null, "http_etag": "\"4a3af145829971f1e0e99ffd78b17463ece25ea1-06b82ff5f8fb50e6516fbc1416e20622464790fe\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "In Progress", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/114441",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/114441/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/114441",
+        "owner_link": "https://api.launchpad.net/1.0/~seb128", "date_created": "2007-05-30T19:22:35.375890+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #32891 in Mozilla Firefox: \"Improve support for non-gnome
+        Input methods\"", "bug_link": "https://api.launchpad.net/1.0/bugs/32891",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/32891/+watch/33300",
+        "milestone_link": null, "http_etag": "\"b31323f6aca9fb65ec513132dee421c63d564eda-2684ca30c06e6832fb5d4fbbd2e31e72d046a995\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/32891",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/32891/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/32891",
+        "owner_link": "https://api.launchpad.net/1.0/~asac", "date_created": "2007-06-20T14:05:56.762984+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #113086 in Mozilla Firefox: \"The sync request protocol
+        (_NET_WM_SYNC_REQUEST in the EWMH spec) is not supported in some GTK apps\"",
+        "bug_link": "https://api.launchpad.net/1.0/bugs/113086", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/113086/+watch/33656", "milestone_link":
+        null, "http_etag": "\"237a64aea44f24cbb1522c5e035c71e9788120fb-3c5d7d081787e36083800c48f0fc41bdd83b8e0d\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/113086",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/113086/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/113086",
+        "owner_link": "https://api.launchpad.net/1.0/~asac", "date_created": "2007-07-23T10:17:17.058919+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #29622 in Mozilla Firefox: \"Many web browsers not print
+        the headers and footers.\"", "bug_link": "https://api.launchpad.net/1.0/bugs/29622",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/29622/+watch/34057",
+        "milestone_link": null, "http_etag": "\"7c4001f8c4dd5632b23e303947ba481d7ad2d8a2-a48d3cf704c0aa8333d5a87cfe8720e32e90c984\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/29622",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/29622/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/29622",
+        "owner_link": "https://api.launchpad.net/1.0/~asac", "date_created": "2007-07-30T12:44:52.102417+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #125970 in Mozilla Firefox: \"MASTER - slow scroll with
+        image as background-repeat\"", "bug_link": "https://api.launchpad.net/1.0/bugs/125970",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/125970/+watch/42555",
+        "milestone_link": null, "http_etag": "\"873f35cb851876493c4c9810649904778fb296a2-7da9414ceeb4cb5aaabc1e18d14b9c9b5347d22c\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/125970",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/125970/related_tasks",
+        "date_confirmed": "2008-06-02T16:52:13.910306+00:00", "date_left_new": null,
+        "web_link": "https://bugs.launchpad.net/firefox/+bug/125970", "owner_link":
+        "https://api.launchpad.net/1.0/~yelo3", "date_created": "2007-08-15T14:53:53.213911+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #136985 in Mozilla Firefox: \"layerX/layerY wrong when
+        mouse is over scrollbar\"", "bug_link": "https://api.launchpad.net/1.0/bugs/136985",
+        "bug_watch_link": "https://api.launchpad.net/1.0/bugs/136985/+watch/35456",
+        "milestone_link": null, "http_etag": "\"e84cf156834437ef239ab6434c6feaeff36ebf3a-e9ca9a0835e64003b71f8b71fa879526980543b0\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "New", "bug_target_name": "firefox", "importance": "Medium", "assignee_link":
+        null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/136985",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/136985/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/136985",
+        "owner_link": "https://api.launchpad.net/1.0/~kay", "date_created": "2007-09-24T14:11:03.308659+00:00",
+        "date_incomplete": null, "is_complete": false}, {"date_closed": null, "date_assigned":
+        null, "title": "Bug #121734 in Mozilla Firefox: \"orig.tar.gz has binary-only
+        files\"", "bug_link": "https://api.launchpad.net/1.0/bugs/121734", "bug_watch_link":
+        "https://api.launchpad.net/1.0/bugs/121734/+watch/36059", "milestone_link":
+        null, "http_etag": "\"346867651f2d2b7fe1dbb341ca09958b39d2c241-048064d6ed2fc2ff3f226cdc8da58a0d0a3f3ab8\"",
+        "date_left_closed": null, "date_fix_committed": null, "date_fix_released":
+        null, "date_in_progress": null, "resource_type_link": "https://api.launchpad.net/1.0/#bug_task",
+        "status": "Confirmed", "bug_target_name": "firefox", "importance": "Medium",
+        "assignee_link": null, "date_triaged": null, "self_link": "https://api.launchpad.net/1.0/firefox/+bug/121734",
+        "target_link": "https://api.launchpad.net/1.0/firefox", "bug_target_display_name":
+        "Mozilla Firefox", "related_tasks_collection_link": "https://api.launchpad.net/1.0/firefox/+bug/121734/related_tasks",
+        "date_confirmed": null, "date_left_new": null, "web_link": "https://bugs.launchpad.net/firefox/+bug/121734",
+        "owner_link": "https://api.launchpad.net/1.0/~asac", "date_created": "2007-10-05T14:49:37.675729+00:00",
+        "date_incomplete": null, "is_complete": false}]}'
+    http_version: 
+  recorded_at: Sun, 18 May 2014 18:12:14 GMT
+recorded_with: VCR 2.9.0
