@@ -34,9 +34,9 @@ The Gem will initially be Read-only access to your launchpad data.
 
 V 0.1.0 
  - X Users
- - X Projects
- - X Project Groups
- - X Bugs (subresources of projects and groups)
+ - Projects
+ - Project Groups
+ - Bugs (subresources of projects and groups)
  - Milestones
 
 ## Contributing
