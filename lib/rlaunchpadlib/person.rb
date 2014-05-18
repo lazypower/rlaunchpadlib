@@ -9,7 +9,7 @@ module Rlaunchpadlib
     # https://launchpad.net/+apidoc/1.0.html#person
     #
     # Provides READ ONLY access
-    class User
+    class Person
 
         attr_accessor :username
         attr_accessor :profile_data

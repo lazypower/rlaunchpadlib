@@ -1,15 +1,15 @@
 require_relative '../../spec_helper'
 
-describe 'Rlaunchpadlib::User' do
+describe 'Rlaunchpadlib::Person' do
  
     before(:each) do
-        @user = Rlaunchpadlib::User.new('lazypower')
+        @user = Rlaunchpadlib::Person.new('lazypower')
     end
 
     describe "GET profile" do
 
         before do
-            VCR.insert_cassette 'user', :record => :new_episodes
+            VCR.insert_cassette 'person', :record => :new_episodes
         end
 
         after do
@@ -26,10 +26,10 @@ describe 'Rlaunchpadlib::User' do
 
     end
 
-    describe "GET user Archive Subscriptions" do
+    describe "GET Person Archive Subscriptions" do
 
         before do
-            VCR.insert_cassette 'user_archivesubscriptions', :record => :new_episodes
+            VCR.insert_cassette 'person_archivesubscriptions', :record => :new_episodes
         end
 
         after do
@@ -41,10 +41,10 @@ describe 'Rlaunchpadlib::User' do
         end
     end
 
-    describe "GET User Branches" do
+    describe "GET Person Branches" do
 
         before do
-            VCR.insert_cassette 'user_branches', :record => :new_episodes
+            VCR.insert_cassette 'person_branches', :record => :new_episodes
         end
 
         after do
@@ -56,10 +56,10 @@ describe 'Rlaunchpadlib::User' do
         end
     end
 
-    describe "GET User Bug Subscriber Packages" do
+    describe "GET Person Bug Subscriber Packages" do
 
         before do
-            VCR.insert_cassette 'user_bug_subscriber_packages', :record => :new_episodes
+            VCR.insert_cassette 'person_bug_subscriber_packages', :record => :new_episodes
         end
 
         after do
@@ -71,10 +71,10 @@ describe 'Rlaunchpadlib::User' do
         end
     end
 
-    describe "GET User Merge Proposals" do
+    describe "GET Person Merge Proposals" do
 
         before do
-            VCR.insert_cassette 'user_merge_proposals', :record => :new_episodes
+            VCR.insert_cassette 'person_merge_proposals', :record => :new_episodes
         end
 
         after do
@@ -86,10 +86,10 @@ describe 'Rlaunchpadlib::User' do
         end
     end
 
-    describe "GET User Requested Reviews" do
+    describe "GET Person Requested Reviews" do
 
         before do
-            VCR.insert_cassette 'user_requested_reviews', :record => :new_episodes
+            VCR.insert_cassette 'person_requested_reviews', :record => :new_episodes
         end
 
         after do
@@ -101,10 +101,10 @@ describe 'Rlaunchpadlib::User' do
         end
     end
 
-    describe "GET User Bugs" do
+    describe "GET Person Bugs" do
 
         before do
-            VCR.insert_cassette 'user_bugs', :record => :new_episodes
+            VCR.insert_cassette 'person_bugs', :record => :new_episodes
         end
 
         after do
