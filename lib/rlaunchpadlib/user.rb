@@ -1,10 +1,24 @@
 require 'httparty'
 
+
 module Rlaunchpadlib
+
+    ##
+    # Wraps the Person object in Launchpad
+    #
+    # https://launchpad.net/+apidoc/1.0.html#person
+    #
+    # Provides READ ONLY access
     class User
 
         attr_accessor :username
         attr_accessor :profile_data
+        attr_accessor :archive_subscriptions_data
+        attr_accessor :branches_data
+        attr_accessor :bug_subscribers_data
+        attr_accessor :merge_proposals_data
+        attr_accessor :requested_reviews_data
+        attr_accessor :bugs_data
 
         def initialize(username)
             @client = Rlaunchpadlib::Client.new
@@ -14,33 +28,60 @@ module Rlaunchpadlib
         def profile
             if @profile_data.nil?
                 @profile_data = @client.get(@username)
-            else
-                @profile_data
             end
+            @profile_data
         end
 
         def archive_subscriptions
-            @client.get(@username, 'getArchiveSubscriptionUrls')
+            if @archive_subscriptions_data.nil?                
+                @archive_subscriptions_data =  @client.get(@username, 'getArchiveSubscriptionUrls')
+            end
+            @archive_subscriptions_data
         end
 
         def branches
-            @client.get(@username, 'getBranches')
+            if @branches_data.nil?
+                @branches_data = @client.get(@username, 'getBranches')
+            end
+            @branches_data
         end
 
         def bug_subscriber_packages
-            @client.get(@username, 'getBugSubscriberPackages')
+            if @bug_subscribers_data.nil?
+                @bug_subscribers_data = @client.get(@username, 'getBugSubscriberPackages')
+            end
+            @bug_subscribers_data
         end
 
         def merge_proposals
-            @client.get(@username, 'getMergeProposals')
+            if @merge_proposals_data.nil?
+                @merge_proposals_data = @client.get(@username, 'getMergeProposals')
+            end
+            @merge_proposals_data
         end
 
         def requested_reviews
-            @client.get(@username, 'getRequestedReviews')
+            if @requested_reviews_data.nil?
+                @requested_reviews_data = @client.get(@username, 'getRequestedReviews')
+            end
+            @requested_reviews_data
         end
 
         def bugs
-            @client.get(@username, 'searchTasks')
+            if @bugs_data.nil?
+                @bugs_data = @client.get(@username, 'searchTasks')
+            end
+            @bugs_data
+        end
+
+        def clear_cache
+            @profile_data = nil
+            @archive_subscriptions_data = nil
+            @branches_data = nil
+            @bug_subscribers_data = nil
+            @merge_proposals_data = nil
+            @requested_reviews_data = nil
+            @bugs_data = nil
         end
 
 

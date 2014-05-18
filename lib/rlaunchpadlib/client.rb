@@ -8,8 +8,6 @@ module Rlaunchpadlib
         attr_accessor :base_uri
         attr_accessor :api_version
 
-        #TODO: Add Caching
-
         def initialize()
             @base_uri = "https://api.launchpad.net"
             @api_version = "1.0"

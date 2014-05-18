@@ -116,6 +116,26 @@ describe 'Rlaunchpadlib::User' do
         end
     end
 
+    describe "Reset Cache" do
+        it "clears all data storage attributes" do
+            # warm the caches
+            @user.archive_subscriptions_data = 1
+            @user.requested_reviews_data = 1
+            @user.merge_proposals_data = 1
+            @user.bug_subscribers_data = 1
+            @user.branches_data = 1
+            @user.archive_subscriptions_data = 1
+            # expunge the cache
+            @user.clear_cache
+            expect(@user.archive_subscriptions_data).to be_nil
+            expect(@user.requested_reviews_data).to be_nil
+            expect(@user.merge_proposals_data).to be_nil
+            expect(@user.bug_subscribers_data).to be_nil
+            expect(@user.branches_data).to be_nil
+            expect(@user.archive_subscriptions_data).to be_nil
+        end
+    end
+
 
     describe "Dynamic Method Attributes" do
 
