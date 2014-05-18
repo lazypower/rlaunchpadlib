@@ -30,14 +30,9 @@ The Gem will initially be Read-only access to your launchpad data.
 
 ## Roadmap
 
-(x's mean feature is complete, leading to milestone)
+See: [Milestones](https://github.com/chuckbutler/rlaunchpadlib/issues/milestones) 
 
-V 0.1.0 
- - X Users
- - Projects
- - Project Groups
- - Bugs (subresources of projects and groups)
- - Milestones
+
 
 ## Contributing
 
