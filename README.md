@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/chuckbutler/rlaunchpadlib.svg?branch=master)](https://travis-ci.org/chuckbutler/rlaunchpadlib)
 [![Code Climate](https://codeclimate.com/github/chuckbutler/rlaunchpadlib.png)](https://codeclimate.com/github/chuckbutler/rlaunchpadlib)
 [![Coverage Status](https://coveralls.io/repos/chuckbutler/rlaunchpadlib/badge.png)](https://coveralls.io/r/chuckbutler/rlaunchpadlib)
+[![Gem Version](https://badge.fury.io/rb/rlaunchpadlib.svg)](http://badge.fury.io/rb/rlaunchpadlib)
 
 Launchpad.net API wrapper for ruby.
 
@@ -20,9 +21,9 @@ Or install it yourself as:
 
     $ gem install rlaunchpadlib
 
-## Usage
+## Usag
 
-TODO: Write usage instructions here
+eTODO: Write usage instructions here
 
 ## Caveats
 
