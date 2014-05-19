@@ -1,0 +1,1905 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/bzr/?ws.op=getMergeProposals
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 18 May 2014 23:49:00 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '170837'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept,Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Lazr-Notifications:
+      - "[]"
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from nutmeg.canonical.com
+      X-Cache-Lookup:
+      - MISS from nutmeg.canonical.com:3128
+      Via:
+      - 1.0 nutmeg.canonical.com:3128 (squid/2.7.STABLE7)
+    body:
+      encoding: UTF-8
+      string: '{"total_size": 84, "start": 0, "next_collection_link": "https://api.launchpad.net/1.0/bzr?ws.op=getMergeProposals\u0026ws.size=75\u0026memo=75\u0026ws.start=75",
+        "entries": [{"queuer_link": null, "queue_status": "Needs review", "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~slyguy", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"87c8c186beb928f8dbf4e0476f59d33fc7ecf381-d037b5235f6960da1bb7bc536d98460fd0278654\"",
+        "date_review_requested": "2013-05-27T19:23:45.441802+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~slyguy/bzr/bug-855155/+merge/165929/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~slyguy/bzr/bug-855155/+merge/165929",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~slyguy/bzr/bug-855155",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~slyguy/bzr/bug-855155/+merge/165929/all_comments",
+        "date_merged": null, "description": "Bug fix with test for bug 855155.", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~slyguy/bzr/bug-855155/+merge/165929/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~slyguy/bzr/bug-855155/+merge/165929/+preview-diff/380190",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~slyguy/bzr/bug-855155/+merge/165929",
+        "date_created": "2013-05-27T19:23:45.441802+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~abentley", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev", "http_etag": "\"e4e012f155f599029b27eef68ef4c9cb573c1e75-237b8f97003f8882442997cfce4cdeae5185e51e\"",
+        "date_review_requested": "2013-05-08T04:36:40.979032+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~abentley/bzr/branches-uncommitted/+merge/162925/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~abentley/bzr/branches-uncommitted/+merge/162925",
+        "commit_message": "Show uncommitted changes in branches.", "resource_type_link":
+        "https://api.launchpad.net/1.0/#branch_merge_proposal", "source_branch_link":
+        "https://api.launchpad.net/1.0/~abentley/bzr/branches-uncommitted", "all_comments_collection_link":
+        "https://api.launchpad.net/1.0/~abentley/bzr/branches-uncommitted/+merge/162925/all_comments",
+        "date_merged": null, "description": "This branch enables showing uncommitted
+        changes for colocated branches, similar to the display in the ''pipeline''
+        plugin.  Uncommitted changes in branches are created with switch --store,
+        and are a good reminder of which branches are works-in-progress.\n\nBranch.has_uncommitted
+        is implemented because the other way of determining uncommitted changes is
+        convoluted: call get_unshelver, providing a tree, and see whether it returns
+        None.", "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~abentley/bzr/branches-uncommitted/+merge/162925/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~abentley/bzr/branches-uncommitted/+merge/162925/+preview-diff/373218",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~abentley/bzr/branches-uncommitted/+merge/162925",
+        "date_created": "2013-05-08T04:36:40.979032+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~zkrynicki", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev", "http_etag": "\"da81ef29a31472972766dc09425dfe6faee28718-32d9e2ca5e489269234d83ad2e80400952153cb3\"",
+        "date_review_requested": "2012-10-02T23:11:20.216858+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~zkrynicki/bzr/find_ancestors/+merge/127610/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~zkrynicki/bzr/find_ancestors/+merge/127610",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~zkrynicki/bzr/find_ancestors",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~zkrynicki/bzr/find_ancestors/+merge/127610/all_comments",
+        "date_merged": null, "description": "Add a workaround for bzr-fastimport crashing,
+        see bug https://bugs.launchpad.net/bzr/+bug/541626\n\nAs stated, I don''t
+        know how correct this solution is in practice. From my limited testing it
+        _fixes_ the crash and\nseems to produce proper repository data. I want to
+        get feedback from developers that know the core bzr better than I do.", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~zkrynicki/bzr/find_ancestors/+merge/127610/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~zkrynicki/bzr/find_ancestors/+merge/127610/+preview-diff/293785",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~zkrynicki/bzr/find_ancestors/+merge/127610",
+        "date_created": "2012-10-02T23:11:20.216858+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~hid-iwata", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev", "http_etag": "\"a8563ffa05a1ac89cf0197e5e20d3ece22588f54-c9226a2ceba1cb83885114e46f0e1263562529b1\"",
+        "date_review_requested": "2012-08-09T21:35:07.803013+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~hid-iwata/bzr/fix-mojibake/+merge/119051/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~hid-iwata/bzr/fix-mojibake/+merge/119051",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~hid-iwata/bzr/fix-mojibake",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~hid-iwata/bzr/fix-mojibake/+merge/119051/all_comments",
+        "date_merged": null, "description": "Workaround for #777996 and #909152\n\nUnreadable
+        error message can be a huge blocker for newbie users.\nThis patch may not
+        be perfect, but I think this is better than now.", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~hid-iwata/bzr/fix-mojibake/+merge/119051/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~hid-iwata/bzr/fix-mojibake/+merge/119051/+preview-diff/273920",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~hid-iwata/bzr/fix-mojibake/+merge/119051",
+        "date_created": "2012-08-09T21:35:07.803013+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~mnn282", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev", "http_etag": "\"04f1d854c8400cd31005d5fe24d98bb6925fb937-38f64b8156c1bc89693b90a936a1e57443b8eb35\"",
+        "date_review_requested": "2012-07-29T22:51:31.837724+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~mnn282/bzr/auto-rename-fix/+merge/117203/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mnn282/bzr/auto-rename-fix/+merge/117203",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~mnn282/bzr/auto-rename-fix",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~mnn282/bzr/auto-rename-fix/+merge/117203/all_comments",
+        "date_merged": null, "description": "Fixed bug with RenameMap (bzr move --auto),
+        also RenameMap has ability to detect files moved into new unversioned directories.",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~mnn282/bzr/auto-rename-fix/+merge/117203/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~mnn282/bzr/auto-rename-fix/+merge/117203/+preview-diff/269535",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~mnn282/bzr/auto-rename-fix/+merge/117203",
+        "date_created": "2012-07-29T22:51:31.837724+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~gz", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev", "http_etag": "\"87fd433709d509a23a21d5c9be63a2262293d3b7-09d486ae2a43d6676f53725f6974d0c5c1a2ebf0\"",
+        "date_review_requested": "2012-07-27T17:35:56.144729+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~gz/bzr/resolve_dir_removal_auto_344013/+merge/117104/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_dir_removal_auto_344013/+merge/117104",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_dir_removal_auto_344013",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_dir_removal_auto_344013/+merge/117104/all_comments",
+        "date_merged": null, "description": "Make automatic resolving treat conflicts
+        involving deleted directories as resolved if the directory has been subsequently
+        deleted.\n\nThere are two ways a user might do this:\n\n* bzr rm dir\n - In
+        which case resolve can just remove the conflict. Bug 138803 wants rm to check
+        for an clean up conflicts, that is not implemented here.\n\n* rm -rf dir\n
+        - In which case I think having `bzr st` report missing files after resolve
+        would be confusing, so the tree inventory needs updating.\n\nWhen the desired
+        outcome is that the directory should be kept, using --done is still needed.\n",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_dir_removal_auto_344013/+merge/117104/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_dir_removal_auto_344013/+merge/117104/+preview-diff/269310",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_auto_refactor",
+        "queued_revid": null, "merged_revno": null, "reviewed_revid": null, "web_link":
+        "https://code.launchpad.net/~gz/bzr/resolve_dir_removal_auto_344013/+merge/117104",
+        "date_created": "2012-07-27T17:35:56.144729+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~gz", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev", "http_etag": "\"a6a3f93715cbfcd5ad6c810772d1c59ef6a0ef88-07e2d8df3b0d434c6d626a522c39cbac4b2f6c60\"",
+        "date_review_requested": "2012-07-27T14:47:38.993610+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~gz/bzr/resolve_all_deprecation/+merge/117071/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_all_deprecation/+merge/117071",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_all_deprecation",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_all_deprecation/+merge/117071/all_comments",
+        "date_merged": null, "description": "Deprecate `bzr resolve --all`, it''s
+        the same as `bzr resolve --done` but can''t be used for a subset of files
+        and may give users the false impression it does something more than just wipe
+        the conflict list.\n\nThis is going to clash a fair bit with lp:~gz/bzr/resolve_file_not_done
+        and the documentation probably wants more sensible updating for both.\n",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_all_deprecation/+merge/117071/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_all_deprecation/+merge/117071/+preview-diff/269228",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_auto_refactor",
+        "queued_revid": null, "merged_revno": null, "reviewed_revid": null, "web_link":
+        "https://code.launchpad.net/~gz/bzr/resolve_all_deprecation/+merge/117071",
+        "date_created": "2012-07-27T14:47:38.993610+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~gz", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev", "http_etag": "\"64e0fec25b2aa62bdffcec5458f59dcc11d6a18f-d8e292c04a0463ded641012a5c33aac5ccf2ba92\"",
+        "date_review_requested": "2012-07-27T12:29:10.053108+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~gz/bzr/resolve_file_not_done/+merge/117052/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_file_not_done/+merge/117052",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_file_not_done",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_file_not_done/+merge/117052/all_comments",
+        "date_merged": null, "description": "Makes `bzr resolve FILE` use the same
+        auto logic as `bzr resolve` rather than implying `bzr resolve --done FILE`.\n\nThis
+        was discussed on the mailing list recently:\n\n\u003chttps://lists.ubuntu.com/archives/bazaar/2012q3/075039.html\u003e\n\nCurrently
+        auto is pretty limited, which makes this change less appetizing, for deleted
+        directories and such like I often end up running resolve with single argument
+        quite often, and having to remember --done now could get frustrating. However,
+        it''s pretty obvious if you know about the change, and making auto smarter
+        is something we''ve wanted for a while anyway.\n\nI''ve updated some bits
+        of documentation but am probably missing other bits elsewhere.\n\nThe current
+        testing for conflicts I don''t fully understand, some help explaining the
+        details there would be good, but it appears that several places where I needed
+        to add --done should get covered by making --auto smarter.\n", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_file_not_done/+merge/117052/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_file_not_done/+merge/117052/+preview-diff/269163",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_auto_refactor",
+        "queued_revid": null, "merged_revno": null, "reviewed_revid": null, "web_link":
+        "https://code.launchpad.net/~gz/bzr/resolve_file_not_done/+merge/117052",
+        "date_created": "2012-07-27T12:29:10.053108+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~gz", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev", "http_etag": "\"93722266be2afc6102dce00d3fd37589d17dec55-54f28f235c9860af347676d273932aaf3f9efe0d\"",
+        "date_review_requested": "2012-07-27T12:17:10.862287+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~gz/bzr/resolve_auto_refactor/+merge/117051/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_auto_refactor/+merge/117051",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_auto_refactor",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_auto_refactor/+merge/117051/all_comments",
+        "date_merged": null, "description": "Creates a new kind of conflict resolution
+        action named ''auto'', refactoring code from `WorkingTree.auto_resolve` and
+        deprecating that method. There should be no behaviour change.\n\nI''d like
+        to write some specific tests for this action type, but can''t really see a
+        way in to bt.test_conflicts to do that.\n\nIs there documentation other than
+        in conflict-types.txt that this branch should update?\n\nA followup branch
+        will make `bzr resolve FILE` default to --auto rather than --done.\n\nMay
+        also be a good idea to unify the --all switch and deprecate it.\n\nI''m not
+        wild about using NotImplementedError as the only mechanism of signalling a
+        conflict as not having been resolved. Perhaps another exception type should
+        be added for this?\n\nThe UI can benefit from some cleanup later, notably
+        `bzr resolve` gives a return code if there are pending conflicts, and there
+        are slightly different spellings of the results.\n\nHaving the pending conflicts
+        returned by the auto_resolve method is actually a little useful. In general,
+        conficts.resolve just returning the counts is fine, but to report the details
+        having the conflict objects is handy.\n", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~gz/bzr/resolve_auto_refactor/+merge/117051/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~gz/bzr/resolve_auto_refactor/+merge/117051/+preview-diff/269320",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~gz/bzr/resolve_auto_refactor/+merge/117051",
+        "date_created": "2012-07-27T12:17:10.862287+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~mnn282", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev", "http_etag": "\"bca3641d98c11f26951875ec5b3af366a0eccfe2-5735c396abd33baff9707d1f9ce4a7ecce666817\"",
+        "date_review_requested": "2012-07-26T12:29:25.699141+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~mnn282/bzr/sftp-unsupported-operation-more-info/+merge/116849/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mnn282/bzr/sftp-unsupported-operation-more-info/+merge/116849",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~mnn282/bzr/sftp-unsupported-operation-more-info",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~mnn282/bzr/sftp-unsupported-operation-more-info/+merge/116849/all_comments",
+        "date_merged": null, "description": "Unsupported operations now have more
+        information in SFTP transport.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~mnn282/bzr/sftp-unsupported-operation-more-info/+merge/116849/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~mnn282/bzr/sftp-unsupported-operation-more-info/+merge/116849/+preview-diff/270217",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~mnn282/bzr/sftp-unsupported-operation-more-info/+merge/116849",
+        "date_created": "2012-07-26T12:29:25.699141+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Needs review", "private": false, "registrant_link":
+        "https://api.launchpad.net/1.0/~torkvemada", "date_reviewed": null, "target_branch_link":
+        "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev", "http_etag": "\"2dd68a6d3e9f000474183df45e57600fb7929632-d3c85e80364f8d25d433d6127c78c11a34ee6aa5\"",
+        "date_review_requested": "2012-07-17T14:11:07.685932+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~torkvemada/bzr/commit_hooks/+merge/115348/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~torkvemada/bzr/commit_hooks/+merge/115348",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~torkvemada/bzr/commit_hooks",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~torkvemada/bzr/commit_hooks/+merge/115348/all_comments",
+        "date_merged": null, "description": "New class of hooks: commit ones; and
+        the corresponding Commit.start_commit hook to enable commit metadata modification.\n\nRationale:
+        there''s a set of the metadata properties that are stored along with the commit
+        itself, but at the moment there is no way to fetch or set any of them.\nI
+        suppose that since the interaction with all the metadata strictly belongs
+        to commit itself, it''s reasonable to create the hook, allowing plugin to
+        modify the metadata for the Commit class.\n\nAs a proof of concept I have
+        implemented the ''cimage'' plugin[1], which utilizes the start_hook invented
+        in this diff to add the user webcam photo to commit metadata. Later the photo
+        can be fetched from metadata by appropriate command. Practically, all the
+        cimage branch commits are equipped with the stored photos so one can easily
+        install plugin, checkout that branch and view them.\n\n[1] http://bazaar.launchpad.net/~torkvemada/+junk/bzr-cimage/view/head:/__init__.py",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~torkvemada/bzr/commit_hooks/+merge/115348/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~torkvemada/bzr/commit_hooks/+merge/115348/+preview-diff/297938",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~torkvemada/bzr/commit_hooks/+merge/115348",
+        "date_created": "2012-07-17T14:11:07.685932+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~gz", "date_reviewed": null,
+        "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/2.5", "http_etag":
+        "\"4814830f8caa1fe97cf1989c72d4aceb2a394b26-116aaf403ed17729bce6296d46292de0f5aedf9b\"",
+        "date_review_requested": "2012-03-27T13:42:15.947676+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~gz/bzr/inplace_mo_ignored_955314/+merge/99523/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~gz/bzr/inplace_mo_ignored_955314/+merge/99523",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~gz/bzr/inplace_mo_ignored_955314",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~gz/bzr/inplace_mo_ignored_955314/+merge/99523/all_comments",
+        "date_merged": null, "description": "Moves the default location for building
+        .mo files into the build/ directory, and adds an --inplace option for the
+        current behaviour when testing in a workingtree is useful. Also adds the local
+        locale dir containing translations to ignores for those cases.\n\nTo do testing
+        of translations without installing, the steps now look like:\n\n    $ make
+        update-pot\n    $ ./setup.py build_mo -i\n    $ LANG=ja_JP ./bzr help branch\n\n\n\n",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~gz/bzr/inplace_mo_ignored_955314/+merge/99523/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~gz/bzr/inplace_mo_ignored_955314/+merge/99523/+preview-diff/227708",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": "https://api.launchpad.net/1.0/~gz/bzr/install_mo_command_941835",
+        "queued_revid": null, "merged_revno": null, "reviewed_revid": null, "web_link":
+        "https://code.launchpad.net/~gz/bzr/inplace_mo_ignored_955314/+merge/99523",
+        "date_created": "2012-03-27T13:42:15.947676+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~gz", "date_reviewed": null,
+        "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/2.5", "http_etag":
+        "\"372754e3cd0e36fc4c1b58806e1e86d85e9a8267-ccac60e4fb7fe0e9baa0bd3a44b5b4bfc53b0b09\"",
+        "date_review_requested": "2012-03-27T13:27:56.247072+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~gz/bzr/install_mo_command_941835/+merge/99521/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~gz/bzr/install_mo_command_941835/+merge/99521",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~gz/bzr/install_mo_command_941835",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~gz/bzr/install_mo_command_941835/+merge/99521/all_comments",
+        "date_merged": null, "description": "Adds an install_mo distutils command,
+        and removes the current setup.py hacks related to .mo files. At the moment,
+        .mo files will only be installed if they were built in a previous run of the
+        script, because the code to locate them runs when setup.py loads, rather than
+        after build_mo completes.\n\nIn addition, the bzr_distutils module is moved
+        to tools/ as it''s only needed during the setup process and isn''t used by
+        bzrlib otherwise. The idea presumably was so qbzr could share the code for
+        it''s setup.py (as it''s the origin), but that''s yet to happen and likely
+        needs some more thought before it does.\n\nThe default install location is
+        left as \"share/locale\" for now, but that could be changed (perhaps to something
+        platform specific) as needed.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~gz/bzr/install_mo_command_941835/+merge/99521/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~gz/bzr/install_mo_command_941835/+merge/99521/+preview-diff/227917",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": "https://api.launchpad.net/1.0/~gz/bzr/run_test_setup_in_tempdir_140874",
+        "queued_revid": null, "merged_revno": null, "reviewed_revid": null, "web_link":
+        "https://code.launchpad.net/~gz/bzr/install_mo_command_941835/+merge/99521",
+        "date_created": "2012-03-27T13:27:56.247072+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~vila", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"00240515ae5a675ae8d20c444e179cc3e426de58-7fa99c9bcdeefae948ccba921a6629ca07cb3694\"",
+        "date_review_requested": "2012-03-26T16:56:34.501242+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/webdav-in-core/+merge/99371/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~vila/bzr/webdav-in-core/+merge/99371",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~vila/bzr/webdav-in-core",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/webdav-in-core/+merge/99371/all_comments",
+        "date_merged": null, "description": "This merges the bzr-webdav plugin into
+        core.\n\nThis plugin has been quite stable for years but was broken by a recent\nchange
+        in bzr (related to the ssl cert verification). Bringing it into core\nis one
+        way to address potential issues like this and is mostly an experiment\nto
+        see what happen when a plugin is merged into core.", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/webdav-in-core/+merge/99371/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~vila/bzr/webdav-in-core/+merge/99371/+preview-diff/227353",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~vila/bzr/webdav-in-core/+merge/99371",
+        "date_created": "2012-03-26T16:56:34.501242+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~parthm", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"f633a069e41474cf8c0cd2fefd88a40c436c2496-15b8d886743ade1530abe5df7b6be67691709999\"",
+        "date_review_requested": "2012-02-26T05:32:00.890800+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~parthm/bzr/242522-symlink-repo-to-usb-stick/+merge/94679/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~parthm/bzr/242522-symlink-repo-to-usb-stick/+merge/94679",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~parthm/bzr/242522-symlink-repo-to-usb-stick",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~parthm/bzr/242522-symlink-repo-to-usb-stick/+merge/94679/all_comments",
+        "date_merged": null, "description": "This patch updates updates transform.create_symlink
+        to issue a warning in case the target filesystem (e.g. fat mounted on Linux)
+        does not support symlinks. It catches OSError EPERM and issues a warning to
+        the user. The branch is created / updated but the symlink is not created.\n\nThis
+        patch along with https://code.launchpad.net/~parthm/bzr/81689-win-symlink-warning/+merge/93784
+        allow bzr to work with repos containing symlinks on  file systems that don''t
+        allow symlinks by ignoring symlinks (i.e. not creating them at all).\n", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~parthm/bzr/242522-symlink-repo-to-usb-stick/+merge/94679/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~parthm/bzr/242522-symlink-repo-to-usb-stick/+merge/94679/+preview-diff/216116",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~parthm/bzr/242522-symlink-repo-to-usb-stick/+merge/94679",
+        "date_created": "2012-02-26T05:32:00.890800+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~parthm", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"242908e4cd0d789220907b8dcaba8975829f09da-25fad9768082696c2c5e63d6cf972cbc17aed224\"",
+        "date_review_requested": "2012-03-03T06:24:38.596254+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~parthm/bzr/81689-win-symlink-warning/+merge/93784/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~parthm/bzr/81689-win-symlink-warning/+merge/93784",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~parthm/bzr/81689-win-symlink-warning",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~parthm/bzr/81689-win-symlink-warning/+merge/93784/all_comments",
+        "date_merged": null, "description": "Hello,\n\nThis branch contains changes
+        to allow checkout/branch of repositories containing symlinks on Windows platform.
+        The approach is to simply ignore symlinks and issue a warning about unsupported
+        symlinks when commands like branch, status, diff and commit are run. This
+        is discussed https://bugs.launchpad.net/bzr/+bug/81689 with comments starting
+        with #28.\n\nThe patch isn''t quite ready for merge yet and I still need to
+        write additional tests. Just wanted to put this up here so I can improve it
+        based on review comments and the general approach is validated. Thanks.\n\nBelow
+        is the sample command interaction on Windows.\n\n=================================================================\nD:\\ext-src\u003ebrun
+        branch lp:~parthm/+junk/project-with-symlink\nUnable to creat symlink \"softlink\"
+        on this platform.\nBranched 2 revisions.\n\nD:\\ext-src\u003ecd project-with-symlink\n\nD:\\ext-src\\project-with-symlink\u003els\nhardlink
+        hello\n\nD:\\ext-src\\project-with-symlink\u003e..\\brun.bat st\nIgnoring
+        \"softlink\" as symlinks are not supported on this platform.\n\nD:\\ext-src\\project-with-symlink\u003e..\\brun.bat
+        diff\nIgnoring \"softlink\" as symlinks are not supported on this platform.\n\nD:\\ext-src\\project-with-symlink\u003e..\\brun.bat
+        ci\nCommitting to: D:/ext-src/project-with-symlink/\nmissing softlink\nIgnoring
+        \"softlink\" as symlinks are not supported on this platform.\nbzr: ERROR:
+        No changes to commit. Please ''bzr add'' the files you want to commit,\n or
+        use --unchanged to force an empty commit.\n=================================================================\n",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~parthm/bzr/81689-win-symlink-warning/+merge/93784/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~parthm/bzr/81689-win-symlink-warning/+merge/93784/+preview-diff/218613",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~parthm/bzr/81689-win-symlink-warning/+merge/93784",
+        "date_created": "2012-02-20T08:43:15.031473+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~rom1-chal", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"3ee5161cf6dc6af64cc836994ba5e04b5df3c9f9-5bb1e5379d1a0a092d34ae47807a21da8ca27165\"",
+        "date_review_requested": "2011-11-08T14:34:04.719730+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~rom1-chal/bzr/post_checkout_hook/+merge/81589/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~rom1-chal/bzr/post_checkout_hook/+merge/81589",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~rom1-chal/bzr/post_checkout_hook",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~rom1-chal/bzr/post_checkout_hook/+merge/81589/all_comments",
+        "date_merged": null, "description": "Hi, \n\nAs mentioned in IRC chan, please
+        find an implementation of a post_checkout hook. \n\n* Code : It is called
+        with bzrlib.branch.CheckoutHookParams class containing paramms of which are
+        : \n(checkouted branch, checkouted revision_id, created workingtree, checkout
+        path). It fired at the end of the Branch.create_checkout method.\n\n* Tests
+        : per_branch tests take into account lightweight, heavyweight and earlier
+        revision cehkout. \n./bzr selftest -v TestCheckoutHook\n\n* Doc : I haven''t
+        found the hooks document generator to test the ''bzr help hooks'' output.
+        \nYet, I have update the releasenotes. \n\n\nMy planned usage is the following
+        : \n- I have a CI server running merges from bzr-builder recipes, \n- When
+        a conflict is detected, it reports the conflicts and mails them to related
+        users. \nThe goal now is to propose to the developer to simply checkout a
+        branch to reproduce locally the conflicts from the recipe. \nWith the post_checkout
+        hook, i trigger the merge directive right after the checkout. \n\nRgds/Romain",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~rom1-chal/bzr/post_checkout_hook/+merge/81589/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~rom1-chal/bzr/post_checkout_hook/+merge/81589/+preview-diff/188323",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~rom1-chal/bzr/post_checkout_hook/+merge/81589",
+        "date_created": "2011-11-08T14:34:04.719730+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~jameinel", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/2.3",
+        "http_etag": "\"7a1524e49d6d1e486c42cd74dda8f14076bf936c-c6aa379fdb8651c195a24bdac513c6af47d0d129\"",
+        "date_review_requested": "2011-10-10T13:47:14.150158+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~jameinel/bzr/2.3-client-reconnect-819604/+merge/78843/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.3-client-reconnect-819604/+merge/78843",
+        "commit_message": "Bug #819604, allow clients to reconnect if they lose a
+        connection at particular times.", "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.3-client-reconnect-819604",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.3-client-reconnect-819604/+merge/78843/all_comments",
+        "date_merged": null, "description": "This is the rollup of the client reconnect
+        code (bug #819604) for bzr-2.3. The only significant tweaks vs the 2.2 version
+        is that ''osutils.read_bytes_from_socket'' already handled WSAECONNABORTED
+        and that NEWS is now split up into multiple files, rather than just being
+        NEWS.\n\nAgain, reviews should be done on 2.1 to start with, this is created
+        to handle any merge conflicts, etc that result in up-porting the code.", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.3-client-reconnect-819604/+merge/78843/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.3-client-reconnect-819604/+merge/78843/+preview-diff/177143",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~jameinel/bzr/2.3-client-reconnect-819604/+merge/78843",
+        "date_created": "2011-10-10T13:47:14.150158+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~jameinel", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/2.2",
+        "http_etag": "\"76452a7420dd822740c17b40d28e77275355322b-aa53f5bc8780a908d9c3784b3ab10d4e5e16d282\"",
+        "date_review_requested": "2011-10-10T13:40:35.685169+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~jameinel/bzr/2.2-client-reconnect-819604/+merge/78842/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.2-client-reconnect-819604/+merge/78842",
+        "commit_message": "Bug #819604, allow bzr-2.2 to gracefully reconnect to the
+        server if we get a ConnectionReset at appropriate times.", "resource_type_link":
+        "https://api.launchpad.net/1.0/#branch_merge_proposal", "source_branch_link":
+        "https://api.launchpad.net/1.0/~jameinel/bzr/2.2-client-reconnect-819604",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.2-client-reconnect-819604/+merge/78842/all_comments",
+        "date_merged": null, "description": "This is just a rollup of all of my changes
+        for the 2.1-client-reconnect (for bug #819604) but merged into bzr-2.2 and
+        updated for the api changes, etc.\n\nI suggest we review and approve the 2.1
+        series, since it is all nicely split out into logical steps, and then when
+        ready any changes needed there can be brought into this branch, etc.", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.2-client-reconnect-819604/+merge/78842/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.2-client-reconnect-819604/+merge/78842/+preview-diff/177137",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~jameinel/bzr/2.2-client-reconnect-819604/+merge/78842",
+        "date_created": "2011-10-10T13:40:35.685169+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~jameinel", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/2.1",
+        "http_etag": "\"ae830e2a061e9dd367a09b7933d9b8b63cfc237a-de7ad5ebed5bad69b84a44f3cf09e0f7df94b89a\"",
+        "date_review_requested": "2011-10-10T13:18:55.719960+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-read-reconnect-819604/+merge/78839/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-read-reconnect-819604/+merge/78839",
+        "commit_message": "Bug #819604, retry the request if we get ConnectionReset
+        while reading as well.", "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-read-reconnect-819604",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-read-reconnect-819604/+merge/78839/all_comments",
+        "date_merged": null, "description": "This is the final step in the chain.\n\nThis
+        adds the ability to retry the request if we get a ConnectionReset while reading
+        the response from the server.\n\nNote that this only retries the request while
+        parsing the response header (ok, error, etc). Not while reading the actual
+        body content. However, as mentioned in the beginning, that is the use case
+        that we really care about. We are trying to allow the server to soft-disconnect
+        us, in which case it shouldn''t send any response at all.\n\n(The other thing
+        we could have done is upgraded the RPC to allow the server to send a ''reconnect''
+        message, but that wouldn''t have been compatible with older clients, especially
+        since they wouldn''t have been listening for that response at the end of a
+        previous message, etc.)\n\nNote that I''ve tested this by running bzr.dev
+        on devpad, and using ''bzr branch bzr+ssh://...'' and then while on devpad,
+        running ''kill -SIGHUP PID'' on whatever bzr is currently active. I wasn''t
+        able to actually stop the branch from finishing, even though I killed it in
+        a few different places.\n\nAnd the client appropriately reported that it got
+        ConnectionReset but that it was going to try again.", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-read-reconnect-819604/+merge/78839/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-read-reconnect-819604/+merge/78839/+preview-diff/177132",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-categorize-requests-819604",
+        "queued_revid": null, "merged_revno": null, "reviewed_revid": null, "web_link":
+        "https://code.launchpad.net/~jameinel/bzr/2.1-client-read-reconnect-819604/+merge/78839",
+        "date_created": "2011-10-10T13:18:55.719960+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~jameinel", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/2.1",
+        "http_etag": "\"981340a2fedb3f830ae27794c74142f99930fe9c-1996fa85b6674530d9854bd454d335ea1ca73110\"",
+        "date_review_requested": "2011-10-08T11:59:45.807385+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-categorize-requests-819604/+merge/78708/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-categorize-requests-819604/+merge/78708",
+        "commit_message": "Bug #819604, categorize all smart Requests as to their
+        safety for retrying them automatically.", "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-categorize-requests-819604",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-categorize-requests-819604/+merge/78708/all_comments",
+        "date_merged": null, "description": "1) I analyzed all of the requests that
+        are currently registered as to whether they are safe or not to retry. I ended
+        up with 4 categories:\n\n#   safe    The request is strictly idempotent, calling
+        it twice results in\n#           the same result as calling it one time. This
+        includes all read-only\n#           requests, and write requests like ''put''
+        where the end result is\n#           identical content.\n#   unsafe  A request
+        which is unsafe means that state is updated in a way that\n#           replaying
+        that request results in a different state. For example\n#           ''append''
+        writes more bytes to a given file. If append succeeds, it\n#           moves
+        the file pointer.\n#   semi    This is a request that isn''t strictly idempotent,
+        but doesn''t\n#           result in corruption if it is retried. This is for
+        things like\n#           ''lock'' and ''unlock''. If you call lock, it updates
+        the disk\n#           structure. If you fail to read the response, you won''t
+        be able to\n#           use the lock, because you don''t have the lock token.
+        Calling lock\n#           again will fail, because the lock is already taken.
+        However, we\n#           can''t tell if the server received our request or
+        not. If it didn''t,\n#           then retrying the request is fine, as it
+        will actually do what we\n#           want. If it did, we will interrupt the
+        current operation, but we\n#           are no worse off than interrupting
+        the current operation because of\n#           a ConnectionReset.\n#   stream  This
+        is a request that takes a stream that cannot be restarted if\n#           consumed.
+        This request is ''safe'' in that if we determine the\n#           connection
+        is closed before we consume the stream, we can try\n#           again.\n\n2)
+        The retry code will ultimately only care if something is ''unsafe'' or not,
+        so we could simplify this list if we wanted. Or we could extend it to split
+        ''safe'' into differentiating between ''read-only'' and ''idempotent''.\n\nOne
+        interesting potential from this classification, is that we could actually
+        test it. Specifically, for each request, we set up a RemoteRepository in some
+        sort of state. We could then create a test that:\n a) for ''read-only'', after
+        the request is sent, there is no change on disk.\n b) for ''idempotent'' there
+        is a change, however, sending the request a second time, there is no change.\n
+        c) for ''semi'', there is some change on disk, sending the request a second
+        time causes a client-side failure (exception is raised)\n d) for ''stream'',
+        I''m not really sure\n e) for ''unsafe'' we could confirm that sending the
+        request once results in a change, and sending it again, results in yet-another
+        change.\n\nHowever, the test suite setup is non-trivial, since you need specific
+        arguments for every function. Which is an awful lot of scenarios to describe.\n\n3)
+        I decided to add this to registry, rather that putting it on the classes themselves.
+        Either would be fine, as we only need to lookup one request at runtime that
+        actually got ConnectionReset. The main reason I went this route is that I
+        want to make sure a human looks at every request and determines its safety.
+        Adding it as a class attribute tends to leave it as the default from inheritance,
+        which makes it a little too easy to mark something safe when it isn''t. And
+        if you get it wrong, this is something that only causes corruption when you
+        get a ConnectionReset at exactly the right time. So really hard to debug and
+        diagnose.\n\n4) This is one of those patches that will definitely need to
+        be updated to merge it to newer versions of bzr, since it touches so many
+        lines of code, and we are very likely to have added new RPCs since bzr 2.1.",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-categorize-requests-819604/+merge/78708/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-categorize-requests-819604/+merge/78708/+preview-diff/177123",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-reconnect-819604",
+        "queued_revid": null, "merged_revno": null, "reviewed_revid": null, "web_link":
+        "https://code.launchpad.net/~jameinel/bzr/2.1-categorize-requests-819604/+merge/78708",
+        "date_created": "2011-10-08T11:59:45.807385+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~jameinel", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/2.1",
+        "http_etag": "\"1ec64b6af233feab2b4c184df092dc8a60f08470-f39f37ed5228a56fb74eccd707828c41f9d7f905\"",
+        "date_review_requested": "2011-10-07T16:24:15.753808+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-stream-started-819604/+merge/78631/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-stream-started-819604/+merge/78631",
+        "commit_message": "Bug #819604, allow reconnecting with a body stream as long
+        as we haven''t touched the stream yet.", "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-stream-started-819604",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-stream-started-819604/+merge/78631/all_comments",
+        "date_merged": null, "description": "This layers on top of my ''client reconnect''
+        patch for the case where we have a body stream.\n\n1) It adds a flush just
+        before we process the first entry of the body stream. This adds an extra write
+        call to ''bzr push''. However, we write after every entry in the stream, and
+        the first entry of the stream is actually very small. (bzrlib.repository._stream_to_byte_stream()
+        the first object that gets flushed is ''pack_writer.begin()'', which is just
+        the pack header.)\nI don''t imagine writing out the ProtocolThree headers
+        will be adding tons of real world overhead.\n\n2) It tracks once we start
+        consuming body_stream, so that we don''t do the auto-retry after that point.\n\nI
+        felt it was clear and clean enough to do it this way. We could arguably do
+        a little bit better higher up the stack, but not much, as I described in the
+        bug. Specifically, RemoteRepository.insert_stream is the only caller that
+        passes a body_stream. But it, itself, only gets a stream of records to pass.
+        So if we''ve started passing records, we can''t retry anyway. So the retry
+        logic needs to go all the way up to Fetch code.", "merge_reporter_link": null,
+        "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-stream-started-819604/+merge/78631/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-stream-started-819604/+merge/78631/+preview-diff/177119",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-reconnect-819604",
+        "queued_revid": null, "merged_revno": null, "reviewed_revid": null, "web_link":
+        "https://code.launchpad.net/~jameinel/bzr/2.1-client-stream-started-819604/+merge/78631",
+        "date_created": "2011-10-07T16:24:15.753808+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~gagern", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"350ed3f697525381a7e576544ee0410c360b797c-214ceae08707c853f7eab781eae81b3b6f7682e6\"",
+        "date_review_requested": "2011-10-07T14:34:02.837155+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~gagern/bzr/bug869912-log-root-dir/+merge/78612/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~gagern/bzr/bug869912-log-root-dir/+merge/78612",
+        "commit_message": "Allow \"bzr log dir\" to filter on path even if dir names
+        a branch root.", "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~gagern/bzr/bug869912-log-root-dir",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~gagern/bzr/bug869912-log-root-dir/+merge/78612/all_comments",
+        "date_merged": null, "description": "Make \"bzr log dir\" filter for the given
+        directory even if it is the root directory of its branch. Important for split
+        branches. Use \"bzr log -d dir\" for old behaviour of listing the complete
+        history of a given branch.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~gagern/bzr/bug869912-log-root-dir/+merge/78612/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~gagern/bzr/bug869912-log-root-dir/+merge/78612/+preview-diff/178708",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": "https://api.launchpad.net/1.0/~gagern/bzr/bug869915-mkdir-quiet",
+        "queued_revid": null, "merged_revno": null, "reviewed_revid": null, "web_link":
+        "https://code.launchpad.net/~gagern/bzr/bug869912-log-root-dir/+merge/78612",
+        "date_created": "2011-10-07T14:34:02.837155+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~jameinel", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/2.1",
+        "http_etag": "\"a4aa8bc697c5fdfd56cfea28f36218259f470fd0-b4fd46ace5ec57b12fce84f1abad700484c4cd51\"",
+        "date_review_requested": "2011-10-07T13:21:05.270933+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-reconnect-819604/+merge/78597/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-reconnect-819604/+merge/78597",
+        "commit_message": "Start of bug #819604, allow bzr clients to reconnect if
+        the connection is gone when we go to write a new request.", "resource_type_link":
+        "https://api.launchpad.net/1.0/#branch_merge_proposal", "source_branch_link":
+        "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-reconnect-819604",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-reconnect-819604/+merge/78597/all_comments",
+        "date_merged": null, "description": "This is some initial work for having
+        clients reconnect when their bzr+ssh (or bzr://) connection gets closed underneath
+        them.\n\nTo start with, the trickiest bit is that it is really quite hard
+        to detect when things are closed. Mostly because of buffering, etc, at lots
+        of different levels (internal memory buffering, socket/pipe buffering, ''ssh.exe''
+        buffering, latency of close message from server back to client, etc.)\n\nI''ll
+        also clarify that this isn''t intended to handle all possible sorts of connection
+        failures. What we really are trying to handle is allowing a server to be upgraded
+        ''live''. Such that the server will gently disconnect us only between complete
+        requests. Versus having requests terminated randomly in the middle of content.
+        It may help with some of those cases, and we certainly don''t want to cause
+        corruption, etc if one of those happens. But it isn''t the goal of *this*
+        change.\n\n\n\nThis specific patch has a few aspects, and does help some cases
+        in real-world testing.\n\n1) Backport a minimum amount of the SmartSSHClientMedium
+        proxies to _real_medium patch from Andrew. In bzr-2.2 Andrew updated the code
+        so that when spawning an ''ssh'' subprocess, we use a socketpair when possible
+        instead of pipes. (That way we can read without blocking, allowing us to use
+        large buffers, etc.)\n\nIt also meant that he shared the logic from SmartSimplePipeStreamMedium
+        and SmartTCPClientMedium, which I wanted to do, to avoid having to re-implement
+        the logic multiple times.\n\nThis is a pretty small part of the patch.\n\n2)
+        Update some of the lower level code so that we get ConnectionReset rather
+        than various IOError and ValueError when writing to a closed connection.\n\n3)
+        Update the _SmartClient._send_request logic. If we get a ConnectionReset while
+        we are trying to write the request, then we can safely retry the request.
+        On the assumption that as long as the server doesn''t see the final ''e''
+        terminal byte, it will reject the request, because it is incomplete.\n\n4)
+        The one caveat is if there is a ''body_stream''. body_stream is an iterable,
+        so we can''t just rewind it and resume it.\n\nOn the plus side, there is only
+        one caller RemoteStreamSink.insert_stream. In theory we could update that
+        caller. In practice, it *also* takes a ''stream'' object, which can''t simply
+        be rewound. Though we do a ''no-op'' stream just before the real content to
+        determine that the remote server actually supports the RPC we want to use.\n\nThat
+        would allow us to close the gap a little bit. So we can detect ConnectionReset
+        all the way to the point that we actually start streaming the content.\n\nThe
+        other bit that would be possible, is to update ProtocolThreeRequester.call_with_body_stream
+        to allow it to set a flag to indicate whether it has actually started consuming
+        the stream yet. Then update it to flush just before it iterates the body stream
+        to help force detecting closed connections. (otherwise we are likely to have
+        buffered at least the first part of the body_stream in local memory, since
+        the local buffer is 1MB and the first flush is only called after the first
+        chunk of the body_stream.)\n\nThis just closes a window where we won''t reconnect
+        during ''bzr push''.\n\n5) The next step is that (especially for sockets),
+        we write out the request successfully, and then notice it is closed when we
+        try to read back the response.\n\nHere I''m a lot more concerned about non-idempotent
+        requests. Because the server might have fully read the request, and sent back
+        a response, but we didn''t get to see the response.\n\nHowever, our RPC design
+        is meant to be stateless (all state is passed in the request, not assumed
+        to be stored on the server side). Which means things *should* be idempotent.
+        For something like ''put_bytes'', we may write the same content twice, but
+        we shouldn''t corrupt anything.\n\nThe only one I can think of is ''append_bytes'',
+        and the associated open_write_stream() code. (RemoteTransport.open_write_stream
+        uses AppendBasedFileStream as its implementation.)\n\nAnd that code shouldn''t
+        really be used with up-to-date bzr clients and servers. So I''m much more
+        ok with it just dying if it isn''t safe to retry.", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-reconnect-819604/+merge/78597/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-client-reconnect-819604/+merge/78597/+preview-diff/285038",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~jameinel/bzr/2.1-client-reconnect-819604/+merge/78597",
+        "date_created": "2011-10-07T13:21:05.270933+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~mbp", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"4e838a0e3a96bf55bd2eff05fadc029b2456ce74-4a29b2ee55bed8cbd863805046203a13cc56f645\"",
+        "date_review_requested": "2011-08-01T08:04:03.770400+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/764108-diffoptions/+merge/69966/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mbp/bzr/764108-diffoptions/+merge/69966",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~mbp/bzr/764108-diffoptions",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/764108-diffoptions/+merge/69966/all_comments",
+        "date_merged": null, "description": "This builds on sergei''s work in https://bugs.launchpad.net/bzr/+bug/764108
+        to add an option to show function names within the diff, based on \u003chttps://code.launchpad.net/~maria-captains/bzr/diffoptions/+merge/54139\u003e.\n\nI
+        was going to finish it off for him.  I haven''t looked at it for a while,
+        but it''s still assigned to me so I''m putting this up to get it back in circulation.  There
+        are a lot of things we possibly could do here, but perhaps we can look for
+        a smaller incremental step.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/764108-diffoptions/+merge/69966/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~mbp/bzr/764108-diffoptions/+merge/69966/+preview-diff/135577",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~mbp/bzr/764108-diffoptions/+merge/69966",
+        "date_created": "2011-08-01T08:04:03.770400+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~thomir", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"3c141453eb3c786327a1d2a3d99985e7e6a791a8-bb49cded35416434816ddddec85bdb1d0f02ba32\"",
+        "date_review_requested": "2011-07-28T07:07:09.286543+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~thomir/bzr/add-global-config/+merge/69592/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~thomir/bzr/add-global-config/+merge/69592",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~thomir/bzr/add-global-config",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~thomir/bzr/add-global-config/+merge/69592/all_comments",
+        "date_merged": null, "description": "Code not finished yet - working on making
+        a system-wide config file (/etc/bazaar/bazaar.conf under Linux).", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~thomir/bzr/add-global-config/+merge/69592/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~thomir/bzr/add-global-config/+merge/69592/+preview-diff/136903",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~thomir/bzr/add-global-config/+merge/69592",
+        "date_created": "2011-07-28T07:07:09.286543+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~mbp", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"cc23469796a43559bdcd58ef30d36d2b76128430-39f5073f3a9df53cd172b41a2f645075a1db0f81\"",
+        "date_review_requested": "2011-08-01T07:12:09.618656+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/test-errors/+merge/64485/votes", "reviewer_link":
+        null, "self_link": "https://api.launchpad.net/1.0/~mbp/bzr/test-errors/+merge/64485",
+        "commit_message": "multiple selftest improvements: print errors once; no traceback
+        for xfail; no empty logs (bug 499713, bug 625597)", "resource_type_link":
+        "https://api.launchpad.net/1.0/#branch_merge_proposal", "source_branch_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/test-errors", "all_comments_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/test-errors/+merge/64485/all_comments",
+        "date_merged": null, "description": "A few selftest annoyances fixed:\n\n*
+        Errors are printed only once, as they occur, not again at the end.\n  If someone
+        actually really likes this, the code is there and you can \n  add a configuration
+        to turn it on.  (See bug 408192, bug 625597, though \n  this is not exactly
+        what was discussed.)\n\n* UnicodeOrBytesToBytesWriter had the somewhat confusing
+        behavior of\n  printing the repr of the wrapped object.\n\n* The indentation
+        of test failures did not fit well with testtools'' behavior\n  of returning
+        the whole traceback as part of the error string.\n\n* We shouldn''t print
+        the whole traceback for known failures.  Just \n  the reason string is enough.  (Bug
+        499713)\n\n* To let the unicode-escaping code work, we need to pass it the
+        error \n  as a unicode string.\n\n* Don''t attach empty log files; as a consequence
+        the log is not attached\n  until the test completes.  (However, it can still
+        be read from \n  TestCase.get_log()).\n\n* Bugs in old subunits do not deserve
+        a ''known failure'' in bzr.  Only\n  things we could fix (without time travel)
+        should get that.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/test-errors/+merge/64485/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~mbp/bzr/test-errors/+merge/64485/+preview-diff/136214",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~mbp/bzr/test-errors/+merge/64485",
+        "date_created": "2011-06-14T03:51:04.674032+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~mbp", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"b4954121ea7860aa7f7dd6995ddf6b8832fbd9bd-d6a30d24eceee2ed4e19fe4e2b2f113c957a40bc\"",
+        "date_review_requested": "2011-05-20T15:58:40.485121+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/help/+merge/61793/votes", "reviewer_link":
+        null, "self_link": "https://api.launchpad.net/1.0/~mbp/bzr/help/+merge/61793",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~mbp/bzr/help", "all_comments_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/help/+merge/61793/all_comments", "date_merged":
+        null, "description": "Better help for update and revert. (Thanks Maritza.)",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/help/+merge/61793/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~mbp/bzr/help/+merge/61793/+preview-diff/116545",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~mbp/bzr/help/+merge/61793",
+        "date_created": "2011-05-20T15:58:40.485121+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~maxb", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/2.3",
+        "http_etag": "\"5b66c436788b13664edb772d124acf696ccbaed5-3ef060c000720bacae715bd86e1da37855b2df0b\"",
+        "date_review_requested": "2011-05-20T10:05:51.684430+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~maxb/bzr/deref-in-set-stacking/+merge/61730/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~maxb/bzr/deref-in-set-stacking/+merge/61730",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~maxb/bzr/deref-in-set-stacking",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~maxb/bzr/deref-in-set-stacking/+merge/61730/all_comments",
+        "date_merged": null, "description": "This branch adds directory service dereferencing
+        of the URLs passed to --stacked-on=...\n\nOne aim of this was in the hope
+        of making --stacked-on=lp:... work. It doesn''t yet - ironically it would
+        work if we still resolved lp: via XMLRPC - but now that we use the /+branch/...
+        syntax to trigger server side lookup, we run into the problem that Launchpad
+        does not *currently* allow /+branch/ for stacking locations. I hope to fix
+        this in Launchpad.\n\nAnother benefit is that if users have custom plugins
+        implementing shortcut URLs, this will ensure that we do not leak these custom
+        shortcuts into the branch stacking location, potentially breaking things for
+        users without the same set of custom plugins.", "merge_reporter_link": null,
+        "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~maxb/bzr/deref-in-set-stacking/+merge/61730/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~maxb/bzr/deref-in-set-stacking/+merge/61730/+preview-diff/116389",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": "https://api.launchpad.net/1.0/~maxb/bzr/normalize-lp",
+        "queued_revid": null, "merged_revno": null, "reviewed_revid": null, "web_link":
+        "https://code.launchpad.net/~maxb/bzr/deref-in-set-stacking/+merge/61730",
+        "date_created": "2011-05-20T10:05:51.684430+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~maxb", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/2.3",
+        "http_etag": "\"135c15fd445dc44cb7bec8326ccc3f9684519d20-f8045b1f510266be8719568f4a0f13c76b37c3bf\"",
+        "date_review_requested": "2011-05-20T09:59:15.597931+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~maxb/bzr/normalize-lp/+merge/61729/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~maxb/bzr/normalize-lp/+merge/61729",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~maxb/bzr/normalize-lp",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~maxb/bzr/normalize-lp/+merge/61729/all_comments",
+        "date_merged": null, "description": "Fixes the bzrlib.urlutils.normalize_url
+        function to not mangle lp:foo URLs for lp:foolp:foo\n\nOne way to demonstrate
+        the bug is:\n\nbzr config -d lp:bzr wibble=blah\n\nand then check your ~/.bazaar/locations.conf",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~maxb/bzr/normalize-lp/+merge/61729/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~maxb/bzr/normalize-lp/+merge/61729/+preview-diff/116386",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~maxb/bzr/normalize-lp/+merge/61729",
+        "date_created": "2011-05-20T09:59:15.597931+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~gz", "date_reviewed": null,
+        "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"793a2f7db300035495f305fd819a188af8bf6eee-bf671ac9e35eb776c123bcaa37a1c0986c965963\"",
+        "date_review_requested": "2011-05-19T15:03:13.742702+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~gz/bzr/lazy_hook_test_cleanup_785054/+merge/61586/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~gz/bzr/lazy_hook_test_cleanup_785054/+merge/61586",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~gz/bzr/lazy_hook_test_cleanup_785054",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~gz/bzr/lazy_hook_test_cleanup_785054/+merge/61586/all_comments",
+        "date_merged": null, "description": "This branch isn''t ready to land (it
+        doesn''t fix the bug), but I need some help working out what''s going on with
+        the hooks isolation logic.\n\nThe branch is motivated by this mistake in the
+        existing code, which looks like a simple fix:\n\n=== modified file ''bzrlib/tests/__init__.py''\n---
+        old/bzrlib/tests/__init__.py        2011-05-17 17:03:58 +0000\n+++ new/bzrlib/tests/__init__.py        2011-05-19
+        14:53:38 +0000\n@@ -1699,7 +1699,7 @@\n     def _restoreHooks(self):\n         for
+        klass, (name, hooks) in self._preserved_hooks.items():\n             setattr(klass,
+        name, hooks)\n-        hooks._lazy_hooks = self._preserved_lazy_hooks\n+        bzrlib.hooks._lazy_hooks
+        = self._preserved_lazy_hooks\n \n     def knownFailure(self, reason):\n         \"\"\"This
+        test has failed for some known reason.\"\"\"\n\nAs the _preserved_lazy_hooks
+        dict is never restored, I''d expect the added test_lazy_hooks_unregistered_lock
+        to fail, but it passes with or without the change. Also, the two test_*_artificial
+        cases fail to do what I expect them to whatever.\n\nNot restoring the dictionary
+        doesn''t seem to break much in practice at the moment, but is another testcase
+        lifetime complication.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~gz/bzr/lazy_hook_test_cleanup_785054/+merge/61586/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~gz/bzr/lazy_hook_test_cleanup_785054/+merge/61586/+preview-diff/116090",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~gz/bzr/lazy_hook_test_cleanup_785054/+merge/61586",
+        "date_created": "2011-05-19T15:03:13.742702+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~songofacandy", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"da587f1bdf14a7c098e2e4ae5d2649e04d1004e9-91e6f9adfef932f0f3a989e35d1a1fe4c5ca8606\"",
+        "date_review_requested": "2011-05-04T09:25:08.708198+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~songofacandy/bzr/i18n/+merge/59890/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~songofacandy/bzr/i18n/+merge/59890",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~songofacandy/bzr/i18n",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~songofacandy/bzr/i18n/+merge/59890/all_comments",
+        "date_merged": null, "description": "i18n implementation for bzr.", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~songofacandy/bzr/i18n/+merge/59890/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~songofacandy/bzr/i18n/+merge/59890/+preview-diff/114850",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~songofacandy/bzr/i18n/+merge/59890",
+        "date_created": "2011-05-04T09:25:08.708198+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~jameinel", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"9995245a581c2545192c9f84797eceba2d199aaa-0802f88b9458a607d87cf65e88f8ab5c50cb8e07\"",
+        "date_review_requested": "2011-04-21T13:17:34.902597+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~joke/bzr/file_permissions_authentication.conf/+merge/58666/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~joke/bzr/file_permissions_authentication.conf/+merge/58666",
+        "commit_message": "Bug #475501, create authentication.conf with mode 0600",
+        "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~joke/bzr/file_permissions_authentication.conf",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~joke/bzr/file_permissions_authentication.conf/+merge/58666/all_comments",
+        "date_merged": null, "description": "We currently don''t do much fancy with
+        authentication.conf permissions. Joke de Buhr reasonably pointed out that
+        we could create the file as 600 and avoid defaulting to having your passwords
+        accessible by other users on the system.\n\nI haven''t looked over the patch
+        at all, just trying to get it out of the In Progress queue and get a decision
+        on it.", "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~joke/bzr/file_permissions_authentication.conf/+merge/58666/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~joke/bzr/file_permissions_authentication.conf/+merge/58666/+preview-diff/109840",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~joke/bzr/file_permissions_authentication.conf/+merge/58666",
+        "date_created": "2011-04-21T13:17:34.902597+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~sergii", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"17d35f4d63d4c1eb3d51557826e3ffa124a59955-df69e3eb885ecb05232412a737c464143a613214\"",
+        "date_review_requested": "2011-03-21T09:19:57.408414+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~maria-captains/bzr/bugtracker/+merge/54170/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~maria-captains/bzr/bugtracker/+merge/54170",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~maria-captains/bzr/bugtracker",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~maria-captains/bzr/bugtracker/+merge/54170/all_comments",
+        "date_merged": null, "description": "this started in\nhttps://code.launchpad.net/~maria-captains/bzr-gtk/gcommit-fixes/+merge/48206\nwhere
+        I added functionality similar to \"bzr commit --fixes\" to bzr-gtk.\nIn this
+        patch I kept all the changes strictly in the bzr-gtk. Jelmer rightfully commented
+        that some of these changes belong to the bzr itself, not to the gtk plugin.\n\nAnd
+        I''m suggesting it here now.\n\nHere''s the problem. bzr-gtk wraps ''bzr uncommit''
+        to store the changeset comment of the removed changeset. On the next ''bzr
+        gcommit'' this comment is used to pre-fill the comment input form.\n\nBut
+        ''bzr commit --fixes'' takes bug id''s in the form of lp:12345, but stores
+        them in the changeset as http://bugs.launchpad.net/bugs/12345. So, this patch
+        adds the functionality of reverting this transformation, and converting bug
+        urls back to bug ids.\n\nI''ve only implemented this reverting for UniqueIntegerBugTracker
+        to avoid doing extra work if you reject the patch straight away. Of course,
+        if you''ll consider taking it I''ll fix other classes too.\n\nAdditionally
+        this changeset moves one function that deals with bugs from ''bzr commit''
+        code to bugtracker.py to allow bzr-gtk to reuse it, instead of copying. That
+        function is not ''bzr commit'' specific at all.\n", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~maria-captains/bzr/bugtracker/+merge/54170/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~maria-captains/bzr/bugtracker/+merge/54170/+preview-diff/99908",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~maria-captains/bzr/bugtracker/+merge/54170",
+        "date_created": "2011-03-21T09:19:57.408414+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~gz", "date_reviewed": null,
+        "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"7ed96b498c1a36d21cb63e725eaeffb76a27cc92-9d48d1550268f13d9570cc92bcd8ce5c641f310d\"",
+        "date_review_requested": "2011-03-21T00:30:57.041326+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~maria-captains/bzr/diffoptions/+merge/54139/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~maria-captains/bzr/diffoptions/+merge/54139",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~maria-captains/bzr/diffoptions",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~maria-captains/bzr/diffoptions/+merge/54139/all_comments",
+        "date_merged": null, "description": "[GZ: Starting fresh review which I think
+        was Sergei''s intention in the earlier merge proposal:\n\u003chttps://code.launchpad.net/~maria-captains/bzr/diffoptions/+merge/52325\u003e\n]\n\nThanks,
+        John, for the discussion.\n\nLet me summarize:\n1. It''s not always easy to
+        find the \"current branch\" to be able to get its config.\n2. having \"-F
+        regex\" specified only globally is not flexible enough, as different branches
+        (e.g. one with the C code, another with the Python code) may need different
+        regexps.\n2.1 Actually, even one regexp per branch is not enough, as one branch
+        may have both python and C files.\n3. Allowing the user to specify arbitrary
+        diff options that affect all generated diffs is too dangerous - \"diff -w\"
+        will break merge bundles (and \"diff -c\" breaks bzr shelve and everything
+        that parses diffs).\n3.1 But \"diff -p\" seems to be safe everywhere.\n\nSo,
+        I took another approach. It''s more strict and more flexible at the same time.
+        More flexible as in the 2.1 above (regexp can be specified per file or a group
+        of files) and more strict as in the 3.1 above (only diff -p - really, diff
+        -F - is allowed).\n\nThe patch uses rules to find the regexp for a given tree
+        and for a given file. And runs external diff with -F regexp command-line option.\n\nPlease,
+        see the patch. It lacks tests and the documentation is not updated - but it
+        works, and shows the approach.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~maria-captains/bzr/diffoptions/+merge/54139/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~maria-captains/bzr/diffoptions/+merge/54139/+preview-diff/99858",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~maria-captains/bzr/diffoptions/+merge/54139",
+        "date_created": "2011-03-21T00:30:57.041326+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~eric97", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"74cf3fea8a39fa6a56bee9e72ece6138bc422558-1f75042bd17a1e4fb28786107ded02df3f1c276f\"",
+        "date_review_requested": "2011-02-17T08:38:04.572488+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~eric97/bzr/dump-btree-api/+merge/50107/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~eric97/bzr/dump-btree-api/+merge/50107",
+        "commit_message": "Create a public API for generating (quasi-)text dumps of
+        B-Tree index files, by turning two private methods in builtins.py into public
+        methods on bzrlib.btree_index.BTreeGraphIndex.", "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~eric97/bzr/dump-btree-api",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~eric97/bzr/dump-btree-api/+merge/50107/all_comments",
+        "date_merged": null, "description": "A review comment for another MP of mine
+        (https://code.launchpad.net/~eric97/bzr/regenerate-pack-names) asked that
+        my tests use API calls instead of run_bzr(''dump-btree'') to dump B-Tree index
+        files.  The problem is, there is no API for that; the implementation of \"bzr
+        dump-btree\" lives directly in builtins, as private methods of cmd_dump_btree.\n\nThis
+        MP moves those methods to bzrlib.btree_index.BTreeGraphIndex, and makes them
+        public.  It is a pure refactoring; it is intended that there be no change
+        in functionality.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~eric97/bzr/dump-btree-api/+merge/50107/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~eric97/bzr/dump-btree-api/+merge/50107/+preview-diff/91002",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~eric97/bzr/dump-btree-api/+merge/50107",
+        "date_created": "2011-02-17T08:38:04.572488+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~abentley", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"909e4b92ca246da936d167783e332aa5a474a177-af560ebd1f8dcf251a71fea75ab8c8c15abc993d\"",
+        "date_review_requested": "2011-02-16T22:26:39.261233+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~abentley/bzr/appenddir/+merge/50060/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~abentley/bzr/appenddir/+merge/50060",
+        "commit_message": "Support appenddir configuration policy. (Aaron Bentley)",
+        "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~abentley/bzr/appenddir",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~abentley/bzr/appenddir/+merge/50060/all_comments",
+        "date_merged": null, "description": "Hi all,\n\nThis branch introduces a new
+        configuration policy, \"appenddir\".  This new\npolicy is similar to appendpath,
+        except that it appends only the last path\nelement to the value.  Here''s
+        an example configuration:\n\n[/home/abentley/bzr]\npublic_branch = lp:~abentley/bzr\npublic_branch:policy
+        = appenddir\n\nThis means that the public branch for \"/home/abentley/bzr/foo\"
+        will be\n\"lp:~abentley/bzr/foo\", as with appendpath.  But the public branch
+        of\n\"/home/abentley/bzr/bar/foo\" will *also* be \"lp:~abentley/bzr/foo\",
+        whereas\nappendpath would make it \"lp:~abentley/bzr/bar/foo\".  While the
+        appendpath\nbehaviour may be useful for some, it produces too-long branch
+        names in many\ncases.\n\nMy motivating case is \"bzr-pipeline\".  When a pipeline
+        is created with\n\"reconfigure-pipeline\", the branch is converted into a
+        lightweight checkout,\nwith branches at \".bzr/pipes/\".  If the push location
+        had been set with\nappendpath, a push location of \"lp:~abentley/bzr/foo\"
+        would become\n\"lp:~abentley/bzr/.bzr/pipes/foo\", which is undesirable.  With
+        appenddir, it\nwould retain the value \"lp:~abentley/bzr/foo\".  I believe
+        bzr-colo has the same\nissue.\n\nWhile the new policy is syntactically compatible
+        with existing config files,\ncurrent versions of bzr treat unknown configuration
+        policies as internal\nerrors:\n*** Bazaar has encountered an internal error.  This
+        probably indicates a\n    bug in Bazaar.  You can help us fix it by filing
+        a bug report at\n        https://bugs.launchpad.net/bzr/+filebug\n    including
+        this traceback and a description of the problem.\n\nI would be happy to create
+        a bugfix for earlier bzrs so that they emit a\nuser-friendly error when they
+        encounter unknown configuration policies.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~abentley/bzr/appenddir/+merge/50060/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~abentley/bzr/appenddir/+merge/50060/+preview-diff/91064",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~abentley/bzr/appenddir/+merge/50060",
+        "date_created": "2011-02-16T22:26:39.261233+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~eric97", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"d8a78f3a282bb59402d0e2f4aaec89b8ddb4139c-92061684e8b76649d85b6b45a253b59c8a7ba7e6\"",
+        "date_review_requested": "2011-02-15T02:32:35.928198+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~eric97/bzr/regenerate-pack-names/+merge/49756/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~eric97/bzr/regenerate-pack-names/+merge/49756",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~eric97/bzr/regenerate-pack-names",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~eric97/bzr/regenerate-pack-names/+merge/49756/all_comments",
+        "date_merged": null, "description": "I clobbered the pack-names file in one
+        of my shared repos.  (Not\nto worry; I''m 100% certain it was my screwup,
+        *not* Bazaar''s.)\n\nThis MP is the result.  It adds a hidden \"regenerate-pack-names\"\ncommand.\n\nIt
+        does *not* actually overwrite .bzr/repository/pack-names, but\nrather writes
+        its new version to \"pack-names.generated\", for the\nuser to inspect and,
+        if it looks good, rename to the live\nfilename.  (Yeah, I know JAM''s new
+        repair-dirstate command does\nthe repairs in-place, but pack-names seems a
+        far more dangerous\nfile to replace, so I wanted to build in an extra layer
+        of\nparanoia.)\n\nTwo issues before it''s ready to merge:\n  - Locking:  Does
+        this need to lock the repo?  If so, read or\n    write?  Strictly, it should
+        block other processes from even\n    renaming new packs into packs/*.pack
+        for the duration, but is\n    that even possible?  Not much point locking
+        the\n    rewrite-pack-names mutex, because it doesn''t in fact write\n    that
+        file...\n\n  - So far, I''ve only tested against local file access; no\n    remote
+        Transports.  I wonder whether there''s any point\n    supporting it remotely,
+        given that you need local shell\n    access to rename the new file into service
+        anyway.\n", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~eric97/bzr/regenerate-pack-names/+merge/49756/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~eric97/bzr/regenerate-pack-names/+merge/49756/+preview-diff/90094",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~eric97/bzr/regenerate-pack-names/+merge/49756",
+        "date_created": "2011-02-15T02:32:35.928198+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~davidstrauss", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"e3ab47b947e98ec0a659394085e91529efe11c7b-7f04ad59a58f14a90b0ea8d5b694045c0d1360bb\"",
+        "date_review_requested": null, "votes_collection_link": "https://api.launchpad.net/1.0/~davidstrauss/bzr/lcas-subtree-workaround/+merge/49578/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~davidstrauss/bzr/lcas-subtree-workaround/+merge/49578",
+        "commit_message": "This should not be committed to core.", "resource_type_link":
+        "https://api.launchpad.net/1.0/#branch_merge_proposal", "source_branch_link":
+        "https://api.launchpad.net/1.0/~davidstrauss/bzr/lcas-subtree-workaround",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~davidstrauss/bzr/lcas-subtree-workaround/+merge/49578/all_comments",
+        "date_merged": null, "description": "This is not so much a merge proposal
+        as much as a \"view the diff on Launchpad\" abuse of the merge proposal system.",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~davidstrauss/bzr/lcas-subtree-workaround/+merge/49578/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~davidstrauss/bzr/lcas-subtree-workaround/+merge/49578/+preview-diff/89686",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~davidstrauss/bzr/lcas-subtree-workaround/+merge/49578",
+        "date_created": "2011-02-13T23:19:45.707750+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~vila", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"54c67cd765ca719eb7878c4dbe1a9a0d2f5f0684-d4049334c1bc51de7ecc2c13c7cf41641dcfe341\"",
+        "date_review_requested": "2011-01-12T00:37:30.959338+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/697815-repair-repo/+merge/45945/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~vila/bzr/697815-repair-repo/+merge/45945",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~vila/bzr/697815-repair-repo",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/697815-repair-repo/+merge/45945/all_comments",
+        "date_merged": null, "description": "This add a script that repair repos containing
+        an empty pack file.\n\nAs seen in bug #697815 this repair a broken repository
+        but is an incomplete solution as the branch is left in a broken state.\n\nStill,
+        I don''t feel like addressing the later but having this script easily available
+        sounds like a useful thing anyway.\n\nI wanted to add some tests but... this
+        script is not a command and I don''t feel like starting a new test infrastructure
+        for that...\n\nSo I thought I may ask for feedback about whether it''s acceptable
+        to land this first and what people think about:\n- turning it into its own
+        command,\n- somehow make it part of check/reconcile\n- something else\n\n",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/697815-repair-repo/+merge/45945/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~vila/bzr/697815-repair-repo/+merge/45945/+preview-diff/84745",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~vila/bzr/697815-repair-repo/+merge/45945",
+        "date_created": "2011-01-12T00:37:30.959338+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~eric97", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"f7bbf4aec3282ab99d6ca86313926f4cf53927b5-e836e638e878d8e4114a556a7fef8e51ee0bdb97\"",
+        "date_review_requested": "2011-01-08T04:59:13.073410+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~eric97/bzr/mutter-pid/+merge/45595/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~eric97/bzr/mutter-pid/+merge/45595",
+        "commit_message": "Make mutter() output look more like other .bzr.log entries,
+        by adding PID, absolute date/time, and a pseudo-log-level of \"MUTTER\".",
+        "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~eric97/bzr/mutter-pid",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~eric97/bzr/mutter-pid/+merge/45595/all_comments",
+        "date_merged": null, "description": "Make mutter() output look more like other
+        .bzr.log entries, by adding PID, absolute date/time, and a pseudo-log-level
+        of \"MUTTER\".\n\nBefore:\n\nFri 2011-01-07 23:56:35 -0500\n0.053  bazaar
+        version: 2.3.0dev5\n0.053  bzr arguments: [u''rocks'']\n[...]\n0.271  encoding
+        stdout as sys.stdout encoding ''UTF-8''\n0.271  Transferred: 0kB (0.0kB/s
+        r:0kB w:0kB)\n0.271  return code 0\n[  782] 2011-01-07 23:56:35.885 WARNING:
+        bzr: warning: some compiled extensions could not be loaded; see \u003chttps://answers.launchpad.net/bzr/+faq/703\u003e\n\nAfter:\n\nFri
+        2011-01-07 23:56:46 -0500\n[  786] 2011-01-07 23:56:46.978 MUTTER: 0.049  bazaar
+        version: 2.3.0dev5\n[  786] 2011-01-07 23:56:46.978 MUTTER: 0.049  bzr arguments:
+        [u''rocks'']\n[...]\n[  786] 2011-01-07 23:56:47.172 MUTTER: 0.244  encoding
+        stdout as sys.stdout encoding ''UTF-8''\n[  786] 2011-01-07 23:56:47.173 MUTTER:
+        0.244  Transferred: 0kB (0.0kB/s r:0kB w:0kB)\n[  786] 2011-01-07 23:56:47.173
+        MUTTER: 0.245  return code 0\n[  786] 2011-01-07 23:56:47.173 WARNING: bzr:
+        warning: some compiled extensions could not be loaded; see \u003chttps://answers.launchpad.net/bzr/+faq/703\u003e\n\n(N.B.:
+        I''ve purposely avoided compiling extensions, in order to force bzr to emit
+        a WARNING.)", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~eric97/bzr/mutter-pid/+merge/45595/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~eric97/bzr/mutter-pid/+merge/45595/+preview-diff/80625",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~eric97/bzr/mutter-pid/+merge/45595",
+        "date_created": "2011-01-08T04:59:13.073410+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~garyvdm", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"d08d593ede7a1bd5fcabf8b1f749c3daa93e39b9-5e6ddd07f7ef591f531e1abf126e603a0700e915\"",
+        "date_review_requested": "2010-11-18T10:00:39.093375+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~garyvdm/bzr/loggraphviz/+merge/41146/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~garyvdm/bzr/loggraphviz/+merge/41146",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~garyvdm/bzr/loggraphviz",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~garyvdm/bzr/loggraphviz/+merge/41146/all_comments",
+        "date_merged": null, "description": "This branch includes the loggraphviz
+        module from qbzr, and is the module that implements the most of the logic
+        for qlog, which I have refactored in the hopes that it may be used other plugins.\n\nI
+        have implemented a proof of concept loggerhead viz view which use this. This
+        is available here: lp:~garyvdm/loggerhead/loggraphviz\n\nThere is still lots
+        of work that I would like to do before this actually lands. E.g.:\n* The doc
+        strings need to be completed, improved, and reviewed.\n* I want to have the
+        api between the State objects, and Filters, especially how one adds a filter
+        to a state more clearly defined.\n* I need to mark private/internal methods
+        with _.\n* I want to do a bzr-gtk viz poc. viz has a number of features that
+        qlog does not, i.e. progress bar, a revision command line argument to specify
+        a tip., and a limit argument. Implementing these my result in api changes.\n*
+        I would like to still investigate doing partial loading of merge sorted revisions
+        using bzr-history-db for the use of loggerhead. This may also result in api
+        changes.\n\nSo I know this is not 100% ready, but I feel that as I have now
+        done the loggerhead poc, I now feel the time is right to get some comments
+        on the code.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~garyvdm/bzr/loggraphviz/+merge/41146/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~garyvdm/bzr/loggraphviz/+merge/41146/+preview-diff/70658",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~garyvdm/bzr/loggraphviz/+merge/41146",
+        "date_created": "2010-11-18T10:00:39.093375+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~doxxx", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"713ae8341911f617c9897d9ad8ca1348d0cf8333-4f62a238ac4718deec42870f2556acc4ae675a30\"",
+        "date_review_requested": "2011-01-21T01:16:14.977422+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~doxxx/bzr/mergetools-commands/+merge/40924/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~doxxx/bzr/mergetools-commands/+merge/40924",
+        "commit_message": "(doxxx) Added --resolve-using=ARG option to merge and remerge
+        commands to resolve conflicts using an external merge tool.", "resource_type_link":
+        "https://api.launchpad.net/1.0/#branch_merge_proposal", "source_branch_link":
+        "https://api.launchpad.net/1.0/~doxxx/bzr/mergetools-commands", "all_comments_collection_link":
+        "https://api.launchpad.net/1.0/~doxxx/bzr/mergetools-commands/+merge/40924/all_comments",
+        "date_merged": null, "description": "Building on the new bzrlib.mergetools
+        module added by lp:~doxxx/bzr/mergetools, this merge proposal adds a --resolve-using=ARG
+        option to the ``bzr merge`` and ``bzr remerge`` commands to invoke the specified
+        merge tool for each text conflict.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~doxxx/bzr/mergetools-commands/+merge/40924/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~doxxx/bzr/mergetools-commands/+merge/40924/+preview-diff/93892",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": "https://api.launchpad.net/1.0/~doxxx/bzr/mergetools",
+        "queued_revid": null, "merged_revno": null, "reviewed_revid": null, "web_link":
+        "https://code.launchpad.net/~doxxx/bzr/mergetools-commands/+merge/40924",
+        "date_created": "2010-11-16T00:43:18.073271+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~tzeentch-gm", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/2.2",
+        "http_etag": "\"15cdbc816926afbb090d3d1a074a115392780b82-feb9e4ea0246933754ba004484361775bb1ce118\"",
+        "date_review_requested": "2010-10-26T18:33:34.812866+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~tzeentch-gm/bzr/666897-get-file-by-path-attr-error/+merge/39395/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~tzeentch-gm/bzr/666897-get-file-by-path-attr-error/+merge/39395",
+        "commit_message": "Use Tree.path2id rather than the same method on _inventory
+        member", "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~tzeentch-gm/bzr/666897-get-file-by-path-attr-error",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~tzeentch-gm/bzr/666897-get-file-by-path-attr-error/+merge/39395/all_comments",
+        "date_merged": null, "description": "Just a small tweak to ``Tree.get_file_by_path``
+        to use path2id method instead of accessing _inventory directly.  This prevents
+        occasional AttributeError when _inventory is None (e.g. on WorkingTree 4+).\n\nSee
+        bug #666897 and discusson on ML: https://lists.ubuntu.com/archives/bazaar/2010q4/070748.html\n",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~tzeentch-gm/bzr/666897-get-file-by-path-attr-error/+merge/39395/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~tzeentch-gm/bzr/666897-get-file-by-path-attr-error/+merge/39395/+preview-diff/66468",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~tzeentch-gm/bzr/666897-get-file-by-path-attr-error/+merge/39395",
+        "date_created": "2010-10-26T18:33:34.812866+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~adam-delvecchio", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"abba5df622c1bf6966fe30034854ad1144b8292b-2d7704e4a7f828d2750f557cb917120d6b0bb88c\"",
+        "date_review_requested": "2010-10-18T02:53:21.627619+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~adam-delvecchio/bzr/662448-sshkey-doc/+merge/38682/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~adam-delvecchio/bzr/662448-sshkey-doc/+merge/38682",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~adam-delvecchio/bzr/662448-sshkey-doc",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~adam-delvecchio/bzr/662448-sshkey-doc/+merge/38682/all_comments",
+        "date_merged": null, "description": "Fixed bug #662448", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~adam-delvecchio/bzr/662448-sshkey-doc/+merge/38682/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~adam-delvecchio/bzr/662448-sshkey-doc/+merge/38682/+preview-diff/64682",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~adam-delvecchio/bzr/662448-sshkey-doc/+merge/38682",
+        "date_created": "2010-10-18T02:53:21.627619+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~mbp", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"f59ef7e050a8bf1cf9de20e13de151191f6b8e4b-921bcff43397653cbd0a1ea32f2340f8e1e14150\"",
+        "date_review_requested": "2010-10-17T10:20:18.906680+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/deprecation/+merge/38647/votes", "reviewer_link":
+        null, "self_link": "https://api.launchpad.net/1.0/~mbp/bzr/deprecation/+merge/38647",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~mbp/bzr/deprecation",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/deprecation/+merge/38647/all_comments",
+        "date_merged": null, "description": "This cleans up some old and pretty crufty
+        code around AddAction and smart_add.  The existing api was sufficiently complicated,
+        and as far I can tell not used by plugins, so I think it''s better just to
+        delete it.  This is a bit cleaner on its own, but also detangles things a
+        bit to allower a larger refactoring of smart_add to be smaller and to use
+        an inventory delta rather than mutating the in-memory inventory.  (bug 79336
+        asked for this a long time ago; it was worked-around in bzr-svn but it would
+        be better to give them a simpler interface).\n\nThere are essentially two
+        ways callers might want to customize smart_add: a way to generate file ids
+        (for example to match those in an existing tree) and to report on what''s
+        being done (typically to a file).  For no good reason they were tied together
+        into a somewhat strange callable object callback.  Instead, there are now
+        just plain callables for each.\n\nBefore merging this I''ll check whether
+        it impacts other things that may be adding files or implementing smart_add,
+        including bzr-svn, the package importer, and bzr builder.  Generally things
+        that are mechanically adding files shouldn''t need to call smart_add.\n\nIt
+        might be nice to have a reporter object that''s told about more actions from
+        inside add and can do more than just say the files that were added. \n\n",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/deprecation/+merge/38647/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~mbp/bzr/deprecation/+merge/38647/+preview-diff/64617",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~mbp/bzr/deprecation/+merge/38647",
+        "date_created": "2010-10-17T10:20:18.906680+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~knittl", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"e9531cc2081fe433b5c032887469783916d9ad98-232799c48d22e9b107e0a47c234a5c67746fdb89\"",
+        "date_review_requested": "2010-09-23T16:15:57.900857+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~knittl/bzr/cat-signature/+merge/36467/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~knittl/bzr/cat-signature/+merge/36467",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~knittl/bzr/cat-signature",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~knittl/bzr/cat-signature/+merge/36467/all_comments",
+        "date_merged": null, "description": "new hidden command `cat-signature` to
+        print the signature for a commit", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~knittl/bzr/cat-signature/+merge/36467/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~knittl/bzr/cat-signature/+merge/36467/+preview-diff/59233",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~knittl/bzr/cat-signature/+merge/36467",
+        "date_created": "2010-09-23T16:15:57.900857+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~vila", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"3e3712a90a01eb8624d24078e0b0682f5d57ae91-97d3ca26d80cd27ae6c1395703f2b9898b602396\"",
+        "date_review_requested": "2010-09-22T15:43:00.946711+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/imports/+merge/36324/votes", "reviewer_link":
+        null, "self_link": "https://api.launchpad.net/1.0/~vila/bzr/imports/+merge/36324",
+        "commit_message": "Clarify import policy in code-style.txt", "resource_type_link":
+        "https://api.launchpad.net/1.0/#branch_merge_proposal", "source_branch_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/imports", "all_comments_collection_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/imports/+merge/36324/all_comments",
+        "date_merged": null, "description": "This formalize same accumulated reasons
+        about why using\n   import module\n   module.symbol\nis better than\n   from
+        module import symbol\n   symbol\n\nand add them to code-style.txt.", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/imports/+merge/36324/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~vila/bzr/imports/+merge/36324/+preview-diff/58839",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~vila/bzr/imports/+merge/36324",
+        "date_created": "2010-09-22T15:43:00.946711+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~spiv", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"b7afb5383fec403d3d01e2f05f5ca0b3631340ed-7ac0d2be9a73ff6e2fc331ac097693529985a8ad\"",
+        "date_review_requested": "2010-09-22T01:33:08.589159+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~spiv/bzr/html-cmd-help/+merge/36244/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~spiv/bzr/html-cmd-help/+merge/36244",
+        "commit_message": "Fix rendering of HTML of command-line options such as \"--1.14\".",
+        "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~spiv/bzr/html-cmd-help",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/html-cmd-help/+merge/36244/all_comments",
+        "date_merged": null, "description": "I noticed that the HTML rendering of
+        command help was once again failing due to options with dots in them, like
+        \"--1.14\".  Neither plain ReST nor Sphinx''s option markup allows for dots
+        in option names.  Previously we were doing a rather fragile hack by looking
+        for a fixed string in the output, and if so doing a crude string munging to
+        make all branch format options get rendered as preformatted text.\n\nThis
+        change instead subclasses optparse''s IndentedHelpFormatter to make it emit
+        more appropriate Sphinx markup in the first place.  Because that markup cannot
+        support our options with dots in the names, I resort to using \".. describe:\"
+        (i.e. a description list in HTML terms, \u003cdl\u003e etc).  I also use \"..
+        cssclass:\" so that I can add some simple CSS to tweak the rendering to more
+        closely resemble the existing output (which when it worked was nicer than
+        a raw description list).\n\nHopefully this will prove less fragile, although
+        I''m not sure if that will work out to be true in practice.\n\nPerhaps instead
+        we should fix bug 330494, to remove those option names?  It seems a bit perverse
+        to change our UI to match an oversight in our documentation tools, though.",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/html-cmd-help/+merge/36244/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~spiv/bzr/html-cmd-help/+merge/36244/+preview-diff/58650",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~spiv/bzr/html-cmd-help/+merge/36244",
+        "date_created": "2010-09-22T01:33:08.589159+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~parthm", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"f2fac95daadb855de440b92d675d58e93153a853-f82fb9285daa59940d52f14c5293756ae2862fc0\"",
+        "date_review_requested": "2010-09-18T10:44:03.693650+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~parthm/bzr/173274-export-hooks/+merge/35919/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~parthm/bzr/173274-export-hooks/+merge/35919",
+        "commit_message": "support for pre_export and post_export hooks.", "resource_type_link":
+        "https://api.launchpad.net/1.0/#branch_merge_proposal", "source_branch_link":
+        "https://api.launchpad.net/1.0/~parthm/bzr/173274-export-hooks", "all_comments_collection_link":
+        "https://api.launchpad.net/1.0/~parthm/bzr/173274-export-hooks/+merge/35919/all_comments",
+        "date_merged": null, "description": "=== Fixes Bug #173274 ===\nThis patch
+        adds support for pre_export and post_export hooks.\n\nThe ''return _exporters[format](...)''
+        call in bzrlib.export.export didn''t really return a value. Trivially fixed
+        that also.\n\n", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~parthm/bzr/173274-export-hooks/+merge/35919/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~parthm/bzr/173274-export-hooks/+merge/35919/+preview-diff/58492",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~parthm/bzr/173274-export-hooks/+merge/35919",
+        "date_created": "2010-09-18T10:44:03.693650+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~spiv", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"6236e4066144926753024e5bb3cfa362f9e31328-2067c9e3e85d1482d3397d4160bd485093aee822\"",
+        "date_review_requested": "2010-08-09T08:51:31.683391+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~spiv/bzr/stacked-2a-reconcile/+merge/32074/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~spiv/bzr/stacked-2a-reconcile/+merge/32074",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~spiv/bzr/stacked-2a-reconcile",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/stacked-2a-reconcile/+merge/32074/all_comments",
+        "date_merged": null, "description": "See description of bug 615236; GCCHKPacker
+        got fixed at some point to take parent inventories for stacking into account,
+        but the GCCHKReconcilePacker didn''t get a corresponding change.  This patch
+        makes them share the relevant code.\n\nProbably this should have a test before
+        merging, but I''d like to get feedback on whether my understanding of the
+        code is correct, if anyone knows :)", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~spiv/bzr/stacked-2a-reconcile/+merge/32074/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~spiv/bzr/stacked-2a-reconcile/+merge/32074/+preview-diff/49389",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~spiv/bzr/stacked-2a-reconcile/+merge/32074",
+        "date_created": "2010-08-09T08:51:31.683391+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~mbp", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/2.0",
+        "http_etag": "\"9e85fb267b8df55e84b20ecc22dd8e14927516bb-d758a7b268439f05215dea597516969de89bfc50\"",
+        "date_review_requested": null, "votes_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/32669-2.0-symlink-branch/+merge/30241/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mbp/bzr/32669-2.0-symlink-branch/+merge/30241",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~mbp/bzr/32669-2.0-symlink-branch",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/32669-2.0-symlink-branch/+merge/30241/all_comments",
+        "date_merged": null, "description": "This fixes ''bzr add SYMLINK_TO_BRANCH''
+        (bug 32669)  to add the symlink, rather than running add in the referent branch.  The
+        basic fix is that when you say \"open_containing_from_transport\", we shouldn''t
+        follow a symlink in the last part.\n\n", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/32669-2.0-symlink-branch/+merge/30241/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~mbp/bzr/32669-2.0-symlink-branch/+merge/30241/+preview-diff/45468",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": "https://api.launchpad.net/1.0/~mbp/bzr/2.0-stat-symlink",
+        "queued_revid": null, "merged_revno": null, "reviewed_revid": null, "web_link":
+        "https://code.launchpad.net/~mbp/bzr/32669-2.0-symlink-branch/+merge/30241",
+        "date_created": "2010-07-19T08:46:55.530586+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~gagern", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"662256264b0c8246fd1c0db7de88e0b9000e98ab-c4403f99fc0dffa4c99b102309008dba3b95cfa0\"",
+        "date_review_requested": "2010-06-30T16:04:17.068096+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~gagern/bzr/log_branch_from_revspec/+merge/28544/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~gagern/bzr/log_branch_from_revspec/+merge/28544",
+        "commit_message": "Make the log command take its branch from the RevisionInfo.",
+        "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~gagern/bzr/log_branch_from_revspec",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~gagern/bzr/log_branch_from_revspec/+merge/28544/all_comments",
+        "date_merged": null, "description": "This makes the bzr log builtin take the
+        branch from the RevisionInfo, thereby allowing things like \"bzr log -r -1:some/branch\"",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~gagern/bzr/log_branch_from_revspec/+merge/28544/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~gagern/bzr/log_branch_from_revspec/+merge/28544/+preview-diff/42170",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~gagern/bzr/log_branch_from_revspec/+merge/28544",
+        "date_created": "2010-06-25T23:14:06.537136+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~garyvdm", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"23916ee8b4ab83d6aef033dfae9c87e0b08ef57e-dea792c4f24449def201c07f93b8be4aa0205383\"",
+        "date_review_requested": "2010-06-04T13:54:19.605603+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~garyvdm/bzr/test_no_pyqt_import/+merge/26807/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~garyvdm/bzr/test_no_pyqt_import/+merge/26807",
+        "commit_message": "Check the PyQt4 is not imported for bzr status.", "resource_type_link":
+        "https://api.launchpad.net/1.0/#branch_merge_proposal", "source_branch_link":
+        "https://api.launchpad.net/1.0/~garyvdm/bzr/test_no_pyqt_import", "all_comments_collection_link":
+        "https://api.launchpad.net/1.0/~garyvdm/bzr/test_no_pyqt_import/+merge/26807/all_comments",
+        "date_merged": null, "description": "This makes test_import_tariff.TestImportTariffs.test_simple_local
+        check that PyQt4 is not imported when bzr st is run.\n\nIt also has a drive
+        by fix to make test_import_tariff.TestImportTariffs.test_simple_local pass
+        the new ''BZR_DISABLE_PLUGINS'' and ''BZR_PLUGINS_AT'' envars to the supprocess
+        used in the test. \n\n(This should probably be move to run_bzr_subprocess,
+        but I''ll do that in another proposal.)", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~garyvdm/bzr/test_no_pyqt_import/+merge/26807/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~garyvdm/bzr/test_no_pyqt_import/+merge/26807/+preview-diff/38064",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~garyvdm/bzr/test_no_pyqt_import/+merge/26807",
+        "date_created": "2010-06-04T13:54:19.605603+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~philip-peitsch", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"b3adc3ee3e6be3346d30c3382476a2a579eb81f8-516aca7da527dd95912b3c7f212c3a43fbf60559\"",
+        "date_review_requested": "2010-06-01T05:50:42.958814+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~philip-peitsch/bzr/annotate-ghost-revs/+merge/26460/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~philip-peitsch/bzr/annotate-ghost-revs/+merge/26460",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~philip-peitsch/bzr/annotate-ghost-revs",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~philip-peitsch/bzr/annotate-ghost-revs/+merge/26460/all_comments",
+        "date_merged": null, "description": "I modified the indenting from line 232-238
+        so that if the origin is not in the revisions, it returns ''?'' for the rev
+        number, author and date.  This prevents it crashing if ghost revisions are
+        involved... though this doesn''t really help if one is interested in the data
+        in these ghost revisions.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~philip-peitsch/bzr/annotate-ghost-revs/+merge/26460/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~philip-peitsch/bzr/annotate-ghost-revs/+merge/26460/+preview-diff/38020",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~philip-peitsch/bzr/annotate-ghost-revs/+merge/26460",
+        "date_created": "2010-06-01T05:50:42.958814+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~parthm", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"370c11db7e3e3902278fadabb133e9b58b947078-725e2f2d5ddfe8c07c5e071241a8b0643319b442\"",
+        "date_review_requested": "2010-06-21T06:46:03.993736+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~parthm/bzr/300062-better-handling-for-invalid-ignore-pattern/+merge/26400/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~parthm/bzr/300062-better-handling-for-invalid-ignore-pattern/+merge/26400",
+        "commit_message": "Improved handling of invalid ignore patterns by add, ignore,
+        ignored and status.", "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~parthm/bzr/300062-better-handling-for-invalid-ignore-pattern",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~parthm/bzr/300062-better-handling-for-invalid-ignore-pattern/+merge/26400/all_comments",
+        "date_merged": null, "description": "=== Fixes Bug #300062 ===\n\nThis started
+        out as a simple bug fix to ensure that ''bzr ignore'' handles invalid patterns
+        correctly but as invalid patterns impacted other commands this patch ended
+        up fixing those as well. bzr can encounter invalid patterns in either .bzrignore
+        file or .bazaar/ignore file. These could earlier get in either by using ''bzr
+        ignore'' or by editing the files directly. The former is now fixed. This patch
+        fixes the following:\n1. ''bzr ignore'' when supplied with possibly multiple
+        patterns, filters out invalid patters and only adds valid patterns to .bzrignore\n\n2.
+        ''bzr status'' checks ignore patterns before showing status. This was crashing
+        if invalid patterns were present. ''bzr status'' now issues a warning if invalid
+        pattern(s) are seen and does not crash. In order to avoid any performance
+        penalty, `status` works as before, but if it sees sees re.error then it parser
+        both ignore files and prints out the bad pattern(s).\n\n3. ''bzr add'' checks
+        ignore patterns before adding files. This was crashing if invalid patterns
+        were present. ''bzr add'' now exists with an error message indicating invalid
+        patterns. Initially I was trying to decide between a warning or error for
+        this but decided that its better for `add` to not be too smart as it might
+        end up adding files that were meant to be ignored.\n\nImplementations Notes\n=====================\nAs
+        `re` is lazy by default. I have added a function `bzrlib.lazy_regex.eager_re_compile`
+        that is used by `bzrlib.globbing.is_pattern_valid` which in turn is used by
+        to create `bzrlib.globbing.filter_invalid_patterns`. This is used by `ignore`
+        command to ensure that no junk enters .bzrignore.\n\n`bzrlib.ignores` has
+        two new functions, `get_pattern_errors` gives information about bad patterns
+        in .bzrignore and .bazaar/ignore. `show_pattern_errors` is used to display
+        warning about bad patterns to the user. `show_pattern_errors` is used by `status`.
+        `get_pattern_errors` is used by `add` which raises error `InvalidIgnorePattern`.\n\nI
+        noticed that imports in bzrlib.status and bzrlib.ignores were not lazy. So
+        I have made these lazy and I had to add a few imports to these files.\n\nTests
+        have been added as needed.\n", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~parthm/bzr/300062-better-handling-for-invalid-ignore-pattern/+merge/26400/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~parthm/bzr/300062-better-handling-for-invalid-ignore-pattern/+merge/26400/+preview-diff/42161",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~parthm/bzr/300062-better-handling-for-invalid-ignore-pattern/+merge/26400",
+        "date_created": "2010-05-31T06:14:05.982023+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~ian-clatworthy", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"b633802bee4079637e2cbaf838f5e34a8bec7112-922faa99a4fbec76451a4a64328d515c4449c93c\"",
+        "date_review_requested": "2010-05-26T04:31:45.124765+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/sphinx-only/+merge/26011/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/sphinx-only/+merge/26011",
+        "commit_message": "Drop support for generating docs via docutils - Sphinx
+        only now.", "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/sphinx-only",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/sphinx-only/+merge/26011/all_comments",
+        "date_merged": null, "description": "This patch removes support for generating
+        docs via docutils. Once this lands, Sphinx is required for generating docs.\n\nAs
+        well as greatly simplifying the Makefile, moving to a single system for doc
+        generation removes numerous bugs, e.g. it makes PDF generation of the User
+        Reference possible.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/sphinx-only/+merge/26011/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/sphinx-only/+merge/26011/+preview-diff/36317",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~ian-clatworthy/bzr/sphinx-only/+merge/26011",
+        "date_created": "2010-05-26T04:31:45.124765+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~myfreeweb", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"45d4479892af320a635251faa03fc281ed627840-2ae044d1d30654d344bbd19783c6c905e683d32e\"",
+        "date_review_requested": "2010-05-10T12:42:28.625852+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~myfreeweb/bzr/osx-unicode-paths-fix/+merge/24988/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~myfreeweb/bzr/osx-unicode-paths-fix/+merge/24988",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~myfreeweb/bzr/osx-unicode-paths-fix",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~myfreeweb/bzr/osx-unicode-paths-fix/+merge/24988/all_comments",
+        "date_merged": null, "description": "Please merge this. It is a fix for #172383
+        and #102935", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~myfreeweb/bzr/osx-unicode-paths-fix/+merge/24988/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~myfreeweb/bzr/osx-unicode-paths-fix/+merge/24988/+preview-diff/33876",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~myfreeweb/bzr/osx-unicode-paths-fix/+merge/24988",
+        "date_created": "2010-05-10T12:42:28.625852+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~j-johan-edwards", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"774a06efaebf13670c70d09c1b6baa504c93f754-8e47fb95746fb12c7bbabb246406ec1107e93d29\"",
+        "date_review_requested": "2010-05-09T13:51:51.147003+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~j-johan-edwards/bzr/xdg_basedir_compliance/+merge/24954/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~j-johan-edwards/bzr/xdg_basedir_compliance/+merge/24954",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~j-johan-edwards/bzr/xdg_basedir_compliance",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~j-johan-edwards/bzr/xdg_basedir_compliance/+merge/24954/all_comments",
+        "date_merged": null, "description": "This branch moves the default bzr configuration
+        path from $HOME/.bazaar to $XDG_CONFIG_HOME/bazaar.\n\nThe migration of old
+        configuration files is silent. However, to obey the principle of least surprise,
+        the old configuration files are left in place, and a file is written there
+        to alert the user of the new, actively-used location.", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~j-johan-edwards/bzr/xdg_basedir_compliance/+merge/24954/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~j-johan-edwards/bzr/xdg_basedir_compliance/+merge/24954/+preview-diff/33799",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~j-johan-edwards/bzr/xdg_basedir_compliance/+merge/24954",
+        "date_created": "2010-05-09T13:51:51.147003+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~xnox", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"533d2b5be7752dd1bb97b622107fe458834203be-7ce5d196077aa26332e9f14e492a1e581b791267\"",
+        "date_review_requested": "2010-04-26T01:30:03.292603+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~xnox/bzr/bug.569934/+merge/24093/votes", "reviewer_link":
+        null, "self_link": "https://api.launchpad.net/1.0/~xnox/bzr/bug.569934/+merge/24093",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~xnox/bzr/bug.569934",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~xnox/bzr/bug.569934/+merge/24093/all_comments",
+        "date_merged": null, "description": "version-info rio parser has a hook. Plugins
+        such as bzr-svn hook into that to add additional information about revisions.
+        python parser doesn''t have a hook, and you shouldn''t expect plugin writters
+        to hook into every single parsers. This branch changes python parser to use
+        rio parser to get revision information including stuff added by hooks.\n\nFor
+        example see bug #569934.", "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~xnox/bzr/bug.569934/+merge/24093/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~xnox/bzr/bug.569934/+merge/24093/+preview-diff/31183",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~xnox/bzr/bug.569934/+merge/24093",
+        "date_created": "2010-04-26T01:30:03.292603+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~garyvdm", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"56da982ef0c30ebcce1095a3a6698a1982103513-509e18f284d929f005ea86b0dd92a91b5d4977f0\"",
+        "date_review_requested": "2010-04-25T15:40:21.593200+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~garyvdm/bzr/diff_using_gui/+merge/24076/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~garyvdm/bzr/diff_using_gui/+merge/24076",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~garyvdm/bzr/diff_using_gui",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~garyvdm/bzr/diff_using_gui/+merge/24076/all_comments",
+        "date_merged": null, "description": "This makes \"diff --using\" work better
+        with gui diff apps. \n\nThis allows one to either run the diff command once,
+        with a list of files to diff, e.g.:\nbzr diff --using \"meld [--diff]\"\n\nor
+        to run the command once per file, but run the processes simultaneously, e.g.:\nbzr
+        diff --using \"WinMergeU.exe /s \u0026\"\n\nThis fixes Bug 490212.", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~garyvdm/bzr/diff_using_gui/+merge/24076/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~garyvdm/bzr/diff_using_gui/+merge/24076/+preview-diff/39977",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~garyvdm/bzr/diff_using_gui/+merge/24076",
+        "date_created": "2010-04-25T15:40:21.593200+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~gagern", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"4ef6606b2b3854e4557a1d0330d6559450e66c85-e67cea3fbd5e1572963a11a5f398a57320f27442\"",
+        "date_review_requested": "2010-04-22T13:02:53.050820+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~gagern/bzr/encodingSafeTests/+merge/23925/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~gagern/bzr/encodingSafeTests/+merge/23925",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~gagern/bzr/encodingSafeTests",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~gagern/bzr/encodingSafeTests/+merge/23925/all_comments",
+        "date_merged": null, "description": "Ensure tests won''t cause the whole selftest
+        to abort even if UnicodeErrors occur when formatting some test result.\n\nI
+        had proposed this in 2008: http://thread.gmane.org/gmane.comp.version-control.bazaar-ng.general/43607\nBack
+        then, John Arbash Meinel and Martin Pool had approved it, but Martin Pool
+        later voted resubmit, as the feature failed its own test cases.\n\nI''ve updated
+        it to current bzr.dev, and selftests work for me now. Do you want this patch?",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~gagern/bzr/encodingSafeTests/+merge/23925/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~gagern/bzr/encodingSafeTests/+merge/23925/+preview-diff/30816",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~gagern/bzr/encodingSafeTests/+merge/23925",
+        "date_created": "2010-04-22T13:02:53.050820+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~spiv", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"ad805cfb1c6dec3c92129a3336f61cd68d74adfe-99ac1310a1ba7e01d12c6ac2136dd977d5f90521\"",
+        "date_review_requested": "2010-04-20T14:01:55.882011+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~spiv/bzr/push-relock/+merge/23767/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~spiv/bzr/push-relock/+merge/23767",
+        "commit_message": "Avoid relocking in cmd_push.", "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~spiv/bzr/push-relock",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/push-relock/+merge/23767/all_comments",
+        "date_merged": null, "description": "This fixes more relock warnings, this
+        time in cmd_push.\n\nThis one is a bit uglier than the previous patches: most
+        of the time cmd_push just needs a read-lock on br_from (the source branch),
+        but occasionally it wants to set the remembered push location.  And sometimes
+        it won''t know that it will want to until after reading the branch.conf --
+        i.e. after the read-lock has been acquired.\n\nUnfortunately, we don''t have
+        an API to upgrade a read lock to write lock, so instead this patch opens a
+        separate instance of the (already read-locked) branch so it can write-lock
+        that and set the push location.  That second instance is then discarded.  The
+        downside, as explained in the comment, is that the read-locked version will
+        not see the update, but in this case I don''t think that matters.\n", "merge_reporter_link":
+        null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/push-relock/+merge/23767/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~spiv/bzr/push-relock/+merge/23767/+preview-diff/30140",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~spiv/bzr/push-relock/+merge/23767",
+        "date_created": "2010-04-20T14:01:55.882011+00:00", "queue_position": null},
+        {"queuer_link": "https://api.launchpad.net/1.0/~lifeless", "queue_status":
+        "Work in progress", "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lifeless",
+        "date_reviewed": null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"c4ebd27f5662dbd733255c11f378a342dddb59e4-3bd91d6607de89177a6de5fd1cd0d9a73965f530\"",
+        "date_review_requested": "2010-04-15T11:57:06.267777+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~lifeless/bzr/broken/+merge/23476/votes", "reviewer_link":
+        null, "self_link": "https://api.launchpad.net/1.0/~lifeless/bzr/broken/+merge/23476",
+        "commit_message": "You, surfs up.", "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~lifeless/bzr/broken",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/broken/+merge/23476/all_comments",
+        "date_merged": null, "description": "Testing pqm, this branch is deliberately
+        broken.", "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/broken/+merge/23476/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~lifeless/bzr/broken/+merge/23476/+preview-diff/29337",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": "2010-04-15T23:53:59.630180+00:00", "prerequisite_branch_link":
+        null, "queued_revid": "\u003cemail address hidden\u003e", "merged_revno":
+        null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~lifeless/bzr/broken/+merge/23476",
+        "date_created": "2010-04-15T11:57:06.267777+00:00", "queue_position": 69},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~mbp", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"953e7d167d2e2c05ee97ca595c9b96946e697923-54559dc25a75c51238eaa4f14b7c182eef1abd40\"",
+        "date_review_requested": "2010-03-30T05:59:22.389683+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/484558-merge-directory/+merge/22430/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mbp/bzr/484558-merge-directory/+merge/22430",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~mbp/bzr/484558-merge-directory",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/484558-merge-directory/+merge/22430/all_comments",
+        "date_merged": null, "description": "According to https://bugs.edge.launchpad.net/bzr/+bug/484558
+        openbsd''s sftp server may hang if you try to read from a directory.  The
+        user who originally reported this can''t reproduce the error in trunk, but
+        on the whole I think this is still worth merging; it may occur in other cases.",
+        "merge_reporter_link": null, "preview_diffs_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/484558-merge-directory/+merge/22430/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~mbp/bzr/484558-merge-directory/+merge/22430/+preview-diff/26477",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~mbp/bzr/484558-merge-directory/+merge/22430",
+        "date_created": "2010-03-30T05:59:22.389683+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~henninge", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"1c88e4156d313207c042ad72946a800d8a3ab02f-02899371083256bac6b62fa0d2031195bfe1faae\"",
+        "date_review_requested": "2010-02-20T21:35:14.575841+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~henninge/bzr/bug-522195-contextmanagers/+merge/19788/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~henninge/bzr/bug-522195-contextmanagers/+merge/19788",
+        "commit_message": "Added context managers for read and write locks to Branch,
+        Tree, MutableTree, and Repository classes.", "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~henninge/bzr/bug-522195-contextmanagers",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~henninge/bzr/bug-522195-contextmanagers/+merge/19788/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~henninge/bzr/bug-522195-contextmanagers/+merge/19788/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~henninge/bzr/bug-522195-contextmanagers/+merge/19788/+preview-diff/19489",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~henninge/bzr/bug-522195-contextmanagers/+merge/19788",
+        "date_created": "2010-02-20T21:35:14.575841+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~gz", "date_reviewed": null,
+        "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"f81763809ee15217aa5b654efcd7100befe23b95-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": "2010-02-16T20:09:31.749488+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~gz/bzr/test_ssh_client_medium_eintr__read_bytes/+merge/19439/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~gz/bzr/test_ssh_client_medium_eintr__read_bytes/+merge/19439",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~gz/bzr/test_ssh_client_medium_eintr__read_bytes",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~gz/bzr/test_ssh_client_medium_eintr__read_bytes/+merge/19439/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~gz/bzr/test_ssh_client_medium_eintr__read_bytes/+merge/19439/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~gz/bzr/test_ssh_client_medium_eintr__read_bytes/+merge/19439/+preview-diff/18694",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~gz/bzr/test_ssh_client_medium_eintr__read_bytes/+merge/19439",
+        "date_created": "2010-02-16T20:09:31.749488+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~spiv", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"d5cad22f741a1aa55f7ca2d6dead6d3fee60e9bc-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": "2010-02-13T01:29:20.594254+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~spiv/bzr/better-news-merge/+merge/19247/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~spiv/bzr/better-news-merge/+merge/19247",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~spiv/bzr/better-news-merge",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/better-news-merge/+merge/19247/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~spiv/bzr/better-news-merge/+merge/19247/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~spiv/bzr/better-news-merge/+merge/19247/+preview-diff/30136",
+        "supersedes_link": "https://api.launchpad.net/1.0/~spiv/bzr/better-news-merge/+merge/19169",
+        "address": "\u003cemail address hidden\u003e", "superseded_by_link": null,
+        "date_queued": null, "prerequisite_branch_link": null, "queued_revid": null,
+        "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~spiv/bzr/better-news-merge/+merge/19247",
+        "date_created": "2010-02-13T01:29:20.594254+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~mbp", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"c9bfd2d64774bcf04447e1c15e684cafc980f6ea-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": "2010-02-06T10:54:37.700413+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/remove-controlfiles/+merge/18752/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mbp/bzr/remove-controlfiles/+merge/18752",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~mbp/bzr/remove-controlfiles",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/remove-controlfiles/+merge/18752/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/remove-controlfiles/+merge/18752/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~mbp/bzr/remove-controlfiles/+merge/18752/+preview-diff/30497",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~mbp/bzr/remove-controlfiles/+merge/18752",
+        "date_created": "2010-02-06T10:54:37.700413+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~garyvdm", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"634b5666e86efeab81b4e0952895c07960d5de7c-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": "2010-01-09T17:10:20.537260+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~garyvdm/bzr/unicode_bom_detect/+merge/17076/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~garyvdm/bzr/unicode_bom_detect/+merge/17076",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~garyvdm/bzr/unicode_bom_detect",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~garyvdm/bzr/unicode_bom_detect/+merge/17076/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~garyvdm/bzr/unicode_bom_detect/+merge/17076/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~garyvdm/bzr/unicode_bom_detect/+merge/17076/+preview-diff/13051",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~garyvdm/bzr/unicode_bom_detect/+merge/17076",
+        "date_created": "2010-01-09T17:10:20.537260+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~ian-clatworthy", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"204bb82b6d82b36c03ee9a13414b37805de5191c-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": "2010-01-02T07:12:48.536452+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/411413-plugin-disable/+merge/16719/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/411413-plugin-disable/+merge/16719",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/411413-plugin-disable",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/411413-plugin-disable/+merge/16719/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/411413-plugin-disable/+merge/16719/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/411413-plugin-disable/+merge/16719/+preview-diff/13398",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~ian-clatworthy/bzr/411413-plugin-disable/+merge/16719",
+        "date_created": "2010-01-02T07:12:48.536452+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~guilhem-bichot", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"af6b14067705c4dd83a0062d44745d13690b8a84-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": "2009-12-07T10:07:01.795106+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~guilhem-bichot/bzr/bzr-pull-verbose-shows-tip-before-pull/+merge/15741/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~guilhem-bichot/bzr/bzr-pull-verbose-shows-tip-before-pull/+merge/15741",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~guilhem-bichot/bzr/bzr-pull-verbose-shows-tip-before-pull",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~guilhem-bichot/bzr/bzr-pull-verbose-shows-tip-before-pull/+merge/15741/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~guilhem-bichot/bzr/bzr-pull-verbose-shows-tip-before-pull/+merge/15741/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~guilhem-bichot/bzr/bzr-pull-verbose-shows-tip-before-pull/+merge/15741/+preview-diff/9715",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~guilhem-bichot/bzr/bzr-pull-verbose-shows-tip-before-pull/+merge/15741",
+        "date_created": "2009-12-07T10:07:01.795106+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~mbp", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"2ccc8b8fccee9249cb0074d2173da065b4af804a-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": "2009-11-27T05:16:05.670219+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/remove-logging/+merge/15306/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mbp/bzr/remove-logging/+merge/15306",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~mbp/bzr/remove-logging",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/remove-logging/+merge/15306/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/remove-logging/+merge/15306/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~mbp/bzr/remove-logging/+merge/15306/+preview-diff/8247",
+        "supersedes_link": "https://api.launchpad.net/1.0/~mbp/bzr/remove-logging/+merge/14942",
+        "address": "\u003cemail address hidden\u003e", "superseded_by_link": null,
+        "date_queued": null, "prerequisite_branch_link": null, "queued_revid": null,
+        "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~mbp/bzr/remove-logging/+merge/15306",
+        "date_created": "2009-11-27T05:16:05.670219+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~declanmg", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"506c1edc2be26629befcdf74a35b997895be86da-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": null, "votes_collection_link": "https://api.launchpad.net/1.0/~declanmg/bzr/264275-fix/+merge/15175/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~declanmg/bzr/264275-fix/+merge/15175",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~declanmg/bzr/264275-fix",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~declanmg/bzr/264275-fix/+merge/15175/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~declanmg/bzr/264275-fix/+merge/15175/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~declanmg/bzr/264275-fix/+merge/15175/+preview-diff/7873",
+        "supersedes_link": "https://api.launchpad.net/1.0/~declanmg/bzr/264275-fix/+merge/14688",
+        "address": "\u003cemail address hidden\u003e", "superseded_by_link": null,
+        "date_queued": null, "prerequisite_branch_link": null, "queued_revid": null,
+        "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~declanmg/bzr/264275-fix/+merge/15175",
+        "date_created": "2009-11-23T23:01:52.242185+00:00", "queue_position": null},
+        {"queuer_link": null, "queue_status": "Work in progress", "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~jameinel", "date_reviewed":
+        null, "target_branch_link": "https://api.launchpad.net/1.0/~bzr-pqm/bzr/bzr.dev",
+        "http_etag": "\"7c35de184454331b889a9f3233355db6e8159bc3-a937886b945c686cf74d68d2f7a4aef8814e0098\"",
+        "date_review_requested": "2009-10-23T15:05:39.357340+00:00", "votes_collection_link":
+        "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-remove-win32-build/+merge/13848/votes",
+        "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-remove-win32-build/+merge/13848",
+        "commit_message": null, "resource_type_link": "https://api.launchpad.net/1.0/#branch_merge_proposal",
+        "source_branch_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-remove-win32-build",
+        "all_comments_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-remove-win32-build/+merge/13848/all_comments",
+        "date_merged": null, "description": null, "merge_reporter_link": null, "preview_diffs_collection_link":
+        "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-remove-win32-build/+merge/13848/preview_diffs",
+        "preview_diff_link": "https://api.launchpad.net/1.0/~jameinel/bzr/2.1-remove-win32-build/+merge/13848/+preview-diff/4833",
+        "supersedes_link": null, "address": "\u003cemail address hidden\u003e", "superseded_by_link":
+        null, "date_queued": null, "prerequisite_branch_link": null, "queued_revid":
+        null, "merged_revno": null, "reviewed_revid": null, "web_link": "https://code.launchpad.net/~jameinel/bzr/2.1-remove-win32-build/+merge/13848",
+        "date_created": "2009-10-23T15:05:39.357340+00:00", "queue_position": null}]}'
+    http_version: 
+  recorded_at: Sun, 18 May 2014 23:49:08 GMT
+recorded_with: VCR 2.9.0

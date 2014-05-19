@@ -1,0 +1,1931 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.launchpad.net/1.0/bzr/?ws.op=getBranches
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 18 May 2014 23:53:14 GMT
+      Server:
+      - zope.server.http (HTTP)
+      X-Powered-By:
+      - Zope (www.zope.org), Python (www.python.org)
+      Content-Length:
+      - '179750'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=15552000
+      Vary:
+      - Accept,Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Lazr-Notifications:
+      - "[]"
+      Content-Type:
+      - application/json
+      X-Cache:
+      - MISS from banana.canonical.com
+      X-Cache-Lookup:
+      - MISS from banana.canonical.com:3128
+      Via:
+      - 1.0 banana.canonical.com:3128 (squid/2.7.STABLE7)
+    body:
+      encoding: UTF-8
+      string: '{"total_size": 546, "start": 0, "next_collection_link": "https://api.launchpad.net/1.0/bzr?ws.op=getBranches\u0026ws.size=75\u0026memo=75\u0026ws.start=75",
+        "entries": [{"control_format": null, "unique_name": "~jrydberg/bzr/versionedfile",
+        "date_last_modified": "2005-12-31T23:34:07+00:00", "display_name": "lp:~jrydberg/bzr/versionedfile",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~jrydberg",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~jrydberg/bzr/versionedfile/linked_bugs",
+        "branch_format": null, "last_mirrored": "2006-09-19T16:54:33.820937+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~jrydberg/bzr/versionedfile/subscriptions",
+        "lifecycle_status": "Experimental", "dependent_branches_collection_link":
+        "https://api.launchpad.net/1.0/~jrydberg/bzr/versionedfile/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"9f607b8c8034c4a2b95c299f3e70e7b3b1a5798d-ba023771db24e39d4973c035183c03da02ba1fda\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~jrydberg/bzr/versionedfile/spec_links",
+        "name": "versionedfile", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~jrydberg/bzr/versionedfile",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1548, "mirror_status_message":
+        "Not a branch: http://repo.panadafs.org/bzr/bzr.jrydberg.versionedfile/",
+        "description": "Re-factoring effort to support several history formats\nin
+        bzrlib without little or no changes to the core \nfunctionality.  Branch also
+        support the knit history\nformat.\n", "landing_targets_collection_link": "https://api.launchpad.net/1.0/~jrydberg/bzr/versionedfile/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~jrydberg/bzr/versionedfile/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~jrydberg/bzr/versionedfile/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~jrydberg/bzr/versionedfile/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~jrydberg/bzr/versionedfile", "merge_queue_config": null,
+        "last_scanned": "2006-07-18T09:31:36.916342+00:00", "url": "http://repo.panadafs.org/bzr/bzr.jrydberg.versionedfile",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~jrydberg/bzr/versionedfile",
+        "owner_link": "https://api.launchpad.net/1.0/~jrydberg", "last_mirror_attempt":
+        "2007-10-25T08:05:43.996643+00:00", "date_created": "2005-12-31T23:34:07+00:00"},
+        {"control_format": null, "unique_name": "~ddaa/bzr/bzr.ddaa", "date_last_modified":
+        "2005-12-31T23:34:18+00:00", "display_name": "lp:~ddaa/bzr/bzr.ddaa", "merge_queue_link":
+        null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~ddaa",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~ddaa/bzr/bzr.ddaa/linked_bugs",
+        "branch_format": null, "last_mirrored": "2007-12-20T00:00:37.434453+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~ddaa/bzr/bzr.ddaa/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~ddaa/bzr/bzr.ddaa/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"f04d3cb1669226ce46342fb3c5d53724eb8c6191-54cfa92d3720cde70c7e6bea9391cb3f4d138826\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~ddaa/bzr/bzr.ddaa/spec_links",
+        "name": "bzr.ddaa", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~ddaa/bzr/bzr.ddaa",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1583, "mirror_status_message":
+        "AssertionError: 1548 != 1583", "description": "My personal bzr branch.",
+        "landing_targets_collection_link": "https://api.launchpad.net/1.0/~ddaa/bzr/bzr.ddaa/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~ddaa/bzr/bzr.ddaa/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~ddaa/bzr/bzr.ddaa/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~ddaa/bzr/bzr.ddaa/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:~ddaa/bzr/bzr.ddaa", "merge_queue_config": null, "last_scanned": "2006-07-18T09:53:27.197499+00:00",
+        "url": "http://ddaa.net/bzr/bzr.ddaa", "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~ddaa/bzr/bzr.ddaa", "owner_link":
+        "https://api.launchpad.net/1.0/~ddaa", "last_mirror_attempt": "2007-12-27T19:24:13.961662+00:00",
+        "date_created": "2005-12-31T23:34:18+00:00"}, {"control_format": "Bazaar-NG
+        meta directory, format 1\n", "unique_name": "~bulb/bzr/ignore", "date_last_modified":
+        "2005-12-31T23:34:43+00:00", "display_name": "lp:~bulb/bzr/ignore", "merge_queue_link":
+        null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~bulb",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~bulb/bzr/ignore/linked_bugs",
+        "branch_format": "Bazaar-NG branch format 5\n", "last_mirrored": "2012-08-17T18:09:26.927651+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~bulb/bzr/ignore/subscriptions",
+        "lifecycle_status": "Experimental", "dependent_branches_collection_link":
+        "https://api.launchpad.net/1.0/~bulb/bzr/ignore/dependent_branches", "sourcepackage_link":
+        null, "http_etag": "\"d6592b4fc3a367a2fd461ba5b928cf51b0e57b78-0609b204b05b96a681baeba98a4c1fe4ea20b9d1\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bulb/bzr/ignore/spec_links",
+        "name": "ignore", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bulb/bzr/ignore",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1565, "mirror_status_message":
+        "Transport error: Server refuses to fulfill the request (403 Forbidden) for
+        http://drak.ucw.cz/%7Ebulb/bzr/bzr/ignore/.bzr/branch-format ", "description":
+        "This branch contains speedup to WorkingTree.is_ignored by compiling all the
+        globs into one large regexp, and a new glob to regexp convertor. The new convertor
+        aims to adher closely to shell glob semantics.\n", "landing_targets_collection_link":
+        "https://api.launchpad.net/1.0/~bulb/bzr/ignore/landing_targets", "repository_format":
+        "Bazaar-NG Knit Repository Format 1", "subscribers_collection_link": "https://api.launchpad.net/1.0/~bulb/bzr/ignore/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bulb/bzr/ignore/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bulb/bzr/ignore/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:~bulb/bzr/ignore", "merge_queue_config": null, "last_scanned": "2006-07-18T08:43:21.654007+00:00",
+        "url": "http://drak.ucw.cz/~bulb/bzr/bzr/ignore", "whiteboard": "Currently
+        waiting for final ruling on how the transition should be handled.\n\nBranch
+        configuration and windows glob expansion are not yet converted to the new
+        glob engine.", "code_import_link": null, "web_link": "https://code.launchpad.net/~bulb/bzr/ignore",
+        "owner_link": "https://api.launchpad.net/1.0/~bulb", "last_mirror_attempt":
+        "2012-08-21T18:43:12.017130+00:00", "date_created": "2005-12-31T23:34:43+00:00"},
+        {"control_format": null, "unique_name": "~robey/bzr/bzr.robey", "date_last_modified":
+        "2005-12-31T23:35:02+00:00", "display_name": "lp:~robey/bzr/bzr.robey", "merge_queue_link":
+        null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~robey",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~robey/bzr/bzr.robey/linked_bugs",
+        "branch_format": null, "last_mirrored": "2006-05-13T10:20:17.861526+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~robey/bzr/bzr.robey/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~robey/bzr/bzr.robey/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"b04de55ec65a501cefc674cef82dae408de6ed66-097333817e4909c9bb3df1a2483c3dae5c4250b9\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~robey/bzr/bzr.robey/spec_links",
+        "name": "bzr.robey", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~robey/bzr/bzr.robey",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1527, "mirror_status_message":
+        "Not a branch: http://www.lag.net/robey/bzr.robey/", "description": "finished
+        patches against bzr.dev that Robey has submitted for review \u0026 integration\n",
+        "landing_targets_collection_link": "https://api.launchpad.net/1.0/~robey/bzr/bzr.robey/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~robey/bzr/bzr.robey/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~robey/bzr/bzr.robey/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~robey/bzr/bzr.robey/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:~robey/bzr/bzr.robey", "merge_queue_config": null, "last_scanned": "2006-07-18T09:49:46.914553+00:00",
+        "url": "http://www.lag.net/~robey/bzr.robey", "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~robey/bzr/bzr.robey", "owner_link":
+        "https://api.launchpad.net/1.0/~robey", "last_mirror_attempt": "2007-10-25T07:45:25.532218+00:00",
+        "date_created": "2005-12-31T23:35:02+00:00"}, {"control_format": null, "unique_name":
+        "~zindar/bzr/bzr.erik", "date_last_modified": "2005-12-31T23:35:12+00:00",
+        "display_name": "lp:~zindar/bzr/bzr.erik", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~zindar", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~zindar/bzr/bzr.erik/linked_bugs", "branch_format":
+        null, "last_mirrored": null, "subscriptions_collection_link": "https://api.launchpad.net/1.0/~zindar/bzr/bzr.erik/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~zindar/bzr/bzr.erik/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"32597486863a878e856554819cee4bbdc6dff8f4-503b7af344096d6fd56511c8bd616cb5868a0ce1\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~zindar/bzr/bzr.erik/spec_links",
+        "name": "bzr.erik", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~zindar/bzr/bzr.erik",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1543, "mirror_status_message":
+        "Not a branch: http://erik.bagfors.nu/bzr/bzr.erik/", "description": "Here
+        I merge my other branch (and maybe other fun stuff)", "landing_targets_collection_link":
+        "https://api.launchpad.net/1.0/~zindar/bzr/bzr.erik/landing_targets", "repository_format":
+        null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~zindar/bzr/bzr.erik/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~zindar/bzr/bzr.erik/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~zindar/bzr/bzr.erik/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:~zindar/bzr/bzr.erik", "merge_queue_config": null, "last_scanned": "2006-07-18T11:09:09.642538+00:00",
+        "url": "http://erik.bagfors.nu/bzr/bzr.erik", "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~zindar/bzr/bzr.erik", "owner_link":
+        "https://api.launchpad.net/1.0/~zindar", "last_mirror_attempt": "2007-10-25T07:58:13.323853+00:00",
+        "date_created": "2005-12-31T23:35:12+00:00"}, {"control_format": null, "unique_name":
+        "~larstiq/bzr/bzr.lq", "date_last_modified": "2005-12-31T23:35:17+00:00",
+        "display_name": "lp:~larstiq/bzr/bzr.lq", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~larstiq", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~larstiq/bzr/bzr.lq/linked_bugs", "branch_format":
+        null, "last_mirrored": "2009-04-29T02:56:14.651522+00:00", "subscriptions_collection_link":
+        "https://api.launchpad.net/1.0/~larstiq/bzr/bzr.lq/subscriptions", "lifecycle_status":
+        "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/bzr.lq/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"113ba1b9811dc109080fbf8866402a46cbe4a5e9-228a0f4dc3c50ddbd9066d87dec50f036784dc85\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/bzr.lq/spec_links",
+        "name": "bzr.lq", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~larstiq/bzr/bzr.lq",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1777, "mirror_status_message":
+        "Not a branch: \"http://bzr.richtlijn.be/bzr.lq/\".", "description": "This
+        is where I do development on bzr, when that happens.", "landing_targets_collection_link":
+        "https://api.launchpad.net/1.0/~larstiq/bzr/bzr.lq/landing_targets", "repository_format":
+        null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/bzr.lq/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/bzr.lq/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~larstiq/bzr/bzr.lq/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:~larstiq/bzr/bzr.lq", "merge_queue_config": null, "last_scanned": "2006-07-18T07:39:08.639789+00:00",
+        "url": "http://bzr.richtlijn.be/bzr.lq", "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~larstiq/bzr/bzr.lq", "owner_link":
+        "https://api.launchpad.net/1.0/~larstiq", "last_mirror_attempt": "2009-05-03T03:22:30.592523+00:00",
+        "date_created": "2005-12-31T23:35:17+00:00"}, {"control_format": "Bazaar-NG
+        meta directory, format 1\n", "unique_name": "~bulb/bzr/versioned-properties",
+        "date_last_modified": "2005-12-31T23:35:21+00:00", "display_name": "lp:~bulb/bzr/versioned-properties",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~bulb",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~bulb/bzr/versioned-properties/linked_bugs",
+        "branch_format": "Bazaar-NG branch format 5\n", "last_mirrored": "2012-08-17T18:14:03.655524+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~bulb/bzr/versioned-properties/subscriptions",
+        "lifecycle_status": "Experimental", "dependent_branches_collection_link":
+        "https://api.launchpad.net/1.0/~bulb/bzr/versioned-properties/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"18f35dea2988fdd7d7cc31ebea24fb80cec74023-38e34076e8f02e3f6c0ed31e7c184387d3fb4c48\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bulb/bzr/versioned-properties/spec_links",
+        "name": "versioned-properties", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bulb/bzr/versioned-properties",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1599, "mirror_status_message":
+        "Transport error: Server refuses to fulfill the request (403 Forbidden) for
+        http://drak.ucw.cz/%7Ebulb/bzr/bzr/properties/.bzr/branch-format ", "description":
+        "Goal of this branch is to implement Propery base class and relevant interfaces
+        in trees to read, write, apply and merge versioned properties.\nOnly properties
+        that are sets of strings (that apply to whole tree) or sets of entry-id:value
+        pairs will be supported, at least for the time being. Each property will get
+        it''s own weave/knit so the standard merge algorithms can be utilized.\nNote:
+        the branch is now in knit format and uses repository in parent dir.", "landing_targets_collection_link":
+        "https://api.launchpad.net/1.0/~bulb/bzr/versioned-properties/landing_targets",
+        "repository_format": "Bazaar-NG Knit Repository Format 1", "subscribers_collection_link":
+        "https://api.launchpad.net/1.0/~bulb/bzr/versioned-properties/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bulb/bzr/versioned-properties/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bulb/bzr/versioned-properties/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~bulb/bzr/versioned-properties", "merge_queue_config":
+        null, "last_scanned": "2006-07-18T13:38:53.453116+00:00", "url": "http://drak.ucw.cz/~bulb/bzr/bzr/properties",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~bulb/bzr/versioned-properties",
+        "owner_link": "https://api.launchpad.net/1.0/~bulb", "last_mirror_attempt":
+        "2012-08-21T18:48:06.442365+00:00", "date_created": "2005-12-31T23:35:21+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~michael-ellerman/bzr/mpe", "date_last_modified": "2005-12-31T23:35:25+00:00",
+        "display_name": "lp:~michael-ellerman/bzr/mpe", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~michael-ellerman",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~michael-ellerman/bzr/mpe/linked_bugs",
+        "branch_format": "Bazaar-NG branch format 5\n", "last_mirrored": "2010-02-07T18:06:45.533723+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~michael-ellerman/bzr/mpe/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~michael-ellerman/bzr/mpe/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"e79648b36941509ad75526cb994c9b852d518bd4-003283bb4f4a78113e1d950af322603d35489ef3\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~michael-ellerman/bzr/mpe/spec_links",
+        "name": "mpe", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~michael-ellerman/bzr/mpe",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1747, "mirror_status_message":
+        null, "description": "Random bug fixes etc. by me.", "landing_targets_collection_link":
+        "https://api.launchpad.net/1.0/~michael-ellerman/bzr/mpe/landing_targets",
+        "repository_format": "Bazaar-NG Knit Repository Format 1", "subscribers_collection_link":
+        "https://api.launchpad.net/1.0/~michael-ellerman/bzr/mpe/subscribers", "recipes_collection_link":
+        "https://api.launchpad.net/1.0/~michael-ellerman/bzr/mpe/recipes", "project_link":
+        "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~michael-ellerman/bzr/mpe/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~michael-ellerman/bzr/mpe", "merge_queue_config": null,
+        "last_scanned": "2006-07-22T15:08:34.488297+00:00", "url": "http://michael.ellerman.id.au/bzr/branches/mpe",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~michael-ellerman/bzr/mpe",
+        "owner_link": "https://api.launchpad.net/1.0/~michael-ellerman", "last_mirror_attempt":
+        "2010-02-08T00:08:04.418888+00:00", "date_created": "2005-12-31T23:35:25+00:00"},
+        {"control_format": null, "unique_name": "~lifeless/bzr/hg-plugin-trunk", "date_last_modified":
+        "2005-12-31T23:45:48+00:00", "display_name": "lp:~lifeless/bzr/hg-plugin-trunk",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lifeless",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/hg-plugin-trunk/linked_bugs",
+        "branch_format": null, "last_mirrored": "2006-09-25T04:00:12.443949+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/hg-plugin-trunk/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/hg-plugin-trunk/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"032821da3e4177e18bede4a8dbb1daff5fdfa6e7-be3ea82d41713abad5d37571f58679540495200c\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/hg-plugin-trunk/spec_links",
+        "name": "hg-plugin-trunk", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lifeless/bzr/hg-plugin-trunk",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 10, "mirror_status_message":
+        "Not a branch: \"http://people.ubuntu.com/~robertc/baz2.0/plugins/hg/trunk/\".",
+        "description": "A plugin for bzr providing readonly access to mercurial branches.",
+        "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/hg-plugin-trunk/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/hg-plugin-trunk/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/hg-plugin-trunk/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~lifeless/bzr/hg-plugin-trunk/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~lifeless/bzr/hg-plugin-trunk", "merge_queue_config":
+        null, "last_scanned": "2006-07-18T16:01:21.653711+00:00", "url": "http://people.ubuntu.com/~robertc/baz2.0/plugins/hg/trunk",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lifeless/bzr/hg-plugin-trunk",
+        "owner_link": "https://api.launchpad.net/1.0/~lifeless", "last_mirror_attempt":
+        "2007-11-25T20:54:11.353337+00:00", "date_created": "2005-12-31T23:45:48+00:00"},
+        {"control_format": null, "unique_name": "~lifeless/bzr/xml_writer", "date_last_modified":
+        "2005-12-31T23:54:03+00:00", "display_name": "lp:~lifeless/bzr/xml_writer",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lifeless",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/xml_writer/linked_bugs",
+        "branch_format": null, "last_mirrored": "2009-09-03T19:46:36.289521+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/xml_writer/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/xml_writer/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"c6fd626f4f5a793adac64e9d4bb7e7dcd33bebc6-aebe4f94c0771a10c9fd6470234232fb82c4eb16\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/xml_writer/spec_links",
+        "name": "xml_writer", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lifeless/bzr/xml_writer",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1742, "mirror_status_message":
+        "CHKInventoryRepository(''http+urllib://people.canonical.com/~robertc/baz2.0/.bzr/repository/'')
+        has no revision \u003cemail address hidden\u003e", "description": null, "landing_targets_collection_link":
+        "https://api.launchpad.net/1.0/~lifeless/bzr/xml_writer/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/xml_writer/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/xml_writer/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~lifeless/bzr/xml_writer/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~lifeless/bzr/xml_writer", "merge_queue_config": null,
+        "last_scanned": "2006-08-09T00:19:41.225439+00:00", "url": "http://people.ubuntu.com/~robertc/baz2.0/xml_writer",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lifeless/bzr/xml_writer",
+        "owner_link": "https://api.launchpad.net/1.0/~lifeless", "last_mirror_attempt":
+        "2009-09-07T20:30:08.207753+00:00", "date_created": "2005-12-31T23:54:03+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~jamesh/bzr/pending-revprops", "date_last_modified": "2005-12-31T23:56:22+00:00",
+        "display_name": "lp:~jamesh/bzr/pending-revprops", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~jamesh",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~jamesh/bzr/pending-revprops/linked_bugs",
+        "branch_format": "Bazaar-NG branch format 5\n", "last_mirrored": "2012-08-17T18:06:31.295553+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~jamesh/bzr/pending-revprops/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~jamesh/bzr/pending-revprops/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"93438485e28d22a8efbb2c7de3dec82ee38fedab-4a042ae73c87874963e32cacfdf96dff34321867\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~jamesh/bzr/pending-revprops/spec_links",
+        "name": "pending-revprops", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~jamesh/bzr/pending-revprops",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1987, "mirror_status_message":
+        "Transport error: Server refuses to fulfill the request (403 Forbidden) for
+        http://people.ubuntu.com/%7Ejamesh/bzr/bzr.pending-revprops/.bzr/branch-format
+        ", "description": "Support for setting revision properties in the working
+        tree, which will be applied to the next committed revision.", "landing_targets_collection_link":
+        "https://api.launchpad.net/1.0/~jamesh/bzr/pending-revprops/landing_targets",
+        "repository_format": "Bazaar-NG Knit Repository Format 1", "subscribers_collection_link":
+        "https://api.launchpad.net/1.0/~jamesh/bzr/pending-revprops/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~jamesh/bzr/pending-revprops/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~jamesh/bzr/pending-revprops/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~jamesh/bzr/pending-revprops", "merge_queue_config": null,
+        "last_scanned": "2006-09-08T09:08:56.676170+00:00", "url": "http://people.ubuntu.com/~jamesh/bzr/bzr.pending-revprops",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~jamesh/bzr/pending-revprops",
+        "owner_link": "https://api.launchpad.net/1.0/~jamesh", "last_mirror_attempt":
+        "2012-08-21T18:41:07.143384+00:00", "date_created": "2005-12-31T23:56:22+00:00"},
+        {"control_format": null, "unique_name": "~hwiechers-gmail/bzr/winfix", "date_last_modified":
+        "2006-11-15T12:54:13.956857+00:00", "display_name": "lp:~hwiechers-gmail/bzr/winfix",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~hwiechers-gmail",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~hwiechers-gmail/bzr/winfix/linked_bugs",
+        "branch_format": null, "last_mirrored": "2007-09-21T09:47:17.929072+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~hwiechers-gmail/bzr/winfix/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~hwiechers-gmail/bzr/winfix/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"8e8a31b84059a3caec991137aca378e3d70e6146-f44d50870ea91e50e84089f52efd3cd01cf6e96c\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~hwiechers-gmail/bzr/winfix/spec_links",
+        "name": "winfix", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~hwiechers-gmail/bzr/winfix",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 0, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~hwiechers-gmail/bzr/winfix/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~hwiechers-gmail/bzr/winfix/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~hwiechers-gmail/bzr/winfix/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~hwiechers-gmail/bzr/winfix/landing_candidates",
+        "last_scanned_id": "null:", "branch_type": "Hosted", "bzr_identity": "lp:~hwiechers-gmail/bzr/winfix",
+        "merge_queue_config": null, "last_scanned": "2006-11-15T13:05:49.232093+00:00",
+        "url": null, "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~hwiechers-gmail/bzr/winfix",
+        "owner_link": "https://api.launchpad.net/1.0/~hwiechers-gmail", "last_mirror_attempt":
+        "2007-09-21T09:47:17.929072+00:00", "date_created": "2006-11-15T12:54:13.956857+00:00"},
+        {"control_format": null, "unique_name": "~mbp/bzr/diff-speed", "date_last_modified":
+        "2006-12-22T08:59:50.507620+00:00", "display_name": "lp:~mbp/bzr/diff-speed",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~mbp",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/diff-speed/linked_bugs",
+        "branch_format": null, "last_mirrored": "2007-11-28T20:19:00.397489+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/diff-speed/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/diff-speed/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"2bb9b3e7358f723eb1231e4f90ab409904241048-bc228ad3ff7c2d36214d7b61df5f43e620ebb892\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/diff-speed/spec_links",
+        "name": "diff-speed", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mbp/bzr/diff-speed",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2210, "mirror_status_message":
+        "Not a branch: \"http://sourcefrog.net/bzr/diff-speed/\".", "description":
+        null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/diff-speed/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/diff-speed/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/diff-speed/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/diff-speed/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:~mbp/bzr/diff-speed", "merge_queue_config": null, "last_scanned": "2006-12-22T09:39:06.215142+00:00",
+        "url": "http://sourcefrog.net/bzr/diff-speed", "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~mbp/bzr/diff-speed", "owner_link":
+        "https://api.launchpad.net/1.0/~mbp", "last_mirror_attempt": "2007-12-02T20:28:09.455103+00:00",
+        "date_created": "2006-12-22T08:59:50.507620+00:00"}, {"control_format": null,
+        "unique_name": "~bzr/bzr/dirstate", "date_last_modified": "2007-02-02T05:04:07.481943+00:00",
+        "display_name": "lp:~bzr/bzr/dirstate", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~bzr", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/dirstate/linked_bugs", "branch_format":
+        null, "last_mirrored": "2007-09-21T09:49:07.220375+00:00", "subscriptions_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/dirstate/subscriptions", "lifecycle_status":
+        "Mature", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/dirstate/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"b721e99d61b85b80af29588ab7e3e9859d8453e0-f0eb22d0860f9bd49216958a52772d8ee93297fa\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/dirstate/spec_links",
+        "name": "dirstate", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bzr/bzr/dirstate",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2326, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/dirstate/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/dirstate/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/dirstate/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/dirstate/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Hosted", "bzr_identity":
+        "lp:~bzr/bzr/dirstate", "merge_queue_config": null, "last_scanned": "2007-03-08T05:48:13.906899+00:00",
+        "url": null, "whiteboard": "Likely to be merged this week.", "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~bzr/bzr/dirstate", "owner_link":
+        "https://api.launchpad.net/1.0/~bzr", "last_mirror_attempt": "2007-09-21T09:49:07.220375+00:00",
+        "date_created": "2007-02-02T05:04:07.481943+00:00"}, {"control_format": null,
+        "unique_name": "~bzr/bzr/bzr.get.with.hints", "date_last_modified": "2007-02-11T09:36:26.939990+00:00",
+        "display_name": "lp:~bzr/bzr/bzr.get.with.hints", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~bzr",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.get.with.hints/linked_bugs",
+        "branch_format": null, "last_mirrored": "2007-09-21T09:45:28.554628+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.get.with.hints/subscriptions",
+        "lifecycle_status": "Experimental", "dependent_branches_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.get.with.hints/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"9ca45a97594542e9d06e17d07d31f61d8a27a740-22e8d12b0b99a6278129834a228b438a6cf69d67\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.get.with.hints/spec_links",
+        "name": "bzr.get.with.hints", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.get.with.hints",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2280, "mirror_status_message":
+        null, "description": "This branch is an attempt to add a parameter to the
+        transport.get method while wrapping existing (but defined outside bzr core)
+        transports to ensure compatibility.\nThis should be regarded as an experiment
+        and is not intended to merged in core as is.", "landing_targets_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.get.with.hints/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.get.with.hints/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.get.with.hints/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.get.with.hints/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~bzr/bzr/bzr.get.with.hints", "merge_queue_config": null,
+        "last_scanned": "2007-02-11T10:15:14.359914+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~bzr/bzr/bzr.get.with.hints",
+        "owner_link": "https://api.launchpad.net/1.0/~bzr", "last_mirror_attempt":
+        "2007-09-21T09:45:28.554628+00:00", "date_created": "2007-02-11T09:36:26.939990+00:00"},
+        {"control_format": null, "unique_name": "~bac/bzr/doc-cleanup", "date_last_modified":
+        "2007-02-16T17:15:52.067859+00:00", "display_name": "lp:~bac/bzr/doc-cleanup",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~bac",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~bac/bzr/doc-cleanup/linked_bugs",
+        "branch_format": null, "last_mirrored": "2007-09-21T07:38:20.264402+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~bac/bzr/doc-cleanup/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~bac/bzr/doc-cleanup/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"b96d80bf24efdbf316fe81bb5b99c2eaee4ec85c-bbd4f6e1c63748b7bc08ddc2fe80a396a145406a\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bac/bzr/doc-cleanup/spec_links",
+        "name": "doc-cleanup", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bac/bzr/doc-cleanup",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2300, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~bac/bzr/doc-cleanup/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~bac/bzr/doc-cleanup/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bac/bzr/doc-cleanup/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bac/bzr/doc-cleanup/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Hosted", "bzr_identity":
+        "lp:~bac/bzr/doc-cleanup", "merge_queue_config": null, "last_scanned": "2007-03-05T20:34:11.640897+00:00",
+        "url": null, "whiteboard": "whiteboard", "code_import_link": null, "web_link":
+        "https://code.launchpad.net/~bac/bzr/doc-cleanup", "owner_link": "https://api.launchpad.net/1.0/~bac",
+        "last_mirror_attempt": "2007-09-21T07:38:20.264402+00:00", "date_created":
+        "2007-02-16T17:15:52.067859+00:00"}, {"control_format": null, "unique_name":
+        "~bzr/bzr/readdir", "date_last_modified": "2007-03-08T04:46:04.781865+00:00",
+        "display_name": "lp:~bzr/bzr/readdir", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~bzr", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/readdir/linked_bugs", "branch_format":
+        null, "last_mirrored": "2007-09-21T09:49:15.412130+00:00", "subscriptions_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/readdir/subscriptions", "lifecycle_status":
+        "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/readdir/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"d6ba904b6f69b8f8d1cabae0620254b3815fe7a6-d9eef07216542d1ff248043b332efcbd263f0702\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/readdir/spec_links",
+        "name": "readdir", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bzr/bzr/readdir",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1743, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/readdir/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/readdir/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/readdir/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/readdir/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Hosted", "bzr_identity":
+        "lp:~bzr/bzr/readdir", "merge_queue_config": null, "last_scanned": "2007-03-08T06:50:55.973017+00:00",
+        "url": null, "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~bzr/bzr/readdir",
+        "owner_link": "https://api.launchpad.net/1.0/~bzr", "last_mirror_attempt":
+        "2007-09-21T09:49:15.412130+00:00", "date_created": "2007-03-08T04:46:04.781865+00:00"},
+        {"control_format": null, "unique_name": "~lifeless/bzr/graphdelta", "date_last_modified":
+        "2007-04-03T08:10:21.720801+00:00", "display_name": "lp:~lifeless/bzr/graphdelta",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lifeless",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/graphdelta/linked_bugs",
+        "branch_format": null, "last_mirrored": "2007-09-21T09:47:38.580883+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/graphdelta/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/graphdelta/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"b86b106661ec7da95bc1ba7bab1023649a99c79b-b27ada8fd0836ce00ceb67a7ed1e8c42d6226b36\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/graphdelta/spec_links",
+        "name": "graphdelta", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lifeless/bzr/graphdelta",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2399, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/graphdelta/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/graphdelta/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/graphdelta/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~lifeless/bzr/graphdelta/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lifeless/bzr/graphdelta", "merge_queue_config": null,
+        "last_scanned": "2007-04-03T09:44:43.025952+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lifeless/bzr/graphdelta",
+        "owner_link": "https://api.launchpad.net/1.0/~lifeless", "last_mirror_attempt":
+        "2007-09-21T09:47:38.580883+00:00", "date_created": "2007-04-03T08:10:21.720801+00:00"},
+        {"control_format": null, "unique_name": "~toddy/bzr/bzr.i18n", "date_last_modified":
+        "2008-03-25T17:48:05.253829+00:00", "display_name": "lp:~toddy/bzr/bzr.i18n",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~toddy",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~toddy/bzr/bzr.i18n/linked_bugs",
+        "branch_format": null, "last_mirrored": "2008-03-25T17:46:10.585461+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~toddy/bzr/bzr.i18n/subscriptions",
+        "lifecycle_status": "Experimental", "dependent_branches_collection_link":
+        "https://api.launchpad.net/1.0/~toddy/bzr/bzr.i18n/dependent_branches", "sourcepackage_link":
+        null, "http_etag": "\"490cb37debd5da5f177730d7a6315f5a896de9ab-d4eaa0de81f78d4d4c37722f0d83aacabf5976f0\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~toddy/bzr/bzr.i18n/spec_links",
+        "name": "bzr.i18n", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~toddy/bzr/bzr.i18n",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2458, "mirror_status_message":
+        null, "description": "This branch aims to provide internationalization (i18n)
+        capabilities for bzr, so that all program messages can be translated to other
+        languages than English.", "landing_targets_collection_link": "https://api.launchpad.net/1.0/~toddy/bzr/bzr.i18n/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~toddy/bzr/bzr.i18n/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~toddy/bzr/bzr.i18n/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~toddy/bzr/bzr.i18n/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Hosted", "bzr_identity":
+        "lp:~toddy/bzr/bzr.i18n", "merge_queue_config": null, "last_scanned": "2008-03-25T17:48:05.253829+00:00",
+        "url": null, "whiteboard": "To test the translation features, it''s not necessary
+        to install the binary message catalog in the /usr/share/locale directory.
+        Instead, you can create a local directory structure in your working copy of
+        this branch and alter line 26 in the file \"bzr\" from \"gettext.install(''bzr'',
+        unicode=1)\" to \"gettext.install(''bzr'', ''po'', unicode=1)\".\n\n$ cd po\n$
+        mkdir -p de/LC_MESSAGES\n$ msgfmt -o de/LC_MESSAGES/bzr.mo de.po\n$ cd ..\n$
+        LANGUAGE=de ./bzr --version\n\nThis should display the German translation
+        of Bazaar.", "code_import_link": null, "web_link": "https://code.launchpad.net/~toddy/bzr/bzr.i18n",
+        "owner_link": "https://api.launchpad.net/1.0/~toddy", "last_mirror_attempt":
+        "2008-03-25T17:46:10.585461+00:00", "date_created": "2007-04-20T18:42:55.978672+00:00"},
+        {"control_format": null, "unique_name": "~bzr/bzr/remotegraph", "date_last_modified":
+        "2007-05-06T16:16:47.397218+00:00", "display_name": "lp:~bzr/bzr/remotegraph",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~bzr",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/remotegraph/linked_bugs",
+        "branch_format": null, "last_mirrored": "2007-09-21T07:36:18.823835+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/remotegraph/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/remotegraph/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"f853a0011bf1d7ddfb67c873694514f05bd172a5-3a5839e8e651d925e94d84169b3fa838b29fd04f\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/remotegraph/spec_links",
+        "name": "remotegraph", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bzr/bzr/remotegraph",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2208, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/remotegraph/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/remotegraph/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/remotegraph/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/remotegraph/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Hosted", "bzr_identity":
+        "lp:~bzr/bzr/remotegraph", "merge_queue_config": null, "last_scanned": "2007-05-06T16:50:08.954854+00:00",
+        "url": null, "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~bzr/bzr/remotegraph",
+        "owner_link": "https://api.launchpad.net/1.0/~bzr", "last_mirror_attempt":
+        "2007-09-21T07:36:18.823835+00:00", "date_created": "2007-05-06T16:16:47.397218+00:00"},
+        {"control_format": null, "unique_name": "~mbp/bzr/counted-lock", "date_last_modified":
+        "2007-05-07T23:53:41.528015+00:00", "display_name": "lp:~mbp/bzr/counted-lock",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~mbp",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/counted-lock/linked_bugs",
+        "branch_format": null, "last_mirrored": "2007-11-28T20:16:00.398580+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/counted-lock/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/counted-lock/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"7d13bf099075533af117a79aad0422e1e6b94483-5d7517be9082e64eb2dc99ddcbf3bf06a9f002ec\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/counted-lock/spec_links",
+        "name": "counted-lock", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mbp/bzr/counted-lock",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2513, "mirror_status_message":
+        "Not a branch: \"http://sourcefrog.net/bzr/counted-lock/\".", "description":
+        "factor the counted reentrant locks out of LockableFiles", "landing_targets_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/counted-lock/landing_targets", "repository_format":
+        null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/counted-lock/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/counted-lock/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/counted-lock/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~mbp/bzr/counted-lock", "merge_queue_config": null, "last_scanned":
+        "2007-06-07T05:18:03.099761+00:00", "url": "http://sourcefrog.net/bzr/counted-lock",
+        "whiteboard": "Partly merged. Still need to change LockableFiles to use this,
+        preliminary to removing that class.", "code_import_link": null, "web_link":
+        "https://code.launchpad.net/~mbp/bzr/counted-lock", "owner_link": "https://api.launchpad.net/1.0/~mbp",
+        "last_mirror_attempt": "2007-12-02T20:24:10.672884+00:00", "date_created":
+        "2007-05-07T23:53:41.528015+00:00"}, {"control_format": null, "unique_name":
+        "~ian-clatworthy/bzr/fast-commit", "date_last_modified": "2007-06-06T06:48:29.407724+00:00",
+        "display_name": "lp:~ian-clatworthy/bzr/fast-commit", "merge_queue_link":
+        null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~ian-clatworthy",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/fast-commit/linked_bugs",
+        "branch_format": null, "last_mirrored": "2007-09-21T07:37:12.629091+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/fast-commit/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/fast-commit/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"2002ac917a862b55ffa860e15aa2609346d9de3a-01662350396eccddfb533a6685cefb0574c0dc6d\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/fast-commit/spec_links",
+        "name": "fast-commit", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/fast-commit",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2542, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/fast-commit/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/fast-commit/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/fast-commit/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/fast-commit/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~ian-clatworthy/bzr/fast-commit", "merge_queue_config":
+        null, "last_scanned": "2007-06-20T07:04:55.731008+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~ian-clatworthy/bzr/fast-commit",
+        "owner_link": "https://api.launchpad.net/1.0/~ian-clatworthy", "last_mirror_attempt":
+        "2007-09-21T07:37:12.629091+00:00", "date_created": "2007-06-06T06:48:29.407724+00:00"},
+        {"control_format": null, "unique_name": "~ian-clatworthy/bzr/bzr.0.17", "date_last_modified":
+        "2007-06-15T00:36:36.575741+00:00", "display_name": "lp:~ian-clatworthy/bzr/bzr.0.17",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~ian-clatworthy",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.17/linked_bugs",
+        "branch_format": null, "last_mirrored": "2009-12-07T11:22:40.308500+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.17/subscriptions",
+        "lifecycle_status": "Mature", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.17/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"57147f70fc3f4c810159676639b3436416398ac1-64bc64d5eaa1561eaddd4076215810bee9e8b17c\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.17/spec_links",
+        "name": "bzr.0.17", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.17",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2524, "mirror_status_message":
+        "Not a branch: \"http+urllib://wiki.bazaar.canonical.com/bzr/bzr.0.17/\".",
+        "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.17/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.17/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.17/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.17/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~ian-clatworthy/bzr/bzr.0.17", "merge_queue_config": null,
+        "last_scanned": "2007-06-18T08:25:11.865188+00:00", "url": "http://bazaar-vcs.org/bzr/bzr.0.17",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~ian-clatworthy/bzr/bzr.0.17",
+        "owner_link": "https://api.launchpad.net/1.0/~ian-clatworthy", "last_mirror_attempt":
+        "2009-12-11T11:24:09.914405+00:00", "date_created": "2007-06-15T00:36:36.575741+00:00"},
+        {"control_format": null, "unique_name": "~mbp/bzr/logging", "date_last_modified":
+        "2007-06-18T03:22:14.104667+00:00", "display_name": "lp:~mbp/bzr/logging",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~mbp",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/logging/linked_bugs",
+        "branch_format": null, "last_mirrored": "2007-11-28T20:21:55.806605+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/logging/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/logging/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"98a2af889de265aec1095625b262bfb681e1d906-d029bbb91fe25894c152eec705bb849e5c3ffdbd\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/logging/spec_links",
+        "name": "logging", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mbp/bzr/logging",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1854, "mirror_status_message":
+        "Not a branch: \"http://sourcefrog.net/bzr/logging/\".", "description": "Don''t
+        send our log messages through the python logging module, which is a bit slow
+        and complicated.", "landing_targets_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/logging/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/logging/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/logging/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/logging/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:~mbp/bzr/logging", "merge_queue_config": null, "last_scanned": "2007-06-18T03:59:16.631687+00:00",
+        "url": "http://sourcefrog.net/bzr/logging", "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~mbp/bzr/logging", "owner_link":
+        "https://api.launchpad.net/1.0/~mbp", "last_mirror_attempt": "2007-12-02T20:30:10.265567+00:00",
+        "date_created": "2007-06-18T03:22:14.104667+00:00"}, {"control_format": null,
+        "unique_name": "~ian-clatworthy/bzr/bzr.0.18", "date_last_modified": "2007-07-12T04:10:44.055502+00:00",
+        "display_name": "lp:~ian-clatworthy/bzr/bzr.0.18", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~ian-clatworthy",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.18/linked_bugs",
+        "branch_format": null, "last_mirrored": "2009-12-07T11:23:01.557486+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.18/subscriptions",
+        "lifecycle_status": "Mature", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.18/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"20f3e40d98109bc4d53bdbf1a6657261bb99de2d-7f01471fbdc5c747e89321b2233bf66dfe828985\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.18/spec_links",
+        "name": "bzr.0.18", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.18",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2600, "mirror_status_message":
+        "Not a branch: \"http+urllib://wiki.bazaar.canonical.com/bzr/bzr.0.18/\".",
+        "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.18/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.18/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.18/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~ian-clatworthy/bzr/bzr.0.18/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~ian-clatworthy/bzr/bzr.0.18", "merge_queue_config": null,
+        "last_scanned": "2007-07-17T10:31:23.454113+00:00", "url": "http://bazaar-vcs.org/bzr/bzr.0.18",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~ian-clatworthy/bzr/bzr.0.18",
+        "owner_link": "https://api.launchpad.net/1.0/~ian-clatworthy", "last_mirror_attempt":
+        "2009-12-11T11:24:13.169264+00:00", "date_created": "2007-07-12T04:10:44.055502+00:00"},
+        {"control_format": null, "unique_name": "~larstiq/bzr/nested-trees", "date_last_modified":
+        "2008-03-09T00:30:14.324316+00:00", "display_name": "lp:~larstiq/bzr/nested-trees",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~larstiq",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/nested-trees/linked_bugs",
+        "branch_format": null, "last_mirrored": "2009-04-29T07:31:11.516754+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/nested-trees/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/nested-trees/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"f2faab71c6f11c5fab0928fa80cc3cf7587028a2-659d99a6e3487f74157bd2f0266ff02bb862c4ae\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/nested-trees/spec_links",
+        "name": "nested-trees", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~larstiq/bzr/nested-trees",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1875, "mirror_status_message":
+        "Not a branch: \"http://bzr.richtlijn.be/nested-trees/\".", "description":
+        "Implementation of https://blueprints.launchpad.net/bzr/+spec/nested-tree-support",
+        "landing_targets_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/nested-trees/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/nested-trees/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/nested-trees/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~larstiq/bzr/nested-trees/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~larstiq/bzr/nested-trees", "merge_queue_config": null,
+        "last_scanned": "2008-03-09T00:30:14.324316+00:00", "url": "http://bzr.richtlijn.be/nested-trees",
+        "whiteboard": "Currently merging bzr.dev and trying to get to 0 test failures.",
+        "code_import_link": null, "web_link": "https://code.launchpad.net/~larstiq/bzr/nested-trees",
+        "owner_link": "https://api.launchpad.net/1.0/~larstiq", "last_mirror_attempt":
+        "2009-05-03T07:57:36.493797+00:00", "date_created": "2007-07-12T16:25:09.571726+00:00"},
+        {"control_format": null, "unique_name": "~bzr/bzr/bzr.0.90", "date_last_modified":
+        "2008-04-29T06:58:29.090567+00:00", "display_name": "lp:bzr/0.90", "merge_queue_link":
+        null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~james-w",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.0.90/linked_bugs",
+        "branch_format": null, "last_mirrored": "2009-12-07T11:28:28.061745+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.0.90/subscriptions",
+        "lifecycle_status": "Mature", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.0.90/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"fec1a7036b745501c6910e5cf027db9395a44d22-0000c9578a3f9935236911902ea413d21e100826\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.0.90/spec_links",
+        "name": "bzr.0.90", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.0.90",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2701, "mirror_status_message":
+        "Not a branch: \"http+urllib://wiki.bazaar.canonical.com/bzr/bzr.0.90/\".",
+        "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.0.90/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.0.90/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.0.90/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.0.90/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:bzr/0.90", "merge_queue_config": null, "last_scanned": "2007-08-29T09:54:06.110304+00:00",
+        "url": "http://bazaar-vcs.org/bzr/bzr.0.90", "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~bzr/bzr/bzr.0.90", "owner_link":
+        "https://api.launchpad.net/1.0/~bzr", "last_mirror_attempt": "2009-12-11T11:32:04.961007+00:00",
+        "date_created": "2007-08-15T19:54:52.400791+00:00"}, {"control_format": null,
+        "unique_name": "~mierle/bzr/compactgraph", "date_last_modified": "2007-09-09T20:00:59.714467+00:00",
+        "display_name": "lp:~mierle/bzr/compactgraph", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~mierle", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~mierle/bzr/compactgraph/linked_bugs", "branch_format":
+        null, "last_mirrored": "2007-09-23T20:55:05.877588+00:00", "subscriptions_collection_link":
+        "https://api.launchpad.net/1.0/~mierle/bzr/compactgraph/subscriptions", "lifecycle_status":
+        "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~mierle/bzr/compactgraph/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"a6c32cae3d011c28914cf7f7f3732555280a0a5d-4accc63621db44e193d7dfbaaf1d2c16b8de94ec\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~mierle/bzr/compactgraph/spec_links",
+        "name": "compactgraph", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mierle/bzr/compactgraph",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2844, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~mierle/bzr/compactgraph/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~mierle/bzr/compactgraph/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~mierle/bzr/compactgraph/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~mierle/bzr/compactgraph/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~mierle/bzr/compactgraph", "merge_queue_config": null,
+        "last_scanned": "2007-09-23T20:56:16.338648+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~mierle/bzr/compactgraph",
+        "owner_link": "https://api.launchpad.net/1.0/~mierle", "last_mirror_attempt":
+        "2007-09-23T20:55:05.877588+00:00", "date_created": "2007-09-09T20:00:59.714467+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~vila/bzr/transportstats", "date_last_modified": "2009-03-18T14:14:29.419000+00:00",
+        "display_name": "lp:~vila/bzr/transportstats", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~vila", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/transportstats/linked_bugs", "branch_format":
+        "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2009-03-18T14:16:05.427193+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/transportstats/subscriptions",
+        "lifecycle_status": "Experimental", "dependent_branches_collection_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/transportstats/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"5531f15dbe886cb3c779fb5d54beb7103d2a5f88-3ea63bc7221bf0a084db2f87e1072af054e10d04\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/transportstats/spec_links",
+        "name": "transportstats", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~vila/bzr/transportstats",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 31, "mirror_status_message":
+        null, "description": "Provides a ''stats+'' decorator collecting statistics
+        about network-related IO on Transport methods. \nProvides a ts-display command
+        summarizing bytes read and written, number of requests issued and average
+        latency.", "landing_targets_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/transportstats/landing_targets",
+        "repository_format": "Bazaar-NG Knit Repository Format 1", "subscribers_collection_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/transportstats/subscribers", "recipes_collection_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/transportstats/recipes", "project_link":
+        "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/transportstats/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~vila/bzr/transportstats", "merge_queue_config": null,
+        "last_scanned": "2009-03-18T14:15:14.659811+00:00", "url": null, "whiteboard":
+        "Still in its infancy, this plugin is aimed at helping developers get precise
+        numbers when trying various optimizations.", "code_import_link": null, "web_link":
+        "https://code.launchpad.net/~vila/bzr/transportstats", "owner_link": "https://api.launchpad.net/1.0/~vila",
+        "last_mirror_attempt": "2009-03-18T14:16:05.427193+00:00", "date_created":
+        "2007-10-09T08:13:22.987269+00:00"}, {"control_format": null, "unique_name":
+        "~larstiq/bzr/nt-relabsfix", "date_last_modified": "2007-11-20T10:38:46.113194+00:00",
+        "display_name": "lp:~larstiq/bzr/nt-relabsfix", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~larstiq",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/nt-relabsfix/linked_bugs",
+        "branch_format": null, "last_mirrored": "2009-04-29T06:04:24.523226+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/nt-relabsfix/subscriptions",
+        "lifecycle_status": "Experimental", "dependent_branches_collection_link":
+        "https://api.launchpad.net/1.0/~larstiq/bzr/nt-relabsfix/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"0c6919b6715cf93589be6ac286f040a4bee12261-1e901d1887e85b64e681a2214c5591a43a83b8cf\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/nt-relabsfix/spec_links",
+        "name": "nt-relabsfix", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~larstiq/bzr/nt-relabsfix",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 1858, "mirror_status_message":
+        "Not a branch: \"http://bzr.richtlijn.be/nt-relabsfix/\".", "description":
+        null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/nt-relabsfix/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/nt-relabsfix/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~larstiq/bzr/nt-relabsfix/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~larstiq/bzr/nt-relabsfix/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~larstiq/bzr/nt-relabsfix", "merge_queue_config": null,
+        "last_scanned": "2007-11-21T01:57:36.881161+00:00", "url": "http://bzr.richtlijn.be/nt-relabsfix",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~larstiq/bzr/nt-relabsfix",
+        "owner_link": "https://api.launchpad.net/1.0/~larstiq", "last_mirror_attempt":
+        "2009-05-03T06:34:05.327970+00:00", "date_created": "2007-11-20T10:38:46.113194+00:00"},
+        {"control_format": null, "unique_name": "~kursad.turker/bzr/gnome-cvs", "date_last_modified":
+        "2007-12-16T13:52:45.049732+00:00", "display_name": "lp:~kursad.turker/bzr/gnome-cvs",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~kursad.turker",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~kursad.turker/bzr/gnome-cvs/linked_bugs",
+        "branch_format": null, "last_mirrored": null, "subscriptions_collection_link":
+        "https://api.launchpad.net/1.0/~kursad.turker/bzr/gnome-cvs/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~kursad.turker/bzr/gnome-cvs/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"83be97c57f7e47ac995a47115903ce001f554c3e-6df6c185a43d90442d5ae845fc1ccbcc622ce06b\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~kursad.turker/bzr/gnome-cvs/spec_links",
+        "name": "gnome-cvs", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~kursad.turker/bzr/gnome-cvs",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 0, "mirror_status_message":
+        null, "description": "As to begin on a draft", "landing_targets_collection_link":
+        "https://api.launchpad.net/1.0/~kursad.turker/bzr/gnome-cvs/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~kursad.turker/bzr/gnome-cvs/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~kursad.turker/bzr/gnome-cvs/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~kursad.turker/bzr/gnome-cvs/landing_candidates",
+        "last_scanned_id": null, "branch_type": "Hosted", "bzr_identity": "lp:~kursad.turker/bzr/gnome-cvs",
+        "merge_queue_config": null, "last_scanned": null, "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~kursad.turker/bzr/gnome-cvs",
+        "owner_link": "https://api.launchpad.net/1.0/~kursad.turker", "last_mirror_attempt":
+        null, "date_created": "2007-12-16T13:52:45.049732+00:00"}, {"control_format":
+        null, "unique_name": "~bzr/bzr/bzr.1.0", "date_last_modified": "2007-12-17T02:58:18.011061+00:00",
+        "display_name": "lp:bzr/1.0", "merge_queue_link": null, "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~jml", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.0/linked_bugs", "branch_format":
+        null, "last_mirrored": "2009-12-07T11:28:27.920225+00:00", "subscriptions_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.0/subscriptions", "lifecycle_status":
+        "Mature", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.0/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"e78e4d048fcd59d542e99fd3c7828f52302da237-9ec61cf1d4e29597de15c323d496047ce309d67c\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.0/spec_links",
+        "name": "bzr.1.0", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.0",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3062, "mirror_status_message":
+        "Not a branch: \"http+urllib://wiki.bazaar.canonical.com/bzr/bzr.1.0/\".",
+        "description": "This is the release branch for Bazaar 1.0", "landing_targets_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.0/landing_targets", "repository_format":
+        null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.0/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.0/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.0/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:bzr/1.0", "merge_queue_config": null, "last_scanned": "2007-12-17T02:58:18.011061+00:00",
+        "url": "http://bazaar-vcs.org/bzr/bzr.1.0", "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~bzr/bzr/bzr.1.0", "owner_link":
+        "https://api.launchpad.net/1.0/~bzr", "last_mirror_attempt": "2009-12-11T11:32:04.648274+00:00",
+        "date_created": "2007-12-16T20:55:34.974550+00:00"}, {"control_format": null,
+        "unique_name": "~bzr/bzr/bzr.1.1", "date_last_modified": "2008-03-31T04:08:18.994844+00:00",
+        "display_name": "lp:bzr/1.1", "merge_queue_link": null, "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~bzr", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.1/linked_bugs", "branch_format":
+        null, "last_mirrored": "2009-12-07T11:20:35.978606+00:00", "subscriptions_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.1/subscriptions", "lifecycle_status":
+        "Mature", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.1/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"c3f14d86fd6cc06221fae68ca6450257b78aaba7-8f8191c48935d300dbb001ee40179baffaa25620\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.1/spec_links",
+        "name": "bzr.1.1", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.1",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3171, "mirror_status_message":
+        "Not a branch: \"http+urllib://wiki.bazaar.canonical.com/bzr/bzr.1.1/\".",
+        "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.1/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.1/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.1/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.1/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:bzr/1.1", "merge_queue_config": null, "last_scanned": "2008-01-15T11:35:19.729518+00:00",
+        "url": "http://bazaar-vcs.org/bzr/bzr.1.1", "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~bzr/bzr/bzr.1.1", "owner_link":
+        "https://api.launchpad.net/1.0/~bzr", "last_mirror_attempt": "2009-12-11T11:24:04.083209+00:00",
+        "date_created": "2008-01-15T11:25:44.120373+00:00"}, {"control_format": null,
+        "unique_name": "~baijum/bzr/book", "date_last_modified": "2008-01-23T10:00:16.083822+00:00",
+        "display_name": "lp:~baijum/bzr/book", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~baijum", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~baijum/bzr/book/linked_bugs", "branch_format":
+        null, "last_mirrored": "2008-01-23T10:00:09.215434+00:00", "subscriptions_collection_link":
+        "https://api.launchpad.net/1.0/~baijum/bzr/book/subscriptions", "lifecycle_status":
+        "Experimental", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~baijum/bzr/book/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"6e636589a0713b1b71663897ae9db6bc428bff68-b9f44786e4c58efb568bf1103d31c552f25c6574\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~baijum/bzr/book/spec_links",
+        "name": "book", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~baijum/bzr/book",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2, "mirror_status_message":
+        null, "description": "This is a book about Bazaar version controlling system.  The
+        book is typeset using LaTeX.\n\nHome page: http://www.muthukadan.net/bzr",
+        "landing_targets_collection_link": "https://api.launchpad.net/1.0/~baijum/bzr/book/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~baijum/bzr/book/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~baijum/bzr/book/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~baijum/bzr/book/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Hosted", "bzr_identity":
+        "lp:~baijum/bzr/book", "merge_queue_config": null, "last_scanned": "2008-01-23T10:00:16.083822+00:00",
+        "url": null, "whiteboard": "This project is just started.", "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~baijum/bzr/book", "owner_link":
+        "https://api.launchpad.net/1.0/~baijum", "last_mirror_attempt": "2008-01-23T10:00:09.215434+00:00",
+        "date_created": "2008-01-23T09:49:06.895647+00:00"}, {"control_format": "Bazaar-NG
+        meta directory, format 1\n", "unique_name": "~lifeless/bzr/index.hashed",
+        "date_last_modified": "2008-01-28T06:08:37.722627+00:00", "display_name":
+        "lp:~lifeless/bzr/index.hashed", "merge_queue_link": null, "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~lifeless", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~lifeless/bzr/index.hashed/linked_bugs", "branch_format":
+        "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2012-08-17T18:09:23.513183+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/index.hashed/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/index.hashed/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"33b61c09e5207bad35c6854a0e338440b3f7681e-37527484f4e7435e9bae7aa2ffc9686e9b3a0c72\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/index.hashed/spec_links",
+        "name": "index.hashed", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lifeless/bzr/index.hashed",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3205, "mirror_status_message":
+        "Transport error: Server refuses to fulfill the request (403 Forbidden) for
+        http://people.ubuntu.com/%7Erobertc/baz2.0/index.hashed/.bzr/branch-format
+        ", "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/index.hashed/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/index.hashed/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/index.hashed/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~lifeless/bzr/index.hashed/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~lifeless/bzr/index.hashed", "merge_queue_config": null,
+        "last_scanned": "2008-01-28T06:08:37.722627+00:00", "url": "http://people.ubuntu.com/~robertc/baz2.0/index.hashed",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lifeless/bzr/index.hashed",
+        "owner_link": "https://api.launchpad.net/1.0/~lifeless", "last_mirror_attempt":
+        "2012-08-21T18:43:09.728357+00:00", "date_created": "2008-01-25T11:44:55.552527+00:00"},
+        {"control_format": null, "unique_name": "~mike337/bzr/bazaargold", "date_last_modified":
+        "2008-01-26T03:06:02.065283+00:00", "display_name": "lp:~mike337/bzr/bazaargold",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~mike337",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~mike337/bzr/bazaargold/linked_bugs",
+        "branch_format": null, "last_mirrored": null, "subscriptions_collection_link":
+        "https://api.launchpad.net/1.0/~mike337/bzr/bazaargold/subscriptions", "lifecycle_status":
+        "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~mike337/bzr/bazaargold/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"d39f1c6dc3a0563c87acb850a0b685ad25cce852-5f078cc25baca23f6123613e6bf696a359ca2cf1\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~mike337/bzr/bazaargold/spec_links",
+        "name": "bazaargold", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mike337/bzr/bazaargold",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 0, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~mike337/bzr/bazaargold/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~mike337/bzr/bazaargold/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~mike337/bzr/bazaargold/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~mike337/bzr/bazaargold/landing_candidates",
+        "last_scanned_id": null, "branch_type": "Hosted", "bzr_identity": "lp:~mike337/bzr/bazaargold",
+        "merge_queue_config": null, "last_scanned": null, "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~mike337/bzr/bazaargold",
+        "owner_link": "https://api.launchpad.net/1.0/~mike337", "last_mirror_attempt":
+        null, "date_created": "2008-01-26T03:06:02.065283+00:00"}, {"control_format":
+        null, "unique_name": "~lifeless/bzr/debugging", "date_last_modified": "2008-01-31T02:05:12.512764+00:00",
+        "display_name": "lp:~lifeless/bzr/debugging", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~lifeless", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~lifeless/bzr/debugging/linked_bugs", "branch_format":
+        null, "last_mirrored": null, "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/debugging/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/debugging/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"3eafb688feab571b498f20f763847dccbc88e6a7-20cea039aa1190425e8a4021eab270ee164d700d\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/debugging/spec_links",
+        "name": "debugging", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lifeless/bzr/debugging",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 0, "mirror_status_message":
+        "Not a branch: \"http://people.ubuntu.com/~robertc/baz2.0/debugging/\".",
+        "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/debugging/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/debugging/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/debugging/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~lifeless/bzr/debugging/landing_candidates",
+        "last_scanned_id": null, "branch_type": "Mirrored", "bzr_identity": "lp:~lifeless/bzr/debugging",
+        "merge_queue_config": null, "last_scanned": null, "url": "http://people.ubuntu.com/~robertc/baz2.0/debugging",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lifeless/bzr/debugging",
+        "owner_link": "https://api.launchpad.net/1.0/~lifeless", "last_mirror_attempt":
+        "2008-02-03T22:04:11.247911+00:00", "date_created": "2008-01-31T02:05:12.512764+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~lifeless/bzr/index.range_map", "date_last_modified": "2008-06-19T03:21:32.593888+00:00",
+        "display_name": "lp:~lifeless/bzr/index.range_map", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lifeless",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/index.range_map/linked_bugs",
+        "branch_format": "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2012-08-17T18:09:30.087191+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/index.range_map/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/index.range_map/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"74c8d6aad0f7b3b4f4a0986f909b35763ef0c9e8-78dca1213abf54d473a9e113e4b1f2c61ce67c11\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/index.range_map/spec_links",
+        "name": "index.range_map", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lifeless/bzr/index.range_map",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3223, "mirror_status_message":
+        "Transport error: Server refuses to fulfill the request (403 Forbidden) for
+        http://people.ubuntu.com/%7Erobertc/baz2.0/index.range_map/.bzr/branch-format
+        ", "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/index.range_map/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/index.range_map/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/index.range_map/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~lifeless/bzr/index.range_map/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~lifeless/bzr/index.range_map", "merge_queue_config":
+        null, "last_scanned": "2008-06-19T03:21:32.593888+00:00", "url": "http://people.ubuntu.com/~robertc/baz2.0/index.range_map",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lifeless/bzr/index.range_map",
+        "owner_link": "https://api.launchpad.net/1.0/~lifeless", "last_mirror_attempt":
+        "2012-08-21T18:43:12.513222+00:00", "date_created": "2008-02-06T03:48:33.848717+00:00"},
+        {"control_format": null, "unique_name": "~ryan-mcdowell/bzr/Movie_Site", "date_last_modified":
+        "2008-02-14T04:27:08.944892+00:00", "display_name": "lp:~ryan-mcdowell/bzr/Movie_Site",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~ryan-mcdowell",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~ryan-mcdowell/bzr/Movie_Site/linked_bugs",
+        "branch_format": null, "last_mirrored": null, "subscriptions_collection_link":
+        "https://api.launchpad.net/1.0/~ryan-mcdowell/bzr/Movie_Site/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~ryan-mcdowell/bzr/Movie_Site/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"1341dd47998925397c245249fdfd1248ee93728d-97a8c9e424b7941118a2985422078031588a51c7\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~ryan-mcdowell/bzr/Movie_Site/spec_links",
+        "name": "Movie_Site", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~ryan-mcdowell/bzr/Movie_Site",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 0, "mirror_status_message":
+        null, "description": "Rydalami Rules!!", "landing_targets_collection_link":
+        "https://api.launchpad.net/1.0/~ryan-mcdowell/bzr/Movie_Site/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~ryan-mcdowell/bzr/Movie_Site/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~ryan-mcdowell/bzr/Movie_Site/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~ryan-mcdowell/bzr/Movie_Site/landing_candidates",
+        "last_scanned_id": null, "branch_type": "Hosted", "bzr_identity": "lp:~ryan-mcdowell/bzr/Movie_Site",
+        "merge_queue_config": null, "last_scanned": null, "url": null, "whiteboard":
+        "Is this branch really for the bzr project?", "code_import_link": null, "web_link":
+        "https://code.launchpad.net/~ryan-mcdowell/bzr/Movie_Site", "owner_link":
+        "https://api.launchpad.net/1.0/~ryan-mcdowell", "last_mirror_attempt": null,
+        "date_created": "2008-02-08T22:18:39.594037+00:00"}, {"control_format": null,
+        "unique_name": "~bzr/bzr/bzr-1.2", "date_last_modified": "2008-02-15T11:53:16.355136+00:00",
+        "display_name": "lp:bzr/1.2", "merge_queue_link": null, "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~bzr", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr-1.2/linked_bugs", "branch_format":
+        null, "last_mirrored": "2009-12-07T11:11:48.881181+00:00", "subscriptions_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr-1.2/subscriptions", "lifecycle_status":
+        "Mature", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr-1.2/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"ed41210599ff1b94d55170d8014fa81bc9fd6978-f5ed85e5b17b14a92dbeba86cb4dd845950bfc83\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr-1.2/spec_links",
+        "name": "bzr-1.2", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr-1.2",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3223, "mirror_status_message":
+        "Not a branch: \"http+urllib://wiki.bazaar.canonical.com/bzr/bzr.1.2/\".",
+        "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr-1.2/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr-1.2/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr-1.2/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr-1.2/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:bzr/1.2", "merge_queue_config": null, "last_scanned": "2008-02-15T11:53:16.355136+00:00",
+        "url": "http://bazaar-vcs.org/bzr/bzr.1.2", "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~bzr/bzr/bzr-1.2", "owner_link":
+        "https://api.launchpad.net/1.0/~bzr", "last_mirror_attempt": "2009-12-11T11:14:04.562924+00:00",
+        "date_created": "2008-02-12T05:19:53.950883+00:00"}, {"control_format": null,
+        "unique_name": "~mbp/bzr/debian-ppa-dapper", "date_last_modified": "2008-02-15T05:27:13.590189+00:00",
+        "display_name": "lp:~mbp/bzr/debian-ppa-dapper", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~mbp",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/debian-ppa-dapper/linked_bugs",
+        "branch_format": null, "last_mirrored": "2008-02-15T05:27:04.527144+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/debian-ppa-dapper/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/debian-ppa-dapper/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"bd3872b8bc2637f45b9d7b62cc4a386efe478404-289c629f94e829a52d05b63d1962e1214aa03850\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/debian-ppa-dapper/spec_links",
+        "name": "debian-ppa-dapper", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mbp/bzr/debian-ppa-dapper",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 68, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/debian-ppa-dapper/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/debian-ppa-dapper/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/debian-ppa-dapper/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/debian-ppa-dapper/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~mbp/bzr/debian-ppa-dapper", "merge_queue_config": null,
+        "last_scanned": "2008-02-15T05:27:13.590189+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~mbp/bzr/debian-ppa-dapper",
+        "owner_link": "https://api.launchpad.net/1.0/~mbp", "last_mirror_attempt":
+        "2008-02-15T05:27:04.527144+00:00", "date_created": "2008-02-15T05:25:47.108594+00:00"},
+        {"control_format": null, "unique_name": "~daniel-thewatkins/bzr/ob-integration",
+        "date_last_modified": "2008-02-26T05:32:51.513339+00:00", "display_name":
+        "lp:~daniel-thewatkins/bzr/ob-integration", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~daniel-thewatkins",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~daniel-thewatkins/bzr/ob-integration/linked_bugs",
+        "branch_format": null, "last_mirrored": "2008-02-26T05:25:44.324287+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~daniel-thewatkins/bzr/ob-integration/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~daniel-thewatkins/bzr/ob-integration/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"9e74a662b50d2182e537dc0e42e7798b32a6b6f1-40668db3b44582534605805b873011d3ac1e77ca\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~daniel-thewatkins/bzr/ob-integration/spec_links",
+        "name": "ob-integration", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~daniel-thewatkins/bzr/ob-integration",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3042, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~daniel-thewatkins/bzr/ob-integration/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~daniel-thewatkins/bzr/ob-integration/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~daniel-thewatkins/bzr/ob-integration/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~daniel-thewatkins/bzr/ob-integration/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~daniel-thewatkins/bzr/ob-integration", "merge_queue_config":
+        null, "last_scanned": "2008-02-26T05:32:51.513339+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~daniel-thewatkins/bzr/ob-integration",
+        "owner_link": "https://api.launchpad.net/1.0/~daniel-thewatkins", "last_mirror_attempt":
+        "2008-02-26T05:25:44.324287+00:00", "date_created": "2008-02-26T04:44:24.817517+00:00"},
+        {"control_format": null, "unique_name": "~bzr/bzr/london-sprint-2008-notes",
+        "date_last_modified": "2008-03-07T09:51:09.805450+00:00", "display_name":
+        "lp:~bzr/bzr/london-sprint-2008-notes", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~mbp", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/london-sprint-2008-notes/linked_bugs",
+        "branch_format": null, "last_mirrored": "2008-03-07T09:51:04.881712+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/london-sprint-2008-notes/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/london-sprint-2008-notes/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"71769b4e588c32c5c1406ab66b74a129de4deae0-1898f6c9e903191596a90801897862fec4503500\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/london-sprint-2008-notes/spec_links",
+        "name": "london-sprint-2008-notes", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bzr/bzr/london-sprint-2008-notes",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 16, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/london-sprint-2008-notes/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/london-sprint-2008-notes/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/london-sprint-2008-notes/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/london-sprint-2008-notes/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~bzr/bzr/london-sprint-2008-notes", "merge_queue_config":
+        null, "last_scanned": "2008-03-07T09:51:09.805450+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~bzr/bzr/london-sprint-2008-notes",
+        "owner_link": "https://api.launchpad.net/1.0/~bzr", "last_mirror_attempt":
+        "2008-03-07T09:51:04.881712+00:00", "date_created": "2008-03-04T10:19:15.912806+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~jameinel/bzr/annotate-cleanup", "date_last_modified": "2008-03-13T16:29:38.316000+00:00",
+        "display_name": "lp:~jameinel/bzr/annotate-cleanup", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~jameinel",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotate-cleanup/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2011-02-22T13:24:03.491264+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotate-cleanup/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotate-cleanup/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"71d70dc53e0d32289514bdb5aa804acfc2ac326f-d5725024c1539c9bd283f2473313287e83f31251\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotate-cleanup/spec_links",
+        "name": "annotate-cleanup", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotate-cleanup",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3249, "mirror_status_message":
+        "Invalid http response for http://bzr.arbash-meinel.com/branches/bzr/1.3-dev/annotate_cleanup/.bzr/branch-format:
+        Unable to handle http code 503: Service Unavailable", "description": null,
+        "landing_targets_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotate-cleanup/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotate-cleanup/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotate-cleanup/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~jameinel/bzr/annotate-cleanup/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~jameinel/bzr/annotate-cleanup", "merge_queue_config":
+        null, "last_scanned": "2009-01-08T17:27:38.977940+00:00", "url": "http://bzr.arbash-meinel.com/branches/bzr/1.3-dev/annotate_cleanup",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~jameinel/bzr/annotate-cleanup",
+        "owner_link": "https://api.launchpad.net/1.0/~jameinel", "last_mirror_attempt":
+        "2011-02-26T13:27:03.543722+00:00", "date_created": "2008-03-06T15:25:28.685718+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~spiv/bzr/lockable-files-warning", "date_last_modified": "2008-03-07T21:51:13.048371+00:00",
+        "display_name": "lp:~spiv/bzr/lockable-files-warning", "merge_queue_link":
+        null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~spiv",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/lockable-files-warning/linked_bugs",
+        "branch_format": "Bazaar-NG branch format 5\n", "last_mirrored": "2011-07-13T02:50:09.755782+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/lockable-files-warning/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/lockable-files-warning/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"509337bf5f948061608bcdcc423dbb60c0484c9c-c6015ef0b6666fd3015a34e3871fbec50d58c21f\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/lockable-files-warning/spec_links",
+        "name": "lockable-files-warning", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~spiv/bzr/lockable-files-warning",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2740, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/lockable-files-warning/landing_targets",
+        "repository_format": "Bazaar RepositoryFormatKnitPack6 (bzr 1.9)\n", "subscribers_collection_link":
+        "https://api.launchpad.net/1.0/~spiv/bzr/lockable-files-warning/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/lockable-files-warning/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~spiv/bzr/lockable-files-warning/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~spiv/bzr/lockable-files-warning", "merge_queue_config":
+        null, "last_scanned": "2008-03-07T21:51:13.048371+00:00", "url": "http://people.ubuntu.com/~andrew/bzr/lockable-files-warning",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~spiv/bzr/lockable-files-warning",
+        "owner_link": "https://api.launchpad.net/1.0/~spiv", "last_mirror_attempt":
+        "2011-07-13T09:26:31.183833+00:00", "date_created": "2008-03-07T15:46:58.436708+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~spiv/bzr/remote-branch-unlock-bug", "date_last_modified": "2008-03-07T22:48:14.508403+00:00",
+        "display_name": "lp:~spiv/bzr/remote-branch-unlock-bug", "merge_queue_link":
+        null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~spiv",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/remote-branch-unlock-bug/linked_bugs",
+        "branch_format": "Bazaar-NG branch format 5\n", "last_mirrored": "2011-07-13T02:50:18.768139+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/remote-branch-unlock-bug/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/remote-branch-unlock-bug/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"f94e859ba204735718f4fc1e2a140fe4e3a2e791-23e10ee64cb1fbace4a1b81d6ae36d51dfe49e96\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/remote-branch-unlock-bug/spec_links",
+        "name": "remote-branch-unlock-bug", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~spiv/bzr/remote-branch-unlock-bug",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3256, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/remote-branch-unlock-bug/landing_targets",
+        "repository_format": "Bazaar RepositoryFormatKnitPack6 (bzr 1.9)\n", "subscribers_collection_link":
+        "https://api.launchpad.net/1.0/~spiv/bzr/remote-branch-unlock-bug/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~spiv/bzr/remote-branch-unlock-bug/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~spiv/bzr/remote-branch-unlock-bug/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~spiv/bzr/remote-branch-unlock-bug", "merge_queue_config":
+        null, "last_scanned": "2008-03-07T22:48:14.508403+00:00", "url": "http://people.ubuntu.com/~andrew/bzr/remote-branch-unlock-bug",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~spiv/bzr/remote-branch-unlock-bug",
+        "owner_link": "https://api.launchpad.net/1.0/~spiv", "last_mirror_attempt":
+        "2011-07-13T09:26:37.453230+00:00", "date_created": "2008-03-07T16:45:35.528467+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~mbp/bzr/all-in-one", "date_last_modified": "2008-03-14T09:01:10.337459+00:00",
+        "display_name": "lp:~mbp/bzr/all-in-one", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~mbp", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/all-in-one/linked_bugs", "branch_format":
+        "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2011-03-16T06:17:15.441627+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/all-in-one/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/all-in-one/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"36176726c38be1398c2ae73b8cc2825c88c3c90e-0257589e7ca8500a6dd908e4abd3ee4921aa758b\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/all-in-one/spec_links",
+        "name": "all-in-one", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mbp/bzr/all-in-one",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3258, "mirror_status_message":
+        "Not a branch: \"http://sourcefrog.net/bzr/all-in-one/\".", "description":
+        "Experiments in loading bzrlib from fewer files to reduce startup time.",
+        "landing_targets_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/all-in-one/landing_targets",
+        "repository_format": "Bazaar pack repository format 1 (needs bzr 0.92)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/all-in-one/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/all-in-one/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/all-in-one/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:~mbp/bzr/all-in-one", "merge_queue_config": null, "last_scanned": "2008-03-14T09:01:10.337459+00:00",
+        "url": "http://sourcefrog.net/bzr/all-in-one", "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~mbp/bzr/all-in-one", "owner_link":
+        "https://api.launchpad.net/1.0/~mbp", "last_mirror_attempt": "2011-03-20T06:21:03.800304+00:00",
+        "date_created": "2008-03-14T02:48:22.027107+00:00"}, {"control_format": null,
+        "unique_name": "~bzr/bzr/1.3", "date_last_modified": "2008-04-10T15:31:43.043786+00:00",
+        "display_name": "lp:bzr/1.3", "merge_queue_link": null, "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~jml", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/1.3/linked_bugs", "branch_format":
+        null, "last_mirrored": "2009-12-07T11:11:46.906778+00:00", "subscriptions_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/1.3/subscriptions", "lifecycle_status":
+        "Mature", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/1.3/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"1917f37a0d1ffd685b8642126c98fc50d94b0170-cbc23fc51be59fe4df187ff23855b4c7fec5a673\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/1.3/spec_links",
+        "name": "1.3", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bzr/bzr/1.3",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3292, "mirror_status_message":
+        "Not a branch: \"http+urllib://wiki.bazaar.canonical.com/bzr/bzr.1.3/\".",
+        "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/1.3/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/1.3/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/1.3/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/1.3/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:bzr/1.3", "merge_queue_config": null, "last_scanned": "2008-04-10T15:31:43.043786+00:00",
+        "url": "http://bazaar-vcs.org/bzr/bzr.1.3", "whiteboard": "Released", "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~bzr/bzr/1.3", "owner_link":
+        "https://api.launchpad.net/1.0/~bzr", "last_mirror_attempt": "2009-12-11T11:14:04.772373+00:00",
+        "date_created": "2008-03-20T04:09:26.030559+00:00"}, {"control_format": "Bazaar-NG
+        meta directory, format 1\n", "unique_name": "~hersonls/bzr/slackbuild", "date_last_modified":
+        "2008-09-11T11:39:29.754574+00:00", "display_name": "lp:~hersonls/bzr/slackbuild",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~hersonls",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~hersonls/bzr/slackbuild/linked_bugs",
+        "branch_format": "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2008-09-11T11:39:08.084354+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~hersonls/bzr/slackbuild/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~hersonls/bzr/slackbuild/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"b428eefd64e8b817c37803d490d42456d7702ab0-f8cec5e498a5875a51d362838ac95e57c91b718e\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~hersonls/bzr/slackbuild/spec_links",
+        "name": "slackbuild", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~hersonls/bzr/slackbuild",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 4, "mirror_status_message":
+        null, "description": "This packages content bazaar for slackware linux", "landing_targets_collection_link":
+        "https://api.launchpad.net/1.0/~hersonls/bzr/slackbuild/landing_targets",
+        "repository_format": "Bazaar pack repository format 1 (needs bzr 0.92)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~hersonls/bzr/slackbuild/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~hersonls/bzr/slackbuild/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~hersonls/bzr/slackbuild/landing_candidates",
+        "last_scanned_id": "hersonls@darkstar-20080911133056-1llylq9082yf4t3x", "branch_type":
+        "Hosted", "bzr_identity": "lp:~hersonls/bzr/slackbuild", "merge_queue_config":
+        null, "last_scanned": "2008-09-11T11:39:29.754574+00:00", "url": null, "whiteboard":
+        "The frist version of package", "code_import_link": null, "web_link": "https://code.launchpad.net/~hersonls/bzr/slackbuild",
+        "owner_link": "https://api.launchpad.net/1.0/~hersonls", "last_mirror_attempt":
+        "2008-09-11T11:39:08.084354+00:00", "date_created": "2008-04-14T02:27:16.939965+00:00"},
+        {"control_format": null, "unique_name": "~tomxtobin/bzr/bug-220331", "date_last_modified":
+        "2008-05-21T03:16:34.409029+00:00", "display_name": "lp:~tomxtobin/bzr/bug-220331",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~tomxtobin",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~tomxtobin/bzr/bug-220331/linked_bugs",
+        "branch_format": null, "last_mirrored": "2008-05-21T03:13:28.602341+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~tomxtobin/bzr/bug-220331/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~tomxtobin/bzr/bug-220331/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"953b2e7a4fc0479855b8170b684249b61c715a6d-bbe4e5b2a5965707f562def109089266a53c4736\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~tomxtobin/bzr/bug-220331/spec_links",
+        "name": "bug-220331", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~tomxtobin/bzr/bug-220331",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3392, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~tomxtobin/bzr/bug-220331/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~tomxtobin/bzr/bug-220331/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~tomxtobin/bzr/bug-220331/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~tomxtobin/bzr/bug-220331/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~tomxtobin/bzr/bug-220331", "merge_queue_config": null,
+        "last_scanned": "2008-05-21T03:16:34.409029+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~tomxtobin/bzr/bug-220331",
+        "owner_link": "https://api.launchpad.net/1.0/~tomxtobin", "last_mirror_attempt":
+        "2008-05-21T03:13:28.602341+00:00", "date_created": "2008-04-29T14:44:45.464877+00:00"},
+        {"control_format": null, "unique_name": "~bzr/bzr/bzr.1.5", "date_last_modified":
+        "2008-05-16T22:03:00.629767+00:00", "display_name": "lp:bzr/1.5", "merge_queue_link":
+        null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~jameinel",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.5/linked_bugs",
+        "branch_format": null, "last_mirrored": "2009-12-07T11:11:50.412271+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.5/subscriptions",
+        "lifecycle_status": "Mature", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.5/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"ab54771aeba6ac7033e79089adbacb94c904917d-5130fd4c5dc6d4800004c81911fb73ae19498113\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.5/spec_links",
+        "name": "bzr.1.5", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.5",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3423, "mirror_status_message":
+        "Not a branch: \"http+urllib://wiki.bazaar.canonical.com/bzr/bzr.1.5/\".",
+        "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.5/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.5/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.5/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.5/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:bzr/1.5", "merge_queue_config": null, "last_scanned": "2008-05-16T22:03:00.629767+00:00",
+        "url": "http://bazaar-vcs.org/bzr/bzr.1.5", "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~bzr/bzr/bzr.1.5", "owner_link":
+        "https://api.launchpad.net/1.0/~bzr", "last_mirror_attempt": "2009-12-11T11:14:04.695233+00:00",
+        "date_created": "2008-05-09T19:55:30.340486+00:00"}, {"control_format": null,
+        "unique_name": "~statik/bzr/bzr.ann_uncommit", "date_last_modified": "2008-05-12T19:30:20.080315+00:00",
+        "display_name": "lp:~statik/bzr/bzr.ann_uncommit", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~statik",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~statik/bzr/bzr.ann_uncommit/linked_bugs",
+        "branch_format": null, "last_mirrored": "2008-05-12T19:09:16.200286+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~statik/bzr/bzr.ann_uncommit/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~statik/bzr/bzr.ann_uncommit/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"35fd39cfb03994a13b56a36274a289f143932b78-0388276bc25b94f16a1e0eab872ae1a8e37c040d\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~statik/bzr/bzr.ann_uncommit/spec_links",
+        "name": "bzr.ann_uncommit", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~statik/bzr/bzr.ann_uncommit",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3428, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~statik/bzr/bzr.ann_uncommit/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~statik/bzr/bzr.ann_uncommit/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~statik/bzr/bzr.ann_uncommit/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~statik/bzr/bzr.ann_uncommit/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~statik/bzr/bzr.ann_uncommit", "merge_queue_config": null,
+        "last_scanned": "2008-05-12T19:17:35.027884+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~statik/bzr/bzr.ann_uncommit",
+        "owner_link": "https://api.launchpad.net/1.0/~statik", "last_mirror_attempt":
+        "2008-05-12T19:09:16.200286+00:00", "date_created": "2008-05-12T18:38:09.770673+00:00"},
+        {"control_format": null, "unique_name": "~beuno/bzr/automatic_plugins", "date_last_modified":
+        "2008-09-24T21:57:04.378587+00:00", "display_name": "lp:~beuno/bzr/automatic_plugins",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~beuno",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~beuno/bzr/automatic_plugins/linked_bugs",
+        "branch_format": null, "last_mirrored": "2008-05-25T06:18:57.018956+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~beuno/bzr/automatic_plugins/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~beuno/bzr/automatic_plugins/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"b45db4591979c680c42589ea305b6124934c8fc1-440f0bb8f3fe26bc8f2076ce5609a1944c03cdea\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~beuno/bzr/automatic_plugins/spec_links",
+        "name": "automatic_plugins", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~beuno/bzr/automatic_plugins",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 6, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~beuno/bzr/automatic_plugins/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~beuno/bzr/automatic_plugins/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~beuno/bzr/automatic_plugins/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~beuno/bzr/automatic_plugins/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~beuno/bzr/automatic_plugins", "merge_queue_config": null,
+        "last_scanned": "2008-05-27T23:33:38.235002+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~beuno/bzr/automatic_plugins",
+        "owner_link": "https://api.launchpad.net/1.0/~beuno", "last_mirror_attempt":
+        "2008-05-25T06:18:57.018956+00:00", "date_created": "2008-05-21T06:32:24.835925+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~vila/bzr/local-test-server", "date_last_modified": "2009-03-13T07:27:19.232000+00:00",
+        "display_name": "lp:~vila/bzr/local-test-server", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~vila",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/local-test-server/linked_bugs",
+        "branch_format": "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2009-03-13T07:38:04.727845+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/local-test-server/subscriptions",
+        "lifecycle_status": "Experimental", "dependent_branches_collection_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/local-test-server/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"2682cbb9b9a4ae32941ce2ab5fb31f4e213388fb-c343bb20d8c1647ac8c741df54a501edae901e4b\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/local-test-server/spec_links",
+        "name": "local-test-server", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~vila/bzr/local-test-server",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 66, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/local-test-server/landing_targets",
+        "repository_format": "Bazaar pack repository format 1 (needs bzr 0.92)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/local-test-server/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/local-test-server/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/local-test-server/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~vila/bzr/local-test-server", "merge_queue_config": null,
+        "last_scanned": "2009-03-13T07:38:06.862028+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~vila/bzr/local-test-server",
+        "owner_link": "https://api.launchpad.net/1.0/~vila", "last_mirror_attempt":
+        "2009-03-13T07:38:04.727845+00:00", "date_created": "2008-05-29T20:23:33.913428+00:00"},
+        {"control_format": null, "unique_name": "~proyvind/bzr/dunelegacy", "date_last_modified":
+        "2008-06-23T19:11:10.630086+00:00", "display_name": "lp:~proyvind/bzr/dunelegacy",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~proyvind",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~proyvind/bzr/dunelegacy/linked_bugs",
+        "branch_format": null, "last_mirrored": "2008-06-23T19:10:22.307159+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~proyvind/bzr/dunelegacy/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~proyvind/bzr/dunelegacy/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"80d1aebc2128f0e9119b55a9f6d50a338a0ab738-a002b02d718eec02f862cd05af02da14c0f21215\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~proyvind/bzr/dunelegacy/spec_links",
+        "name": "dunelegacy", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~proyvind/bzr/dunelegacy",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 273, "mirror_status_message":
+        null, "description": "Remake of Dune 2 with multiplayer support++ added",
+        "landing_targets_collection_link": "https://api.launchpad.net/1.0/~proyvind/bzr/dunelegacy/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~proyvind/bzr/dunelegacy/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~proyvind/bzr/dunelegacy/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~proyvind/bzr/dunelegacy/landing_candidates",
+        "last_scanned_id": "peroyvind@localhost-20080623190938-gjsv4tzeq3syzx23",
+        "branch_type": "Hosted", "bzr_identity": "lp:~proyvind/bzr/dunelegacy", "merge_queue_config":
+        null, "last_scanned": "2008-06-23T19:11:10.630086+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~proyvind/bzr/dunelegacy",
+        "owner_link": "https://api.launchpad.net/1.0/~proyvind", "last_mirror_attempt":
+        "2008-06-23T19:10:22.307159+00:00", "date_created": "2008-06-01T01:32:56.450275+00:00"},
+        {"control_format": null, "unique_name": "~bzr/bzr/prepare-1.6beta1", "date_last_modified":
+        "2008-06-03T06:54:42.543805+00:00", "display_name": "lp:~bzr/bzr/prepare-1.6beta1",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~mbp",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/prepare-1.6beta1/linked_bugs",
+        "branch_format": null, "last_mirrored": null, "subscriptions_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/prepare-1.6beta1/subscriptions", "lifecycle_status":
+        "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/prepare-1.6beta1/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"b8e9cdaa6b0009a4c75efc543c2cb109da98b068-6ad5e08173b2f9cda500d00c6899a2de30f154de\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/prepare-1.6beta1/spec_links",
+        "name": "prepare-1.6beta1", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bzr/bzr/prepare-1.6beta1",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 0, "mirror_status_message":
+        "Not a branch: \"http+urllib://wiki.bazaar.canonical.com/bzr/prepare-1.6beta1/\".",
+        "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/prepare-1.6beta1/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/prepare-1.6beta1/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/prepare-1.6beta1/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/prepare-1.6beta1/landing_candidates",
+        "last_scanned_id": null, "branch_type": "Mirrored", "bzr_identity": "lp:~bzr/bzr/prepare-1.6beta1",
+        "merge_queue_config": null, "last_scanned": null, "url": "http://bazaar-vcs.org/bzr/prepare-1.6beta1",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~bzr/bzr/prepare-1.6beta1",
+        "owner_link": "https://api.launchpad.net/1.0/~bzr", "last_mirror_attempt":
+        "2012-03-23T11:53:12.487399+00:00", "date_created": "2008-06-03T06:54:42.543805+00:00"},
+        {"control_format": null, "unique_name": "~gagern/bzr/str-unicode", "date_last_modified":
+        "2008-06-17T09:08:18.758127+00:00", "display_name": "lp:~gagern/bzr/str-unicode",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~gagern",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~gagern/bzr/str-unicode/linked_bugs",
+        "branch_format": null, "last_mirrored": "2008-06-17T09:07:21.399945+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~gagern/bzr/str-unicode/subscriptions",
+        "lifecycle_status": "Experimental", "dependent_branches_collection_link":
+        "https://api.launchpad.net/1.0/~gagern/bzr/str-unicode/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"15e0ef3c10d2197b0317c8197c8c0179f2751271-a93d037a81a904a49df5d9f3bce3735eeb03eda8\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~gagern/bzr/str-unicode/spec_links",
+        "name": "str-unicode", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~gagern/bzr/str-unicode",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3499, "mirror_status_message":
+        null, "description": "Python automatically converts between byte strings and
+        unicode strings, using the default character encoding ASCII. When a string
+        contains non-ASCII characters, this conversion will fail - a fact that will
+        most likely only occur in special circumstances. Therefore it is desirable
+        to handle all conversions manually, and specify the correct encodiung to use
+        explicitely.\n\nThis branch achieves this by defining a new encoding which
+        behaves like ASCII but writes a log of its invocations. it is set as the default
+        encoding, the one Python uses for its internal conversions.", "landing_targets_collection_link":
+        "https://api.launchpad.net/1.0/~gagern/bzr/str-unicode/landing_targets", "repository_format":
+        null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~gagern/bzr/str-unicode/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~gagern/bzr/str-unicode/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~gagern/bzr/str-unicode/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~gagern/bzr/str-unicode", "merge_queue_config": null,
+        "last_scanned": "2008-06-17T09:08:18.758127+00:00", "url": null, "whiteboard":
+        "The initial linear logfile has now been supplanted by a sqlite db for logging
+        and a report generated from the collected information at shutdown time. Things
+        are awfully slow, but that should improve once the number of implicit conversions
+        goes down. Filtering probably plays an important part for that time penalty,
+        so it should be avoided where possible.", "code_import_link": null, "web_link":
+        "https://code.launchpad.net/~gagern/bzr/str-unicode", "owner_link": "https://api.launchpad.net/1.0/~gagern",
+        "last_mirror_attempt": "2008-06-17T09:07:21.399945+00:00", "date_created":
+        "2008-06-10T18:16:32.146904+00:00"}, {"control_format": null, "unique_name":
+        "~j-morenol/bzr/ProCur", "date_last_modified": "2008-06-11T14:54:46.855098+00:00",
+        "display_name": "lp:~j-morenol/bzr/ProCur", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~j-morenol", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~j-morenol/bzr/ProCur/linked_bugs", "branch_format":
+        null, "last_mirrored": null, "subscriptions_collection_link": "https://api.launchpad.net/1.0/~j-morenol/bzr/ProCur/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~j-morenol/bzr/ProCur/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"21c85cc72be6a066d32a9e2d40488aa194500b28-75e6881719749eb8ebdde86c31397bfff9fe4dce\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~j-morenol/bzr/ProCur/spec_links",
+        "name": "ProCur", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~j-morenol/bzr/ProCur",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 0, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~j-morenol/bzr/ProCur/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~j-morenol/bzr/ProCur/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~j-morenol/bzr/ProCur/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~j-morenol/bzr/ProCur/landing_candidates",
+        "last_scanned_id": null, "branch_type": "Hosted", "bzr_identity": "lp:~j-morenol/bzr/ProCur",
+        "merge_queue_config": null, "last_scanned": null, "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~j-morenol/bzr/ProCur",
+        "owner_link": "https://api.launchpad.net/1.0/~j-morenol", "last_mirror_attempt":
+        null, "date_created": "2008-06-11T14:54:46.855098+00:00"}, {"control_format":
+        null, "unique_name": "~furygame/bzr/test", "date_last_modified": "2008-06-13T17:44:14.615644+00:00",
+        "display_name": "lp:~furygame/bzr/test", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~furygame", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~furygame/bzr/test/linked_bugs", "branch_format":
+        null, "last_mirrored": null, "subscriptions_collection_link": "https://api.launchpad.net/1.0/~furygame/bzr/test/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~furygame/bzr/test/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"e877cc5e062ef806b11300f79db4115e449fe874-332b5f50a6558adce49aad952675429cbee0f22c\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~furygame/bzr/test/spec_links",
+        "name": "test", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~furygame/bzr/test",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 0, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~furygame/bzr/test/landing_targets",
+        "repository_format": null, "subscribers_collection_link": "https://api.launchpad.net/1.0/~furygame/bzr/test/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~furygame/bzr/test/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~furygame/bzr/test/landing_candidates", "last_scanned_id":
+        null, "branch_type": "Hosted", "bzr_identity": "lp:~furygame/bzr/test", "merge_queue_config":
+        null, "last_scanned": null, "url": null, "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~furygame/bzr/test", "owner_link":
+        "https://api.launchpad.net/1.0/~furygame", "last_mirror_attempt": null, "date_created":
+        "2008-06-13T17:44:14.615644+00:00"}, {"control_format": "Bazaar-NG meta directory,
+        format 1\n", "unique_name": "~jameinel/bzr/annotation", "date_last_modified":
+        "2008-06-20T19:54:19.017589+00:00", "display_name": "lp:~jameinel/bzr/annotation",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~jameinel",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotation/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2011-02-22T13:09:04.095903+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotation/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotation/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"c4fcb05933131a16363fe41bc29876bb8d4a3dab-a93b4dfa9f333257d0cca5ff0cf257258f7d6d6b\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotation/spec_links",
+        "name": "annotation", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotation",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3497, "mirror_status_message":
+        "Invalid http response for http://bzr.arbash-meinel.com/branches/bzr/1.6-dev/annotation/.bzr/branch-format:
+        Unable to handle http code 503: Service Unavailable", "description": null,
+        "landing_targets_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotation/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotation/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/annotation/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~jameinel/bzr/annotation/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~jameinel/bzr/annotation", "merge_queue_config": null,
+        "last_scanned": "2008-06-20T19:54:19.017589+00:00", "url": "http://bzr.arbash-meinel.com/branches/bzr/1.6-dev/annotation",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~jameinel/bzr/annotation",
+        "owner_link": "https://api.launchpad.net/1.0/~jameinel", "last_mirror_attempt":
+        "2011-02-26T13:13:08.580046+00:00", "date_created": "2008-06-20T16:22:05.914530+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~jameinel/bzr/merge3-per-file", "date_last_modified": "2008-09-06T14:34:41.029536+00:00",
+        "display_name": "lp:~jameinel/bzr/merge3-per-file", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~jameinel",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/merge3-per-file/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2011-02-22T10:41:13.061220+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/merge3-per-file/subscriptions",
+        "lifecycle_status": "Experimental", "dependent_branches_collection_link":
+        "https://api.launchpad.net/1.0/~jameinel/bzr/merge3-per-file/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"bfce6f0b1cd0a03f859942dbe2c54c01e04a29e5-dae6b7b479f3341a68d97d635a34b217affdf734\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/merge3-per-file/spec_links",
+        "name": "merge3-per-file", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~jameinel/bzr/merge3-per-file",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3525, "mirror_status_message":
+        "Invalid http response for http://bzr.arbash-meinel.com/branches/bzr/1.6-dev/merge3_per_file/.bzr/branch-format:
+        Unable to handle http code 503: Service Unavailable", "description": null,
+        "landing_targets_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/merge3-per-file/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/merge3-per-file/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/merge3-per-file/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~jameinel/bzr/merge3-per-file/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~jameinel/bzr/merge3-per-file", "merge_queue_config":
+        null, "last_scanned": "2008-07-16T23:15:55.301689+00:00", "url": "http://bzr.arbash-meinel.com/branches/bzr/1.6-dev/merge3_per_file",
+        "whiteboard": "Not really meant to be merged as is. Mostly a dev test to explore
+        doing per-file merges. The \"real\" implementation is being merged separately.",
+        "code_import_link": null, "web_link": "https://code.launchpad.net/~jameinel/bzr/merge3-per-file",
+        "owner_link": "https://api.launchpad.net/1.0/~jameinel", "last_mirror_attempt":
+        "2011-02-26T10:43:09.306217+00:00", "date_created": "2008-06-20T21:40:57.740926+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~mbp/bzr/ppa-scripts", "date_last_modified": "2008-07-18T00:50:14.640655+00:00",
+        "display_name": "lp:~mbp/bzr/ppa-scripts", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~mbp", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/ppa-scripts/linked_bugs", "branch_format":
+        "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2008-07-17T08:31:09.845416+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/ppa-scripts/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/ppa-scripts/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"589229e62fde9f9ea783ff39be9a52a7534eeb19-b3c0a91258f8b204947542955f0b80790b278f99\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/ppa-scripts/spec_links",
+        "name": "ppa-scripts", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~mbp/bzr/ppa-scripts",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 0, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/ppa-scripts/landing_targets",
+        "repository_format": "Bazaar pack repository format 1 (needs bzr 0.92)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/ppa-scripts/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~mbp/bzr/ppa-scripts/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~mbp/bzr/ppa-scripts/landing_candidates", "last_scanned_id":
+        "null:", "branch_type": "Hosted", "bzr_identity": "lp:~mbp/bzr/ppa-scripts",
+        "merge_queue_config": null, "last_scanned": "2008-07-18T00:50:14.640655+00:00",
+        "url": null, "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~mbp/bzr/ppa-scripts",
+        "owner_link": "https://api.launchpad.net/1.0/~mbp", "last_mirror_attempt":
+        "2008-07-17T08:31:09.845416+00:00", "date_created": "2008-07-17T08:30:26.037923+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~lifeless/bzr/5158", "date_last_modified": "2008-08-05T10:55:10.979884+00:00",
+        "display_name": "lp:~lifeless/bzr/5158", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~lifeless", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~lifeless/bzr/5158/linked_bugs", "branch_format":
+        "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2012-08-17T18:09:23.907191+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/5158/subscriptions",
+        "lifecycle_status": "Mature", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/5158/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"06b976ec78b807b39b1f07a2598bc667ba0e6989-5e715bda59a4599697710934c707ed933e7933e9\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/5158/spec_links",
+        "name": "5158", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lifeless/bzr/5158",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3604, "mirror_status_message":
+        "Transport error: Server refuses to fulfill the request (403 Forbidden) for
+        http://people.ubuntu.com/%7Erobertc/baz2.0/5158/.bzr/branch-format ", "description":
+        null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/5158/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/5158/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lifeless/bzr/5158/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~lifeless/bzr/5158/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:~lifeless/bzr/5158", "merge_queue_config": null, "last_scanned": "2008-08-05T10:09:06.398573+00:00",
+        "url": "http://people.ubuntu.com/~robertc/baz2.0/5158", "whiteboard": null,
+        "code_import_link": null, "web_link": "https://code.launchpad.net/~lifeless/bzr/5158",
+        "owner_link": "https://api.launchpad.net/1.0/~lifeless", "last_mirror_attempt":
+        "2012-08-21T18:43:10.636073+00:00", "date_created": "2008-08-05T09:59:45.828313+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~bzr/bzr/bzr.1.6", "date_last_modified": "2008-09-05T23:28:27.202646+00:00",
+        "display_name": "lp:bzr/1.6", "merge_queue_link": null, "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~mbp", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.6/linked_bugs", "branch_format":
+        "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2009-12-07T11:20:31.877304+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.6/subscriptions",
+        "lifecycle_status": "Mature", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.6/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"ae62e7534acaf23ce8f00be62e9b1670571b35c4-1b9f382b58b54d8bd36c3592597b441f7956de4a\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.6/spec_links",
+        "name": "bzr.1.6", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.6",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3627, "mirror_status_message":
+        "Not a branch: \"http+urllib://wiki.bazaar.canonical.com/bzr/bzr.1.6/\".",
+        "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.6/landing_targets",
+        "repository_format": "Bazaar pack repository format 1 (needs bzr 0.92)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.6/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.6/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.6/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:bzr/1.6", "merge_queue_config": null, "last_scanned": "2008-09-05T23:28:27.202646+00:00",
+        "url": "http://bazaar-vcs.org/bzr/bzr.1.6", "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~bzr/bzr/bzr.1.6", "owner_link":
+        "https://api.launchpad.net/1.0/~bzr", "last_mirror_attempt": "2009-12-11T11:24:03.880986+00:00",
+        "date_created": "2008-08-06T07:43:02.444005+00:00"}, {"control_format": "Bazaar-NG
+        meta directory, format 1\n", "unique_name": "~tcole/bzr/fix-key-selection",
+        "date_last_modified": "2008-08-14T05:27:34.927763+00:00", "display_name":
+        "lp:~tcole/bzr/fix-key-selection", "merge_queue_link": null, "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~tcole", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~tcole/bzr/fix-key-selection/linked_bugs",
+        "branch_format": "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2008-08-14T05:20:11.010443+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~tcole/bzr/fix-key-selection/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~tcole/bzr/fix-key-selection/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"58f97a44342af51416cad24c64b1f42a3fb2564c-c012a155e60fa276015f8648a58c8dab4b533b71\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~tcole/bzr/fix-key-selection/spec_links",
+        "name": "fix-key-selection", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~tcole/bzr/fix-key-selection",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3625, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~tcole/bzr/fix-key-selection/landing_targets",
+        "repository_format": "Bazaar pack repository format 1 (needs bzr 0.92)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~tcole/bzr/fix-key-selection/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~tcole/bzr/fix-key-selection/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~tcole/bzr/fix-key-selection/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~tcole/bzr/fix-key-selection", "merge_queue_config": null,
+        "last_scanned": "2008-08-14T05:27:34.927763+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~tcole/bzr/fix-key-selection",
+        "owner_link": "https://api.launchpad.net/1.0/~tcole", "last_mirror_attempt":
+        "2008-08-14T05:20:11.010443+00:00", "date_created": "2008-08-14T05:06:01.980264+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~willie-scotlug/bzr/scotlug", "date_last_modified": "2008-08-22T00:56:49.073372+00:00",
+        "display_name": "lp:~willie-scotlug/bzr/scotlug", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~willie-scotlug",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~willie-scotlug/bzr/scotlug/linked_bugs",
+        "branch_format": "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2008-09-04T04:32:27.376485+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~willie-scotlug/bzr/scotlug/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~willie-scotlug/bzr/scotlug/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"f43872eb4b81543f4a7059700d143ca55b9925ec-760d311341df22416e5c1cb51670381efe0a1e30\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~willie-scotlug/bzr/scotlug/spec_links",
+        "name": "scotlug", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~willie-scotlug/bzr/scotlug",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 42, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~willie-scotlug/bzr/scotlug/landing_targets",
+        "repository_format": "Bazaar pack repository format 1 (needs bzr 0.92)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~willie-scotlug/bzr/scotlug/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~willie-scotlug/bzr/scotlug/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~willie-scotlug/bzr/scotlug/landing_candidates",
+        "last_scanned_id": "willie@gagarin-20080822001914-52si45l4hrdlw0gp", "branch_type":
+        "Hosted", "bzr_identity": "lp:~willie-scotlug/bzr/scotlug", "merge_queue_config":
+        null, "last_scanned": "2008-08-22T00:56:49.073372+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~willie-scotlug/bzr/scotlug",
+        "owner_link": "https://api.launchpad.net/1.0/~willie-scotlug", "last_mirror_attempt":
+        "2008-09-04T04:32:27.376485+00:00", "date_created": "2008-08-19T13:01:11.768907+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~lovesyao/bzr/bzr.i18n+ja", "date_last_modified": "2008-08-19T15:27:20.902293+00:00",
+        "display_name": "lp:~lovesyao/bzr/bzr.i18n+ja", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~lovesyao",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~lovesyao/bzr/bzr.i18n+ja/linked_bugs",
+        "branch_format": "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2008-08-19T15:27:14.117036+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lovesyao/bzr/bzr.i18n+ja/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lovesyao/bzr/bzr.i18n+ja/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"6a15d2b67fe17e112f5285c592d3887609ffc544-c88485539dbc81d16d3ac629593d68eb57be9c68\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lovesyao/bzr/bzr.i18n+ja/spec_links",
+        "name": "bzr.i18n+ja", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lovesyao/bzr/bzr.i18n+ja",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3647, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lovesyao/bzr/bzr.i18n+ja/landing_targets",
+        "repository_format": "Bazaar pack repository format 1 (needs bzr 0.92)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lovesyao/bzr/bzr.i18n+ja/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lovesyao/bzr/bzr.i18n+ja/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~lovesyao/bzr/bzr.i18n+ja/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lovesyao/bzr/bzr.i18n+ja", "merge_queue_config": null,
+        "last_scanned": "2008-08-19T15:27:20.902293+00:00", "url": null, "whiteboard":
+        "$ make mo\n$ LANGUAGE=`pwd`/po/ja ./bzr --version", "code_import_link": null,
+        "web_link": "https://code.launchpad.net/~lovesyao/bzr/bzr.i18n+ja", "owner_link":
+        "https://api.launchpad.net/1.0/~lovesyao", "last_mirror_attempt": "2008-08-19T15:27:14.117036+00:00",
+        "date_created": "2008-08-19T13:37:27.484236+00:00"}, {"control_format": "Bazaar-NG
+        meta directory, format 1\n", "unique_name": "~barcc/bzr/268573-outf", "date_last_modified":
+        "2008-09-13T17:35:48.594634+00:00", "display_name": "lp:~barcc/bzr/268573-outf",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~barcc",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~barcc/bzr/268573-outf/linked_bugs",
+        "branch_format": "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2008-09-13T17:35:06.681148+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~barcc/bzr/268573-outf/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~barcc/bzr/268573-outf/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"e49c5d67f19210d16cf9b060930cba8f8b649de6-2fdbfe5c516a7fb363062369b6061dcb9f939152\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~barcc/bzr/268573-outf/spec_links",
+        "name": "268573-outf", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~barcc/bzr/268573-outf",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3705, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~barcc/bzr/268573-outf/landing_targets",
+        "repository_format": "Bazaar pack repository format 1 (needs bzr 0.92)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~barcc/bzr/268573-outf/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~barcc/bzr/268573-outf/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~barcc/bzr/268573-outf/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~barcc/bzr/268573-outf", "merge_queue_config": null, "last_scanned":
+        "2008-09-13T17:35:48.594634+00:00", "url": null, "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~barcc/bzr/268573-outf", "owner_link":
+        "https://api.launchpad.net/1.0/~barcc", "last_mirror_attempt": "2008-09-13T17:35:06.681148+00:00",
+        "date_created": "2008-09-11T15:54:36.708103+00:00"}, {"control_format": "Bazaar-NG
+        meta directory, format 1\n", "unique_name": "~bzr/bzr/bzr.1.7", "date_last_modified":
+        "2008-10-02T02:58:17.710077+00:00", "display_name": "lp:bzr/1.7", "merge_queue_link":
+        null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~jameinel",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.7/linked_bugs",
+        "branch_format": "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2009-12-07T11:21:47.911891+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.7/subscriptions",
+        "lifecycle_status": "Mature", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.7/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"a662408fd2e54b0d177c6a23fb7813b2f4143eb8-1008a03e78b241df628221af4c36d9d3ffb6c502\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.7/spec_links",
+        "name": "bzr.1.7", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.7",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3708, "mirror_status_message":
+        "Not a branch: \"http+urllib://wiki.bazaar.canonical.com/bzr/bzr.1.7/\".",
+        "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.7/landing_targets",
+        "repository_format": "Bazaar pack repository format 1 (needs bzr 0.92)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.7/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.7/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.7/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:bzr/1.7", "merge_queue_config": null, "last_scanned": "2008-10-02T02:58:17.710077+00:00",
+        "url": "http://bazaar-vcs.org/bzr/bzr.1.7", "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~bzr/bzr/bzr.1.7", "owner_link":
+        "https://api.launchpad.net/1.0/~bzr", "last_mirror_attempt": "2009-12-11T11:24:04.280696+00:00",
+        "date_created": "2008-09-12T15:48:30.425164+00:00"}, {"control_format": "Bazaar-NG
+        meta directory, format 1\n", "unique_name": "~vila/bzr/py26bzr", "date_last_modified":
+        "2008-09-16T13:26:50.585895+00:00", "display_name": "lp:~vila/bzr/py26bzr",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~vila",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/py26bzr/linked_bugs",
+        "branch_format": "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2008-09-16T13:25:38.592685+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/py26bzr/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/py26bzr/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"7091d1d1aa2549c77a9ff9ecb5f3ae28afa9e776-a7377640119a925da97a083acc3306e5225d72f9\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/py26bzr/spec_links",
+        "name": "py26bzr", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~vila/bzr/py26bzr",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 2945, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/py26bzr/landing_targets",
+        "repository_format": "Bazaar pack repository format 1 (needs bzr 0.92)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/py26bzr/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/py26bzr/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/py26bzr/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Hosted", "bzr_identity":
+        "lp:~vila/bzr/py26bzr", "merge_queue_config": null, "last_scanned": "2008-09-16T13:26:50.585895+00:00",
+        "url": null, "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~vila/bzr/py26bzr",
+        "owner_link": "https://api.launchpad.net/1.0/~vila", "last_mirror_attempt":
+        "2008-09-16T13:25:38.592685+00:00", "date_created": "2008-09-13T14:41:56.019956+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~lovesyao/bzr/highlight", "date_last_modified": "2008-10-07T13:48:41.737664+00:00",
+        "display_name": "lp:~lovesyao/bzr/highlight", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~lovesyao", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~lovesyao/bzr/highlight/linked_bugs", "branch_format":
+        "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2008-10-07T13:47:06.995567+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~lovesyao/bzr/highlight/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~lovesyao/bzr/highlight/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"de563ba62b2235445037c5d98b4c1078050542d6-ca0a2c8d49969478e123a6da0cc36b4921816483\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~lovesyao/bzr/highlight/spec_links",
+        "name": "highlight", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~lovesyao/bzr/highlight",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3765, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~lovesyao/bzr/highlight/landing_targets",
+        "repository_format": "Bazaar pack repository format 1 (needs bzr 0.92)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~lovesyao/bzr/highlight/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~lovesyao/bzr/highlight/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~lovesyao/bzr/highlight/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Hosted",
+        "bzr_identity": "lp:~lovesyao/bzr/highlight", "merge_queue_config": null,
+        "last_scanned": "2008-10-07T13:48:41.737664+00:00", "url": null, "whiteboard":
+        null, "code_import_link": null, "web_link": "https://code.launchpad.net/~lovesyao/bzr/highlight",
+        "owner_link": "https://api.launchpad.net/1.0/~lovesyao", "last_mirror_attempt":
+        "2008-10-07T13:47:06.995567+00:00", "date_created": "2008-10-07T13:21:10.439158+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~vila/bzr/fix277537", "date_last_modified": "2009-09-21T07:15:12.926000+00:00",
+        "display_name": "lp:~vila/bzr/fix277537", "merge_queue_link": null, "private":
+        false, "registrant_link": "https://api.launchpad.net/1.0/~vila", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/fix277537/linked_bugs", "branch_format":
+        "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2010-11-17T17:55:48.993012+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/fix277537/subscriptions",
+        "lifecycle_status": "Mature", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/fix277537/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"baa4f15effab560572d06a3f940b0176b4846140-5483acbaa88fe7ea85fab8549bc777f090946763\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/fix277537/spec_links",
+        "name": "fix277537", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~vila/bzr/fix277537",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 25, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/fix277537/landing_targets",
+        "repository_format": "Bazaar pack repository format 1 (needs bzr 0.92)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/fix277537/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/fix277537/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/fix277537/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Hosted", "bzr_identity":
+        "lp:~vila/bzr/fix277537", "merge_queue_config": null, "last_scanned": "2009-09-21T07:17:08.207354+00:00",
+        "url": null, "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~vila/bzr/fix277537",
+        "owner_link": "https://api.launchpad.net/1.0/~vila", "last_mirror_attempt":
+        "2009-09-21T07:17:05.802320+00:00", "date_created": "2008-10-15T15:54:26.381899+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~bzr/bzr/bzr.1.9", "date_last_modified": "2009-01-03T21:40:11.067229+00:00",
+        "display_name": "lp:bzr/1.9", "merge_queue_link": null, "private": false,
+        "registrant_link": "https://api.launchpad.net/1.0/~mbp", "linked_bugs_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.9/linked_bugs", "branch_format":
+        "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2009-12-07T11:20:31.669803+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.9/subscriptions",
+        "lifecycle_status": "Mature", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.9/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"604eecbf860cb39bfbfefc8ee198a2985fd144eb-4e7706549894546deaf89005c79ab42db766dd94\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.9/spec_links",
+        "name": "bzr.1.9", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.9",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3818, "mirror_status_message":
+        "Not a branch: \"http+urllib://wiki.bazaar.canonical.com/bzr/bzr.1.9/\".",
+        "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.9/landing_targets",
+        "repository_format": "Bazaar pack repository format 1 (needs bzr 0.92)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.9/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.9/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~bzr/bzr/bzr.1.9/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Mirrored", "bzr_identity":
+        "lp:bzr/1.9", "merge_queue_config": null, "last_scanned": "2008-11-19T05:11:11.844022+00:00",
+        "url": "http://bazaar-vcs.org/bzr/bzr.1.9", "whiteboard": null, "code_import_link":
+        null, "web_link": "https://code.launchpad.net/~bzr/bzr/bzr.1.9", "owner_link":
+        "https://api.launchpad.net/1.0/~bzr", "last_mirror_attempt": "2009-12-11T11:24:03.825934+00:00",
+        "date_created": "2008-10-17T00:42:54.367308+00:00"}, {"control_format": "Bazaar-NG
+        meta directory, format 1\n", "unique_name": "~vila/bzr/chk-repo", "date_last_modified":
+        "2008-10-30T15:16:23.825866+00:00", "display_name": "lp:~vila/bzr/chk-repo",
+        "merge_queue_link": null, "private": false, "registrant_link": "https://api.launchpad.net/1.0/~vila",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/chk-repo/linked_bugs",
+        "branch_format": "Bazaar Branch Format 6 (bzr 0.15)\n", "last_mirrored": "2008-10-30T15:16:05.428273+00:00",
+        "subscriptions_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/chk-repo/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/chk-repo/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"16cbb5efe340b100f419621bdcafb5ffe06d7a90-cf336a8d925f514f930c5ce069ed7442255e1027\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/chk-repo/spec_links",
+        "name": "chk-repo", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~vila/bzr/chk-repo",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3754, "mirror_status_message":
+        null, "description": null, "landing_targets_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/chk-repo/landing_targets",
+        "repository_format": "Bazaar pack repository format 1 (needs bzr 0.92)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/chk-repo/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~vila/bzr/chk-repo/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~vila/bzr/chk-repo/landing_candidates", "last_scanned_id":
+        "\u003cemail address hidden\u003e", "branch_type": "Hosted", "bzr_identity":
+        "lp:~vila/bzr/chk-repo", "merge_queue_config": null, "last_scanned": "2008-10-30T15:16:23.825866+00:00",
+        "url": null, "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~vila/bzr/chk-repo",
+        "owner_link": "https://api.launchpad.net/1.0/~vila", "last_mirror_attempt":
+        "2008-10-30T15:16:05.428273+00:00", "date_created": "2008-10-20T07:32:23.336351+00:00"},
+        {"control_format": "Bazaar-NG meta directory, format 1\n", "unique_name":
+        "~jameinel/bzr/sftp_bug_293746", "date_last_modified": "2008-11-06T18:12:53.036680+00:00",
+        "display_name": "lp:~jameinel/bzr/sftp_bug_293746", "merge_queue_link": null,
+        "private": false, "registrant_link": "https://api.launchpad.net/1.0/~jameinel",
+        "linked_bugs_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/sftp_bug_293746/linked_bugs",
+        "branch_format": "Bazaar Branch Format 7 (needs bzr 1.6)\n", "last_mirrored":
+        "2011-02-22T13:09:04.570383+00:00", "subscriptions_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/sftp_bug_293746/subscriptions",
+        "lifecycle_status": "Development", "dependent_branches_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/sftp_bug_293746/dependent_branches",
+        "sourcepackage_link": null, "http_etag": "\"69f313236bddeb2de75840bd64e0b751d26ab78c-1dc62080d3bfa72c9f9895dfcda6167b6123a1ef\"",
+        "spec_links_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/sftp_bug_293746/spec_links",
+        "name": "sftp_bug_293746", "reviewer_link": null, "self_link": "https://api.launchpad.net/1.0/~jameinel/bzr/sftp_bug_293746",
+        "information_type": "Public", "resource_type_link": "https://api.launchpad.net/1.0/#branch",
+        "explicitly_private": false, "revision_count": 3817, "mirror_status_message":
+        "Invalid http response for http://bzr.arbash-meinel.com/branches/bzr/1.9-dev/sftp_bug_293746/.bzr/branch-format:
+        Unable to handle http code 503: Service Unavailable", "description": null,
+        "landing_targets_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/sftp_bug_293746/landing_targets",
+        "repository_format": "Bazaar repository format 2a (needs bzr 1.16 or later)\n",
+        "subscribers_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/sftp_bug_293746/subscribers",
+        "recipes_collection_link": "https://api.launchpad.net/1.0/~jameinel/bzr/sftp_bug_293746/recipes",
+        "project_link": "https://api.launchpad.net/1.0/bzr", "landing_candidates_collection_link":
+        "https://api.launchpad.net/1.0/~jameinel/bzr/sftp_bug_293746/landing_candidates",
+        "last_scanned_id": "\u003cemail address hidden\u003e", "branch_type": "Mirrored",
+        "bzr_identity": "lp:~jameinel/bzr/sftp_bug_293746", "merge_queue_config":
+        null, "last_scanned": "2008-11-06T18:12:53.036680+00:00", "url": "http://bzr.arbash-meinel.com/branches/bzr/1.9-dev/sftp_bug_293746",
+        "whiteboard": null, "code_import_link": null, "web_link": "https://code.launchpad.net/~jameinel/bzr/sftp_bug_293746",
+        "owner_link": "https://api.launchpad.net/1.0/~jameinel", "last_mirror_attempt":
+        "2011-02-26T13:13:09.959429+00:00", "date_created": "2008-11-06T17:28:40.585765+00:00"}]}'
+    http_version: 
+  recorded_at: Sun, 18 May 2014 23:53:23 GMT
+recorded_with: VCR 2.9.0
