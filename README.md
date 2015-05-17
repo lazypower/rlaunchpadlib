@@ -21,9 +21,22 @@ Or install it yourself as:
 
     $ gem install rlaunchpadlib
 
-## Usag
+## Usage
 
-eTODO: Write usage instructions here
+```ruby
+person = Rlaunchpadlib::Person.new 'lazypower'
+puts person.date_created
+person.profile.inspect
+```
+
+You can optionally provide the fast_hash option which ensures that the keys to the Hash objects 
+are symbols instead of strings.
+
+```ruby
+person = Rlaunchpadlib::Person.new 'lazypower', {:fast_hash => true}
+puts person.date_created
+person.profile.inspect
+```
 
 ## Caveats
 
