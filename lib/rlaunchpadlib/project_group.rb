@@ -5,7 +5,7 @@ module Rlaunchpadlib
   # bewitchingme: Added an option to ensure the resulting hash uses symbols for keys;
   # default behavior remains the same.
   # 
-  # Person.new 'username', {:fast_hash => true}
+  # Rlaunchpadlib::ProjectGroup.new 'group', {:fast_hash => true}
   class ProjectGroup
 
         include HTTParty

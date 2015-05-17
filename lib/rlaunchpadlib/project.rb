@@ -3,7 +3,7 @@ module Rlaunchpadlib
   # bewitchingme: Added an option to ensure the resulting hash uses symbols for keys;
   # default behavior remains the same.
   # 
-  # Person.new 'username', {:fast_hash => true}
+  # Rlaunchpadlib::Project.new 'project', {:fast_hash => true}
   class Project
 
         attr_accessor :project
