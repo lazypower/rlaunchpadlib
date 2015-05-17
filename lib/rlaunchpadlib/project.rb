@@ -1,5 +1,10 @@
 module Rlaunchpadlib
-    class Project
+  # 
+  # bewitchingme: Added an option to ensure the resulting hash uses symbols for keys;
+  # default behavior remains the same.
+  # 
+  # Person.new 'username', {:fast_hash => true}
+  class Project
 
         attr_accessor :project
         attr_accessor :overview_data
@@ -9,18 +14,19 @@ module Rlaunchpadlib
         attr_accessor :merge_proposal_data
         attr_accessor :subscription_data
         attr_accessor :timeline_data
+        attr_accessor :opts
 
-        def initialize(project)
+        def initialize(project, options = {})
+            @opts = options
             @project = project
-            @client = Rlaunchpadlib::Client.new
+            @client = Rlaunchpadlib::Client.new @opts
         end
 
         def overview
             if @overview_data.nil?
-                @client.get(@project)
-            else
-                @overview_data
+                @overview_data = @client.get(@project)
             end
+            @overview_data
         end
 
 
@@ -71,11 +77,10 @@ module Rlaunchpadlib
             @timeline_data = nil
         end
 
-
-
         # I'm nuts so lets patch method missing.
         def method_missing(name, *args, &block)
-          overview.has_key?(name.to_s) ? overview[name.to_s] : super
+          key = @opts[:fast_hash] ? name : name.to_s
+          overview.has_key?(key) ? overview[key] : super
         end
     end
 end

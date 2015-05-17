@@ -1,24 +1,30 @@
 require 'httparty'
 
 module Rlaunchpadlib
-    class ProjectGroup
+  # 
+  # bewitchingme: Added an option to ensure the resulting hash uses symbols for keys;
+  # default behavior remains the same.
+  # 
+  # Person.new 'username', {:fast_hash => true}
+  class ProjectGroup
 
         include HTTParty
 
         attr_accessor :group
         attr_accessor :overview_data
+        attr_accessor :opts
 
-        def initialize(group)
-            @group = group
-            @client = Rlaunchpadlib::Client.new
+        def initialize(group, options = {})
+          @opts = options
+          @group = group
+          @client = Rlaunchpadlib::Client.new @opts
         end
 
         def overview
-             if @overview_data.nil?
-                @client.get(@group)
-            else
-                @overview_data
+            if @overview_data.nil?
+                @overview_data = @client.get(@group)
             end
+            @overview_data
         end
 
         def bugs
@@ -35,7 +41,8 @@ module Rlaunchpadlib
 
         # I'm nuts so lets patch method missing.
         def method_missing(name, *args, &block)
-          overview.has_key?(name.to_s) ? overview[name.to_s] : super
+          key = @opts[:fast_hash] ? name : name.to_s
+          overview.has_key?(key) ? overview[key] : super
         end
 
 
