@@ -1,6 +1,5 @@
 require 'httparty'
 
-
 module Rlaunchpadlib
 
     ##
@@ -9,6 +8,11 @@ module Rlaunchpadlib
     # https://launchpad.net/+apidoc/1.0.html#person
     #
     # Provides READ ONLY access
+    # 
+    # bewitchingme: Added an option to ensure the resulting hash uses symbols for keys;
+    # default behavior remains the same.
+    # 
+    # Person.new 'username', {:fast_hash => true}
     class Person
 
         attr_accessor :username
@@ -19,9 +23,11 @@ module Rlaunchpadlib
         attr_accessor :merge_proposals_data
         attr_accessor :requested_reviews_data
         attr_accessor :bugs_data
-
-        def initialize(username)
-            @client = Rlaunchpadlib::Client.new
+        attr_accessor :opts
+        
+        def initialize(username, options = {})
+            @opts = options
+            @client = Rlaunchpadlib::Client.new @opts
             @username = "~#{username}"
         end
 
@@ -33,7 +39,7 @@ module Rlaunchpadlib
         end
 
         def archive_subscriptions
-            if @archive_subscriptions_data.nil?                
+            if @archive_subscriptions_data.nil?
                 @archive_subscriptions_data =  @client.get(@username, 'getArchiveSubscriptionUrls')
             end
             @archive_subscriptions_data
@@ -84,13 +90,11 @@ module Rlaunchpadlib
             @bugs_data = nil
         end
 
-
         # I'm nuts so lets patch method missing for easy acces to 
         # profile data.
         def method_missing(name, *args, &block)
-          profile.has_key?(name.to_s) ? profile[name.to_s] : super
+          key = @opts[:fast_hash] ? name : name.to_s
+          profile.has_key?(key) ? profile[key] : super
         end
-
-
     end
 end
